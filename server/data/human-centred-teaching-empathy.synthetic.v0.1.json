@@ -1,0 +1,2562 @@
+[
+  {
+    "itemId": "HC-001",
+    "prompt": "Select the strongest professional response in this situation.\n\nA normally talkative pupil has become quiet during group work. Their written work is unchanged. What is the most useful first response?\n\nA. Move the pupil to a more talkative group to encourage participation.\nB. Ask privately how group work has been feeling for them.\nC. Give the pupil a named speaking role in the next group task.\nD. Observe for another week before deciding whether to speak with them.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Move the pupil to a more talkative group to encourage participation."
+        },
+        {
+          "id": "B",
+          "label": "Ask privately how group work has been feeling for them."
+        },
+        {
+          "id": "C",
+          "label": "Give the pupil a named speaking role in the next group task."
+        },
+        {
+          "id": "D",
+          "label": "Observe for another week before deciding whether to speak with them."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A private, open enquiry gathers the pupil perspective before choosing a support strategy.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy",
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-002",
+    "prompt": "Select the strongest professional response in this situation.\n\nA Primary 2 pupil explains ideas clearly in a familiar language but rarely answers questions in English. What should you do first to understand the difficulty?\n\nA. Provide additional English reading before the next oral activity.\nB. Let a fluent classmate answer on the pupil's behalf for now.\nC. Use a picture-supported conversation to explore what the pupil understands.\nD. Reduce the conceptual difficulty of the questions for the pupil.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "lower_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Provide additional English reading before the next oral activity."
+        },
+        {
+          "id": "B",
+          "label": "Let a fluent classmate answer on the pupil's behalf for now."
+        },
+        {
+          "id": "C",
+          "label": "Use a picture-supported conversation to explore what the pupil understands."
+        },
+        {
+          "id": "D",
+          "label": "Reduce the conceptual difficulty of the questions for the pupil."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Accessible communication helps separate understanding of content from the language demands of responding.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support",
+      "inclusive_teaching"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-003",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil repeatedly arrives without an exercise book. You do not know why. What is the best next step?\n\nA. Arrange a temporary way to record work, then ask the pupil privately about the barrier.\nB. Send a standard reminder home before making a classroom adjustment.\nC. Ask the pupil to share a classmate's book until the family provides one.\nD. Offer a spare book to everyone who has forgotten one without further enquiry.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner dignity",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Arrange a temporary way to record work, then ask the pupil privately about the barrier."
+        },
+        {
+          "id": "B",
+          "label": "Send a standard reminder home before making a classroom adjustment."
+        },
+        {
+          "id": "C",
+          "label": "Ask the pupil to share a classmate's book until the family provides one."
+        },
+        {
+          "id": "D",
+          "label": "Offer a spare book to everyone who has forgotten one without further enquiry."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Access now and private enquiry avoid assumptions while identifying whether ongoing support is needed.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support",
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-004",
+    "prompt": "Select the strongest professional response in this situation.\n\nA Primary 5 pupil becomes tearful after receiving feedback and asks to stop working. Which response best balances support with continued learning?\n\nA. Offer to mark the remaining work on another day.\nB. Explain again that the feedback is intended to help.\nC. Invite the pupil to watch a peer correct similar work immediately.\nD. Offer a short pause, then agree one manageable correction when the pupil is ready.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "emotional support",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "upper_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Offer to mark the remaining work on another day."
+        },
+        {
+          "id": "B",
+          "label": "Explain again that the feedback is intended to help."
+        },
+        {
+          "id": "C",
+          "label": "Invite the pupil to watch a peer correct similar work immediately."
+        },
+        {
+          "id": "D",
+          "label": "Offer a short pause, then agree one manageable correction when the pupil is ready."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "A pause followed by a manageable next step acknowledges emotion without removing the learning goal.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "emotional_support",
+      "learner_wellbeing"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-005",
+    "prompt": "Select the strongest professional response in this situation.\n\nIn a crowded classroom, a pupil says they often cannot hear instructions. Several pupils also ask for repetition. What should you try first?\n\nA. Ask the pupil to copy instructions from a reliable partner.\nB. Pair spoken instructions with a visible summary and check access with the pupil.\nC. Give the pupil instructions separately after the rest of the class begins.\nD. Move the pupil to the front without discussing whether that helps.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "inclusive practice",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask the pupil to copy instructions from a reliable partner."
+        },
+        {
+          "id": "B",
+          "label": "Pair spoken instructions with a visible summary and check access with the pupil."
+        },
+        {
+          "id": "C",
+          "label": "Give the pupil instructions separately after the rest of the class begins."
+        },
+        {
+          "id": "D",
+          "label": "Move the pupil to the front without discussing whether that helps."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A class-wide access adjustment with pupil feedback tests the barrier without singling out the learner.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching",
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-006",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter classmates laugh at a wrong answer, a pupil stops volunteering. You have already reminded the class of respectful responses. What is the best next step?\n\nA. Invite the pupil to give an answer you know they can get right.\nB. Praise the pupil publicly for being brave enough to try.\nC. Ask privately which way of contributing would help them rejoin.\nD. Avoid inviting the pupil to respond for the rest of the week.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "psychologically safe classrooms",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Invite the pupil to give an answer you know they can get right."
+        },
+        {
+          "id": "B",
+          "label": "Praise the pupil publicly for being brave enough to try."
+        },
+        {
+          "id": "C",
+          "label": "Ask privately which way of contributing would help them rejoin."
+        },
+        {
+          "id": "D",
+          "label": "Avoid inviting the pupil to respond for the rest of the week."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Consulting the pupil restores agency and avoids making public reassurance another unwanted exposure.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships",
+      "learner_dignity"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-007",
+    "prompt": "Select the strongest professional response in this situation.\n\nTwo pupils disagree about whether one excluded the other from a game. Their accounts differ. What should guide your first conversation?\n\nA. Hear each account separately using open questions before interpreting motives.\nB. Bring them together immediately to agree a shared account.\nC. Ask nearby pupils to decide which account is more accurate.\nD. Focus on agreeing the next game's rules rather than revisiting the disagreement.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Hear each account separately using open questions before interpreting motives."
+        },
+        {
+          "id": "B",
+          "label": "Bring them together immediately to agree a shared account."
+        },
+        {
+          "id": "C",
+          "label": "Ask nearby pupils to decide which account is more accurate."
+        },
+        {
+          "id": "D",
+          "label": "Focus on agreeing the next game's rules rather than revisiting the disagreement."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Separate open enquiries reduce pressure and premature conclusions while establishing each perspective.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy",
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-008",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil frequently arrives late and misses the opening activity. They mention difficulties getting to school but give little detail. What is the strongest response?\n\nA. Provide the missed activity to complete during break.\nB. Ask the family to commit to an earlier arrival time before changing routines.\nC. Remove the opening activity requirement until attendance improves.\nD. Agree a manageable catch-up routine and explore the travel barrier through the usual family-contact channel.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Provide the missed activity to complete during break."
+        },
+        {
+          "id": "B",
+          "label": "Ask the family to commit to an earlier arrival time before changing routines."
+        },
+        {
+          "id": "C",
+          "label": "Remove the opening activity requirement until attendance improves."
+        },
+        {
+          "id": "D",
+          "label": "Agree a manageable catch-up routine and explore the travel barrier through the usual family-contact channel."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "A workable access plan and appropriate enquiry address the barrier without deciding its cause in advance.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support",
+      "learner_wellbeing"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-009",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil wants you to spend every break talking only with them after a recent friendship difficulty. They are comfortable with another staff member too. What should you do?\n\nA. Offer a fixed break each day with you for as long as the pupil requests.\nB. Explain when you can check in and help identify other available sources of support.\nC. Ask the other staff member to take over so your breaks remain available.\nD. Encourage the pupil to return to peers before arranging further check-ins.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "professional boundaries",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Offer a fixed break each day with you for as long as the pupil requests."
+        },
+        {
+          "id": "B",
+          "label": "Explain when you can check in and help identify other available sources of support."
+        },
+        {
+          "id": "C",
+          "label": "Ask the other staff member to take over so your breaks remain available."
+        },
+        {
+          "id": "D",
+          "label": "Encourage the pupil to return to peers before arranging further check-ins."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Predictable availability and a wider support network combine care with sustainable boundaries.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships",
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-010",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou notice you interpret one pupil's questions as challenging, but welcome similar questions from others. What is the best next action?\n\nA. Ask the pupil to change the way they phrase questions.\nB. Use a fixed limit on questions for everyone in the next lesson.\nC. Compare specific recent interactions to check what led to your different interpretations.\nD. Ask a colleague whether the pupil also challenges them.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask the pupil to change the way they phrase questions."
+        },
+        {
+          "id": "B",
+          "label": "Use a fixed limit on questions for everyone in the next lesson."
+        },
+        {
+          "id": "C",
+          "label": "Compare specific recent interactions to check what led to your different interpretations."
+        },
+        {
+          "id": "D",
+          "label": "Ask a colleague whether the pupil also challenges them."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Examining comparable interactions tests the teacher's interpretation rather than seeking confirmation of a label.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness",
+      "empathy"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-011",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil declines a classroom role involving speaking in front of visitors. They normally speak during lessons. What is the best first response?\n\nA. Ask privately about the concern and discuss another way to contribute.\nB. Explain why the role was offered and encourage them to try it once.\nC. Offer rehearsal time before asking them to reconsider.\nD. Assign a non-speaking role now and avoid discussing the original choice.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner dignity",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask privately about the concern and discuss another way to contribute."
+        },
+        {
+          "id": "B",
+          "label": "Explain why the role was offered and encourage them to try it once."
+        },
+        {
+          "id": "C",
+          "label": "Offer rehearsal time before asking them to reconsider."
+        },
+        {
+          "id": "D",
+          "label": "Assign a non-speaking role now and avoid discussing the original choice."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Enquiry before reassurance or reassignment allows the support to match the specific concern.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching",
+      "learner_dignity"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-012",
+    "prompt": "Select the strongest professional response in this situation.\n\nHomework assumes access to a quiet place to read. Several pupils rarely finish it but read successfully in class. What should you investigate first?\n\nA. Whether the passages need simpler vocabulary.\nB. Whether families understand the homework timetable.\nC. Whether pupils would prefer a different reading topic.\nD. What opportunities pupils actually have to read outside school.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether the passages need simpler vocabulary."
+        },
+        {
+          "id": "B",
+          "label": "Whether families understand the homework timetable."
+        },
+        {
+          "id": "C",
+          "label": "Whether pupils would prefer a different reading topic."
+        },
+        {
+          "id": "D",
+          "label": "What opportunities pupils actually have to read outside school."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Classroom success makes conditions for access an important hypothesis to check, not a fact to assume.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching",
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-013",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil has continued to withdraw from ordinary classroom activities despite several agreed adjustments. What is the best next step?\n\nA. Continue the same adjustments for another term to give them time.\nB. Seek guidance through the school's support arrangements using factual observations and the pupil's perspective.\nC. Ask the family to identify the cause before you seek any further guidance.\nD. Ask several classmates to explain why the pupil is withdrawing.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "referral/escalation awareness",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Continue the same adjustments for another term to give them time."
+        },
+        {
+          "id": "B",
+          "label": "Seek guidance through the school's support arrangements using factual observations and the pupil's perspective."
+        },
+        {
+          "id": "C",
+          "label": "Ask the family to identify the cause before you seek any further guidance."
+        },
+        {
+          "id": "D",
+          "label": "Ask several classmates to explain why the pupil is withdrawing."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Persistent difficulty warrants appropriate additional support informed by observations rather than diagnosis or peer speculation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support",
+      "learner_wellbeing"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-014",
+    "prompt": "Select the strongest professional response in this situation.\n\nDuring a busy lesson, a pupil says your feedback made them feel that you think they are lazy. You did not intend that message. What should you say first?\n\nA. I was referring to this piece of work, not to you as a person.\nB. Let us talk at the end; please finish this section first.\nC. Tell me which part sounded that way so I can understand what you heard.\nD. I give the same feedback to everyone so that it is fair.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "empathy in classroom interactions",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I was referring to this piece of work, not to you as a person."
+        },
+        {
+          "id": "B",
+          "label": "Let us talk at the end; please finish this section first."
+        },
+        {
+          "id": "C",
+          "label": "Tell me which part sounded that way so I can understand what you heard."
+        },
+        {
+          "id": "D",
+          "label": "I give the same feedback to everyone so that it is fair."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Inviting the pupil's interpretation opens repair before explaining intent.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy",
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-015",
+    "prompt": "Select the strongest professional response in this situation.\n\nA young pupil is reluctant to enter class after a change of caregiver at drop-off. What is the best initial classroom response?\n\nA. Offer a predictable welcome with a familiar first activity, then check how the pupil settles.\nB. Give the pupil a new classroom responsibility to distract them.\nC. Ask the caregiver to remain until the pupil no longer shows reluctance.\nD. Explain that the same entry routine applies to everyone.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "lower_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Offer a predictable welcome with a familiar first activity, then check how the pupil settles."
+        },
+        {
+          "id": "B",
+          "label": "Give the pupil a new classroom responsibility to distract them."
+        },
+        {
+          "id": "C",
+          "label": "Ask the caregiver to remain until the pupil no longer shows reluctance."
+        },
+        {
+          "id": "D",
+          "label": "Explain that the same entry routine applies to everyone."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "A predictable transition provides support that can be reviewed without assuming the cause or requiring indefinite caregiver presence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "emotional_support",
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-016",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil using an agreed alternative way to answer is told by classmates that it is unfair. Which response best protects dignity?\n\nA. Ask the pupil to explain why they need the alternative.\nB. Give everyone the same alternative response task immediately.\nC. Discuss the pupil's needs briefly so classmates understand the difference.\nD. Explain that pupils may use different routes to the same learning goal without sharing private details.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "inclusive practice",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask the pupil to explain why they need the alternative."
+        },
+        {
+          "id": "B",
+          "label": "Give everyone the same alternative response task immediately."
+        },
+        {
+          "id": "C",
+          "label": "Discuss the pupil's needs briefly so classmates understand the difference."
+        },
+        {
+          "id": "D",
+          "label": "Explain that pupils may use different routes to the same learning goal without sharing private details."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The response explains fair access while preserving the pupil's privacy.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching",
+      "learner_dignity"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-017",
+    "prompt": "Select the strongest professional response in this situation.\n\nA parent asks you at dismissal to describe another pupil's personal difficulties because that pupil often works with their child. What is the best response?\n\nA. Describe only the difficulties that affect the shared group task.\nB. Discuss their child's experience and the classroom support approach without sharing the other pupil's information.\nC. Suggest that they ask the other family directly for the explanation.\nD. Explain that group-work arrangements cannot be discussed with parents.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "professional boundaries",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Describe only the difficulties that affect the shared group task."
+        },
+        {
+          "id": "B",
+          "label": "Discuss their child's experience and the classroom support approach without sharing the other pupil's information."
+        },
+        {
+          "id": "C",
+          "label": "Suggest that they ask the other family directly for the explanation."
+        },
+        {
+          "id": "D",
+          "label": "Explain that group-work arrangements cannot be discussed with parents."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A useful conversation about their own child can proceed while protecting another learner's private information.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships",
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-018",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou offered a quiet working space to a pupil who seemed overwhelmed. The pupil now says it makes them feel excluded. What is the best next step?\n\nA. Explain the reason for the space and keep it for another week.\nB. End the arrangement immediately and return to the usual seating plan.\nC. Review the arrangement with the pupil and trial an alternative way to meet the same need.\nD. Ask classmates how they would feel about using the quiet space.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Explain the reason for the space and keep it for another week."
+        },
+        {
+          "id": "B",
+          "label": "End the arrangement immediately and return to the usual seating plan."
+        },
+        {
+          "id": "C",
+          "label": "Review the arrangement with the pupil and trial an alternative way to meet the same need."
+        },
+        {
+          "id": "D",
+          "label": "Ask classmates how they would feel about using the quiet space."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Responsive support includes reviewing unintended effects with the learner rather than defending the original intention.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support",
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-019",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nBefore deciding why a pupil avoided an activity, I asked for their account.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "More frequent enquiry provides opportunities to test adult assumptions.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-020",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen feedback could have embarrassed a pupil, I chose a private way to give it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner dignity",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Privacy can protect dignity when the content is personally sensitive.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_dignity"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-021",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil could explain an idea but struggled with written work, I checked what made recording it difficult.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Investigating the recording barrier avoids equating written output with understanding.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-022",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil hesitated to answer, I assumed they had not prepared before checking another explanation.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "This intentionally reverse-keyed behaviour describes a premature interpretation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-023",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nAfter changing support for a pupil, I asked whether the change was helping them participate.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The pupil's feedback helps identify whether an adjustment is useful.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-024",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil offered an unexpected answer, I invited them to explain their thinking before evaluating it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "psychologically safe classrooms",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "An invitation to explain can make uncertain contributions safer.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-025",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nDuring class discussions, I checked whether pupils who rarely spoke had an accessible way to contribute.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "inclusive practice",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Access checks address participation without assuming that silence means disengagement.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-026",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil asked for support at a time I was unavailable, I explained when or where they could get help.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "professional boundaries",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Clear alternatives communicate care alongside limits on availability.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-027",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil was upset about a task, I explained why the task was manageable before asking what felt difficult.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "emotional support",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "This reverse-keyed sequence can replace understanding the concern with premature reassurance.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "emotional_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-028",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a difficulty continued despite agreed classroom support, I sought guidance through the school's support arrangements.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "referral/escalation awareness",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Seeking guidance when ordinary support is insufficient recognises professional limits.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-029",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen I thought a pupil was not trying, I looked for an observation that might challenge that judgement.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Looking for contrary evidence helps prevent a first impression becoming a fixed label.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-030",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil completes a task accurately when instructions are spoken one step at a time but struggles with the same instructions presented together. Which explanation is best supported by this observation?\n\nA. The pupil understands better whenever an adult stays nearby.\nB. The amount of information presented at once may be a barrier.\nC. The pupil has not yet learned the content being assessed.\nD. The pupil prefers oral work and should avoid written instructions.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The pupil understands better whenever an adult stays nearby."
+        },
+        {
+          "id": "B",
+          "label": "The amount of information presented at once may be a barrier."
+        },
+        {
+          "id": "C",
+          "label": "The pupil has not yet learned the content being assessed."
+        },
+        {
+          "id": "D",
+          "label": "The pupil prefers oral work and should avoid written instructions."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "The changed presentation supports a tentative information-load hypothesis, not a diagnosis or a permanent preference.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-031",
+    "prompt": "Select the strongest professional response in this situation.\n\nWhich question is most likely to help a pupil explain why they stopped joining a reading group?\n\nA. Did the others make you feel unwelcome?\nB. Would you rather work with your friends?\nC. Which book would make you want to join again?\nD. What has it been like for you when the reading group meets?",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Did the others make you feel unwelcome?"
+        },
+        {
+          "id": "B",
+          "label": "Would you rather work with your friends?"
+        },
+        {
+          "id": "C",
+          "label": "Which book would make you want to join again?"
+        },
+        {
+          "id": "D",
+          "label": "What has it been like for you when the reading group meets?"
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "An open question leaves room for explanations the teacher has not anticipated.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-032",
+    "prompt": "Select the strongest professional response in this situation.\n\nTwo pupils need different forms of support to show the same learning goal. Which consideration best guides a fair response?\n\nA. Whether each support gives access without changing the intended learning goal.\nB. Whether the supports take the same amount of teacher time.\nC. Whether both pupils receive the same number of task steps.\nD. Whether classmates regard the two supports as equally demanding.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "inclusive practice",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether each support gives access without changing the intended learning goal."
+        },
+        {
+          "id": "B",
+          "label": "Whether the supports take the same amount of teacher time."
+        },
+        {
+          "id": "C",
+          "label": "Whether both pupils receive the same number of task steps."
+        },
+        {
+          "id": "D",
+          "label": "Whether classmates regard the two supports as equally demanding."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Fair access concerns the learning goal and the barrier, rather than identical support.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "inclusive_teaching"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-033",
+    "prompt": "Select the strongest professional response in this situation.\n\nA teacher seeks advice about a pupil's repeated difficulty starting tasks. Which note would be most useful?\n\nA. The pupil seems anxious about independent work.\nB. The pupil needs more encouragement than others.\nC. On three observed days, the pupil started after the first instruction was restated individually.\nD. The pupil may be avoiding tasks that require effort.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "referral/escalation awareness",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The pupil seems anxious about independent work."
+        },
+        {
+          "id": "B",
+          "label": "The pupil needs more encouragement than others."
+        },
+        {
+          "id": "C",
+          "label": "On three observed days, the pupil started after the first instruction was restated individually."
+        },
+        {
+          "id": "D",
+          "label": "The pupil may be avoiding tasks that require effort."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Specific observations describe what occurred and what helped without inferring a condition or motive.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-034",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil says, \"Nobody wants to work with me.\" Which reply best acknowledges the feeling without confirming an untested conclusion?\n\nA. It feels lonely to you; tell me about what happened in today's group.\nB. I am sure some pupils do want to work with you.\nC. We can choose a different group for you next time.\nD. Everyone has days when their friends want to work elsewhere.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "emotional support",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "It feels lonely to you; tell me about what happened in today's group."
+        },
+        {
+          "id": "B",
+          "label": "I am sure some pupils do want to work with you."
+        },
+        {
+          "id": "C",
+          "label": "We can choose a different group for you next time."
+        },
+        {
+          "id": "D",
+          "label": "Everyone has days when their friends want to work elsewhere."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "The reply acknowledges the reported experience while inviting concrete information.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "emotional_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-035",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou need advice from the designated school support colleague about a pupil's continuing participation difficulty. What information should guide that conversation?\n\nA. All background details you have heard, so the colleague can choose what matters.\nB. A general concern with no classroom examples to protect privacy.\nC. The names of classmates who might explain the pupil's behaviour.\nD. Relevant factual observations and support already tried, shared through the appropriate channel.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "professional boundaries",
+    "evidenceType": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "All background details you have heard, so the colleague can choose what matters."
+        },
+        {
+          "id": "B",
+          "label": "A general concern with no classroom examples to protect privacy."
+        },
+        {
+          "id": "C",
+          "label": "The names of classmates who might explain the pupil's behaviour."
+        },
+        {
+          "id": "D",
+          "label": "Relevant factual observations and support already tried, shared through the appropriate channel."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Relevant information can support professional help without circulating unrelated personal details.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-036",
+    "prompt": "Select the strongest professional response in this situation.\n\nA teacher says, \"This pupil never listens,\" after two difficult lessons. Which next step most directly tests the generalisation?\n\nA. Ask another teacher whether they find the pupil difficult.\nB. Observe when the pupil does and does not follow instructions across several activities.\nC. Give the pupil a listening target for the next lesson.\nD. Compare the pupil's marks with those of frequent contributors.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask another teacher whether they find the pupil difficult."
+        },
+        {
+          "id": "B",
+          "label": "Observe when the pupil does and does not follow instructions across several activities."
+        },
+        {
+          "id": "C",
+          "label": "Give the pupil a listening target for the next lesson."
+        },
+        {
+          "id": "D",
+          "label": "Compare the pupil's marks with those of frequent contributors."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Observations across contrasting situations test a sweeping judgement against evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-037",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter an adjustment, a pupil finishes more work but says they feel uncomfortable using it. What is the most justified conclusion?\n\nA. The adjustment is effective because completion improved.\nB. The adjustment should stop because comfort matters most.\nC. The adjustment has mixed effects that need review with the pupil.\nD. The pupil needs more time before their view can inform a decision.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The adjustment is effective because completion improved."
+        },
+        {
+          "id": "B",
+          "label": "The adjustment should stop because comfort matters most."
+        },
+        {
+          "id": "C",
+          "label": "The adjustment has mixed effects that need review with the pupil."
+        },
+        {
+          "id": "D",
+          "label": "The pupil needs more time before their view can inform a decision."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Completion and the learner's experience provide different relevant evidence about the adjustment.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-038",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou expected a quiet pupil to struggle with a topic, but their work shows strong understanding. Which reflection would most improve your future judgements?\n\nA. I should invite that pupil to speak more so ability is visible.\nB. I may have treated speaking frequency as evidence of understanding; I should check other evidence.\nC. This topic may be an exception to the pupil's usual pattern.\nD. Quiet pupils may perform best when left to work independently.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I should invite that pupil to speak more so ability is visible."
+        },
+        {
+          "id": "B",
+          "label": "I may have treated speaking frequency as evidence of understanding; I should check other evidence."
+        },
+        {
+          "id": "C",
+          "label": "This topic may be an exception to the pupil's usual pattern."
+        },
+        {
+          "id": "D",
+          "label": "Quiet pupils may perform best when left to work independently."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "The reflection identifies the unsupported link in the teacher's reasoning without replacing it with another generalisation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-039",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil says your regular check-ins make them feel watched. Other pupils appreciate the same approach. Which reflection is strongest?\n\nA. Consistent treatment matters, so I should explain the purpose more clearly.\nB. This pupil probably needs more independence than their classmates.\nC. The approach works for most pupils, so a longer trial is justified.\nD. The same action can be experienced differently; I should ask what form of support feels useful.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Consistent treatment matters, so I should explain the purpose more clearly."
+        },
+        {
+          "id": "B",
+          "label": "This pupil probably needs more independence than their classmates."
+        },
+        {
+          "id": "C",
+          "label": "The approach works for most pupils, so a longer trial is justified."
+        },
+        {
+          "id": "D",
+          "label": "The same action can be experienced differently; I should ask what form of support feels useful."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The reflection keeps the support goal while recognising individual interpretations.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-040",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou praised a pupil publicly for improvement, but they later asked you not to do that again. Which reasoning best guides your response?\n\nA. Their preference should inform how I recognise progress next time.\nB. Public recognition is valuable, so I should help them become comfortable with it.\nC. Avoiding future praise would prevent a repeat of the discomfort.\nD. I should ask classmates whether the praise seemed excessive.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner dignity",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Their preference should inform how I recognise progress next time."
+        },
+        {
+          "id": "B",
+          "label": "Public recognition is valuable, so I should help them become comfortable with it."
+        },
+        {
+          "id": "C",
+          "label": "Avoiding future praise would prevent a repeat of the discomfort."
+        },
+        {
+          "id": "D",
+          "label": "I should ask classmates whether the praise seemed excessive."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Recognition can remain supportive while respecting how the pupil wishes to receive it.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_dignity",
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-041",
+    "prompt": "Select the strongest professional response in this situation.\n\nSeveral pupils did not complete a take-home activity. You had assumed the materials were easy to obtain. Which reflection best supports a fair next decision?\n\nA. Families may need more notice to gather materials.\nB. The task may have been too difficult for independent work.\nC. I should establish what access pupils actually had before interpreting non-completion.\nD. Take-home tasks may not be suitable for this class.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Families may need more notice to gather materials."
+        },
+        {
+          "id": "B",
+          "label": "The task may have been too difficult for independent work."
+        },
+        {
+          "id": "C",
+          "label": "I should establish what access pupils actually had before interpreting non-completion."
+        },
+        {
+          "id": "D",
+          "label": "Take-home tasks may not be suitable for this class."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "The reflection tests the specific access assumption instead of adopting another untested explanation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-042",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou felt irritated by repeated requests for clarification during a rushed lesson. Which reflection is most useful for improving your response?\n\nA. I should explain that questions are easier to answer at the end.\nB. Time pressure may have shaped my interpretation; I should review what pupils were being asked to process.\nC. Pupils need practice trying independently before asking for help.\nD. I should plan a shorter lesson whenever this class asks many questions.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "empathy in classroom interactions",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I should explain that questions are easier to answer at the end."
+        },
+        {
+          "id": "B",
+          "label": "Time pressure may have shaped my interpretation; I should review what pupils were being asked to process."
+        },
+        {
+          "id": "C",
+          "label": "Pupils need practice trying independently before asking for help."
+        },
+        {
+          "id": "D",
+          "label": "I should plan a shorter lesson whenever this class asks many questions."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "The reflection considers the teacher's state and the task demands before attributing the requests to pupils.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy",
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-043",
+    "prompt": "Select the strongest professional response in this situation.\n\nA support routine helped one pupil but has not helped another with a similar visible difficulty. Which reasoning best guides the next step?\n\nA. A similar visible difficulty can have a different barrier, so I should investigate the second pupil's experience.\nB. The second pupil may need a longer period with the same routine.\nC. The routine should be simplified for both pupils to keep provision consistent.\nD. I should ask the first pupil to show the second how to use the routine.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A similar visible difficulty can have a different barrier, so I should investigate the second pupil's experience."
+        },
+        {
+          "id": "B",
+          "label": "The second pupil may need a longer period with the same routine."
+        },
+        {
+          "id": "C",
+          "label": "The routine should be simplified for both pupils to keep provision consistent."
+        },
+        {
+          "id": "D",
+          "label": "I should ask the first pupil to show the second how to use the routine."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Similar outward behaviour does not establish the same underlying need.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-044",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou feel personally responsible for resolving every difficulty a pupil describes, and your informal check-ins are becoming hard to sustain. Which reflection is strongest?\n\nA. The pupil may benefit from fewer chances to discuss difficulties.\nB. I should complete the current support before involving anyone else.\nC. My concern shows that I understand the pupil particularly well.\nD. Caring support should include clear limits and appropriate shared responsibility.",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "professional boundaries",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The pupil may benefit from fewer chances to discuss difficulties."
+        },
+        {
+          "id": "B",
+          "label": "I should complete the current support before involving anyone else."
+        },
+        {
+          "id": "C",
+          "label": "My concern shows that I understand the pupil particularly well."
+        },
+        {
+          "id": "D",
+          "label": "Caring support should include clear limits and appropriate shared responsibility."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Sustainable support recognises the teacher's limits while keeping access to appropriate help.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-045",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide of using a pupil's perspective to understand a participation difficulty?\n\nA. A general explanation of why listening to pupils matters.\nB. A non-identifying account of asking a pupil about a difficulty.\nC. An account linking what the pupil said to a specific support choice.\nD. An account linking pupil input to a support choice and a later check of how the pupil experienced it.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner perspective taking",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "A general explanation of why listening to pupils matters."
+        },
+        {
+          "id": "B",
+          "label": "A non-identifying account of asking a pupil about a difficulty."
+        },
+        {
+          "id": "C",
+          "label": "An account linking what the pupil said to a specific support choice."
+        },
+        {
+          "id": "D",
+          "label": "An account linking pupil input to a support choice and a later check of how the pupil experienced it."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Levels distinguish a stated principle, an observed enquiry, use of the enquiry, and review with the learner.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "empathy"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-046",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide of investigating a barrier before deciding how to support a pupil?\n\nA. A description of the difficulty as it first appeared.\nB. A factual observation identifying a situation in which the difficulty occurred.\nC. Contrasting observations used to identify a plausible barrier.\nD. Contrasting observations followed by a trial adjustment used to check the proposed barrier.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "recognising learning barriers",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "A description of the difficulty as it first appeared."
+        },
+        {
+          "id": "B",
+          "label": "A factual observation identifying a situation in which the difficulty occurred."
+        },
+        {
+          "id": "C",
+          "label": "Contrasting observations used to identify a plausible barrier."
+        },
+        {
+          "id": "D",
+          "label": "Contrasting observations followed by a trial adjustment used to check the proposed barrier."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The progression moves from description to a testable interpretation grounded in contrasting observations.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-047",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide that pupils can express uncertainty without embarrassment in your lessons?\n\nA. A statement of the class expectation that questions are welcome.\nB. A recent example of inviting pupils to indicate uncertainty.\nC. A recent example showing how you responded constructively to expressed uncertainty.\nD. Examples of constructive responses together with pupil feedback about whether asking felt safe.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "psychologically safe classrooms",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "A statement of the class expectation that questions are welcome."
+        },
+        {
+          "id": "B",
+          "label": "A recent example of inviting pupils to indicate uncertainty."
+        },
+        {
+          "id": "C",
+          "label": "A recent example showing how you responded constructively to expressed uncertainty."
+        },
+        {
+          "id": "D",
+          "label": "Examples of constructive responses together with pupil feedback about whether asking felt safe."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels move beyond stated expectations towards observable response and the learners' reported experience.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_relationships"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-048",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide of reviewing a classroom support adjustment?\n\nA. A description of an adjustment you intended to use.\nB. An account confirming that the adjustment was used.\nC. A comparison of participation before and after the adjustment.\nD. A comparison of participation and pupil feedback used to decide whether to retain or change the adjustment.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "responsive support",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "A description of an adjustment you intended to use."
+        },
+        {
+          "id": "B",
+          "label": "An account confirming that the adjustment was used."
+        },
+        {
+          "id": "C",
+          "label": "A comparison of participation before and after the adjustment."
+        },
+        {
+          "id": "D",
+          "label": "A comparison of participation and pupil feedback used to decide whether to retain or change the adjustment."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The strongest level uses both observed participation and pupil experience to inform review.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_support"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-049",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide that you adapt the way you give feedback to protect a pupil's dignity?\n\nA. An explanation of why respectful feedback is important.\nB. An account of a feedback exchange handled privately.\nC. An account showing that a pupil's expressed preference shaped how feedback was given.\nD. An account showing that preference shaped feedback, followed by a private check of how it was received.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "learner dignity",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An explanation of why respectful feedback is important."
+        },
+        {
+          "id": "B",
+          "label": "An account of a feedback exchange handled privately."
+        },
+        {
+          "id": "C",
+          "label": "An account showing that a pupil's expressed preference shaped how feedback was given."
+        },
+        {
+          "id": "D",
+          "label": "An account showing that preference shaped feedback, followed by a private check of how it was received."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels distinguish intention, action, attention to pupil preference, and checking the effect.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_dignity"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "HC-050",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you provide of checking an assumption you had made about a pupil?\n\nA. An account naming an assumption you noticed.\nB. An account identifying the observation on which the assumption rested.\nC. An account comparing that observation with evidence that challenged the assumption.\nD. An account showing how the comparison changed your interpretation or classroom response.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Human-Centred Teaching & Empathy",
+    "subcompetency": "teacher self-awareness",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account naming an assumption you noticed."
+        },
+        {
+          "id": "B",
+          "label": "An account identifying the observation on which the assumption rested."
+        },
+        {
+          "id": "C",
+          "label": "An account comparing that observation with evidence that challenged the assumption."
+        },
+        {
+          "id": "D",
+          "label": "An account showing how the comparison changed your interpretation or classroom response."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The progression requires increasing evidence of testing and acting on reflection, not a polished written narrative.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_self_awareness"
+    ],
+    "version": "synthetic-hc-0.1",
+    "isActive": false
+  }
+]

@@ -3,6 +3,8 @@ import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import AdminDashboard from './pages/AdminDashboard'
+import { AuthProvider } from './context/AuthContext'
+import ProtectedTeacherRoute from './components/ProtectedTeacherRoute'
 
 // Teacher Experience
 import TeacherLayout from './layouts/TeacherLayout'
@@ -18,6 +20,7 @@ import Reassessment from './pages/teacher/Reassessment'
 function App() {
   return (
     <BrowserRouter>
+      <AuthProvider>
       <Routes>
         {/* Public Website Routes */}
         <Route path="/" element={<LandingPage />} />
@@ -26,6 +29,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
 
         {/* Teacher Portal Experience (Nested in TeacherLayout) */}
+        <Route element={<ProtectedTeacherRoute />}>
         <Route path="/teacher" element={<TeacherLayout />}>
           <Route index element={<TeacherDashboard />} />
           <Route path="profile" element={<TeacherProfile />} />
@@ -36,10 +40,12 @@ function App() {
           <Route path="growth-plan" element={<GrowthPlan />} />
           <Route path="reassessment" element={<Reassessment />} />
         </Route>
+        </Route>
 
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      </AuthProvider>
     </BrowserRouter>
   )
 }
