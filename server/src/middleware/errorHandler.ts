@@ -13,14 +13,15 @@ export function errorHandler(
   res: Response,
   _next: NextFunction
 ): void {
-  console.error('❌ [API Error]:', err)
-
-  const isProduction = process.env.NODE_ENV === 'production'
-  const statusCode = res.statusCode !== 200 ? res.statusCode : 500
+  // Parser errors may include raw request bodies containing credentials.
+  // Never log or serialize the original error or stack.
+  const errorStatus = 'status' in err ? err.status : undefined
+  const statusCode = typeof errorStatus === 'number' && errorStatus >= 400 && errorStatus < 500
+    ? errorStatus
+    : 500
 
   res.status(statusCode).json({
     success: false,
-    message: err.message || 'Internal server error',
-    ...(isProduction ? {} : { stack: err.stack }),
+    message: statusCode === 500 ? 'Internal server error' : 'Invalid request.',
   })
 }

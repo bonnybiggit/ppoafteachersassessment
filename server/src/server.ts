@@ -1,13 +1,18 @@
 import 'dotenv/config'
 import app from './app'
 import { connectDatabase, disconnectDatabase } from './config/database'
+import { getJwtConfig, initializeAuth } from './services/authService'
+import { initializeAssessment } from './services/assessmentService'
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000
 
 async function startServer(): Promise<void> {
   try {
+    getJwtConfig()
     // 1. Load environment variables and connect to MongoDB Atlas
     await connectDatabase()
+    await initializeAuth()
+    await initializeAssessment()
 
     // 2. Start HTTP Express Server only after successful database connection
     const server = app.listen(PORT, () => {
