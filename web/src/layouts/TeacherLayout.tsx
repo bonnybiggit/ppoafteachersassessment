@@ -1,5 +1,5 @@
-﻿import { useState } from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom'
+import { useState } from 'react'
+import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
 import {
   LayoutDashboard,
   User,
@@ -17,6 +17,7 @@ import {
   ChevronRight,
 } from 'lucide-react'
 import ppoafLogo from '../assets/ppoaf-logo.jpeg'
+import { useAuth } from '../context/AuthContext'
 
 const mainNavItems = [
   { label: 'Overview', to: '/teacher', icon: LayoutDashboard, end: true },
@@ -34,9 +35,27 @@ const bottomNavItems = [
 ]
 
 export default function TeacherLayout() {
+  const navigate = useNavigate()
+  const { teacher, logout } = useAuth()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const closeMobileMenu = () => setMobileMenuOpen(false)
+
+  const handleLogout = () => {
+    closeMobileMenu()
+    logout()
+    navigate('/login')
+  }
+
+  const initials = teacher
+    ? `${teacher.firstName?.[0] || ''}${teacher.lastName?.[0] || ''}`.toUpperCase() ||
+      teacher.email[0]?.toUpperCase() ||
+      'T'
+    : 'T'
+
+  const displayName = teacher
+    ? `${teacher.firstName || ''} ${teacher.lastName || ''}`.trim() || teacher.email
+    : 'Teacher'
 
   return (
     <div className="min-h-screen bg-[#faf8f5] flex flex-col">
@@ -71,7 +90,7 @@ export default function TeacherLayout() {
           </Link>
         </div>
 
-        {/* Right Actions: Notifications & Demo User */}
+        {/* Right Actions: Notifications & Authenticated Teacher */}
         <div className="flex items-center gap-4">
           <button
             type="button"
@@ -87,16 +106,13 @@ export default function TeacherLayout() {
           {/* Teacher Profile / Avatar Area */}
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-full bg-[#0c3b6e] text-white flex items-center justify-center font-bold text-xs shadow-sm">
-              AJ
+              {initials}
             </div>
             <div className="hidden sm:flex flex-col text-left">
               <div className="flex items-center gap-1.5">
-                <span className="text-xs font-bold text-[#0c3b6e]">Amaka Johnson</span>
-                <span className="text-[9px] bg-blue-50 text-[#0c3b6e] border border-blue-200 px-1 rounded font-semibold uppercase tracking-wider">
-                  Demo
-                </span>
+                <span className="text-xs font-bold text-[#0c3b6e]">{displayName}</span>
               </div>
-              <span className="text-[11px] text-gray-500">Secondary Educator</span>
+              <span className="text-[11px] text-gray-500">{teacher?.email || 'Educator'}</span>
             </div>
           </div>
         </div>
@@ -158,13 +174,14 @@ export default function TeacherLayout() {
                 </a>
               )
             })}
-            <Link
-              to="/login"
-              className="flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium text-[#b81c1c] hover:bg-red-50 transition-colors"
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium text-[#b81c1c] hover:bg-red-50 transition-colors cursor-pointer text-left"
             >
               <LogOut className="h-4 w-4 shrink-0" />
-              <span>Log Out (Demo)</span>
-            </Link>
+              <span>Log Out</span>
+            </button>
           </div>
         </aside>
 
@@ -249,14 +266,14 @@ export default function TeacherLayout() {
                     </a>
                   )
                 })}
-                <Link
-                  to="/login"
-                  onClick={closeMobileMenu}
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium text-[#b81c1c] hover:bg-red-50 transition-colors"
+                <button
+                  type="button"
+                  onClick={handleLogout}
+                  className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-medium text-[#b81c1c] hover:bg-red-50 transition-colors cursor-pointer text-left"
                 >
                   <LogOut className="h-4 w-4 shrink-0" />
-                  <span>Log Out (Demo)</span>
-                </Link>
+                  <span>Log Out</span>
+                </button>
               </div>
             </div>
           </div>

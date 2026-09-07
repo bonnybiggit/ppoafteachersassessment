@@ -1,4 +1,4 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import {
   FileCheck,
   User,
@@ -15,6 +15,7 @@ import {
   Sparkles,
   Clock,
 } from 'lucide-react'
+import { useAuth } from '../../context/AuthContext'
 
 const competencies = [
   { name: 'Human-Centred Teaching & Empathy', icon: Heart },
@@ -37,6 +38,9 @@ const growthStages = [
 ]
 
 export default function TeacherDashboard() {
+  const { teacher } = useAuth()
+  const teacherFirstName = teacher?.firstName || 'Teacher'
+
   return (
     <div className="space-y-8 pb-12">
       {/* Welcome Banner */}
@@ -46,12 +50,9 @@ export default function TeacherDashboard() {
             <span className="text-xs font-bold uppercase tracking-wider text-[#b81c1c]">
               Teacher Workspace
             </span>
-            <span className="text-[10px] bg-slate-100 text-gray-600 px-2 py-0.5 rounded font-mono font-medium">
-              Demo Environment
-            </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-[#0c3b6e]">
-            Welcome back, Amaka
+            Welcome back, {teacherFirstName}
           </h1>
           <p className="text-sm text-gray-600 max-w-xl leading-relaxed">
             Your professional growth journey starts with understanding where you are today.

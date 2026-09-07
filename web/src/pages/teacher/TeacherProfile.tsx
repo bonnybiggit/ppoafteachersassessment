@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import {
   User,
   GraduationCap,
@@ -8,9 +8,15 @@ import {
   CheckCircle2,
   Save,
 } from 'lucide-react'
+import { useAuth } from '../../context/AuthContext'
 
 export default function TeacherProfile() {
+  const { teacher } = useAuth()
   const [savedNotice, setSavedNotice] = useState(false)
+
+  const defaultTeacherName = teacher
+    ? `${teacher.firstName || ''} ${teacher.lastName || ''}`.trim() || teacher.email
+    : 'Teacher'
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -69,7 +75,7 @@ export default function TeacherProfile() {
               <input
                 id="fullName"
                 type="text"
-                defaultValue="Amaka Johnson"
+                defaultValue={defaultTeacherName}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-[#0c3b6e] focus:border-[#0c3b6e]"
               />
             </div>

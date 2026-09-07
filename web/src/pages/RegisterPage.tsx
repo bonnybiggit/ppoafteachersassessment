@@ -1,10 +1,69 @@
-﻿import { Link } from 'react-router-dom'
-import { ArrowLeft, Lock, Mail, User } from 'lucide-react'
+import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { AlertCircle, ArrowLeft, Lock, Mail, User } from 'lucide-react'
 import ppoafLogo from '../assets/ppoaf-logo.jpeg'
+import { register, AuthApiError } from '../services/authService'
 
 export default function RegisterPage() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const navigate = useNavigate()
+  const [fullName, setFullName] = useState('')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    setError('')
+
+    const trimmedName = fullName.trim()
+    const trimmedEmail = email.trim()
+
+    if (!trimmedName) {
+      setError('Please enter your full name.')
+      return
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) {
+      setError('Please enter a valid email address.')
+      return
+    }
+
+    if (password.length < 8) {
+      setError('Password must contain at least 8 characters.')
+      return
+    }
+
+    if (password !== confirmPassword) {
+      setError('Passwords do not match.')
+      return
+    }
+
+    const nameParts = trimmedName.split(/\s+/)
+    const firstName = nameParts[0]
+    const lastName = nameParts.slice(1).join(' ') || nameParts[0]
+
+    setLoading(true)
+    try {
+      await register({
+        firstName,
+        lastName,
+        email: trimmedEmail,
+        password,
+      })
+      navigate('/login', {
+        state: { successMessage: 'Account created successfully. Please sign in below.' },
+      })
+    } catch (err) {
+      if (err instanceof AuthApiError) {
+        setError(err.message)
+      } else {
+        setError('Unable to create account. Please check your connection and try again.')
+      }
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -29,6 +88,16 @@ export default function RegisterPage() {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md px-4 sm:px-0">
         <div className="bg-white py-8 px-6 shadow-sm border border-[#ede8e1] rounded-xl sm:px-10">
+          {error && (
+            <div
+              role="alert"
+              className="mb-5 p-3 rounded-lg bg-red-50 border border-red-200 text-red-700 text-xs flex items-start gap-2.5 leading-relaxed"
+            >
+              <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-red-600" />
+              <span>{error}</span>
+            </div>
+          )}
+
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label
@@ -46,6 +115,8 @@ export default function RegisterPage() {
                   name="fullName"
                   type="text"
                   required
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
                   placeholder="e.g. Oluwatobiloba Adeniyi"
                   className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-md text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0c3b6e] focus:border-[#0c3b6e]"
                 />
@@ -69,6 +140,8 @@ export default function RegisterPage() {
                   type="email"
                   autoComplete="email"
                   required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="teacher@example.com"
                   className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-md text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0c3b6e] focus:border-[#0c3b6e]"
                 />
@@ -92,6 +165,8 @@ export default function RegisterPage() {
                   type="password"
                   autoComplete="new-password"
                   required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••"
                   className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-md text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0c3b6e] focus:border-[#0c3b6e]"
                 />
@@ -115,6 +190,8 @@ export default function RegisterPage() {
                   type="password"
                   autoComplete="new-password"
                   required
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
                   placeholder="••••••••"
                   className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-md text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0c3b6e] focus:border-[#0c3b6e]"
                 />
@@ -124,18 +201,13 @@ export default function RegisterPage() {
             <div className="pt-2">
               <button
                 type="submit"
-                className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-semibold text-white bg-[#b81c1c] hover:bg-[#8f1515] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#b81c1c] transition-colors"
+                disabled={loading}
+                className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-semibold text-white bg-[#b81c1c] hover:bg-[#8f1515] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#b81c1c] transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                Create Account
+                {loading ? 'Creating Account…' : 'Create Account'}
               </button>
             </div>
           </form>
-
-          <div className="mt-6 text-center text-xs text-gray-500">
-            <span className="bg-[#faf8f5] px-2 py-1 rounded text-gray-600 border border-[#ede8e1]">
-              UI Only — Account creation will be connected in a future step.
-            </span>
-          </div>
 
           <div className="mt-6 pt-6 border-t border-gray-100 text-center">
             <p className="text-sm text-gray-600">

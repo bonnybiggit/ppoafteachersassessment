@@ -25,10 +25,10 @@ export class AuthApiError extends Error {
   }
 }
 
-const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/+$/, '')
+const apiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/+$/, '')
 
 async function request(path: string, body?: object, token?: string): Promise<Record<string, unknown>> {
-  if (!apiUrl) throw new AuthApiError(0, 'The sign-in service is not configured. Please contact support.')
+  if (!apiUrl) throw new AuthApiError(0, 'The authentication service is not configured. Please contact support.')
   let response: Response
   try {
     response = await fetch(`${apiUrl}/auth/${path}`, {
@@ -40,16 +40,23 @@ async function request(path: string, body?: object, token?: string): Promise<Rec
   } catch {
     throw new AuthApiError(0, 'Unable to reach the server. Please check your connection and try again.')
   }
+  const data: unknown = await response.json().catch(() => null)
   if (!response.ok) {
-    const message = response.status === 401
-      ? (path === 'login' ? 'The email or password is incorrect.' : 'Your session has ended. Please sign in again.')
-      : response.status === 409 ? 'This email is already registered. Please sign in.'
-      : response.status === 400 ? 'Please check the information you entered and try again.'
-      : 'The service is temporarily unavailable. Please try again.'
+    const errorData = data && typeof data === 'object' && !Array.isArray(data) ? (data as Record<string, unknown>) : null
+    const serverMessage = typeof errorData?.message === 'string' && errorData.message.trim() ? errorData.message.trim() : null
+
+    const message = serverMessage || (
+      response.status === 401
+        ? (path === 'login' ? 'Invalid email or password.' : 'Your session has ended. Please sign in again.')
+        : response.status === 409
+        ? 'This email is already registered. Please sign in.'
+        : response.status === 400
+        ? 'Please check the information you entered and try again.'
+        : 'The service is temporarily unavailable. Please try again.'
+    )
     if (response.status === 401 && token) tokenStorage.remove()
     throw new AuthApiError(response.status, message)
   }
-  const data: unknown = await response.json().catch(() => null)
   if (!data || typeof data !== 'object' || Array.isArray(data)) throw new AuthApiError(500, 'The server returned an unexpected response. Please try again.')
   return data as Record<string, unknown>
 }
