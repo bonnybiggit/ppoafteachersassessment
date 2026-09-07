@@ -1,0 +1,27 @@
+﻿/* PPOAF Teachers Assessment – Global Styles */
+@import "tailwindcss";
+
+/* Brand colour tokens available via CSS custom properties */
+:root {
+  --ppoaf-navy: #0c3b6e;
+  --ppoaf-navy-dark: #082a50;
+  --ppoaf-navy-light: #134a87;
+  --ppoaf-crimson: #b81c1c;
+  --ppoaf-crimson-dark: #8f1515;
+  --ppoaf-crimson-light: #d42020;
+  --ppoaf-warm-bg: #faf8f5;
+  --ppoaf-warm-border: #ede8e1;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body defaults */
+body {
+  background-color: var(--ppoaf-warm-bg);
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
