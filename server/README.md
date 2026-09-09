@@ -1,4 +1,4 @@
-﻿# PPOAF Teachers Assessment — Backend API
+# PPOAF Teachers Assessment — Backend API
 
 Backend foundation and API service for the PPOAF Teachers Assessment platform.
 
@@ -68,47 +68,86 @@ server/
   npm run start
   ```
 
-## Assessment API foundation (Step 6E)
+## Assessment assembly and delivery (Step 6F)
 
-All endpoints require `Authorization: Bearer <token>` and an active teacher account.
+All endpoints require a valid Bearer JWT and an active teacher account.
+Responses use `{ success: true, attempt: ... }`, `{ success: true, questions: ..., attemptId: ... }`,
+or the existing `response`/`responses` envelopes. Errors use `{ success: false, message: ... }`.
 
 | Method | Path | Result |
 | --- | --- | --- |
-| POST | `/api/assessment/attempts` | Create an attempt (201) |
-| GET | `/api/assessment/attempts/current` | Get the caller's in-progress attempt |
-| GET | `/api/assessment/attempts/:attemptId` | Get an owned attempt |
+| POST | `/api/assessment/attempts` | Start or reuse the caller's in-progress attempt (201), including questions |
+| GET | `/api/assessment/attempts/current` | Resume the in-progress attempt with its ordered questions |
+| GET | `/api/assessment/attempts/current/questions` | Retrieve current ordered questions |
+| GET | `/api/assessment/attempts/:attemptId` | Retrieve an owned attempt and questions |
+| GET | `/api/assessment/attempts/:attemptId/questions` | Retrieve an owned attempt's ordered questions |
 | POST | `/api/assessment/attempts/:attemptId/responses` | Save a new answer (201) |
-| GET | `/api/assessment/attempts/:attemptId/responses` | List answers for an owned attempt |
+| GET | `/api/assessment/attempts/:attemptId/responses` | List saved answers for an owned attempt |
+| POST | `/api/assessment/attempts/:attemptId/submit` | Close an in-progress attempt without scoring |
 
-Starting an attempt requires `assessmentVersion`, `totalItems`, `selectedItemIds`,
-and `consentConfirmed: true`. Item IDs must be unique references to active items,
-and their count must equal `totalItems`. Empty subsets with zero total items are
-accepted at this foundation stage. The server sets the starting status, time, and
-index; an optional `currentItemIndex` must be exactly zero. Unknown fields,
-including client-supplied `teacherId`, are rejected.
+Start with `{ "consentConfirmed": true }`. Assembly is server-controlled: client-supplied
+item IDs, version, count, teacher ID or progress are rejected. This replaces the Step 6E
+client-selected start payload. No frontend currently consumes that payload.
 
-Saving an answer requires `itemId` and a non-null `selectedResponse` (text, boolean,
-number, array, or object). Optional fields are `responseValue`, `responseDuration`
-in milliseconds, and `answeredAt` as an ISO timestamp with a timezone. When omitted,
-`answeredAt` uses server time. Response duration is stored as `responseDurationMs`.
-Answers are create-only: a repeated item returns 409 and does not overwrite data.
+The default length is **30**, an MVP configuration, not a validated PPOAF assessment
+length. Trusted service callers can pass a positive integer as the third argument to
+`startAttempt`; the default lives in `assessmentAssembly.ts` alongside the assembly
+version. Assembly selects active items, sorts by bank item ID with an ObjectId tie-break,
+and cycles through the nine official domains in their declared order. Empty/exhausted
+domains are skipped. This balances coverage where supply permits and redistributes
+shortages. Duplicate references and duplicate bank IDs are excluded. Profile tags do
+not affect selection or scores. Assembly is deterministic for the same active bank and
+length, and is not adaptive or ML-based. Insufficient supply returns 409 without creating
+an attempt; inactive synthetic JSON banks are never loaded or seeded by this service.
 
-An unavailable or unowned attempt returns 404. A second in-progress attempt or a
-write to a closed attempt returns 409. Startup provisions the partial unique
-in-progress attempt index and the unique attempt/item response index before
-listening. No assembly, scoring, completion, or progress advancement is performed.
+The persisted `selectedItemIds` preserve membership and order on resume. Later item
+activation/deactivation does not replace assigned questions; an already-assigned inactive
+item remains answerable. A deleted assigned item returns an explicit 409 on delivery.
+Question text/options are read from the referenced item, not snapshotted, so administrators
+must preserve referenced item content for historical reproducibility.
 
-Run the explicit integration verification from `server/` after building:
+Question DTOs contain `itemId` (the MongoDB reference used when saving an answer),
+`bankItemId` (the human-readable bank ID), `prompt`, `domain`, `subcompetency`,
+`evidenceType`, public `options` (IDs and labels only), and one-based `questionOrder`.
+They exclude keys, rationales, calibration/admin fields and MongoDB document internals.
+Items without structured options use their prompt and return an empty options array.
+
+No current in-progress record returns 404 (the not-started/no-current state). Starting
+again reuses the existing record, including under concurrent requests. Submission maps
+the existing stored `completed`/`completedAt` to API `submitted`/`submittedAt`;
+`completedAt` remains an alias. No schema changes were needed. Repeated submission
+returns 409 without changing the timestamp. Abandoned attempts remain closed. A teacher
+may start a new attempt after closure. Submission currently permits partial completion.
+
+Saving an answer requires an assigned `itemId` and a non-null `selectedResponse`
+(text, boolean, number, array, or object). Optional fields remain `responseValue`
+(raw input, not a calculated score), `responseDuration` in milliseconds, and
+`answeredAt` as an ISO timestamp with a timezone. Responses remain create-only;
+duplicates return 409. `currentItemIndex` advances as an answered-count cursor on each
+successful insert; clients should use saved responses to find unanswered questions if
+answering out of order. The server does not yet validate answer correctness or score it.
+
+Missing/unowned attempts return 404; closed-attempt writes return 409. Response creation
+uses an Atlas transaction and a conditional parent-attempt write, serializing it against
+submission. Replica-set/transaction support is required, as supplied by Atlas. Startup
+continues to provision the existing unique in-progress and attempt/item response indexes.
+No scoring, gap diagnosis or recommendations are included in this step.
+
+Run checks from `server/` after building:
 
 ```bash
 npm run build
+node tests/assessmentAssembly.test.cjs
+node tests/assessmentItems.validate.cjs
 node tests/assessment.integration.cjs
 ```
 
-This uses the configured database and removes its temporary teachers, attempts,
-and responses. It never writes assessment items. If fewer than two active items
-exist, positive response tests stub only item lookups; attempt/response persistence
-and duplicate constraints still use MongoDB. The script reports which mode ran.
+The assembly and item-bank checks are offline. The integration test uses the configured
+Atlas database, verifies its ping, and removes its temporary test teachers, attempts and
+responses in cleanup. Question fixtures stay in memory: no question documents or synthetic
+banks are written. It covers JWT/active-account protection, ownership, concurrent start
+reuse, deterministic assembly, delivery redaction, resume, response membership, submission,
+and concurrent answer/submission. Test failures must not print secrets.
 
 ## Health Endpoint
 

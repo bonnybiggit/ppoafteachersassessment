@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express'
 import { AuthError, getAuthenticatedTeacher } from '../services/authService'
-import { AssessmentError, getAttempt, getCurrentAttempt, getResponses, saveResponse, startAttempt } from '../services/assessmentService'
+import { AssessmentError, getAttempt, getCurrentAttempt, getQuestions, getResponses, saveResponse, startAttempt, submitAttempt } from '../services/assessmentService'
 
 async function handle(
   req: Request,
@@ -40,4 +40,12 @@ export async function createResponse(req: Request, res: Response): Promise<void>
 
 export async function responsesForAttempt(req: Request, res: Response): Promise<void> {
   await handle(req, res, async id => ({ responses: await getResponses(id, req.params.attemptId) }))
+}
+
+export async function questionsForAttempt(req: Request, res: Response): Promise<void> {
+  await handle(req, res, id => getQuestions(id, req.params.attemptId))
+}
+
+export async function submit(req: Request, res: Response): Promise<void> {
+  await handle(req, res, async id => ({ attempt: await submitAttempt(id, req.params.attemptId) }))
 }

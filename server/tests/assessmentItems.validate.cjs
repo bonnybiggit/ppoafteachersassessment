@@ -4,6 +4,8 @@ const { AssessmentItem } = require('../dist/models/AssessmentItem')
 const banks = [
   { items: require('../data/human-centred-teaching-empathy.synthetic.v0.1.json'), prefix: 'HC', domain: 'Human-Centred Teaching & Empathy', version: 'synthetic-hc-0.1' },
   { items: require('../data/communication-influence.synthetic.v0.1.json'), prefix: 'CI', domain: 'Communication & Influence', version: 'synthetic-ci-0.1' },
+  { items: require('../data/classroom-leadership-behaviour-design.synthetic.v0.1.json'), prefix: 'CB', domain: 'Classroom Leadership & Behaviour Design', version: 'synthetic-cb-0.1' },
+  { items: require('../data/adaptive-teaching-problem-solving.synthetic.v0.1.json'), prefix: 'AP', domain: 'Adaptive Teaching & Problem Solving', version: 'synthetic-ap-0.1' },
 ]
 
 const fields = ['itemId', 'prompt', 'primaryDomain', 'subcompetency', 'evidenceType',
@@ -107,16 +109,19 @@ function similarity(first, second) {
   return intersection / new Set([...a, ...b]).size
 }
 const overlaps = []
-for (const ci of banks[1].items) {
-  for (const hc of banks[0].items) {
-    assert.notEqual(stem(ci), stem(hc), `Duplicate cross-domain stem: ${ci.itemId}/${hc.itemId}`)
-    overlaps.push({ ci: ci.itemId, hc: hc.itemId, similarity: similarity(ci, hc) })
+for (let bankIndex = 1; bankIndex < banks.length; bankIndex++) {
+  for (const current of banks[bankIndex].items) {
+    for (const previous of banks.slice(0, bankIndex).flatMap(bank => bank.items)) {
+      assert.notEqual(stem(current), stem(previous), `Duplicate cross-domain stem: ${current.itemId}/${previous.itemId}`)
+      overlaps.push({ first: current.itemId, second: previous.itemId, similarity: similarity(current, previous) })
+    }
   }
 }
 overlaps.sort((a, b) => b.similarity - a.similarity)
 assert(overlaps[0].similarity < 0.65, 'High lexical overlap requires editorial review.')
 console.log('Highest cross-domain stem similarities (Jaccard, editorial screen):', JSON.stringify(overlaps.slice(0, 5)))
-const choices = banks[1].items.filter(item => item.responseKey.format === 'single_choice')
+for (const bank of banks.slice(1)) {
+const choices = bank.items.filter(item => item.responseKey.format === 'single_choice')
 const keyedLongest = choices.filter(item => {
   const options = item.responseKey.options
   const count = option => option.label.split(/\s+/).length
@@ -125,5 +130,8 @@ const keyedLongest = choices.filter(item => {
 })
 const positions = Object.fromEntries('ABCD'.split('').map(id => [id, choices.filter(item => item.responseKey.bestOptionId === id).length]))
 assert(keyedLongest.length < choices.length / 2, 'Keyed answers are too frequently uniquely longest.')
-console.log(`CI uniquely longest keyed options: ${keyedLongest.length}/${choices.length}; key positions: ${JSON.stringify(positions)}`)
+console.log(`${bank.prefix} uniquely longest keyed options: ${keyedLongest.length}/${choices.length}; key positions: ${JSON.stringify(positions)}`)
+}
+console.log('Highest Domain 3 cross-domain similarities:', JSON.stringify(overlaps.filter(pair => pair.first.startsWith('CB-')).slice(0, 5)))
+console.log('Highest Domain 4 cross-domain similarities:', JSON.stringify(overlaps.filter(pair => pair.first.startsWith('AP-')).slice(0, 5)))
 console.log('Offline only: no MongoDB connection or inserts. Editorial screens do not establish psychometric validity.')

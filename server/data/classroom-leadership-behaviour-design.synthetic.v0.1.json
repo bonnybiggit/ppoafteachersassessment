@@ -1,0 +1,2539 @@
+[
+  {
+    "itemId": "CB-001",
+    "prompt": "Select the strongest professional response in this situation.\n\nAt the start of term, Primary 3 pupils interpret \"behave well\" differently during shared work. Which action best establishes a usable classroom expectation?\n\nA. Ask pupils to copy the phrase at the top of their exercise books.\nB. Agree observable actions for sharing materials and rehearse them together.\nC. Keep the phrase and explain individual breaches as they occur.\nD. Add a longer list of prohibited actions beside the existing phrase.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom expectations",
+    "evidenceType": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask pupils to copy the phrase at the top of their exercise books."
+        },
+        {
+          "id": "B",
+          "label": "Agree observable actions for sharing materials and rehearse them together."
+        },
+        {
+          "id": "C",
+          "label": "Keep the phrase and explain individual breaches as they occur."
+        },
+        {
+          "id": "D",
+          "label": "Add a longer list of prohibited actions beside the existing phrase."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Observable actions and rehearsal turn a broad rule into behaviour pupils can practise.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-002",
+    "prompt": "Select the strongest professional response in this situation.\n\nIn a class of 58, pupils crowd your desk whenever they need a pencil. Supplies are limited but sufficient if returned. Which routine should you try first?\n\nA. Let pupils borrow from any nearby group whenever they need supplies.\nB. Keep supplies at your desk and call pupils forward by name.\nC. Issue all spare pencils each morning to the first pupils requesting them.\nD. Use table supply monitors with a fixed collection and return routine.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "routines and procedures",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class",
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Let pupils borrow from any nearby group whenever they need supplies."
+        },
+        {
+          "id": "B",
+          "label": "Keep supplies at your desk and call pupils forward by name."
+        },
+        {
+          "id": "C",
+          "label": "Issue all spare pencils each morning to the first pupils requesting them."
+        },
+        {
+          "id": "D",
+          "label": "Use table supply monitors with a fixed collection and return routine."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Distributed collection with defined responsibility reduces crowding and preserves access to shared supplies.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-003",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter break, Primary 1 pupils take several minutes to settle because bags, seats and materials are not ready. What is the strongest first change?\n\nA. Teach and practise a short entry sequence ending with a ready activity.\nB. Begin the register at once and remind unsettled pupils during it.\nC. Introduce a reward for the first pupil seated after each break.\nD. Allow extra settling time and shorten the activity that follows.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "transitions",
+    "evidenceType": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [
+      "lower_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Teach and practise a short entry sequence ending with a ready activity."
+        },
+        {
+          "id": "B",
+          "label": "Begin the register at once and remind unsettled pupils during it."
+        },
+        {
+          "id": "C",
+          "label": "Introduce a reward for the first pupil seated after each break."
+        },
+        {
+          "id": "D",
+          "label": "Allow extra settling time and shorten the activity that follows."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "An entry sequence addresses the predictable practical causes of lost transition time.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-004",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil often calls out and receives extended reminders. When they wait for a turn, you usually move on without noticing. What adjustment should you make?\n\nA. Give the pupil a longer explanation of the calling-out rule after each interruption.\nB. Offer a point at the end of any day with no calling out.\nC. Acknowledge turn-waiting promptly while keeping corrections brief.\nD. Ask classmates to remind the pupil each time they interrupt.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "behaviour reinforcement",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Give the pupil a longer explanation of the calling-out rule after each interruption."
+        },
+        {
+          "id": "B",
+          "label": "Offer a point at the end of any day with no calling out."
+        },
+        {
+          "id": "C",
+          "label": "Acknowledge turn-waiting promptly while keeping corrections brief."
+        },
+        {
+          "id": "D",
+          "label": "Ask classmates to remind the pupil each time they interrupt."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Prompt acknowledgement strengthens the replacement behaviour while reducing the attention attached to calling out.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_reinforcement"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-005",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou and a colleague supervise the same class on different mornings. Pupils may leave seats freely with one teacher but receive corrections with the other. What should you do first?\n\nA. Agree a shared seat-leaving routine that both teachers will teach and use.\nB. Keep separate routines and ask pupils to remember who is supervising.\nC. Ask the head teacher to choose which teacher has the better approach.\nD. Apply the stricter routine for a week to make the distinction clear.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "consistency and fairness",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Agree a shared seat-leaving routine that both teachers will teach and use."
+        },
+        {
+          "id": "B",
+          "label": "Keep separate routines and ask pupils to remember who is supervising."
+        },
+        {
+          "id": "C",
+          "label": "Ask the head teacher to choose which teacher has the better approach."
+        },
+        {
+          "id": "D",
+          "label": "Apply the stricter routine for a week to make the distinction clear."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "A predictable shared routine resolves inconsistent boundaries across supervision periods.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-006",
+    "prompt": "Select the strongest professional response in this situation.\n\nPrimary 5 pupils are helping develop norms for using a shared reading corner. Several propose that pupils who finish work first should always choose seats first. What is the best next step?\n\nA. Accept the proposal for the term because most pupils support it.\nB. Set a seating rota yourself and end discussion of the proposal.\nC. Keep free seating and resolve any disputes when pupils arrive.\nD. Ask pupils to revise the proposal against a fair-access requirement.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner participation",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [
+      "upper_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept the proposal for the term because most pupils support it."
+        },
+        {
+          "id": "B",
+          "label": "Set a seating rota yourself and end discussion of the proposal."
+        },
+        {
+          "id": "C",
+          "label": "Keep free seating and resolve any disputes when pupils arrive."
+        },
+        {
+          "id": "D",
+          "label": "Ask pupils to revise the proposal against a fair-access requirement."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Pupil participation operates within a teacher-held boundary of fair access, rather than majority preference alone.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-007",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter a routine correction, a pupil argues loudly from their seat. No one is in immediate danger, and classmates are watching. What is the strongest immediate response?\n\nA. Explain the full sequence of consequences while the class listens.\nB. Offer a brief settling choice and follow up privately once calm.\nC. Invite the class to decide whether the correction was reasonable.\nD. Withdraw the expectation so that the lesson can continue quickly.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "de-escalation",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Explain the full sequence of consequences while the class listens."
+        },
+        {
+          "id": "B",
+          "label": "Offer a brief settling choice and follow up privately once calm."
+        },
+        {
+          "id": "C",
+          "label": "Invite the class to decide whether the correction was reasonable."
+        },
+        {
+          "id": "D",
+          "label": "Withdraw the expectation so that the lesson can continue quickly."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A brief bounded choice reduces the public confrontation while preserving the expectation and later accountability.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "de_escalation"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-008",
+    "prompt": "Select the strongest professional response in this situation.\n\nTwo pupils deliberately mixed up another group's labelled materials. The facts are agreed, and everyone is calm. Which response best supports restoration?\n\nA. Have the pupils copy the materials rule before returning to their seats.\nB. Ask for an apology and let the affected group sort the materials.\nC. Agree how the pupils will restore the materials and check completion.\nD. Reassign both pupils to another group for the remainder of the week.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "restorative practice",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Have the pupils copy the materials rule before returning to their seats."
+        },
+        {
+          "id": "B",
+          "label": "Ask for an apology and let the affected group sort the materials."
+        },
+        {
+          "id": "C",
+          "label": "Agree how the pupils will restore the materials and check completion."
+        },
+        {
+          "id": "D",
+          "label": "Reassign both pupils to another group for the remainder of the week."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Repair connected to the disruption gives pupils responsibility for putting the situation right.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "restorative_practice"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-009",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil leaves their place repeatedly during afternoon independent work. Reminders have had little effect for two weeks. What is the most useful next step?\n\nA. Increase the consequence after each departure for the next week.\nB. Use the same reminders for another fortnight to maintain consistency.\nC. Move the pupil beside your desk for all activities from now on.\nD. Record departure patterns and test a targeted replacement routine.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "repeated behaviour response",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Increase the consequence after each departure for the next week."
+        },
+        {
+          "id": "B",
+          "label": "Use the same reminders for another fortnight to maintain consistency."
+        },
+        {
+          "id": "C",
+          "label": "Move the pupil beside your desk for all activities from now on."
+        },
+        {
+          "id": "D",
+          "label": "Record departure patterns and test a targeted replacement routine."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Observing when departures occur supports a targeted behaviour response whose effect can be reviewed.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-010",
+    "prompt": "Select the strongest professional response in this situation.\n\nIn a small classroom, groups repeatedly bump into one another when collecting shared books. The collection rule is already understood. Which change most directly prevents the problem?\n\nA. Stagger collection and set a clear route between desks.\nB. Increase reminders to move carefully before every collection.\nC. Ask groups to nominate their most careful pupil to collect.\nD. Record which groups bump into others most frequently.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "proactive behaviour design",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Stagger collection and set a clear route between desks."
+        },
+        {
+          "id": "B",
+          "label": "Increase reminders to move carefully before every collection."
+        },
+        {
+          "id": "C",
+          "label": "Ask groups to nominate their most careful pupil to collect."
+        },
+        {
+          "id": "D",
+          "label": "Record which groups bump into others most frequently."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Changing movement flow addresses the environmental trigger instead of relying on repeated correction.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_design"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-011",
+    "prompt": "Select the strongest professional response in this situation.\n\nDuring independent work, you spend ten minutes helping one table. Low-level disruption grows at the far side of the room. What adjustment best maintains oversight?\n\nA. Finish helping the table before addressing the other side together.\nB. Appoint a pupil to record names while you remain with the table.\nC. Use brief help visits interspersed with scanning and circulation.\nD. Move all pupils needing help to your desk for the whole session.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom leadership",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Finish helping the table before addressing the other side together."
+        },
+        {
+          "id": "B",
+          "label": "Appoint a pupil to record names while you remain with the table."
+        },
+        {
+          "id": "C",
+          "label": "Use brief help visits interspersed with scanning and circulation."
+        },
+        {
+          "id": "D",
+          "label": "Move all pupils needing help to your desk for the whole session."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Brief visits with active supervision reduce periods when emerging disruption goes unnoticed.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-012",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil has repeatedly left shared counters scattered despite knowing the tidy-up routine. There is time to act before dismissal. What is the best response?\n\nA. Let the supply monitor tidy them so dismissal stays on schedule.\nB. Have the pupil complete the agreed return routine before leaving.\nC. Allocate an unrelated extra written task for the following morning.\nD. Remind the whole class again without addressing this incident.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner accountability",
+    "evidenceType": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Let the supply monitor tidy them so dismissal stays on schedule."
+        },
+        {
+          "id": "B",
+          "label": "Have the pupil complete the agreed return routine before leaving."
+        },
+        {
+          "id": "C",
+          "label": "Allocate an unrelated extra written task for the following morning."
+        },
+        {
+          "id": "D",
+          "label": "Remind the whole class again without addressing this incident."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Completing the relevant routine links accountability directly to the pupil's action.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_accountability"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-013",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil repeatedly interrupts your work with a group to request help. They can use a help card but have not practised waiting after placing it. What should you establish?\n\nA. Keep a list of interruptions and review the total at day end.\nB. Ask the pupil to save every question until group work is finished.\nC. Let the pupil join your group whenever they need assistance.\nD. Rehearse using the card with a manageable activity while waiting.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "positive behaviour support",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep a list of interruptions and review the total at day end."
+        },
+        {
+          "id": "B",
+          "label": "Ask the pupil to save every question until group work is finished."
+        },
+        {
+          "id": "C",
+          "label": "Let the pupil join your group whenever they need assistance."
+        },
+        {
+          "id": "D",
+          "label": "Rehearse using the card with a manageable activity while waiting."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Teaching the missing waiting behaviour provides an achievable alternative to interrupting.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-014",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou cross the room while a pupil is using the agreed stop signal to request everyone's attention. Several pupils then keep moving too. What is the strongest response?\n\nA. Reset by stopping yourself and practising the signal response together.\nB. Explain that the signal applies to pupils while teachers keep working.\nC. Ask the pupil to repeat the signal louder until everyone responds.\nD. Replace the pupil-led signal with a teacher-only signal next time.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "teacher modelling",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Reset by stopping yourself and practising the signal response together."
+        },
+        {
+          "id": "B",
+          "label": "Explain that the signal applies to pupils while teachers keep working."
+        },
+        {
+          "id": "C",
+          "label": "Ask the pupil to repeat the signal louder until everyone responds."
+        },
+        {
+          "id": "D",
+          "label": "Replace the pupil-led signal with a teacher-only signal next time."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Modelling and a brief reset restore the shared routine after the teacher has undermined it.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-015",
+    "prompt": "Select the strongest professional response in this situation.\n\nA table-point system makes pupils blame one classmate whenever their table loses a point. Which adjustment should you make first?\n\nA. Continue the system but explain that blaming classmates is unhelpful.\nB. Let each table choose which member should receive its lost points.\nC. Replace shared point losses with individual, achievable behaviour goals.\nD. Reset points more frequently so tables can recover their position.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom climate",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Continue the system but explain that blaming classmates is unhelpful."
+        },
+        {
+          "id": "B",
+          "label": "Let each table choose which member should receive its lost points."
+        },
+        {
+          "id": "C",
+          "label": "Replace shared point losses with individual, achievable behaviour goals."
+        },
+        {
+          "id": "D",
+          "label": "Reset points more frequently so tables can recover their position."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Changing the group penalty structure removes an incentive for peer blame while retaining behavioural goals.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_climate"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-016",
+    "prompt": "Select the strongest professional response in this situation.\n\nRain means the class must move from outdoor practice to a covered shared space. The usual line formation blocks another class's doorway. What should you do?\n\nA. Keep the familiar formation and ask the other class to wait.\nB. Teach a temporary waiting position and release pupils in small groups.\nC. Allow pupils to find their own route to reduce time in the rain.\nD. Ask the front pupil to choose a new route for everyone to follow.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "transitions",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep the familiar formation and ask the other class to wait."
+        },
+        {
+          "id": "B",
+          "label": "Teach a temporary waiting position and release pupils in small groups."
+        },
+        {
+          "id": "C",
+          "label": "Allow pupils to find their own route to reduce time in the rain."
+        },
+        {
+          "id": "D",
+          "label": "Ask the front pupil to choose a new route for everyone to follow."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A rehearsable temporary procedure adapts orderly movement to the changed space.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-017",
+    "prompt": "Select the strongest professional response in this situation.\n\nDismissal is noisy because pupils pack bags as soon as any row is called. Which routine most directly addresses this trigger?\n\nA. Complete a whole-class packing stage before releasing rows.\nB. Call rows faster so pupils spend less time waiting to leave.\nC. Give the quietest row first dismissal on the following day.\nD. Remind pupils to ignore other row names during dismissal.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "routines and procedures",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Complete a whole-class packing stage before releasing rows."
+        },
+        {
+          "id": "B",
+          "label": "Call rows faster so pupils spend less time waiting to leave."
+        },
+        {
+          "id": "C",
+          "label": "Give the quietest row first dismissal on the following day."
+        },
+        {
+          "id": "D",
+          "label": "Remind pupils to ignore other row names during dismissal."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Separating packing from release removes competing activities that make the transition difficult.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-018",
+    "prompt": "Select the strongest professional response in this situation.\n\nDuring partner work, you repeatedly stop all conversation even though pupils need to talk to partners. Noise then rises again. What should you change?\n\nA. Keep a silent-work expectation until the class shows better control.\nB. Stop the task whenever more than one pair is talking at once.\nC. Let each pair decide its own volume without a common boundary.\nD. Establish and rehearse a partner-voice level with a reset signal.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom expectations",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep a silent-work expectation until the class shows better control."
+        },
+        {
+          "id": "B",
+          "label": "Stop the task whenever more than one pair is talking at once."
+        },
+        {
+          "id": "C",
+          "label": "Let each pair decide its own volume without a common boundary."
+        },
+        {
+          "id": "D",
+          "label": "Establish and rehearse a partner-voice level with a reset signal."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The expectation should support the activity while providing an observable boundary and recovery routine.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-019",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nBefore a classroom routine that pupils were still learning, I rehearsed the expected behaviour with them.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom expectations",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Rehearsal builds the behaviour needed for the routine rather than assuming it is already established.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-020",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nBefore a predictable point of congestion, I adjusted how pupils accessed the space or materials.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "proactive behaviour design",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Anticipating congestion addresses avoidable environmental triggers.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_design"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-021",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil used an agreed replacement for disruptive behaviour, I acknowledged that replacement promptly.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "behaviour reinforcement",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Timely acknowledgement supports repetition of a specifically taught alternative.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_reinforcement"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-022",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nI changed an agreed consequence for the same minor behaviour according to how irritated I felt.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "consistency and fairness",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Mood-dependent consequences undermine predictable and fair classroom boundaries; the frequency ordering is reversed.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-023",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nAfter a transition repeatedly took too long, I practised the part of the routine where pupils became stuck.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "transitions",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Targeted rehearsal addresses the observed source of delay.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-024",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhile supporting one group, I scanned the rest of the classroom for emerging disruption.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom leadership",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Active supervision enables early intervention while group support continues.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-025",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nAfter agreeing a repair action for classroom disruption, I checked that the pupil completed it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner accountability",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Follow-through makes agreed repair a meaningful responsibility.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "learner_accountability"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-026",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a pupil argued about a minor correction in front of classmates, I continued the public debate until they accepted my position.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "de-escalation",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Prolonged public debate can escalate a minor incident; lower frequency represents stronger practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "de_escalation"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-027",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen reviewing a class norm, I gave pupils a role in deciding a workable way to follow it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner participation",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Participation in implementation can build ownership within established classroom boundaries.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-028",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a behaviour difficulty kept recurring, I used observations of when it happened to revise the response.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "repeated behaviour response",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Pattern-based revision supports purposeful adjustment rather than escalation by habit.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-029",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen I failed to follow a classroom routine expected of pupils, I demonstrated the correct routine afterwards.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "teacher modelling",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Visible correction of the teacher's own practice reinforces the shared standard.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-030",
+    "prompt": "Select the strongest professional response in this situation.\n\nWhich expectation is most usable for checking behaviour when primary pupils return shared scissors?\n\nA. Show responsibility whenever you use classroom equipment.\nB. Put closed scissors in the tray before leaving the table.\nC. Treat the shared equipment as carefully as your own belongings.\nD. Make sure your table is a good example to other tables.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom expectations",
+    "evidenceType": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Show responsibility whenever you use classroom equipment."
+        },
+        {
+          "id": "B",
+          "label": "Put closed scissors in the tray before leaving the table."
+        },
+        {
+          "id": "C",
+          "label": "Treat the shared equipment as carefully as your own belongings."
+        },
+        {
+          "id": "D",
+          "label": "Make sure your table is a good example to other tables."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "The keyed expectation specifies an observable action and a clear point for completion.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-031",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil now follows the start-work routine reliably with a point awarded every time. Which next step best supports maintaining the routine with less reliance on points?\n\nA. Stop all acknowledgement tomorrow to see whether the routine lasts.\nB. Increase the points available so the routine remains attractive.\nC. Gradually reduce points while checking that the routine continues.\nD. Keep the same points permanently because the routine is working.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "behaviour reinforcement",
+    "evidenceType": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Stop all acknowledgement tomorrow to see whether the routine lasts."
+        },
+        {
+          "id": "B",
+          "label": "Increase the points available so the routine remains attractive."
+        },
+        {
+          "id": "C",
+          "label": "Gradually reduce points while checking that the routine continues."
+        },
+        {
+          "id": "D",
+          "label": "Keep the same points permanently because the routine is working."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Gradual fading with monitoring tests maintenance without abruptly withdrawing all support.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_reinforcement"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-032",
+    "prompt": "Select the strongest professional response in this situation.\n\nA teacher wants to find what maintains repeated desk-tapping during quiet work. Which brief record is most useful?\n\nA. What happened before tapping, the tapping itself, and what followed.\nB. How annoying the tapping seemed compared with other classroom sounds.\nC. How many rules the pupil remembered at the start of the day.\nD. Which pupils the teacher considered generally reliable during quiet work.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "repeated behaviour response",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "What happened before tapping, the tapping itself, and what followed."
+        },
+        {
+          "id": "B",
+          "label": "How annoying the tapping seemed compared with other classroom sounds."
+        },
+        {
+          "id": "C",
+          "label": "How many rules the pupil remembered at the start of the day."
+        },
+        {
+          "id": "D",
+          "label": "Which pupils the teacher considered generally reliable during quiet work."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Recording antecedents, observable behaviour and consequences helps identify a pattern relevant to intervention.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-033",
+    "prompt": "Select the strongest professional response in this situation.\n\nTwo pupils break the same movement rule. One has practised it for weeks; the other joined today and has not been taught it. Which response best applies fairness?\n\nA. Give both the established consequence before teaching the new pupil.\nB. Overlook both incidents so that neither pupil feels treated differently.\nC. Let the established pupil decide what the new pupil should do.\nD. Teach the newcomer and apply the established response to the other pupil.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "consistency and fairness",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Give both the established consequence before teaching the new pupil."
+        },
+        {
+          "id": "B",
+          "label": "Overlook both incidents so that neither pupil feels treated differently."
+        },
+        {
+          "id": "C",
+          "label": "Let the established pupil decide what the new pupil should do."
+        },
+        {
+          "id": "D",
+          "label": "Teach the newcomer and apply the established response to the other pupil."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Fair application considers opportunity to learn the rule while preserving a common behavioural expectation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-034",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil pushes to the front when collecting water for a classroom activity. Which replacement behaviour should be taught and practised?\n\nA. Finishing written work before classmates begin collecting their water.\nB. Explaining the importance of patience to a partner after the activity.\nC. Waiting at a marked place until the collection turn is available.\nD. Watching classmates collect water instead of taking part this week.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "positive behaviour support",
+    "evidenceType": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Finishing written work before classmates begin collecting their water."
+        },
+        {
+          "id": "B",
+          "label": "Explaining the importance of patience to a partner after the activity."
+        },
+        {
+          "id": "C",
+          "label": "Waiting at a marked place until the collection turn is available."
+        },
+        {
+          "id": "D",
+          "label": "Watching classmates collect water instead of taking part this week."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "An observable waiting action provides a direct alternative serving the same classroom need.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-035",
+    "prompt": "Select the strongest professional response in this situation.\n\nMinor disruption occurs mainly when pupils finish tidying before the rest of the class. Which change addresses this pattern most directly?\n\nA. Remind early finishers of the consequence for disturbing others.\nB. Establish a familiar waiting activity available after tidying.\nC. Slow down the early finishers by assigning extra tidying each time.\nD. Ask the class to stop tidying whenever early finishers become noisy.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "proactive behaviour design",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Remind early finishers of the consequence for disturbing others."
+        },
+        {
+          "id": "B",
+          "label": "Establish a familiar waiting activity available after tidying."
+        },
+        {
+          "id": "C",
+          "label": "Slow down the early finishers by assigning extra tidying each time."
+        },
+        {
+          "id": "D",
+          "label": "Ask the class to stop tidying whenever early finishers become noisy."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A defined post-tidying routine reduces unstructured waiting, the identified trigger.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_design"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-036",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter a pupil disrupts a group's work, what most clearly distinguishes completed repair from an apology alone?\n\nA. The pupil gives the apology in front of the whole class.\nB. The teacher explains why apologies matter in a learning group.\nC. The group agrees that the pupil sounded sorry during the apology.\nD. The pupil carries out an agreed action that puts the work right.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "restorative practice",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The pupil gives the apology in front of the whole class."
+        },
+        {
+          "id": "B",
+          "label": "The teacher explains why apologies matter in a learning group."
+        },
+        {
+          "id": "C",
+          "label": "The group agrees that the pupil sounded sorry during the apology."
+        },
+        {
+          "id": "D",
+          "label": "The pupil carries out an agreed action that puts the work right."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Completed repair involves observable action addressing the effect of the disruption.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "restorative_practice"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-037",
+    "prompt": "Select the strongest professional response in this situation.\n\nA class practised an attention signal in quiet conditions. Which check best shows readiness to use it during normal classroom activity?\n\nA. Pupils stop and orient to the teacher when it is used during activity.\nB. Pupils can describe the signal while seated quietly at morning register.\nC. The class monitor can demonstrate the signal at the front of the room.\nD. The signal appears clearly on the classroom expectations display.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom leadership",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Pupils stop and orient to the teacher when it is used during activity."
+        },
+        {
+          "id": "B",
+          "label": "Pupils can describe the signal while seated quietly at morning register."
+        },
+        {
+          "id": "C",
+          "label": "The class monitor can demonstrate the signal at the front of the room."
+        },
+        {
+          "id": "D",
+          "label": "The signal appears clearly on the classroom expectations display."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Successful response in the setting where the signal is needed demonstrates practical use of the routine.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-038",
+    "prompt": "Select the strongest professional response in this situation.\n\nYour room is quiet, but pupils frequently wait motionless for your permission even when a familiar routine allows them to proceed. Which reflection best guides your review?\n\nA. The quietness suggests the class is ready for stricter independence targets.\nB. The routines may be rewarding waiting for me instead of responsible action.\nC. The class probably needs a longer list of activities requiring permission.\nD. The waiting shows that pupils have fully understood their responsibilities.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom climate",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The quietness suggests the class is ready for stricter independence targets."
+        },
+        {
+          "id": "B",
+          "label": "The routines may be rewarding waiting for me instead of responsible action."
+        },
+        {
+          "id": "C",
+          "label": "The class probably needs a longer list of activities requiring permission."
+        },
+        {
+          "id": "D",
+          "label": "The waiting shows that pupils have fully understood their responsibilities."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Order should support responsible participation; dependence on permission can indicate overcontrolled routines.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_climate"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-039",
+    "prompt": "Select the strongest professional response in this situation.\n\nYour behaviour log shows you regularly overlook minor interruptions from table monitors but correct the same behaviour from others. What should you examine first?\n\nA. Whether non-monitors should be given more reminders about their roles.\nB. Whether monitors need a separate set of expectations because they help.\nC. Whether the class needs fewer opportunities to interrupt during routines.\nD. Whether holding a role is affecting how I apply the shared rule.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "consistency and fairness",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether non-monitors should be given more reminders about their roles."
+        },
+        {
+          "id": "B",
+          "label": "Whether monitors need a separate set of expectations because they help."
+        },
+        {
+          "id": "C",
+          "label": "Whether the class needs fewer opportunities to interrupt during routines."
+        },
+        {
+          "id": "D",
+          "label": "Whether holding a role is affecting how I apply the shared rule."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The observed pattern calls for examining role-based inconsistency in rule application.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_management"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-040",
+    "prompt": "Select the strongest professional response in this situation.\n\nA reward scheme produced quick compliance in its first week. In week three, pupils ask what they will receive before following routine expectations. Which reflection is most useful?\n\nA. I should review whether the scheme is building a routine beyond earning rewards.\nB. I should increase the reward value because the original incentive has worn off.\nC. I should keep the scheme unchanged because the first week proved its success.\nD. I should stop acknowledging routine behaviour because rewards always create dependence.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "behaviour reinforcement",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I should review whether the scheme is building a routine beyond earning rewards."
+        },
+        {
+          "id": "B",
+          "label": "I should increase the reward value because the original incentive has worn off."
+        },
+        {
+          "id": "C",
+          "label": "I should keep the scheme unchanged because the first week proved its success."
+        },
+        {
+          "id": "D",
+          "label": "I should stop acknowledging routine behaviour because rewards always create dependence."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "The response evaluates maintenance and dependence without assuming either that all rewards fail or that early compliance proves lasting success.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "behaviour_reinforcement"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-041",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou moved a frequently disruptive pupil nearer your desk. Interruptions fell there but increased during shared-material collection. What is the best interpretation?\n\nA. The seat move has solved the problem because it works during desk tasks.\nB. The pupil is choosing when to cooperate, so a stronger consequence is needed.\nC. The response helped one setting; collection needs its own pattern review.\nD. The seat move should be reversed because disruption still occurs elsewhere.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "repeated behaviour response",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The seat move has solved the problem because it works during desk tasks."
+        },
+        {
+          "id": "B",
+          "label": "The pupil is choosing when to cooperate, so a stronger consequence is needed."
+        },
+        {
+          "id": "C",
+          "label": "The response helped one setting; collection needs its own pattern review."
+        },
+        {
+          "id": "D",
+          "label": "The seat move should be reversed because disruption still occurs elsewhere."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Behaviour change in one context does not establish transfer to another routine.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-042",
+    "prompt": "Select the strongest professional response in this situation.\n\nA visiting teacher observes that you repeat the stop signal several times while continuing to distribute materials. Pupils usually respond only to the final signal. Which reflection is strongest?\n\nA. The signal is probably too quiet for pupils who are handling materials.\nB. The class needs an extra signal specifically for distribution periods.\nC. The final response shows that repeating the signal is an effective routine.\nD. My follow-through may be teaching pupils that early signals can be ignored.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "classroom leadership",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The signal is probably too quiet for pupils who are handling materials."
+        },
+        {
+          "id": "B",
+          "label": "The class needs an extra signal specifically for distribution periods."
+        },
+        {
+          "id": "C",
+          "label": "The final response shows that repeating the signal is an effective routine."
+        },
+        {
+          "id": "D",
+          "label": "My follow-through may be teaching pupils that early signals can be ignored."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Continuing activity through repeated signals can establish delayed response as the actual routine.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-043",
+    "prompt": "Select the strongest professional response in this situation.\n\nPupils helped create a tidy-up agreement, but no one can explain who checks that shared resources are returned. Which reflection best guides the next change?\n\nA. The agreement needs a clear responsibility pupils can carry out.\nB. Pupil involvement should be replaced by teacher checks of every resource.\nC. The agreement needs more signatures to strengthen pupil commitment.\nD. Resources should stay with one group to avoid shared responsibility.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner participation",
+    "evidenceType": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The agreement needs a clear responsibility pupils can carry out."
+        },
+        {
+          "id": "B",
+          "label": "Pupil involvement should be replaced by teacher checks of every resource."
+        },
+        {
+          "id": "C",
+          "label": "The agreement needs more signatures to strengthen pupil commitment."
+        },
+        {
+          "id": "D",
+          "label": "Resources should stay with one group to avoid shared responsibility."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Participation needs operational responsibility to translate agreement into reliable behaviour.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-044",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou ended a public argument by allowing a short settling period. The lesson resumed, but you never returned to the original behaviour with the pupil. What should your reflection prioritise?\n\nA. The return to quiet means that the original issue no longer needs attention.\nB. A calmer immediate response still needs a later accountability step.\nC. The settling period should be removed because it prevented a consequence.\nD. The next minor incident should receive a stronger response to compensate.",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "de-escalation",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The return to quiet means that the original issue no longer needs attention."
+        },
+        {
+          "id": "B",
+          "label": "A calmer immediate response still needs a later accountability step."
+        },
+        {
+          "id": "C",
+          "label": "The settling period should be removed because it prevented a consequence."
+        },
+        {
+          "id": "D",
+          "label": "The next minor incident should receive a stronger response to compensate."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "De-escalation and later follow-through serve different purposes; restoring calm does not complete the behaviour response.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "de_escalation"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-045",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of establishing a usable routine for distributing shared classroom materials?\n\nA. An account of the distribution routine I intended to introduce.\nB. That account plus an example of introducing the routine to pupils.\nC. Those examples plus an observation of pupils rehearsing the routine.\nD. Those examples plus observations of the routine working on later occasions.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "routines and procedures",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account of the distribution routine I intended to introduce."
+        },
+        {
+          "id": "B",
+          "label": "That account plus an example of introducing the routine to pupils."
+        },
+        {
+          "id": "C",
+          "label": "Those examples plus an observation of pupils rehearsing the routine."
+        },
+        {
+          "id": "D",
+          "label": "Those examples plus observations of the routine working on later occasions."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels progress from intention to introduction, rehearsal and observed use over time.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-046",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of improving a transition that regularly lost learning time?\n\nA. An account identifying the transition I wanted to improve.\nB. That account plus an observation locating where time was lost.\nC. Those observations plus an example of practising a targeted routine change.\nD. Those examples plus comparable before-and-after observations of the transition.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "transitions",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account identifying the transition I wanted to improve."
+        },
+        {
+          "id": "B",
+          "label": "That account plus an observation locating where time was lost."
+        },
+        {
+          "id": "C",
+          "label": "Those observations plus an example of practising a targeted routine change."
+        },
+        {
+          "id": "D",
+          "label": "Those examples plus comparable before-and-after observations of the transition."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Stronger evidence connects a specific transition problem to a practised change and a check of its effect.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_routines"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-047",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of teaching an alternative to a recurring disruptive behaviour?\n\nA. An account naming the disruptive behaviour I wanted to reduce.\nB. That account plus a specific replacement behaviour I selected.\nC. Those details plus an example of teaching and rehearsing the replacement.\nD. Those examples plus later observations tracking use of the replacement.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "positive behaviour support",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account naming the disruptive behaviour I wanted to reduce."
+        },
+        {
+          "id": "B",
+          "label": "That account plus a specific replacement behaviour I selected."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus an example of teaching and rehearsing the replacement."
+        },
+        {
+          "id": "D",
+          "label": "Those examples plus later observations tracking use of the replacement."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The progression distinguishes identifying a problem, selecting an alternative, teaching it and monitoring its use.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-048",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of following through on repair after disruption to shared classroom work?\n\nA. An account of the disruption that needed to be put right.\nB. That account plus a proposed repair linked to the disruption.\nC. Those details plus an agreed repair action and responsibility for it.\nD. Those details plus an observation confirming whether the agreed repair was completed.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "restorative practice",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account of the disruption that needed to be put right."
+        },
+        {
+          "id": "B",
+          "label": "That account plus a proposed repair linked to the disruption."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus an agreed repair action and responsibility for it."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus an observation confirming whether the agreed repair was completed."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels move from recognition to a relevant proposal, an actionable agreement and verified follow-through within the reported account.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "restorative_practice"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-049",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of pupils helping establish a workable classroom norm?\n\nA. An account of a classroom norm I wanted pupils to help develop.\nB. That account plus examples of pupils proposing ways to follow it.\nC. Those examples plus an agreed procedure incorporating workable pupil suggestions.\nD. Those examples plus observations from trying and reviewing the procedure with pupils.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "learner participation",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account of a classroom norm I wanted pupils to help develop."
+        },
+        {
+          "id": "B",
+          "label": "That account plus examples of pupils proposing ways to follow it."
+        },
+        {
+          "id": "C",
+          "label": "Those examples plus an agreed procedure incorporating workable pupil suggestions."
+        },
+        {
+          "id": "D",
+          "label": "Those examples plus observations from trying and reviewing the procedure with pupils."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Stronger evidence shows contributions influencing an implemented procedure and its review, rather than consultation alone.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "classroom_leadership"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "CB-050",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of reviewing a response to repeated classroom disruption?\n\nA. An account identifying a repeated disruptive behaviour.\nB. That account plus observations of the circumstances in which it recurred.\nC. Those observations plus a targeted response tried against a defined behaviour goal.\nD. Those details plus follow-up observations used to decide whether to retain or revise the response.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Classroom Leadership & Behaviour Design",
+    "subcompetency": "repeated behaviour response",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account identifying a repeated disruptive behaviour."
+        },
+        {
+          "id": "B",
+          "label": "That account plus observations of the circumstances in which it recurred."
+        },
+        {
+          "id": "C",
+          "label": "Those observations plus a targeted response tried against a defined behaviour goal."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus follow-up observations used to decide whether to retain or revise the response."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels connect a recurring pattern to a targeted response and an evidence-informed review; self-report does not independently verify practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "positive_behaviour_support"
+    ],
+    "version": "synthetic-cb-0.1",
+    "isActive": false
+  }
+]

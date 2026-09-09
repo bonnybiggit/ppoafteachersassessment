@@ -1,3 +1,5 @@
+import { connection } from 'mongoose'
+import { assembleAssessment, DEFAULT_ASSESSMENT_LENGTH, MVP_ASSESSMENT_VERSION } from './assessmentAssembly'
 import { AssessmentAttempt, type AssessmentAttemptDocument } from '../models/AssessmentAttempt'
 import { AssessmentItem } from '../models/AssessmentItem'
 import { AssessmentResponse, type AssessmentResponseDocument } from '../models/AssessmentResponse'
@@ -39,9 +41,10 @@ function safeAttempt(attempt: AssessmentAttemptDocument) {
   return {
     id: attempt._id.toString(),
     teacherId: attempt.teacherId.toString(),
-    status: attempt.status,
+    status: attempt.status === 'completed' ? 'submitted' : attempt.status,
     startedAt: attempt.startedAt,
     completedAt: attempt.completedAt,
+    submittedAt: attempt.completedAt,
     currentItemIndex: attempt.currentItemIndex,
     totalItems: attempt.totalItems,
     assessmentVersion: attempt.assessmentVersion,
@@ -70,62 +73,101 @@ async function ownedAttempt(teacherId: string, attemptId: unknown) {
   return attempt
 }
 
-export async function startAttempt(teacherId: string, body: unknown) {
-  const input = inputObject(body, ['assessmentVersion', 'totalItems', 'selectedItemIds', 'consentConfirmed', 'currentItemIndex'])
-  if (typeof input.assessmentVersion !== 'string' || !input.assessmentVersion.trim()) {
-    throw new AssessmentError(400, 'assessmentVersion is required.')
-  }
+// Fetch only delivery fields and explicitly copy public option properties.
+async function questionsForAttempt(attempt: AssessmentAttemptDocument) {
+  const items = await AssessmentItem.find({ _id: { $in: attempt.selectedItemIds } })
+    .select('_id itemId prompt primaryDomain subcompetency evidenceType responseKey.options').lean()
+  const byId = new Map(items.map(item => [item._id.toString(), item]))
+  return attempt.selectedItemIds.map((id, index) => {
+    const item = byId.get(id.toString())
+    if (!item) throw new AssessmentError(409, 'An assigned question is unavailable. Please contact assessment support.')
+    const key = item.responseKey as { options?: unknown } | undefined
+    const options = Array.isArray(key?.options) ? key.options.flatMap((option: unknown) => {
+      if (!option || typeof option !== 'object') return []
+      const value = option as Record<string, unknown>
+      return typeof value.id === 'string' && typeof value.label === 'string'
+        ? [{ id: value.id, label: value.label }] : []
+    }) : []
+    return {
+      // ObjectId matches the existing save-response contract; bank ID is separate.
+      itemId: id.toString(),
+      bankItemId: item.itemId,
+      prompt: item.prompt,
+      domain: item.primaryDomain,
+      subcompetency: item.subcompetency,
+      evidenceType: item.evidenceType,
+      options,
+      questionOrder: index + 1,
+    }
+  })
+}
+
+async function deliveredAttempt(attempt: AssessmentAttemptDocument) {
+  return { ...safeAttempt(attempt), questions: await questionsForAttempt(attempt) }
+}
+
+export async function startAttempt(teacherId: string, body: unknown, questionCount = DEFAULT_ASSESSMENT_LENGTH) {
+  const input = inputObject(body, ['consentConfirmed'])
   if (input.consentConfirmed !== true) {
     throw new AssessmentError(400, 'Consent must be confirmed before starting an assessment.')
   }
-  if (typeof input.totalItems !== 'number' || !Number.isSafeInteger(input.totalItems) || input.totalItems < 0) {
-    throw new AssessmentError(400, 'totalItems must be a nonnegative integer.')
-  }
-  if (input.currentItemIndex !== undefined && input.currentItemIndex !== 0) {
-    throw new AssessmentError(400, 'currentItemIndex must start at 0.')
-  }
-  if (!Array.isArray(input.selectedItemIds)) {
-    throw new AssessmentError(400, 'selectedItemIds must be an array of ObjectIds.')
-  }
-  const selectedItemIds = input.selectedItemIds.map(value => objectId(value, 'selectedItemIds'))
-  if (new Set(selectedItemIds).size !== selectedItemIds.length || input.totalItems !== selectedItemIds.length) {
-    throw new AssessmentError(400, 'selectedItemIds must be unique and match totalItems.')
-  }
-  if (await AssessmentAttempt.exists({ teacherId, status: 'in_progress' })) {
-    throw new AssessmentError(409, 'An assessment attempt is already in progress.')
-  }
-  if (selectedItemIds.length > 0) {
-    const count = await AssessmentItem.countDocuments({ _id: { $in: selectedItemIds }, isActive: true })
-    if (count !== selectedItemIds.length) {
-      throw new AssessmentError(400, 'Selected items must exist and be active.')
-    }
+  const existing = await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
+  if (existing) return deliveredAttempt(existing)
+  const candidates = await AssessmentItem.find({ isActive: true })
+    .select('_id itemId primaryDomain isActive').lean()
+  const selected = assembleAssessment(candidates, questionCount)
+  if (selected.length !== questionCount) {
+    throw new AssessmentError(409, 'Insufficient active assessment questions for the configured assessment length.')
   }
   try {
     const attempt = await AssessmentAttempt.create({
       teacherId,
-      assessmentVersion: input.assessmentVersion.trim(),
-      totalItems: input.totalItems,
-      selectedItemIds,
+      assessmentVersion: MVP_ASSESSMENT_VERSION,
+      totalItems: selected.length,
+      selectedItemIds: selected.map(item => item._id),
       consentConfirmed: true,
       status: 'in_progress',
       startedAt: new Date(),
       currentItemIndex: 0,
     })
-    return safeAttempt(attempt)
+    return await deliveredAttempt(attempt)
   } catch (error) {
-    if (duplicateKey(error)) throw new AssessmentError(409, 'An assessment attempt is already in progress.')
+    if (duplicateKey(error)) {
+      const concurrent = await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
+      if (concurrent) return deliveredAttempt(concurrent)
+      throw new AssessmentError(409, 'Assessment state changed. Please retry starting.')
+    }
     throw error
   }
+}
+
+export async function getQuestions(teacherId: string, attemptId?: unknown) {
+  const attempt = attemptId === undefined
+    ? await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
+    : await ownedAttempt(teacherId, attemptId)
+  if (!attempt) throw new AssessmentError(404, 'Assessment attempt not found.')
+  return { attemptId: attempt._id.toString(), questions: await questionsForAttempt(attempt) }
+}
+
+export async function submitAttempt(teacherId: string, attemptId: unknown) {
+  const owned = await ownedAttempt(teacherId, attemptId)
+  const attempt = await AssessmentAttempt.findOneAndUpdate(
+    { _id: owned._id, teacherId, status: 'in_progress' },
+    { $set: { status: 'completed', completedAt: new Date() }, $inc: { __v: 1 } },
+    { new: true, runValidators: true },
+  )
+  if (!attempt) throw new AssessmentError(409, 'Assessment attempt is not in progress.')
+  return safeAttempt(attempt)
 }
 
 export async function getCurrentAttempt(teacherId: string) {
   const attempt = await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
   if (!attempt) throw new AssessmentError(404, 'Assessment attempt not found.')
-  return safeAttempt(attempt)
+  return deliveredAttempt(attempt)
 }
 
 export async function getAttempt(teacherId: string, attemptId: unknown) {
-  return safeAttempt(await ownedAttempt(teacherId, attemptId))
+  return deliveredAttempt(await ownedAttempt(teacherId, attemptId))
 }
 
 export async function saveResponse(teacherId: string, attemptId: unknown, body: unknown) {
@@ -153,18 +195,29 @@ export async function saveResponse(teacherId: string, attemptId: unknown, body: 
     answeredAt = new Date(input.answeredAt)
     if (!Number.isFinite(answeredAt.getTime())) throw new AssessmentError(400, 'answeredAt is invalid.')
   }
-  if (!(await AssessmentItem.exists({ _id: itemId, isActive: true }))) {
+  if (!(await AssessmentItem.exists({ _id: itemId }))) {
     throw new AssessmentError(400, 'Assessment item is unavailable.')
   }
   try {
-    const response = await AssessmentResponse.create({
-      teacherId,
-      attemptId: attempt._id,
-      itemId,
-      selectedResponse: input.selectedResponse,
-      responseValue: input.responseValue,
-      responseDurationMs: input.responseDuration,
-      answeredAt,
+    // Parent write serializes answer creation against submission across servers.
+    // The transaction rolls back progress as well as the answer on failure.
+    const response = await connection.transaction(async session => {
+      const locked = await AssessmentAttempt.findOneAndUpdate(
+        { _id: attempt._id, teacherId, status: 'in_progress', selectedItemIds: itemId },
+        { $inc: { __v: 1, currentItemIndex: 1 } },
+        { session, new: true },
+      )
+      if (!locked) throw new AssessmentError(409, 'Assessment attempt is not in progress.')
+      const [saved] = await AssessmentResponse.create([{
+        teacherId,
+        attemptId: attempt._id,
+        itemId,
+        selectedResponse: input.selectedResponse,
+        responseValue: input.responseValue,
+        responseDurationMs: input.responseDuration,
+        answeredAt,
+      }], { session })
+      return saved
     })
     return safeResponse(response)
   } catch (error) {

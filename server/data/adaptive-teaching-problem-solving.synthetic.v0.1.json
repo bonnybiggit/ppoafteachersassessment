@@ -1,0 +1,2572 @@
+[
+  {
+    "itemId": "AP-001",
+    "prompt": "Select the strongest professional response in this situation.\n\nSeveral Primary 3 pupils answer addition calculations correctly but miss word problems using the same numbers. You have not yet seen how they approach the text. What should you check first?\n\nA. Whether extra practice with the same addition calculations improves their speed.\nB. Where their attempts break down as they interpret one of the word problems.\nC. Whether they obtain higher scores when all word problems are removed.\nD. How their total mathematics marks compare with those of the rest of the class.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "learning-barrier diagnosis",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "lower_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether extra practice with the same addition calculations improves their speed."
+        },
+        {
+          "id": "B",
+          "label": "Where their attempts break down as they interpret one of the word problems."
+        },
+        {
+          "id": "C",
+          "label": "Whether they obtain higher scores when all word problems are removed."
+        },
+        {
+          "id": "D",
+          "label": "How their total mathematics marks compare with those of the rest of the class."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Observing the approach helps distinguish interpreting the problem, selecting an operation and calculating before an adaptation is selected.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-002",
+    "prompt": "Select the strongest professional response in this situation.\n\nPupils can make equal groups with counters but repeatedly miswrite the corresponding multiplication sentence. What is the most targeted next adaptation?\n\nA. Increase the number of counters so pupils work with larger quantities.\nB. Restart equal-group work without including any written number sentences.\nC. Provide a page of multiplication sentences for pupils to copy accurately.\nD. Bridge one modelled group arrangement to its symbols, then test another.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "adaptive instruction",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Increase the number of counters so pupils work with larger quantities."
+        },
+        {
+          "id": "B",
+          "label": "Restart equal-group work without including any written number sentences."
+        },
+        {
+          "id": "C",
+          "label": "Provide a page of multiplication sentences for pupils to copy accurately."
+        },
+        {
+          "id": "D",
+          "label": "Bridge one modelled group arrangement to its symbols, then test another."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The observed gap is between the concrete arrangement and its symbolic representation; a targeted bridge followed by a fresh check tests that gap.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "instructional_adaptation"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-003",
+    "prompt": "Select the strongest professional response in this situation.\n\nAn assembly leaves only fifteen minutes of a planned lesson. A quick check shows most pupils still cannot perform the prerequisite skill needed for the new task. What should you prioritise?\n\nA. Address the prerequisite and use a brief check before rescheduling the new task.\nB. Present the new task quickly so pupils have seen it before the next lesson.\nC. Assign the new task as homework and review the prerequisite tomorrow.\nD. Divide the time equally between every remaining part of the original lesson.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "responsive decision-making",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Address the prerequisite and use a brief check before rescheduling the new task."
+        },
+        {
+          "id": "B",
+          "label": "Present the new task quickly so pupils have seen it before the next lesson."
+        },
+        {
+          "id": "C",
+          "label": "Assign the new task as homework and review the prerequisite tomorrow."
+        },
+        {
+          "id": "D",
+          "label": "Divide the time equally between every remaining part of the original lesson."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "The prerequisite is the immediate barrier to the next task; the shortened period should address it and establish readiness.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-004",
+    "prompt": "Select the strongest professional response in this situation.\n\nOn arrival, you find that most rulers needed for a length-comparison task are broken. The goal is to compare lengths, not read centimetres. Which adaptation best preserves that goal?\n\nA. Use the time to copy centimetre markings from the board into exercise books.\nB. Postpone all length work until enough replacement rulers are available.\nC. Use equal paper strips as units and check pupils compare consistently.\nD. Ask pupils to estimate each length by eye and record their guesses.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "resource-constrained problem solving",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Use the time to copy centimetre markings from the board into exercise books."
+        },
+        {
+          "id": "B",
+          "label": "Postpone all length work until enough replacement rulers are available."
+        },
+        {
+          "id": "C",
+          "label": "Use equal paper strips as units and check pupils compare consistently."
+        },
+        {
+          "id": "D",
+          "label": "Ask pupils to estimate each length by eye and record their guesses."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Equal improvised units preserve meaningful comparison and allow the teacher to check the intended learning despite missing tools.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-005",
+    "prompt": "Select the strongest professional response in this situation.\n\nDuring Primary 5 fraction work, one group adds denominators while another cannot recognise equivalent fractions. What should guide your immediate support?\n\nA. Address each group's observed error with a short targeted task.\nB. Reteach the whole topic from the beginning to both groups together.\nC. Give both groups more questions from the exercise they just attempted.\nD. Place one high-scoring pupil in each group to demonstrate every answer.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "evidence-informed adaptation",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [
+      "upper_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Address each group's observed error with a short targeted task."
+        },
+        {
+          "id": "B",
+          "label": "Reteach the whole topic from the beginning to both groups together."
+        },
+        {
+          "id": "C",
+          "label": "Give both groups more questions from the exercise they just attempted."
+        },
+        {
+          "id": "D",
+          "label": "Place one high-scoring pupil in each group to demonstrate every answer."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Distinct error patterns call for targeted support rather than treating all incorrect answers as the same learning problem.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-006",
+    "prompt": "Select the strongest professional response in this situation.\n\nHalfway through a matching exercise, many pupils have connected each label to the picture immediately beside it, including clearly wrong matches. What is the best first investigation?\n\nA. Check whether the pupils can copy each label with accurate spelling.\nB. Compare their final scores with marks from last week's vocabulary test.\nC. Ask pupils to memorise the labels again before repeating the worksheet.\nD. Check whether the page layout led pupils to assume adjacent pairs.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem identification",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Check whether the pupils can copy each label with accurate spelling."
+        },
+        {
+          "id": "B",
+          "label": "Compare their final scores with marks from last week's vocabulary test."
+        },
+        {
+          "id": "C",
+          "label": "Ask pupils to memorise the labels again before repeating the worksheet."
+        },
+        {
+          "id": "D",
+          "label": "Check whether the page layout led pupils to assume adjacent pairs."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "A systematic positional error suggests a task-format problem that should be checked before assuming a content deficit.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-007",
+    "prompt": "Select the strongest professional response in this situation.\n\nConstruction noise makes a planned sound-identification activity unusable for the next twenty minutes. Another task on the timetable does not depend on hearing fine sound differences. What is the best adjustment?\n\nA. Continue the sound activity while repeating every example more loudly.\nB. Swap the activities and check sound conditions before returning to it.\nC. Cancel the sound objective and use written spelling for the remaining week.\nD. Ask pupils to guess the sounds they miss so the original timing is kept.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "flexible teaching",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Continue the sound activity while repeating every example more loudly."
+        },
+        {
+          "id": "B",
+          "label": "Swap the activities and check sound conditions before returning to it."
+        },
+        {
+          "id": "C",
+          "label": "Cancel the sound objective and use written spelling for the remaining week."
+        },
+        {
+          "id": "D",
+          "label": "Ask pupils to guess the sounds they miss so the original timing is kept."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Changing the sequence preserves the objective while accommodating a temporary condition that prevents meaningful practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-008",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter one unusually low class quiz result, you suspect the new teaching approach has failed. The quiz also used an unfamiliar answer format. What should you do next?\n\nA. Abandon the new approach and return immediately to the previous method.\nB. Keep the approach unchanged because one result is never useful evidence.\nC. Check the same learning briefly using a familiar response format.\nD. Average the result with an earlier quiz to decide whether to reteach.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "decision-making under uncertainty",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Abandon the new approach and return immediately to the previous method."
+        },
+        {
+          "id": "B",
+          "label": "Keep the approach unchanged because one result is never useful evidence."
+        },
+        {
+          "id": "C",
+          "label": "Check the same learning briefly using a familiar response format."
+        },
+        {
+          "id": "D",
+          "label": "Average the result with an earlier quiz to decide whether to reteach."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "A familiar-format check helps separate a learning difficulty from a response-format effect before a larger decision.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-009",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter guided practice, some pupils now solve a task independently while others still need prompts at the same step. What is the best next adjustment?\n\nA. Keep all pupils on the same prompts until everyone finishes at once.\nB. Remove prompts for everyone so that independence can develop quickly.\nC. Move on to a new objective because most pupils have improved.\nD. Fade prompts for secure pupils and retain targeted help for the others.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "continuous adjustment",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep all pupils on the same prompts until everyone finishes at once."
+        },
+        {
+          "id": "B",
+          "label": "Remove prompts for everyone so that independence can develop quickly."
+        },
+        {
+          "id": "C",
+          "label": "Move on to a new objective because most pupils have improved."
+        },
+        {
+          "id": "D",
+          "label": "Fade prompts for secure pupils and retain targeted help for the others."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Support should change with current evidence of independence rather than follow a single timetable for the whole class.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-010",
+    "prompt": "Select the strongest professional response in this situation.\n\nA review shows pupils can draw a bar chart neatly but most choose inconsistent scale intervals. There is time to address one issue before their next chart. What should you prioritise?\n\nA. Test and address their use of equal scale intervals.\nB. Improve the neatness of axis labels across the class.\nC. Introduce a second chart type for a wider comparison.\nD. Increase the amount of data pupils include in each chart.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem prioritisation",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "upper_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Test and address their use of equal scale intervals."
+        },
+        {
+          "id": "B",
+          "label": "Improve the neatness of axis labels across the class."
+        },
+        {
+          "id": "C",
+          "label": "Introduce a second chart type for a wider comparison."
+        },
+        {
+          "id": "D",
+          "label": "Increase the amount of data pupils include in each chart."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Equal intervals affect whether the chart represents quantities meaningfully and are the demonstrated barrier.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving",
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-011",
+    "prompt": "Select the strongest professional response in this situation.\n\nPupils can sort actual objects by material but struggle when the task uses tiny printed pictures. Which alternative should you try first to test a likely barrier?\n\nA. Reduce the number of material categories for every subsequent task.\nB. Provide the correct categories beside each picture for pupils to copy.\nC. Use larger clear pictures of the same objects and compare their sorting.\nD. Repeat the printed task after pupils recite the names of the materials.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "solution generation",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Reduce the number of material categories for every subsequent task."
+        },
+        {
+          "id": "B",
+          "label": "Provide the correct categories beside each picture for pupils to copy."
+        },
+        {
+          "id": "C",
+          "label": "Use larger clear pictures of the same objects and compare their sorting."
+        },
+        {
+          "id": "D",
+          "label": "Repeat the printed task after pupils recite the names of the materials."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Changing image accessibility while retaining the sorting demand tests whether the representation is causing difficulty.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "problem_solving",
+      "instructional_adaptation"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-012",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou think a place-value grid may reduce digit-alignment errors. A small group has already practised similar calculations without one. Which next step gives the most useful classroom check?\n\nA. Use the grid on much easier calculations so pupils experience success.\nB. Try comparable calculations with the grid and inspect alignment errors.\nC. Ask pupils whether they prefer the appearance of the grid worksheet.\nD. Introduce the grid alongside three other changes and compare total marks.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "testing alternatives",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Use the grid on much easier calculations so pupils experience success."
+        },
+        {
+          "id": "B",
+          "label": "Try comparable calculations with the grid and inspect alignment errors."
+        },
+        {
+          "id": "C",
+          "label": "Ask pupils whether they prefer the appearance of the grid worksheet."
+        },
+        {
+          "id": "D",
+          "label": "Introduce the grid alongside three other changes and compare total marks."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Comparable demand and a targeted error check provide useful evidence about the proposed adaptation, though not a controlled causal estimate.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-013",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou introduce an outline to help pupils organise a short recount. Their work becomes longer, but you need to know whether sequencing improved. What should you examine?\n\nA. Whether pupils used more lines than they did before the outline.\nB. Whether pupils say the outline made the writing session enjoyable.\nC. Whether every space in the outline contains some written text.\nD. Whether events follow a clearer order in comparable writing samples.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "monitoring adaptation",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether pupils used more lines than they did before the outline."
+        },
+        {
+          "id": "B",
+          "label": "Whether pupils say the outline made the writing session enjoyable."
+        },
+        {
+          "id": "C",
+          "label": "Whether every space in the outline contains some written text."
+        },
+        {
+          "id": "D",
+          "label": "Whether events follow a clearer order in comparable writing samples."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The review should measure the targeted sequencing problem rather than volume, preference or completion alone.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-014",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil continues to confuse familiar printed symbols across several tasks despite documented trials of spacing, size and practice adjustments. What is the strongest next step?\n\nA. Seek school learning-support guidance using the trial records while maintaining access.\nB. Repeat the same practice programme for another term before seeking advice.\nC. Conclude that the pupil has a specific disorder and design support around it.\nD. Remove printed work entirely until the pupil can complete it without help.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "escalation/referral awareness",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Seek school learning-support guidance using the trial records while maintaining access."
+        },
+        {
+          "id": "B",
+          "label": "Repeat the same practice programme for another term before seeking advice."
+        },
+        {
+          "id": "C",
+          "label": "Conclude that the pupil has a specific disorder and design support around it."
+        },
+        {
+          "id": "D",
+          "label": "Remove printed work entirely until the pupil can complete it without help."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Persistent difficulty after reviewed trials warrants further educational guidance, supported by observations rather than a teacher-assigned diagnosis.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-015",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter a week of school closure, a brief retrieval task shows that pupils have forgotten a key step needed for today's activity. What is the best response?\n\nA. Follow the original sequence because the step was taught before closure.\nB. Restart the entire previous unit so that all content is covered again.\nC. Revisit the missing step briefly, then check readiness for today's activity.\nD. Give the activity only to pupils who remembered the step immediately.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "responsive decision-making",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Follow the original sequence because the step was taught before closure."
+        },
+        {
+          "id": "B",
+          "label": "Restart the entire previous unit so that all content is covered again."
+        },
+        {
+          "id": "C",
+          "label": "Revisit the missing step briefly, then check readiness for today's activity."
+        },
+        {
+          "id": "D",
+          "label": "Give the activity only to pupils who remembered the step immediately."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "A focused recovery and readiness check respond to the actual learning gap without assuming that the whole unit must be repeated.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-016",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou have one usable map for a class of 54. An initial attempt shows pupils at the back cannot see the symbols needed for the task. Which adjustment best addresses access while preserving the map-reading goal?\n\nA. Continue from the front and ask back-row pupils to listen to others' answers.\nB. Rotate small groups through close map work while others do a familiar task.\nC. Replace map reading with copying a list of geographical terms for everyone.\nD. Ask pupils who can see the map to complete the exercise for each row.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "resource-constrained problem solving",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "large_class",
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Continue from the front and ask back-row pupils to listen to others' answers."
+        },
+        {
+          "id": "B",
+          "label": "Rotate small groups through close map work while others do a familiar task."
+        },
+        {
+          "id": "C",
+          "label": "Replace map reading with copying a list of geographical terms for everyone."
+        },
+        {
+          "id": "D",
+          "label": "Ask pupils who can see the map to complete the exercise for each row."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Rotation gives every pupil access to the necessary visual information while making practical use of one resource.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-017",
+    "prompt": "Select the strongest professional response in this situation.\n\nPupils repeatedly say a heavier object must always be larger. You want to know whether they are guessing from appearance or misreading the balance. What is the best next check?\n\nA. Compare their predictions with their readings for contrasting object pairs.\nB. Give more objects of increasing size and ask pupils to order them visually.\nC. Ask pupils to copy the definitions of mass and size before continuing.\nD. Show the correct ranking and repeat it until pupils can recall the order.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "learning-barrier diagnosis",
+    "evidenceType": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Compare their predictions with their readings for contrasting object pairs."
+        },
+        {
+          "id": "B",
+          "label": "Give more objects of increasing size and ask pupils to order them visually."
+        },
+        {
+          "id": "C",
+          "label": "Ask pupils to copy the definitions of mass and size before continuing."
+        },
+        {
+          "id": "D",
+          "label": "Show the correct ranking and repeat it until pupils can recall the order."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Comparing predictions and instrument readings helps locate whether the difficulty is the prior assumption or interpreting the evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-018",
+    "prompt": "Select the strongest professional response in this situation.\n\nA temporary hand injury prevents a pupil from drawing shapes accurately. Today's objective is recognising shape properties, not drawing skill. What is the most appropriate adaptation?\n\nA. Reduce the number of shapes the pupil must draw using the injured hand.\nB. Give the pupil full marks based on successful work from the previous week.\nC. Postpone all shape work until the pupil can draw with usual accuracy.\nD. Let the pupil select shapes and indicate properties using ready-made cards.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "adaptive instruction",
+    "evidenceType": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Reduce the number of shapes the pupil must draw using the injured hand."
+        },
+        {
+          "id": "B",
+          "label": "Give the pupil full marks based on successful work from the previous week."
+        },
+        {
+          "id": "C",
+          "label": "Postpone all shape work until the pupil can draw with usual accuracy."
+        },
+        {
+          "id": "D",
+          "label": "Let the pupil select shapes and indicate properties using ready-made cards."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Changing the response mode preserves evidence of the intended concept without making drawing ability the barrier.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "instructional_adaptation"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-019",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen several pupils made the same unexpected error, I inspected their attempts to locate the point of difficulty before reteaching.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem identification",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Examining attempts locates the problem more precisely than treating a low score as a diagnosis.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-020",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen I suspected a task format was blocking learning, I checked the same learning demand in a different format.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "learning-barrier diagnosis",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Holding the learning demand steady while changing format helps investigate an access barrier.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-021",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nBefore trying an instructional change, I specified an observable sign that would indicate improvement.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "monitoring adaptation",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "An explicit success indicator makes the later review more informative.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-022",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nI kept an unsuccessful teaching adjustment unchanged because I had already spent time preparing it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "reflective problem solving",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Investment in preparation is not evidence of effectiveness; frequency is reverse ordered.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "reflective_practice"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-023",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nI selected additional practice to address the particular errors visible in pupils' work.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "evidence-informed adaptation",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Targeting the observed error connects instructional adjustment to learner evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-024",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen comparing a new support with my previous approach, I checked tasks of similar difficulty.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "testing alternatives",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Comparable task demand reduces an avoidable source of misleading improvement claims.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-025",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen pupils demonstrated independent success, I reduced the support they no longer needed.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "continuous adjustment",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Fading support in response to independent performance keeps assistance proportionate.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-026",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nI treated higher task completion after an adaptation as proof of better understanding without checking accuracy or reasoning.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "decision-making under uncertainty",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": true,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Completion alone does not establish learning; less frequent unsupported inference represents stronger practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-027",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a planned resource was unavailable, I selected an alternative that preserved the learning goal.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "resource-constrained problem solving",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Adaptation under constraint should retain the learning demand rather than merely fill the available time.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-028",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen lesson time was unexpectedly reduced, I used evidence of the main learning obstacle to decide what to retain.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem prioritisation",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Prioritisation is tied to the immediate learning need rather than equal compression of every activity.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving",
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-029",
+    "prompt": "Think about the last four teaching weeks. On relevant occasions, how often did you do the following? Choose NA if you cannot judge.\n\nWhen a learning difficulty persisted across reviewed adjustments, I used records of those trials to seek additional school support.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity or insufficient observation",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "escalation/referral awareness",
+    "evidenceType": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Records support a more informed next decision when classroom trials have not resolved the difficulty.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-030",
+    "prompt": "Select the strongest professional response in this situation.\n\nA pupil answers correctly when allowed to point to a diagram but labels its parts incorrectly in writing. Which check best separates understanding of the parts from difficulty recalling their written names?\n\nA. Ask the pupil to redraw the diagram twice without using any labels.\nB. Offer printed labels to match to the parts of a fresh diagram.\nC. Compare the pupil's handwriting speed with the class average.\nD. Reteach the function of every part before checking the labels again.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "learning-barrier diagnosis",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask the pupil to redraw the diagram twice without using any labels."
+        },
+        {
+          "id": "B",
+          "label": "Offer printed labels to match to the parts of a fresh diagram."
+        },
+        {
+          "id": "C",
+          "label": "Compare the pupil's handwriting speed with the class average."
+        },
+        {
+          "id": "D",
+          "label": "Reteach the function of every part before checking the labels again."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Matching ready-made labels reduces the written-recall demand while retaining identification of the parts.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-031",
+    "prompt": "Select the strongest professional response in this situation.\n\nAfter an adaptation, which comparison best supports a judgement about improvement in independent subtraction?\n\nA. The new supported worksheet against an earlier unaided class test.\nB. The number of completed questions against the number attempted last term.\nC. Similar unaided calculations before and after, including the error pattern.\nD. Pupils' enjoyment ratings before and after the new activity was introduced.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "evidence-informed adaptation",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The new supported worksheet against an earlier unaided class test."
+        },
+        {
+          "id": "B",
+          "label": "The number of completed questions against the number attempted last term."
+        },
+        {
+          "id": "C",
+          "label": "Similar unaided calculations before and after, including the error pattern."
+        },
+        {
+          "id": "D",
+          "label": "Pupils' enjoyment ratings before and after the new activity was introduced."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Comparable independent work and error patterns are more directly relevant to the stated learning outcome.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-032",
+    "prompt": "Select the strongest professional response in this situation.\n\nTwo pupils make identical wrong answers on one division question. Which conclusion is best supported?\n\nA. Their methods need checking before assuming they have the same difficulty.\nB. They should receive the same support because their final answers match.\nC. They both lack multiplication knowledge and need the same facts practice.\nD. The question should be removed because identical errors suggest faulty wording.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "decision-making under uncertainty",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Their methods need checking before assuming they have the same difficulty."
+        },
+        {
+          "id": "B",
+          "label": "They should receive the same support because their final answers match."
+        },
+        {
+          "id": "C",
+          "label": "They both lack multiplication knowledge and need the same facts practice."
+        },
+        {
+          "id": "D",
+          "label": "The question should be removed because identical errors suggest faulty wording."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "The same product can arise through different processes, so the answer alone does not identify the cause.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-033",
+    "prompt": "Select the strongest professional response in this situation.\n\nAn adaptation must improve access to a sequencing task while keeping the demand to order events. Which alternative meets that requirement?\n\nA. Provide the correct event order and ask pupils to copy it neatly.\nB. Reduce the task to recalling the names of characters in the events.\nC. Let pupils choose any event and illustrate it without ordering the rest.\nD. Use movable event cards so pupils can arrange and revise the sequence.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "solution generation",
+    "evidenceType": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Provide the correct event order and ask pupils to copy it neatly."
+        },
+        {
+          "id": "B",
+          "label": "Reduce the task to recalling the names of characters in the events."
+        },
+        {
+          "id": "C",
+          "label": "Let pupils choose any event and illustrate it without ordering the rest."
+        },
+        {
+          "id": "D",
+          "label": "Use movable event cards so pupils can arrange and revise the sequence."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Movable cards change the means of responding while retaining the ordering demand.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "problem_solving",
+      "instructional_adaptation"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-034",
+    "prompt": "Select the strongest professional response in this situation.\n\nA teacher introduces a number line, easier questions and extra adult help together. Scores rise. What can the teacher reasonably conclude?\n\nA. The number line caused the gain because it was the main planned change.\nB. The combination was followed by higher scores; individual effects remain unclear.\nC. The extra adult help had no effect because the pupils wrote the answers.\nD. The approach will produce the same gain when the harder questions return.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "testing alternatives",
+    "evidenceType": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The number line caused the gain because it was the main planned change."
+        },
+        {
+          "id": "B",
+          "label": "The combination was followed by higher scores; individual effects remain unclear."
+        },
+        {
+          "id": "C",
+          "label": "The extra adult help had no effect because the pupils wrote the answers."
+        },
+        {
+          "id": "D",
+          "label": "The approach will produce the same gain when the harder questions return."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Several simultaneous changes prevent attributing the gain to one component, and the changed task difficulty limits comparison.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-035",
+    "prompt": "Select the strongest professional response in this situation.\n\nA class struggles with a new task because an essential prerequisite is insecure. Pupils also work slowly, and some headings are untidy. Which issue should usually be investigated first?\n\nA. The presentation standard, because tidy work makes later marking easier.\nB. The work rate, because more completed questions give more practice.\nC. The prerequisite gap, because it blocks access to the new learning.\nD. The length of the homework, because extra time can cover all three issues.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem prioritisation",
+    "evidenceType": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The presentation standard, because tidy work makes later marking easier."
+        },
+        {
+          "id": "B",
+          "label": "The work rate, because more completed questions give more practice."
+        },
+        {
+          "id": "C",
+          "label": "The prerequisite gap, because it blocks access to the new learning."
+        },
+        {
+          "id": "D",
+          "label": "The length of the homework, because extra time can cover all three issues."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "An essential prerequisite is the most direct barrier to the stated learning; presentation and speed do not resolve it.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving",
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-036",
+    "prompt": "Select the strongest professional response in this situation.\n\nA word bank helps pupils complete sentences accurately. What check best establishes whether they are ready for less support?\n\nA. A similar short task with fewer word-bank cues.\nB. A longer copying task using the full word bank.\nC. A pupil vote on whether the word bank looks useful.\nD. A count of how many word-bank tasks were completed.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "monitoring adaptation",
+    "evidenceType": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A similar short task with fewer word-bank cues."
+        },
+        {
+          "id": "B",
+          "label": "A longer copying task using the full word bank."
+        },
+        {
+          "id": "C",
+          "label": "A pupil vote on whether the word bank looks useful."
+        },
+        {
+          "id": "D",
+          "label": "A count of how many word-bank tasks were completed."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "A reduced-cue trial checks whether the relevant performance persists as support is faded.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-037",
+    "prompt": "Select the strongest professional response in this situation.\n\nA teacher substitutes bottle tops for missing counters in an existing equal-sharing task. What is the most relevant check of this adaptation?\n\nA. Whether pupils find the bottle tops more attractive than the usual counters.\nB. Whether the replacement materials can be collected at no financial cost.\nC. Whether the task takes exactly as long as it did with the usual counters.\nD. Whether pupils can represent equal shares accurately with the replacements.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "resource-constrained problem solving",
+    "evidenceType": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profileTags": [
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether pupils find the bottle tops more attractive than the usual counters."
+        },
+        {
+          "id": "B",
+          "label": "Whether the replacement materials can be collected at no financial cost."
+        },
+        {
+          "id": "C",
+          "label": "Whether the task takes exactly as long as it did with the usual counters."
+        },
+        {
+          "id": "D",
+          "label": "Whether pupils can represent equal shares accurately with the replacements."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "The adaptation is judged against the original learning purpose rather than novelty, price or identical timing alone.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "low",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-038",
+    "prompt": "Select the strongest professional response in this situation.\n\nAn approach you expected to help produced no reduction in the targeted errors across three comparable checks. What is the most useful reflection?\n\nA. The approach deserves a longer trial mainly because preparation took considerable time.\nB. The assumed cause may be wrong; I should re-examine the attempts before another change.\nC. The pupils need more difficult tasks so they recognise the importance of improvement.\nD. The original diagnosis must be right because the approach is often recommended.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "reflective problem solving",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The approach deserves a longer trial mainly because preparation took considerable time."
+        },
+        {
+          "id": "B",
+          "label": "The assumed cause may be wrong; I should re-examine the attempts before another change."
+        },
+        {
+          "id": "C",
+          "label": "The pupils need more difficult tasks so they recognise the importance of improvement."
+        },
+        {
+          "id": "D",
+          "label": "The original diagnosis must be right because the approach is often recommended."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "Repeated relevant evidence should prompt review of the working explanation rather than commitment based on effort or reputation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "reflective_practice"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-039",
+    "prompt": "Select the strongest professional response in this situation.\n\nFollowing your adaptation, the class average rises, but the pupils with the original difficulty show little change. Which reflection best guides the next decision?\n\nA. The higher average establishes that the adaptation addressed the identified problem.\nB. The targeted pupils should repeat the unchanged task until they match the average.\nC. The adaptation should be abandoned for everyone because improvement was uneven.\nD. I need to review the targeted pupils' responses separately before choosing their next support.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "monitoring adaptation",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The higher average establishes that the adaptation addressed the identified problem."
+        },
+        {
+          "id": "B",
+          "label": "The targeted pupils should repeat the unchanged task until they match the average."
+        },
+        {
+          "id": "C",
+          "label": "The adaptation should be abandoned for everyone because improvement was uneven."
+        },
+        {
+          "id": "D",
+          "label": "I need to review the targeted pupils' responses separately before choosing their next support."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Aggregate gains can conceal lack of benefit for the pupils whose difficulty motivated the adjustment.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-040",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou changed a pupil's response from drawing a route to choosing among prepared routes. They now answer correctly. Which reflection is strongest?\n\nA. The result shows recognition; I still need evidence of independently constructing a route.\nB. The result establishes that the pupil can complete the original drawing task independently.\nC. The response change should be used for every future task involving spatial reasoning.\nD. The original difficulty was definitely handwriting because selection removed that demand.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "flexible teaching",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The result shows recognition; I still need evidence of independently constructing a route."
+        },
+        {
+          "id": "B",
+          "label": "The result establishes that the pupil can complete the original drawing task independently."
+        },
+        {
+          "id": "C",
+          "label": "The response change should be used for every future task involving spatial reasoning."
+        },
+        {
+          "id": "D",
+          "label": "The original difficulty was definitely handwriting because selection removed that demand."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "A changed response format may change the demand from construction to recognition, so the conclusion must remain limited.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-041",
+    "prompt": "Select the strongest professional response in this situation.\n\nA support strategy works during a heavily rehearsed example but has not yet been tried with new examples. What is the most justified reflection?\n\nA. The strategy has solved the problem because the pupil completed the demonstration.\nB. The strategy is ineffective until the pupil succeeds without any future errors.\nC. The current success warrants a fresh-example check before claiming transfer.\nD. The demonstration should be repeated unchanged until success becomes faster.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "decision-making under uncertainty",
+    "evidenceType": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The strategy has solved the problem because the pupil completed the demonstration."
+        },
+        {
+          "id": "B",
+          "label": "The strategy is ineffective until the pupil succeeds without any future errors."
+        },
+        {
+          "id": "C",
+          "label": "The current success warrants a fresh-example check before claiming transfer."
+        },
+        {
+          "id": "D",
+          "label": "The demonstration should be repeated unchanged until success becomes faster."
+        }
+      ],
+      "bestOptionId": "C",
+      "rationale": "Success on a rehearsed example is encouraging but does not establish use beyond that example.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "decision_making"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-042",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou keep a detailed scaffold in place after several pupils show they can complete comparable work without it. What should you reconsider?\n\nA. Whether every pupil must use the scaffold for the same total number of lessons.\nB. Whether the scaffold should be made longer to maintain its challenge for everyone.\nC. Whether independent performance means the scaffold never helped those pupils.\nD. Whether retaining all the support now limits opportunities for independent decisions.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "continuous adjustment",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether every pupil must use the scaffold for the same total number of lessons."
+        },
+        {
+          "id": "B",
+          "label": "Whether the scaffold should be made longer to maintain its challenge for everyone."
+        },
+        {
+          "id": "C",
+          "label": "Whether independent performance means the scaffold never helped those pupils."
+        },
+        {
+          "id": "D",
+          "label": "Whether retaining all the support now limits opportunities for independent decisions."
+        }
+      ],
+      "bestOptionId": "D",
+      "rationale": "Support that was useful can become unnecessary; current independent performance should guide fading.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-043",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou selected an adaptation because it helped last year's class. This class still makes the same errors after the trial. Which reflection best supports your next step?\n\nA. Past success is a starting point; this class's errors must guide the revision.\nB. The earlier success means the current class needs more time with an unchanged approach.\nC. The adaptation should be removed from future use because it has now failed once.\nD. The class should first complete last year's full exercise set before any review.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "reflective problem solving",
+    "evidenceType": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Past success is a starting point; this class's errors must guide the revision."
+        },
+        {
+          "id": "B",
+          "label": "The earlier success means the current class needs more time with an unchanged approach."
+        },
+        {
+          "id": "C",
+          "label": "The adaptation should be removed from future use because it has now failed once."
+        },
+        {
+          "id": "D",
+          "label": "The class should first complete last year's full exercise set before any review."
+        }
+      ],
+      "bestOptionId": "A",
+      "rationale": "Previous success supplies a hypothesis, not a guarantee; the current pattern should inform revision.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "reflective_practice"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-044",
+    "prompt": "Select the strongest professional response in this situation.\n\nYou described a group as \"weak at measurement\", but their work shows accurate length comparison and repeated errors only when reading a scale that starts above zero. Which reflection is strongest?\n\nA. The broad label is useful because measurement skills should develop at the same rate.\nB. The problem should be narrowed to reading the interval between the two endpoints.\nC. The group should restart all measurement work to ensure that no gaps are missed.\nD. The successful comparisons can be set aside because the scale errors are more recent.",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "problem identification",
+    "evidenceType": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [
+      "upper_primary"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The broad label is useful because measurement skills should develop at the same rate."
+        },
+        {
+          "id": "B",
+          "label": "The problem should be narrowed to reading the interval between the two endpoints."
+        },
+        {
+          "id": "C",
+          "label": "The group should restart all measurement work to ensure that no gaps are missed."
+        },
+        {
+          "id": "D",
+          "label": "The successful comparisons can be set aside because the scale errors are more recent."
+        }
+      ],
+      "bestOptionId": "B",
+      "rationale": "A precise problem statement reflects the demonstrated boundary of the difficulty and supports a targeted response.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "medium",
+    "criticalFlag": false,
+    "courseTags": [
+      "problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-045",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of distinguishing between two possible causes of an error in pupils' work?\n\nA. An account identifying an error pattern I noticed.\nB. That account plus two possible explanations for the pattern.\nC. Those details plus a targeted check used to distinguish the explanations.\nD. Those details plus the check results used to select a working explanation.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "learning-barrier diagnosis",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account identifying an error pattern I noticed."
+        },
+        {
+          "id": "B",
+          "label": "That account plus two possible explanations for the pattern."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus a targeted check used to distinguish the explanations."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus the check results used to select a working explanation."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels progress from noticing an error to competing explanations, a discriminating check and evidence used in diagnosis.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "learning_barriers",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-046",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of changing instruction to address a specific misconception?\n\nA. An account identifying the misconception I intended to address.\nB. That account plus an instructional change linked to the misconception.\nC. Those details plus an example of trying the change with affected pupils.\nD. Those details plus a fresh task showing whether the misconception persisted.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "adaptive instruction",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account identifying the misconception I intended to address."
+        },
+        {
+          "id": "B",
+          "label": "That account plus an instructional change linked to the misconception."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus an example of trying the change with affected pupils."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus a fresh task showing whether the misconception persisted."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Stronger evidence connects the observed misconception to a tried adaptation and a subsequent check of the same learning.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "instructional_adaptation"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-047",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of comparing two ways of supporting the same learning difficulty?\n\nA. An account naming two possible supports for the difficulty.\nB. That account plus a shared learning indicator for comparing the supports.\nC. Those details plus observations from trying the supports on comparable tasks.\nD. Those details plus a reasoned choice using the observations and comparison limits.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "testing alternatives",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account naming two possible supports for the difficulty."
+        },
+        {
+          "id": "B",
+          "label": "That account plus a shared learning indicator for comparing the supports."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus observations from trying the supports on comparable tasks."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus a reasoned choice using the observations and comparison limits."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels move from alternatives to a common criterion, comparable trials and a qualified evidence-based decision; classroom trials are not controlled causal proof.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "adaptive_teaching",
+      "evidence_informed_teaching"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-048",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of preserving a learning goal after an essential planned resource became unavailable?\n\nA. An account of the missing resource and the intended learning goal.\nB. That account plus a substitute approach chosen to retain that goal.\nC. Those details plus an example of pupils using the substitute approach.\nD. Those details plus pupil work used to check the original learning goal.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "resource-constrained problem solving",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [
+      "low_resource"
+    ],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account of the missing resource and the intended learning goal."
+        },
+        {
+          "id": "B",
+          "label": "That account plus a substitute approach chosen to retain that goal."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus an example of pupils using the substitute approach."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus pupil work used to check the original learning goal."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Stronger evidence shows that a practical substitute was used and evaluated against the original learning purpose.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "teacher_problem_solving"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-049",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of deciding when to reduce instructional support?\n\nA. An account identifying the support I intended to reduce.\nB. That account plus a criterion for readiness to work with less support.\nC. Those details plus a trial with fewer cues and observations of pupil performance.\nD. Those details plus a decision to retain, reduce or restore support based on the trial.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "continuous adjustment",
+    "evidenceType": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account identifying the support I intended to reduce."
+        },
+        {
+          "id": "B",
+          "label": "That account plus a criterion for readiness to work with less support."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus a trial with fewer cues and observations of pupil performance."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus a decision to retain, reduce or restore support based on the trial."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "The levels connect support fading to a readiness criterion, a monitored trial and a responsive decision.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "responsive_teaching",
+      "differentiated_support"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  },
+  {
+    "itemId": "AP-050",
+    "prompt": "Consider the last four teaching weeks. Select the highest level fully supported by evidence you could describe without pupil names or identifying details. No upload is required.\n\nWhat evidence could you describe of revising a teaching approach after it failed to address the identified learning problem?\n\nA. An account of the approach I tried and the learning problem it targeted.\nB. That account plus results showing that the targeted difficulty remained.\nC. Those details plus a revised approach based on reviewing the remaining errors.\nD. Those details plus results from testing the revision against the same learning goal.\nNA. No relevant opportunity or evidence available to judge this practice",
+    "primaryDomain": "Adaptive Teaching & Problem Solving",
+    "subcompetency": "reflective problem solving",
+    "evidenceType": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profileTags": [],
+    "reverseKeyed": false,
+    "responseKey": {
+      "format": "evidence_level",
+      "options": [
+        {
+          "id": "A",
+          "label": "An account of the approach I tried and the learning problem it targeted."
+        },
+        {
+          "id": "B",
+          "label": "That account plus results showing that the targeted difficulty remained."
+        },
+        {
+          "id": "C",
+          "label": "Those details plus a revised approach based on reviewing the remaining errors."
+        },
+        {
+          "id": "D",
+          "label": "Those details plus results from testing the revision against the same learning goal."
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity or evidence available to judge this practice"
+        }
+      ],
+      "orderedOptionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "rationale": "Stronger evidence shows a complete review-and-retest cycle after an unsuccessful approach; the structured self-report does not independently verify practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate."
+    },
+    "socialDesirabilityRisk": "high",
+    "criticalFlag": false,
+    "courseTags": [
+      "reflective_practice"
+    ],
+    "version": "synthetic-ap-0.1",
+    "isActive": false
+  }
+]

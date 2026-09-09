@@ -7,9 +7,20 @@ questions**. `communication-influence.synthetic.v0.1.json` contains the next
 Expert review, cognitive testing, psychometric validation, and
 possible replacement are required before substantive assessment use.
 
-Each file is an array of AssessmentItem-compatible objects. Neither is a seed
+`classroom-leadership-behaviour-design.synthetic.v0.1.json` adds 50 provisional
+Domain 3 items, CB-001 through CB-050, with version `synthetic-cb-0.1`.
+These are synthetic development/test items, not official or validated PPOAF questions.
+They follow the same evidence distribution and metadata conventions below.
+
+`adaptive-teaching-problem-solving.synthetic.v0.1.json` adds 50 provisional
+Domain 4 items, AP-001 through AP-050, with version `synthetic-ap-0.1`.
+These are synthetic development/test items, not official PPOAF questions and not
+psychometrically validated.
+
+Each file is an array of AssessmentItem-compatible objects. None is a seed
 runner and importing the JSON does not write to MongoDB. All items have
-`isActive: false`; versions are `synthetic-hc-0.1` and `synthetic-ci-0.1` respectively.
+`isActive: false`; versions follow `synthetic-<domain prefix>-0.1`, with lowercase
+prefixes `hc`, `ci`, `cb`, and `ap`.
 
 Schema conventions:
 
@@ -53,9 +64,32 @@ respectful influence, learner engagement, non-verbal communication, professional
 communication, and motivation through communication. It does not assess general
 behaviour management or repeat Domain 1's emotional-support focus.
 
-The validator checks both banks and screens cross-domain question stems for
+Domain 3 focuses on expectations, routines, positive behaviour support, proactive
+behaviour design, fairness, accountability, reinforcement, transitions,
+de-escalation, restorative practice, climate, pupil participation, teacher
+modelling, repeated behaviour response, and classroom leadership. Shared contexts
+are assessed through behaviour procedures and follow-through rather than empathy,
+instructional explanation, or general communication. All Domain 3 critical flags
+are false because its scenarios concern ordinary classroom behaviour rather than
+serious harm.
+
+Domain 4 follows recognise, diagnose, adapt, test, and review. Its subcompetencies
+cover problem identification, learning-barrier diagnosis, adaptive instruction,
+responsive decision-making, flexible teaching, evidence-informed adaptation,
+problem prioritisation, solution generation, testing alternatives, monitoring
+adaptation, resource-constrained problem solving, reflective problem solving,
+escalation/referral awareness, decision-making under uncertainty, and continuous
+adjustment. Shared contexts such as support review and referral are assessed
+through learning evidence and instructional trials. These differ from Domain 1's
+learner-perspective focus, Domain 2's communication focus, and Domain 3's behaviour
+procedures. Similarity screening is supplemented by editorial review of these
+boundaries, but expert construct review remains necessary. All Domain 4 critical
+flags are false: its items concern ordinary learning problems, not serious harm.
+No items for Domains 5–9 are included.
+
+The validator checks all four banks and screens cross-domain question stems for
 exact duplicates and lexical overlap, excluding repeated response instructions.
 It also reports keyed-option positions and how often the keyed answer is uniquely
-longest in Domain 2. These are editorial checks only: low text similarity and
+longest in Domains 2–4. These are editorial checks only: low text similarity and
 balanced options do not establish construct distinctness or psychometric quality.
 Shared skills such as listening and feedback still require expert boundary review.
