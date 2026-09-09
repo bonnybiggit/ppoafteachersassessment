@@ -15,7 +15,7 @@ async function startServer(): Promise<void> {
     await initializeAssessment()
 
     // 2. Start HTTP Express Server only after successful database connection
-    const server = app.listen(PORT, () => {
+    const server = app.listen(PORT, '0.0.0.0', () => {
       console.log(`🚀 [Server] PPOAF Teachers Assessment API is listening on port ${PORT}`)
       console.log(`🌐 [Server] Health Check available at http://localhost:${PORT}/api/health`)
     })
