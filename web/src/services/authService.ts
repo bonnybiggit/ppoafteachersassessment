@@ -25,7 +25,8 @@ export class AuthApiError extends Error {
   }
 }
 
-const apiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/+$/, '')
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000').replace(/\/+$/, '').replace(/\/api$/, '')
+const apiUrl = `${apiBaseUrl}/api`
 
 async function request(path: string, body?: object, token?: string): Promise<Record<string, unknown>> {
   if (!apiUrl) throw new AuthApiError(0, 'The authentication service is not configured. Please contact support.')
