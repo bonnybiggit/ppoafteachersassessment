@@ -1,5 +1,6 @@
 import { connection } from 'mongoose'
 import { assembleAssessment, DEFAULT_ASSESSMENT_LENGTH, MVP_ASSESSMENT_VERSION } from './assessmentAssembly'
+import { PILOT_ASSESSMENT_BLUEPRINT, PILOT_ASSESSMENT_MODE, PILOT_ASSESSMENT_VERSION } from './pilotAssessmentBlueprint'
 import { AssessmentAttempt, type AssessmentAttemptDocument } from '../models/AssessmentAttempt'
 import { AssessmentItem } from '../models/AssessmentItem'
 import { AssessmentResponse, type AssessmentResponseDocument } from '../models/AssessmentResponse'
@@ -47,6 +48,7 @@ function safeAttempt(attempt: AssessmentAttemptDocument) {
     submittedAt: attempt.completedAt,
     currentItemIndex: attempt.currentItemIndex,
     totalItems: attempt.totalItems,
+    mode: attempt.mode,
     assessmentVersion: attempt.assessmentVersion,
     selectedItemIds: attempt.selectedItemIds.map(id => id.toString()),
     consentConfirmed: attempt.consentConfirmed,
@@ -107,22 +109,34 @@ async function deliveredAttempt(attempt: AssessmentAttemptDocument) {
 }
 
 export async function startAttempt(teacherId: string, body: unknown, questionCount = DEFAULT_ASSESSMENT_LENGTH) {
-  const input = inputObject(body, ['consentConfirmed'])
+  const input = inputObject(body, ['consentConfirmed', 'mode'])
   if (input.consentConfirmed !== true) {
     throw new AssessmentError(400, 'Consent must be confirmed before starting an assessment.')
   }
+  const assessmentMode = input.mode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_MODE : 'default'
+  const targetQuestionCount = assessmentMode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_BLUEPRINT.totalItems : questionCount
+
   const existing = await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
   if (existing) return deliveredAttempt(existing)
-  const candidates = await AssessmentItem.find({ isActive: true })
-    .select('_id itemId primaryDomain isActive').lean()
-  const selected = assembleAssessment(candidates, questionCount)
-  if (selected.length !== questionCount) {
-    throw new AssessmentError(409, 'Insufficient active assessment questions for the configured assessment length.')
+
+  const candidates = assessmentMode === PILOT_ASSESSMENT_MODE
+    ? await AssessmentItem.find({ version: { $regex: /^synthetic/i } })
+      .select('_id itemId prompt primaryDomain subcompetency evidenceType difficulty socialDesirabilityRisk criticalFlag isActive version')
+      .lean()
+    : await AssessmentItem.find({ isActive: true })
+      .select('_id itemId primaryDomain isActive').lean()
+
+  const selected = assembleAssessment(candidates, targetQuestionCount, { assessmentMode })
+  if (selected.length !== targetQuestionCount) {
+    throw new AssessmentError(409, assessmentMode === PILOT_ASSESSMENT_MODE
+      ? 'Insufficient eligible synthetic pilot questions for the configured pilot blueprint.'
+      : 'Insufficient active assessment questions for the configured assessment length.')
   }
   try {
     const attempt = await AssessmentAttempt.create({
       teacherId,
-      assessmentVersion: MVP_ASSESSMENT_VERSION,
+      mode: assessmentMode,
+      assessmentVersion: assessmentMode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_VERSION : MVP_ASSESSMENT_VERSION,
       totalItems: selected.length,
       selectedItemIds: selected.map(item => item._id),
       consentConfirmed: true,

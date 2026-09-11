@@ -1,0 +1,3333 @@
+[
+  {
+    "item_id": "D6-RE-SJT-001",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nFor repeated word-building practice, you have clean discarded folders and scrap paper but no reusable letter tiles. The school cutter can be used by an adult. Which first step best uses these materials?\n\nA. Cut and label a small folder-card set, then check readability and handling.\nB. Make enough paper sets for the term before checking how easily pupils use them.\nC. Copy a full commercial tile design, including its decorative borders and packaging.\nD. Prepare a large wall alphabet because it uses the same letters as movable tiles.",
+    "primary_domain": "D6",
+    "subcompetency": "improvisation with available resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Cut and label a small folder-card set, then check readability and handling."
+        },
+        {
+          "id": "B",
+          "label": "Make enough paper sets for the term before checking how easily pupils use them."
+        },
+        {
+          "id": "C",
+          "label": "Copy a full commercial tile design, including its decorative borders and packaging."
+        },
+        {
+          "id": "D",
+          "label": "Prepare a large wall alphabet because it uses the same letters as movable tiles."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A small functional prototype tests whether repurposed materials work as movable, readable tiles before investing in production. Quantity, imitation and a fixed display do not establish that fit.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_improvisation",
+      "purposeful_material_repurposing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-002",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nYou notice that three teachers separately spend time tracing the same outline maps. A working master already exists and the head teacher allows staff to trial shared preparation methods. What is the most useful initiative?\n\nA. Prepare a complete new set of maps before finding out which outlines colleagues need.\nB. Suggest a short shared-master trial and record preparation time and print usability.\nC. Request a new map collection first, then decide whether the existing master can help.\nD. Ask each teacher to continue tracing so their preferred layout is always preserved.",
+    "primary_domain": "D6",
+    "subcompetency": "initiative and proactive action",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Prepare a complete new set of maps before finding out which outlines colleagues need."
+        },
+        {
+          "id": "B",
+          "label": "Suggest a short shared-master trial and record preparation time and print usability."
+        },
+        {
+          "id": "C",
+          "label": "Request a new map collection first, then decide whether the existing master can help."
+        },
+        {
+          "id": "D",
+          "label": "Ask each teacher to continue tracing so their preferred layout is always preserved."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A bounded shared-master trial acts on a recurring practical cost with an existing asset and checks usefulness. Large production or purchase before checking demand may duplicate work.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "teacher_initiative",
+      "practical_resource_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-003",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nThe school has an approved budget for a frequently used reading-card set. A paper version costs less initially but trial copies need replacing each week; a washable set costs more initially and has passed the same readability check. What should guide the choice?\n\nA. Compare expected term-long cost, upkeep and usability before committing the budget.\nB. Choose the washable set because higher prices reliably indicate stronger learning effects.\nC. Choose paper because low-cost innovation always means the lowest purchase price.\nD. Design a third version so the final choice is more original than either trialled set.",
+    "primary_domain": "D6",
+    "subcompetency": "low-cost teaching innovation",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Compare expected term-long cost, upkeep and usability before committing the budget."
+        },
+        {
+          "id": "B",
+          "label": "Choose the washable set because higher prices reliably indicate stronger learning effects."
+        },
+        {
+          "id": "C",
+          "label": "Choose paper because low-cost innovation always means the lowest purchase price."
+        },
+        {
+          "id": "D",
+          "label": "Design a third version so the final choice is more original than either trialled set."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Upfront price alone does not establish value. Comparing replacement, maintenance and usability over the intended period can justify either option, including the more expensive one.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "low_cost_teaching_innovation",
+      "resource_value_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-004",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nThrough an approved school contact, a local printer offers clean offcuts for making task cards. The offer has no advertising conditions. What should you establish before arranging collection?\n\nA. Accept every available offcut so the school secures the largest possible donation.\nB. Ask the printer to choose the card activities because they know the paper stock.\nC. Request finished workbooks instead, even though the current need is reusable cards.\nD. Agree useful sizes, quantities, delivery and storage responsibility with the school.",
+    "primary_domain": "D6",
+    "subcompetency": "resource mobilisation",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept every available offcut so the school secures the largest possible donation."
+        },
+        {
+          "id": "B",
+          "label": "Ask the printer to choose the card activities because they know the paper stock."
+        },
+        {
+          "id": "C",
+          "label": "Request finished workbooks instead, even though the current need is reusable cards."
+        },
+        {
+          "id": "D",
+          "label": "Agree useful sizes, quantities, delivery and storage responsibility with the school."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Matching the contribution to the actual need and agreeing practical responsibilities makes mobilisation usable and accountable. Donation volume or an unrelated upgrade does not establish educational value.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_mobilisation",
+      "accountable_school_partnerships"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-005",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nTeachers need to display interchangeable number sentences. A wooden frame, folded-card pockets and an existing noticeboard are all available options. What is the strongest way to choose a first prototype?\n\nA. Select against changing ease, visibility, safe handling and preparation effort.\nB. Choose the wooden frame because a permanent structure is always more dependable.\nC. Choose the pockets because a handmade solution best demonstrates teacher creativity.\nD. Use all three options together so no potentially useful idea is left untried.",
+    "primary_domain": "D6",
+    "subcompetency": "creative problem solving",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Select against changing ease, visibility, safe handling and preparation effort."
+        },
+        {
+          "id": "B",
+          "label": "Choose the wooden frame because a permanent structure is always more dependable."
+        },
+        {
+          "id": "C",
+          "label": "Choose the pockets because a handmade solution best demonstrates teacher creativity."
+        },
+        {
+          "id": "D",
+          "label": "Use all three options together so no potentially useful idea is left untried."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Criteria derived from the required function allow a feasible choice without equating quality with permanence, homemade appearance or the number of ideas combined.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "creative_problem_solving",
+      "feasible_solution_selection"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-006",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nA prototype set of story-picture cards is popular, but pupils keep turning cards over to find the titles and the teacher repeatedly sorts mixed sets. What is the best next design-thinking step?\n\nA. Add more pictures to each set so the resource supports a wider range of stories.\nB. Make the backing brighter because popularity suggests the content is already effective.\nC. Observe the handling problem and trial one labelling change with its users.\nD. Produce the full stock now and explain the intended handling more firmly.",
+    "primary_domain": "D6",
+    "subcompetency": "design thinking",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Add more pictures to each set so the resource supports a wider range of stories."
+        },
+        {
+          "id": "B",
+          "label": "Make the backing brighter because popularity suggests the content is already effective."
+        },
+        {
+          "id": "C",
+          "label": "Observe the handling problem and trial one labelling change with its users."
+        },
+        {
+          "id": "D",
+          "label": "Produce the full stock now and explain the intended handling more firmly."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "User observation followed by a focused prototype revision addresses actual use. Increasing quantity or decoration before testing the handling issue risks reproducing it.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "design_thinking",
+      "user_feedback_and_prototyping"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-007",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nA well-equipped primary school is considering another set of maths manipulatives. An inventory shows several suitable sets in a cupboard, but staff cannot tell what is complete or available. What is the strongest first opportunity to pursue?\n\nA. Order the newest set because unused stock is probably no longer appropriate.\nB. Ask every teacher to make a separate substitute so no sharing is needed.\nC. Check and label usable sets, then trial a simple availability record.\nD. Move all sets to a display cabinet so teachers can see their variety.",
+    "primary_domain": "D6",
+    "subcompetency": "opportunity identification",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Order the newest set because unused stock is probably no longer appropriate."
+        },
+        {
+          "id": "B",
+          "label": "Ask every teacher to make a separate substitute so no sharing is needed."
+        },
+        {
+          "id": "C",
+          "label": "Check and label usable sets, then trial a simple availability record."
+        },
+        {
+          "id": "D",
+          "label": "Move all sets to a display cabinet so teachers can see their variety."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The immediate opportunity is to make existing suitable assets findable and usable. Acquisition, duplicated making or display without access information may leave that barrier intact.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "opportunity_identification",
+      "effective_use_of_existing_resources"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-008",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nA local basket maker is willing to demonstrate repeated patterns through the school's visitor arrangements. The class is working on identifying pattern units. Which use of this offer is most purposeful?\n\nA. Ask for a long career talk and decide afterwards how it connects to the topic.\nB. Agree sample patterns and a short demonstration linked to identifying the unit.\nC. Leave the demonstration entirely to the visitor to avoid limiting their expertise.\nD. Request finished baskets for display without a plan for examining their patterns.",
+    "primary_domain": "D6",
+    "subcompetency": "making effective use of community/local resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask for a long career talk and decide afterwards how it connects to the topic."
+        },
+        {
+          "id": "B",
+          "label": "Agree sample patterns and a short demonstration linked to identifying the unit."
+        },
+        {
+          "id": "C",
+          "label": "Leave the demonstration entirely to the visitor to avoid limiting their expertise."
+        },
+        {
+          "id": "D",
+          "label": "Request finished baskets for display without a plan for examining their patterns."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A specific educational brief makes relevant local expertise useful while respecting the visitor's contribution. A general visit or display is not automatically a resourceful learning use.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_resources",
+      "purposeful_local_collaboration"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-009",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nTwo classes use identical picture-card sets. Most cards remain sound, but a few frequently used cards wear out. Which maintenance approach best sustains the resource?\n\nA. Reprint both full sets at the start of every month regardless of condition.\nB. Keep a labelled master and replace worn cards individually after checking the cause.\nC. Store both sets permanently after this term so the remaining cards stay intact.\nD. Make the next set much larger so the worn cards are less noticeable.",
+    "primary_domain": "D6",
+    "subcompetency": "sustainable use and reuse of teaching materials",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Reprint both full sets at the start of every month regardless of condition."
+        },
+        {
+          "id": "B",
+          "label": "Keep a labelled master and replace worn cards individually after checking the cause."
+        },
+        {
+          "id": "C",
+          "label": "Store both sets permanently after this term so the remaining cards stay intact."
+        },
+        {
+          "id": "D",
+          "label": "Make the next set much larger so the worn cards are less noticeable."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A maintained master and targeted replacement preserve usability while reducing avoidable material and preparation costs. Storage without use or greater quantity does not solve recurring wear.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "sustainable_learning_resources",
+      "repair_reuse_and_maintenance"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-010",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nYou want to know whether a homemade word slider offers useful value over existing word cards. Both can serve the same reading task. Which small trial best supports that decision?\n\nA. Ask pupils which resource looks more enjoyable, then produce the winning design.\nB. Compare similar reading attempts and record accuracy, handling and preparation effort.\nC. Give the slider group easier words to help pupils become enthusiastic about it.\nD. Count how many sliders can be produced in an afternoon without using them in class.",
+    "primary_domain": "D6",
+    "subcompetency": "small-scale innovation and experimentation",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask pupils which resource looks more enjoyable, then produce the winning design."
+        },
+        {
+          "id": "B",
+          "label": "Compare similar reading attempts and record accuracy, handling and preparation effort."
+        },
+        {
+          "id": "C",
+          "label": "Give the slider group easier words to help pupils become enthusiastic about it."
+        },
+        {
+          "id": "D",
+          "label": "Count how many sliders can be produced in an afternoon without using them in class."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A useful trial considers learning alongside practical costs and usability under comparable demands. Preference, production volume or easier tasks alone cannot establish the innovation's value.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "educational_innovation",
+      "innovation_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-011",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nA colleague's reusable story-sequencing kit works well in one class. You want two other classes to try it, but they use different stories and store materials differently. What is the strongest next step?\n\nA. Make identical copies immediately so both classes follow the original design exactly.\nB. Ask each class to invent a completely new kit before hearing what already worked.\nC. Identify the working features and trial locally suitable content and storage.\nD. Wait until every class can obtain the same cupboard as the original teacher.",
+    "primary_domain": "D6",
+    "subcompetency": "scaling or adapting successful low-cost practices",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Make identical copies immediately so both classes follow the original design exactly."
+        },
+        {
+          "id": "B",
+          "label": "Ask each class to invent a completely new kit before hearing what already worked."
+        },
+        {
+          "id": "C",
+          "label": "Identify the working features and trial locally suitable content and storage."
+        },
+        {
+          "id": "D",
+          "label": "Wait until every class can obtain the same cupboard as the original teacher."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Scaling should preserve the useful mechanism while testing context-specific changes. Exact duplication of incidental features or requiring identical assets confuses replication with resource ownership.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "sharing_low_cost_practices",
+      "responsible_innovation_scaling"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-012",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nFor a classroom word-sort activity, you have sound clean cartons, adult-prepared card dividers and reusable labels. You want a portable sorting tray. Which prototype is most useful to test first?\n\nA. A decorated sealed carton that pupils view while the teacher handles all cards.\nB. A large fixed display requiring the carton to be attached permanently to a wall.\nC. A full class set of trays with glued labels for only the first sorting category.\nD. One stable divided tray whose labels can change when the sorting categories change.",
+    "primary_domain": "D6",
+    "subcompetency": "improvisation with available resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A decorated sealed carton that pupils view while the teacher handles all cards."
+        },
+        {
+          "id": "B",
+          "label": "A large fixed display requiring the carton to be attached permanently to a wall."
+        },
+        {
+          "id": "C",
+          "label": "A full class set of trays with glued labels for only the first sorting category."
+        },
+        {
+          "id": "D",
+          "label": "One stable divided tray whose labels can change when the sorting categories change."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "The prototype repurposes available materials to meet portability, sorting and reuse needs. A single testable tray avoids committing production to a design that may not work.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_improvisation",
+      "purposeful_material_repurposing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-013",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nAn existing school stencil is useful, but only its original maker knows how to prepare it. That teacher will change classes next term. What proactive action best protects its usefulness?\n\nA. Wait until another teacher needs it so the guide can be written under real pressure.\nB. Arrange a brief handover guide and have a colleague test it before the move.\nC. Make many finished sheets now without checking which versions colleagues will need.\nD. Ask for a replacement stencil so staff can begin with a new resource next term.",
+    "primary_domain": "D6",
+    "subcompetency": "initiative and proactive action",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Wait until another teacher needs it so the guide can be written under real pressure."
+        },
+        {
+          "id": "B",
+          "label": "Arrange a brief handover guide and have a colleague test it before the move."
+        },
+        {
+          "id": "C",
+          "label": "Make many finished sheets now without checking which versions colleagues will need."
+        },
+        {
+          "id": "D",
+          "label": "Ask for a replacement stencil so staff can begin with a new resource next term."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A tested handover converts individual know-how into a usable shared resource before a foreseeable gap. Stockpiling or replacement may not address the missing preparation knowledge.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "teacher_initiative",
+      "practical_resource_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-014",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nFor repeated outdoor measurements, a school-approved trial found a commercial measuring tape accurate and durable. A homemade marked strip stretched and produced inconsistent readings. Both purchases are affordable within the approved budget. What is the soundest decision?\n\nA. Choose the homemade strip because improvised materials better demonstrate initiative.\nB. Use the tested tape and plan its upkeep rather than preserve an unreliable substitute.\nC. Use both interchangeably so pupils benefit from a greater variety of resources.\nD. Choose whichever tool pupils describe as more interesting after seeing the designs.",
+    "primary_domain": "D6",
+    "subcompetency": "low-cost teaching innovation",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Choose the homemade strip because improvised materials better demonstrate initiative."
+        },
+        {
+          "id": "B",
+          "label": "Use the tested tape and plan its upkeep rather than preserve an unreliable substitute."
+        },
+        {
+          "id": "C",
+          "label": "Use both interchangeably so pupils benefit from a greater variety of resources."
+        },
+        {
+          "id": "D",
+          "label": "Choose whichever tool pupils describe as more interesting after seeing the designs."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Purposeful resourcefulness can mean purchasing a reliable existing tool. Accuracy and durability support the tape here; low price, novelty and variety cannot compensate for inconsistent measurement.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "low_cost_teaching_innovation",
+      "resource_value_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-015",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nAn approved local partnership can provide either a box of mixed books or a smaller set matching reading levels the school has identified. Storage and staff sorting time are limited. Which response best mobilises useful support?\n\nA. Share the identified needs and agree a usable selection and handover record.\nB. Accept the mixed box and ask teachers to sort it during their personal time.\nC. Choose the largest donation so the school can report a higher number of books.\nD. Ask the partner to fund an unrelated display before discussing the reading need.",
+    "primary_domain": "D6",
+    "subcompetency": "resource mobilisation",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Share the identified needs and agree a usable selection and handover record."
+        },
+        {
+          "id": "B",
+          "label": "Accept the mixed box and ask teachers to sort it during their personal time."
+        },
+        {
+          "id": "C",
+          "label": "Choose the largest donation so the school can report a higher number of books."
+        },
+        {
+          "id": "D",
+          "label": "Ask the partner to fund an unrelated display before discussing the reading need."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A need-based selection and recorded handover focus on usable resources within stated capacity. Volume alone and hidden unpaid sorting demands are poor measures of the contribution's value.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_mobilisation",
+      "accountable_school_partnerships"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-016",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nYou have an idea for a reusable task-card holder, but you do not yet know whether teachers' main problem is visibility, sorting or storage. What should you do before refining the design?\n\nA. Complete the holder so teachers can react to a polished finished product.\nB. Buy the most durable materials first so later changes will not be necessary.\nC. Watch a few current uses and ask which difficulties consume time or hinder learning.\nD. Ask colleagues to vote for a colour scheme before discussing their current use.",
+    "primary_domain": "D6",
+    "subcompetency": "design thinking",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Complete the holder so teachers can react to a polished finished product."
+        },
+        {
+          "id": "B",
+          "label": "Buy the most durable materials first so later changes will not be necessary."
+        },
+        {
+          "id": "C",
+          "label": "Watch a few current uses and ask which difficulties consume time or hinder learning."
+        },
+        {
+          "id": "D",
+          "label": "Ask colleagues to vote for a colour scheme before discussing their current use."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Identifying the actual user problem prevents a polished solution to the wrong need. Material choice and appearance follow a clearer understanding of the resource function.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "design_thinking",
+      "user_feedback_and_prototyping"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-017",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nThe nearby public library offers a rotating book loan through the school. The school already owns enough books for some topics but lacks others. Which arrangement best uses this local opportunity?\n\nA. Borrow the maximum quantity first so staff have the widest possible stock to sort.\nB. Request books that fill identified gaps and agree rotation and return responsibilities.\nC. Replace the school's complete collection with loans to make full use of the offer.\nD. Choose books mainly by newness and plan their classroom purpose after delivery.",
+    "primary_domain": "D6",
+    "subcompetency": "making effective use of community/local resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Borrow the maximum quantity first so staff have the widest possible stock to sort."
+        },
+        {
+          "id": "B",
+          "label": "Request books that fill identified gaps and agree rotation and return responsibilities."
+        },
+        {
+          "id": "C",
+          "label": "Replace the school's complete collection with loans to make full use of the offer."
+        },
+        {
+          "id": "D",
+          "label": "Choose books mainly by newness and plan their classroom purpose after delivery."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Targeting gaps and planning circulation makes local support complementary and sustainable. Quantity and newness do not establish fit, and replacing adequate assets may add needless work.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_resources",
+      "purposeful_local_collaboration"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-SJT-018",
+    "prompt": "Select the strongest feasible and purposeful resourcefulness decision.\n\nA reusable vocabulary-pocket resource has worked over several uses. Colleagues ask for a copy, but the neat sample does not show how pockets are repaired or words changed. What should you share to make adoption workable?\n\nA. A photograph of the finished display and the number of compliments it received.\nB. A list of every material considered, including options that were never tested.\nC. A simple specification, change-and-repair steps, and evidence of useful learning.\nD. An instruction to copy all colours and decorations before trying it with pupils.",
+    "primary_domain": "D6",
+    "subcompetency": "scaling or adapting successful low-cost practices",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A photograph of the finished display and the number of compliments it received."
+        },
+        {
+          "id": "B",
+          "label": "A list of every material considered, including options that were never tested."
+        },
+        {
+          "id": "C",
+          "label": "A simple specification, change-and-repair steps, and evidence of useful learning."
+        },
+        {
+          "id": "D",
+          "label": "An instruction to copy all colours and decorations before trying it with pupils."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A usable specification with maintenance instructions and evidence communicates what others need to reproduce the benefit. Appearance, praise and unused options are insufficient for transfer.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "sharing_low_cost_practices",
+      "responsible_innovation_scaling"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-019",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore making several copies of a repurposed teaching aid, I tried one example to check that the available material served its intended function.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "improvisation with available resources",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "A functional trial before duplication is evidence of purposeful improvisation rather than production volume. Verify the quality of the check through a sample or record.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_improvisation",
+      "purposeful_material_repurposing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-020",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen I noticed colleagues repeatedly making the same resource, I proposed a manageable way to share its preparation through school arrangements.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "initiative and proactive action",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Proposing a feasible shared approach acts on avoidable duplication. Lack of a relevant opportunity is NA; a report does not prove that the proposal was appropriate or implemented.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "teacher_initiative",
+      "practical_resource_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-021",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen comparing a new teaching aid with an existing one, I considered replacement and preparation effort as well as the initial price.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "low-cost teaching innovation",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Value depends on use and upkeep as well as acquisition. The score concerns the decision process, not the price paid or whether a purchase was possible.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "low_cost_teaching_innovation",
+      "resource_value_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-022",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore proposing a request for outside materials, I checked what the school already had that could meet the need.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "resource mobilisation",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Checking existing assets supports need-based mobilisation without rewarding the size of donations or the availability of outside partners.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_mobilisation",
+      "accountable_school_partnerships"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-023",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI chose an unusual-looking resource idea over a workable familiar option without comparing how well they served the learning purpose.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "creative problem solving",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Selecting novelty without comparing usefulness reflects weaker option appraisal; more frequent behaviour is reverse-scored.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "creative_problem_solving",
+      "feasible_solution_selection"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-024",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen reviewing a prototype teaching aid, I watched how its intended users handled it before deciding what to change.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "design thinking",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Observation can reveal design friction that appearance or designer assumptions miss. User evidence and the revision record should corroborate the self-report.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "design_thinking",
+      "user_feedback_and_prototyping"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-025",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen I found a usable school resource that was rarely used, I investigated whether a practical access change could make it useful.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "opportunity identification",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Opportunity identification includes unlocking existing value. Schools without an applicable instance use NA, not a low score.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "opportunity_identification",
+      "effective_use_of_existing_resources"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-026",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore planning a local contributor's involvement through the school, I matched their available contribution to a specific classroom need.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "making effective use of community/local resources",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "The behaviour concerns purposeful matching through legitimate channels, not the teacher's number of contacts or success in securing contributions.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "community_resources",
+      "purposeful_local_collaboration"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-027",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore replacing a set of learning materials, I checked which parts could be repaired or reused while remaining fit for use.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "sustainable use and reuse of teaching materials",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Selective repair and reuse can sustain value; replacement remains appropriate when repair would not preserve usability or safety.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "sustainable_learning_resources",
+      "repair_reuse_and_maintenance"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-028",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI described a new resource as successful mainly because pupils liked its appearance, without checking its learning use.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "small-scale innovation and experimentation",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Appearance preferences do not establish educational benefit; more frequent reliance on them alone represents weaker innovation evaluation.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "educational_innovation",
+      "innovation_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-BF-029",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen sharing a resource that had worked, I distinguished its essential working features from details colleagues could change.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D6",
+    "subcompetency": "scaling or adapting successful low-cost practices",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Distinguishing mechanism from incidental features supports useful adaptation. An opportunity to share is not assumed for every teacher.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with resource plans, trial records or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score. Neither the amount raised nor resources owned determines the score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "sharing_low_cost_practices",
+      "responsible_innovation_scaling"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-030",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nA teacher wants to turn clean used folders into reusable number cards. Which check best determines whether the material is fit for that purpose?\n\nA. Whether the folder colours match the room's current display theme.\nB. Whether the folders were originally more expensive than ordinary paper.\nC. Whether the cards remain readable, easy to handle and intact during use.\nD. Whether other schools have used exactly the same folder brand.",
+    "primary_domain": "D6",
+    "subcompetency": "improvisation with available resources",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Whether the folder colours match the room's current display theme."
+        },
+        {
+          "id": "B",
+          "label": "Whether the folders were originally more expensive than ordinary paper."
+        },
+        {
+          "id": "C",
+          "label": "Whether the cards remain readable, easy to handle and intact during use."
+        },
+        {
+          "id": "D",
+          "label": "Whether other schools have used exactly the same folder brand."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Fitness for use rests on the properties needed for the card task. Colour coordination, previous cost and brand imitation do not establish that function.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_improvisation",
+      "purposeful_material_repurposing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-031",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nFor this exercise, a card resource costs 600 naira to make and needs two complete replacements in a term. A sturdier version costs 1,400 naira and needs no replacement that term. Learning usefulness is equal and other costs are equal. Which conclusion follows?\n\nA. The 600-naira version saves 800 naira over the term.\nB. The sturdier version costs 400 naira less over the term.\nC. The sturdier version costs 200 naira more over the term.\nD. The two designs cost the same because both serve one term.",
+    "primary_domain": "D6",
+    "subcompetency": "low-cost teaching innovation",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The 600-naira version saves 800 naira over the term."
+        },
+        {
+          "id": "B",
+          "label": "The sturdier version costs 400 naira less over the term."
+        },
+        {
+          "id": "C",
+          "label": "The sturdier version costs 200 naira more over the term."
+        },
+        {
+          "id": "D",
+          "label": "The two designs cost the same because both serve one term."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The first design costs 600 + 600 + 600 = 1,800 naira; the second costs 1,400. Under the stated hypothetical conditions, the higher initial cost saves 400 naira. These are exercise values, not market prices.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "low_cost_teaching_innovation",
+      "resource_value_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-032",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nWhich brief gives a school-approved resource request the strongest practical basis?\n\nA. The learning need, usable quantity, existing stock and proposed responsibility for use.\nB. A target donation total selected before deciding how it would be used.\nC. A description of the teacher's willingness to accept anything offered.\nD. A list of attractive resources seen in several other schools.",
+    "primary_domain": "D6",
+    "subcompetency": "resource mobilisation",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The learning need, usable quantity, existing stock and proposed responsibility for use."
+        },
+        {
+          "id": "B",
+          "label": "A target donation total selected before deciding how it would be used."
+        },
+        {
+          "id": "C",
+          "label": "A description of the teacher's willingness to accept anything offered."
+        },
+        {
+          "id": "D",
+          "label": "A list of attractive resources seen in several other schools."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A request grounded in a defined gap, existing assets and responsibility makes support usable and accountable. Aspirational lists or totals alone do not establish an educational need.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_mobilisation",
+      "accountable_school_partnerships"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-033",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nA teacher has four possible designs for storing and reusing activity cards. Which selection method best supports purposeful creative problem solving?\n\nA. Combine every proposed feature before testing whether the box is usable.\nB. Choose whichever design uses the largest number of different materials.\nC. Choose the design least similar to anything already used in the school.\nD. Compare retrieval, durability, repair and effort against the actual need.",
+    "primary_domain": "D6",
+    "subcompetency": "creative problem solving",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Combine every proposed feature before testing whether the box is usable."
+        },
+        {
+          "id": "B",
+          "label": "Choose whichever design uses the largest number of different materials."
+        },
+        {
+          "id": "C",
+          "label": "Choose the design least similar to anything already used in the school."
+        },
+        {
+          "id": "D",
+          "label": "Compare retrieval, durability, repair and effort against the actual need."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "A criteria-based comparison preserves the value of generating ideas while selecting for function and feasibility. Complexity and novelty are not benefits by themselves.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "creative_problem_solving",
+      "feasible_solution_selection"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-034",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nWhich observation most clearly identifies an opportunity to gain educational value without adding stock?\n\nA. Another school has just bought a newly advertised set of materials.\nB. A supplier offers a discount if the school increases its next order.\nC. An empty display board could accommodate a more colourful collection.\nD. Useful story sets remain unused because staff cannot locate complete copies.",
+    "primary_domain": "D6",
+    "subcompetency": "opportunity identification",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Another school has just bought a newly advertised set of materials."
+        },
+        {
+          "id": "B",
+          "label": "A supplier offers a discount if the school increases its next order."
+        },
+        {
+          "id": "C",
+          "label": "An empty display board could accommodate a more colourful collection."
+        },
+        {
+          "id": "D",
+          "label": "Useful story sets remain unused because staff cannot locate complete copies."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "An identifiable access barrier to useful existing stock suggests a concrete value opportunity. Advertising, display space and discounts do not establish an unmet learning need.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "opportunity_identification",
+      "effective_use_of_existing_resources"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-035",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nA teacher plans to use a willing local tailor's knowledge in a school-approved lesson on measuring fabric lengths. Which proposed contribution best turns that expertise into a usable learning resource?\n\nA. A general account of the tailor's busiest weeks, without a measurement focus.\nB. A display of finished clothing judged mainly by colours and decoration.\nC. A catalogue of equipment names for pupils to copy before the visitor arrives.\nD. A short demonstration using agreed length examples and an opportunity to try them.",
+    "primary_domain": "D6",
+    "subcompetency": "making effective use of community/local resources",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A general account of the tailor's busiest weeks, without a measurement focus."
+        },
+        {
+          "id": "B",
+          "label": "A display of finished clothing judged mainly by colours and decoration."
+        },
+        {
+          "id": "C",
+          "label": "A catalogue of equipment names for pupils to copy before the visitor arrives."
+        },
+        {
+          "id": "D",
+          "label": "A short demonstration using agreed length examples and an opportunity to try them."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "An agreed demonstration with relevant examples connects local practical knowledge to the educational need. A general talk, appearance-based display or equipment list may not do so.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "community_resources",
+      "purposeful_local_collaboration"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-036",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nA reusable matching-card set loses a few cards each term. Which design feature would make it easiest to sustain?\n\nA. Numbered sets with a kept master from which individual cards can be replaced.\nB. A different material for every card so no replacement can look identical.\nC. A new colour theme each term requiring all cards to be remade together.\nD. One elaborate sealed package that must be discarded whenever a card is lost.",
+    "primary_domain": "D6",
+    "subcompetency": "sustainable use and reuse of teaching materials",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Numbered sets with a kept master from which individual cards can be replaced."
+        },
+        {
+          "id": "B",
+          "label": "A different material for every card so no replacement can look identical."
+        },
+        {
+          "id": "C",
+          "label": "A new colour theme each term requiring all cards to be remade together."
+        },
+        {
+          "id": "D",
+          "label": "One elaborate sealed package that must be discarded whenever a card is lost."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A master and identifiable components enable selective replacement and stock checks. Whole-set redesign or non-replaceable packaging increases avoidable effort and waste.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "sustainable_learning_resources",
+      "repair_reuse_and_maintenance"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-KA-037",
+    "prompt": "Apply resourcefulness and innovation principles to the educational purpose. Select the strongest answer.\n\nA reusable resource worked only while its maker spent an extra hour resetting it after every use. Another teacher wants to adopt it. What is the most important feasibility information to share?\n\nA. The reset steps and time, and whether a simpler reset has been tested.\nB. Only the material price, because teacher effort does not affect feasibility.\nC. Only the best pupil example, because good output establishes easy adoption.\nD. The maker's experience level as a substitute for describing the process.",
+    "primary_domain": "D6",
+    "subcompetency": "scaling or adapting successful low-cost practices",
+    "evidence_type": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The reset steps and time, and whether a simpler reset has been tested."
+        },
+        {
+          "id": "B",
+          "label": "Only the material price, because teacher effort does not affect feasibility."
+        },
+        {
+          "id": "C",
+          "label": "Only the best pupil example, because good output establishes easy adoption."
+        },
+        {
+          "id": "D",
+          "label": "The maker's experience level as a substitute for describing the process."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Hidden recurring effort can prevent a useful innovation from being sustained or adopted. Process requirements and tested simplifications are relevant; teacher profile is not a competence proxy.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "sharing_low_cost_practices",
+      "responsible_innovation_scaling"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-038",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nYou produced twenty sets of a new reusable task holder before asking colleagues about their needs. Only two sets are used because the others do not fit existing task cards. Which reflection best addresses the resourcefulness decision?\n\nA. The unused sets show that shared resources are less useful than personal ones.\nB. A larger batch would make the preparation time worthwhile despite the unused stock.\nC. Confirm demand and fit with a small trial before committing to another batch.\nD. Choose more attractive colours next time so colleagues will request the holders.",
+    "primary_domain": "D6",
+    "subcompetency": "initiative and proactive action",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The unused sets show that shared resources are less useful than personal ones."
+        },
+        {
+          "id": "B",
+          "label": "A larger batch would make the preparation time worthwhile despite the unused stock."
+        },
+        {
+          "id": "C",
+          "label": "Confirm demand and fit with a small trial before committing to another batch."
+        },
+        {
+          "id": "D",
+          "label": "Choose more attractive colours next time so colleagues will request the holders."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Initiative should include checking demand and practical fit. Production effort and quantity are not evidence of useful value when the resource cannot serve its intended users.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "teacher_initiative",
+      "practical_resource_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-039",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nA simple reused-card holder and an elaborate rotating display produce equally useful pupil responses. The display takes much longer to reset and is harder to repair. What is the strongest judgement?\n\nA. Keep the rotating display because its originality is the clearest sign of resourcefulness.\nB. Use the display only in a school with more funding, regardless of resetting time.\nC. Discard both designs because equal learning outcomes mean neither has educational value.\nD. Prefer the simpler holder unless a further benefit justifies the extra upkeep.",
+    "primary_domain": "D6",
+    "subcompetency": "creative problem solving",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep the rotating display because its originality is the clearest sign of resourcefulness."
+        },
+        {
+          "id": "B",
+          "label": "Use the display only in a school with more funding, regardless of resetting time."
+        },
+        {
+          "id": "C",
+          "label": "Discard both designs because equal learning outcomes mean neither has educational value."
+        },
+        {
+          "id": "D",
+          "label": "Prefer the simpler holder unless a further benefit justifies the extra upkeep."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "With equal observed usefulness, maintenance burden favours the simpler option unless another relevant benefit is established. Novelty and institutional wealth do not by themselves justify the burden.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "creative_problem_solving",
+      "feasible_solution_selection"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-040",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nAfter a prototype trial, teachers report easier setup but pupils report difficulty removing the cards. You had defined both quick setup and independent pupil use as success criteria. What should the review conclude?\n\nA. The positive teacher feedback outweighs pupil handling because staff designed the resource.\nB. The mixed feedback means no useful information can be drawn from the trial.\nC. The resource is ready for full production because at least one criterion was met.\nD. Keep the setup benefit while revising and retesting the card-removal feature.",
+    "primary_domain": "D6",
+    "subcompetency": "design thinking",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The positive teacher feedback outweighs pupil handling because staff designed the resource."
+        },
+        {
+          "id": "B",
+          "label": "The mixed feedback means no useful information can be drawn from the trial."
+        },
+        {
+          "id": "C",
+          "label": "The resource is ready for full production because at least one criterion was met."
+        },
+        {
+          "id": "D",
+          "label": "Keep the setup benefit while revising and retesting the card-removal feature."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Mixed feedback can identify both a working feature and an unmet requirement. A targeted revision responds to users without losing the benefit already demonstrated.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "design_thinking",
+      "user_feedback_and_prototyping"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-041",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nA cupboard inventory reveals many complete science kits, but you have not checked whether they fit upcoming lessons or why teachers leave them unused. How strong is the opportunity claim?\n\nA. It proves the school has no need to consider any further science resources.\nB. It is a promising lead; check usefulness and the access barrier before proposing action.\nC. It shows teachers lack initiative because the kits are already in the building.\nD. It justifies immediately replacing the kits with a design that looks easier to use.",
+    "primary_domain": "D6",
+    "subcompetency": "opportunity identification",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "It proves the school has no need to consider any further science resources."
+        },
+        {
+          "id": "B",
+          "label": "It is a promising lead; check usefulness and the access barrier before proposing action."
+        },
+        {
+          "id": "C",
+          "label": "It shows teachers lack initiative because the kits are already in the building."
+        },
+        {
+          "id": "D",
+          "label": "It justifies immediately replacing the kits with a design that looks easier to use."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Finding assets is a starting point, not proof of need or fit. Investigating function and access supports a justified opportunity without judging teachers from resource availability.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "opportunity_identification",
+      "effective_use_of_existing_resources"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-042",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nA reusable reading aid trial increased time spent practising, but pupils' accuracy on comparable fresh words did not improve and daily setup took longer. Which conclusion is best supported?\n\nA. The extra practice time proves the resource improved learning despite unchanged accuracy.\nB. The unchanged accuracy proves every reusable reading aid will be ineffective.\nC. The aid should be shared widely because producing it involved considerable teacher effort.\nD. The learning benefit is unestablished; review the design and setup burden before expansion.",
+    "primary_domain": "D6",
+    "subcompetency": "small-scale innovation and experimentation",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The extra practice time proves the resource improved learning despite unchanged accuracy."
+        },
+        {
+          "id": "B",
+          "label": "The unchanged accuracy proves every reusable reading aid will be ineffective."
+        },
+        {
+          "id": "C",
+          "label": "The aid should be shared widely because producing it involved considerable teacher effort."
+        },
+        {
+          "id": "D",
+          "label": "The learning benefit is unestablished; review the design and setup burden before expansion."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "The current evidence does not establish the intended learning benefit, and the practical burden matters. Neither engagement nor effort warrants expansion, and one trial does not discredit all designs.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "educational_innovation",
+      "innovation_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-043",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nA donated cardboard resource has no purchase cost, but frequent repairs consume school supplies and staff preparation time. A durable alternative would require approved spending. Which reflection is strongest?\n\nA. Compare useful life, repair effort and performance before choosing which to sustain.\nB. Replace it immediately because a paid resource always lasts longer than a donation.\nC. Continue with the donation because a free material always has the lowest total cost.\nD. Use both designs in every lesson so the donation can never be described as wasted.",
+    "primary_domain": "D6",
+    "subcompetency": "sustainable use and reuse of teaching materials",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Compare useful life, repair effort and performance before choosing which to sustain."
+        },
+        {
+          "id": "B",
+          "label": "Replace it immediately because a paid resource always lasts longer than a donation."
+        },
+        {
+          "id": "C",
+          "label": "Continue with the donation because a free material always has the lowest total cost."
+        },
+        {
+          "id": "D",
+          "label": "Use both designs in every lesson so the donation can never be described as wasted."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Sustainability includes recurring costs and performance. Donation status or a price tag cannot decide which option creates better educational value over its useful life.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "sustainable_learning_resources",
+      "repair_reuse_and_maintenance"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-RJ-044",
+    "prompt": "Evaluate the resourcefulness, trade-offs and evidence. Select the strongest judgement.\n\nA shared maths kit worked in its first classroom but was seldom used in a second because resetting it clashed with the shared-room timetable. What does this imply for extending the practice?\n\nA. The second teacher's resourcefulness is lower because the same kit was available.\nB. The first classroom's good result is enough to justify unchanged distribution everywhere.\nC. Treat reset arrangements as an adoption condition and test a workable local version.\nD. The kit should be abandoned in all classrooms because one adoption attempt was difficult.",
+    "primary_domain": "D6",
+    "subcompetency": "scaling or adapting successful low-cost practices",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The second teacher's resourcefulness is lower because the same kit was available."
+        },
+        {
+          "id": "B",
+          "label": "The first classroom's good result is enough to justify unchanged distribution everywhere."
+        },
+        {
+          "id": "C",
+          "label": "Treat reset arrangements as an adoption condition and test a workable local version."
+        },
+        {
+          "id": "D",
+          "label": "The kit should be abandoned in all classrooms because one adoption attempt was difficult."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Adoption depends on whether the working process fits the context. Testing a feasible reset arrangement preserves the idea without equating access to the kit with teacher competence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "sharing_low_cost_practices",
+      "responsible_innovation_scaling"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-045",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nSpecify a reusable word-building aid for Primary 2 using clean scrap card, used folders and ordinary writing materials assumed to be available through the school. Describe its parts and assembly, how pupils would use it, one likely weakness and a small prototype check. Include what would count as working well and what you would change if the check failed. A written specification is sufficient; do not make or buy the aid.",
+    "primary_domain": "D6",
+    "subcompetency": "improvisation with available resources",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and function",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names word building but does not show how the parts enable pupils to construct or alter words."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies movable letters or equivalent parts and a clear pupil action that uses them to build and change words."
+            }
+          ]
+        },
+        {
+          "criterion": "Feasible repurposing",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Lists suitable available materials but leaves assembly, readable size or handling unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Gives usable assembly instructions with readable parts, suitable handling and adult preparation where needed, using the assumed materials."
+            }
+          ]
+        },
+        {
+          "criterion": "Prototype and evidence",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Suggests trying the aid but provides only preference feedback or an unclear success criterion."
+            },
+            {
+              "score": 2,
+              "descriptor": "Describes a small check of actual word-building use, including readability and handling, with observable criteria for useful performance."
+            }
+          ]
+        },
+        {
+          "criterion": "Weakness and revision",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names a weakness or a revision but does not connect them to trial evidence."
+            },
+            {
+              "score": 2,
+              "descriptor": "Identifies a plausible material or handling weakness and a feasible revision linked to the proposed check before making multiple copies."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "The specification demonstrates purposeful repurposing and testing. Score the functional thinking and feasible revision, not actual resource ownership, appearance or manufacturing skill.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_improvisation",
+      "purposeful_material_repurposing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-046",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nPrepare a one-page decision note comparing a no-purchase teaching aid and an option requiring school-approved spending for the same primary-school learning use. Choose the use and give both designs, explicitly invented material costs, preparation and upkeep assumptions, a useful-life estimate and a small comparison trial. Recommend an option conditionally and state what new evidence would change the choice. Neither personal teacher payments nor pupil contributions may be assumed.",
+    "primary_domain": "D6",
+    "subcompetency": "low-cost teaching innovation",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Comparable educational purpose",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Describes two aids but their functions or the shared learning need are only partly comparable."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines a specific learning use and two feasible designs that can be compared on the same function, without favouring novelty or price alone."
+            }
+          ]
+        },
+        {
+          "criterion": "Cost and effort accounting",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Lists purchase prices but omits important assumptions about replacement, preparation or upkeep."
+            },
+            {
+              "score": 2,
+              "descriptor": "Labels costs as invented and compares acquisition, expected replacement, preparation and upkeep over a stated period with consistent arithmetic."
+            }
+          ]
+        },
+        {
+          "criterion": "Practical comparison",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes a preference vote or informal use without evidence of the learning function."
+            },
+            {
+              "score": 2,
+              "descriptor": "Proposes a small comparison with similar learning demands and observable learning-use, handling and effort evidence."
+            }
+          ]
+        },
+        {
+          "criterion": "Conditional decision",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Chooses an option mainly by price or gives no clear reason to reconsider it."
+            },
+            {
+              "score": 2,
+              "descriptor": "Justifies a feasible choice using expected value and evidence, recognises uncertainty and specifies findings that could favour the alternative within authorised school resources."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "The task measures educational value appraisal and innovation feasibility. A no-purchase aid still has preparation and upkeep costs; a funded option can be the stronger choice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "low_cost_teaching_innovation",
+      "resource_value_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-047",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nDraft a school resource-mobilisation brief for a small reusable reading-resource collection. Specify the learning gap, an existing-stock check, suitable quantities and one possible contribution or loan through an authorised school or local-organisation channel. Include a request outline, responsibilities, a receipt or loan-record template, a no-contribution fallback and a check of usefulness. Describe the plan only; do not approach contributors.",
+    "primary_domain": "D6",
+    "subcompetency": "resource mobilisation",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Need and existing assets",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names a broad reading need but does not connect quantities or requested materials to an existing-stock gap."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines the intended learning use, checks existing resources and justifies suitable materials and quantities against the remaining gap."
+            }
+          ]
+        },
+        {
+          "criterion": "Legitimate request",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Suggests an appropriate channel but leaves the voluntary basis, approval or conditions unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Drafts a specific voluntary request through school-authorised channels, with clear conditions and no pupil fundraising, private teacher funding or commercial obligations involving pupils."
+            }
+          ]
+        },
+        {
+          "criterion": "Accountable use",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Mentions storage or records without assigning clear responsibilities or recording terms."
+            },
+            {
+              "score": 2,
+              "descriptor": "Assigns receipt, storage, use and return responsibilities as applicable, and provides fields for source, items, quantity, date, condition and agreed terms."
+            }
+          ]
+        },
+        {
+          "criterion": "Fallback and evaluation",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides a fallback or a usefulness check, but not both tied to the learning purpose."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides a feasible alternative using available resources if nothing is contributed and an observable check of educational usefulness rather than donation volume."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "A scorable mobilisation plan specifies need, legitimate sourcing and accountable educational use. The amount donated or whether a contributor agrees earns no credit.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "resource_mobilisation",
+      "accountable_school_partnerships"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-048",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nDesign a short user-informed improvement process for a reusable picture-card carrier used by primary teachers and pupils. Choose one practical problem such as retrieving cards or keeping sets together. Supply two contrasting design options, observation or feedback questions, a simple prototype specification and a trial record with success criteria. Add one clearly invented feedback example and show how it would affect the next version.",
+    "primary_domain": "D6",
+    "subcompetency": "design thinking",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Problem and user inquiry",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "States a problem but assumes its cause or gathers only general likes and dislikes."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines a concrete user problem and questions or observations that could confirm or challenge it for teachers and pupils."
+            }
+          ]
+        },
+        {
+          "criterion": "Options and selection",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Lists two superficially different options without a functional selection reason."
+            },
+            {
+              "score": 2,
+              "descriptor": "Presents two feasible alternatives with different functional approaches and selects a first prototype using purpose, effort and handling criteria."
+            }
+          ]
+        },
+        {
+          "criterion": "Testable prototype",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Describes an idea or a trial but lacks sufficient detail to test the intended function."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies the prototype and a short trial record with observable measures of the chosen problem, practical burden and usefulness during a learning task."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence-led revision",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Invents feedback but proposes a revision unrelated to it or presents it as actual evidence."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clearly labels the feedback illustrative and makes a targeted revision or justified retention decision linked to that feedback and the success criteria."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "The artifact makes problem identification, option generation, prototype testing and revision observable. It does not require construction, a polished design or access to users during this assessment.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "design_thinking",
+      "user_feedback_and_prototyping"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-049",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nProduce a reuse-and-maintenance plan for a shared set of locally made learning cards that will be used over a term. Specify materials, storage, an inventory record, replaceable components, inspection and repair criteria, and responsibilities within normal school arrangements. Include a decision rule for repairing versus replacing and a simple way to review whether maintenance effort is justified by use. Assume the cards exist; no physical collection is required.",
+    "primary_domain": "D6",
+    "subcompetency": "sustainable use and reuse of teaching materials",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Usable resource system",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Describes materials or storage but leaves protection, retrieval or routine use unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies suitable materials and storage that protect cards while allowing practical repeated retrieval and learning use."
+            }
+          ]
+        },
+        {
+          "criterion": "Selective repair and replacement",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Suggests general repair or periodic replacement without identifying reusable components."
+            },
+            {
+              "score": 2,
+              "descriptor": "Identifies replaceable parts and a retained master, with clear inspection criteria for continued safe, legible use and feasible repair versus replacement decisions."
+            }
+          ]
+        },
+        {
+          "criterion": "Shared responsibilities and records",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes a record or duties but omits who acts on missing or worn components."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides inventory fields and agreed school roles for checking, reporting, repairing and returning resources without relying on personal teacher purchases."
+            }
+          ]
+        },
+        {
+          "criterion": "Sustainability review",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Counts retained materials without considering use or recurring effort."
+            },
+            {
+              "score": 2,
+              "descriptor": "Reviews actual-use frequency, condition and maintenance effort at a stated interval to justify continuing, simplifying or replacing the resource."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "Sustainable resourcefulness balances continued usefulness with materials and effort. Keeping unusable items or protecting a resource by never using it does not demonstrate strong practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "sustainable_learning_resources",
+      "repair_reuse_and_maintenance"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D6-RE-PE-050",
+    "prompt": "Complete the task in text using invented or anonymised examples without pupil names. No upload is required. Use a hypothetical design if materials or an implementation opportunity are unavailable. Do not spend money, seek donations or contact anyone for this task. A written design does not verify classroom implementation.\n\nPlan a small trial comparing a low-cost reusable maths aid of your choice with an existing way of doing the same task. Define the purpose, a feasible trial sequence, comparable task demands and a record template for learning, handling and preparation effort. Fill two illustrative rows with invented results and use them to make a cautious keep, revise or stop decision. State one limitation and what should be checked before wider sharing.",
+    "primary_domain": "D6",
+    "subcompetency": "small-scale innovation and experimentation",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and fair comparison",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names an aid and learning purpose but comparison demands or support differ without acknowledgement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines a target benefit and feasible small trial with similar task demands, support and time, noting possible practice or order effects."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence record",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Records enthusiasm or completion only, or omits practical resource costs."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides fields for a relevant independent learning check, handling difficulties, preparation or reset effort and conditions of use."
+            }
+          ]
+        },
+        {
+          "criterion": "Illustrative results and decision",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Supplies partial results or a decision not supported by them."
+            },
+            {
+              "score": 2,
+              "descriptor": "Labels two rows as invented and links a keep, revise or stop decision to both learning-use evidence and practical burden."
+            }
+          ]
+        },
+        {
+          "criterion": "Limits and further use",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, infeasible, or unsafe in the stated context."
+            },
+            {
+              "score": 1,
+              "descriptor": "Acknowledges uncertainty generally but offers no meaningful next check."
+            },
+            {
+              "score": 2,
+              "descriptor": "Names a specific limitation and a feasible further check of benefit and upkeep before wider sharing, without claiming the aid is proven effective."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. For a submitted task, absent criteria receive 0. Hypothetical and implemented designs are judged by the same design criteria; implementation must not be inferred from a plan. Label invented results as illustrative, not observed.",
+      "artifactScoringRule": "Score purpose, feasibility, legitimate sourcing, evaluation and justified revision, not visual polish, expense, donations secured or originality alone. A text specification is sufficient; equivalent sound designs are acceptable. Resource access and implementation opportunity earn no points.",
+      "resourceMobilisationRule": "Any proposed sourcing uses legitimate school-approved channels, voluntary contributions and accountable records. No personal teacher funding, pupil fundraising, commercial exploitation, favouritism or conflicts of interest may be required by the design.",
+      "rationale": "This task assesses a resource-innovation trial and its value judgement, not an empirical claim of causal impact. Clearly labelled invented records are acceptable evidence of evaluation planning.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge the resourcefulness of the decision within the stated context, not resource ownership, spending, teacher profile, demographics, school location, class size or access to devices and internet. Resource access must not determine competence classification."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "educational_innovation",
+      "innovation_evaluation"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  }
+]

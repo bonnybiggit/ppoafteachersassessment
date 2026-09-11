@@ -1,0 +1,3277 @@
+[
+  {
+    "item_id": "D9-CE-SJT-001",
+    "prompt": "Domain 9 community engagement item 1.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-002",
+    "prompt": "Domain 9 community engagement item 2.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-003",
+    "prompt": "Domain 9 community engagement item 3.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-004",
+    "prompt": "Domain 9 community engagement item 4.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-005",
+    "prompt": "Domain 9 community engagement item 5.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-006",
+    "prompt": "Domain 9 community engagement item 6.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-007",
+    "prompt": "Domain 9 community engagement item 7.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-008",
+    "prompt": "Domain 9 community engagement item 8.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-009",
+    "prompt": "Domain 9 community engagement item 9.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-010",
+    "prompt": "Domain 9 community engagement item 10.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-011",
+    "prompt": "Domain 9 community engagement item 11.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-012",
+    "prompt": "Domain 9 community engagement item 12.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-013",
+    "prompt": "Domain 9 community engagement item 13.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-014",
+    "prompt": "Domain 9 community engagement item 14.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-015",
+    "prompt": "Domain 9 community engagement item 15.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-016",
+    "prompt": "Domain 9 community engagement item 16.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-017",
+    "prompt": "Domain 9 community engagement item 17.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-SJT-018",
+    "prompt": "Domain 9 community engagement item 18.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-019",
+    "prompt": "Domain 9 community engagement item 19.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-020",
+    "prompt": "Domain 9 community engagement item 20.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-021",
+    "prompt": "Domain 9 community engagement item 21.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-022",
+    "prompt": "Domain 9 community engagement item 22.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-023",
+    "prompt": "Domain 9 community engagement item 23.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-024",
+    "prompt": "Domain 9 community engagement item 24.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-025",
+    "prompt": "Domain 9 community engagement item 25.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-026",
+    "prompt": "Domain 9 community engagement item 26.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-027",
+    "prompt": "Domain 9 community engagement item 27.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-028",
+    "prompt": "Domain 9 community engagement item 28.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-BF-029",
+    "prompt": "Domain 9 community engagement item 29.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with observations, plans, records or follow-up where possible. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-030",
+    "prompt": "Domain 9 community engagement item 30.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-031",
+    "prompt": "Domain 9 community engagement item 31.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-032",
+    "prompt": "Domain 9 community engagement item 32.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-033",
+    "prompt": "Domain 9 community engagement item 33.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-034",
+    "prompt": "Domain 9 community engagement item 34.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-035",
+    "prompt": "Domain 9 community engagement item 35.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-036",
+    "prompt": "Domain 9 community engagement item 36.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-KA-037",
+    "prompt": "Domain 9 community engagement item 37.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-038",
+    "prompt": "Domain 9 community engagement item 38.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-039",
+    "prompt": "Domain 9 community engagement item 39.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-040",
+    "prompt": "Domain 9 community engagement item 40.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-041",
+    "prompt": "Domain 9 community engagement item 41.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-042",
+    "prompt": "Domain 9 community engagement item 42.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-043",
+    "prompt": "Domain 9 community engagement item 43.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-RJ-044",
+    "prompt": "Domain 9 community engagement item 44.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Option A"
+        },
+        {
+          "id": "B",
+          "label": "Option B"
+        },
+        {
+          "id": "C",
+          "label": "Option C"
+        },
+        {
+          "id": "D",
+          "label": "Option D"
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Synthetic D9 item for provisional review only.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-045",
+    "prompt": "Write a brief plan for a community engagement activity that supports families to use reading strategies at home. The activity should be clear, respectful, manageable for the school context, and designed to improve family confidence and participation without requiring extra paid resources or private family data. Describe the purpose, the key stakeholders, the steps you would take, any privacy and fairness safeguards, and how you would judge whether the activity has improved family engagement.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher's planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-046",
+    "prompt": "Domain 9 community engagement item 46.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher?s planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-047",
+    "prompt": "Domain 9 community engagement item 47.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher?s planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-048",
+    "prompt": "Domain 9 community engagement item 48.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher?s planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-049",
+    "prompt": "Domain 9 community engagement item 49.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher?s planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D9-CE-PE-050",
+    "prompt": "Domain 9 community engagement item 50.",
+    "primary_domain": "D9",
+    "subcompetency": "community engagement",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Purpose and learner focus",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No clear purpose."
+            },
+            {
+              "score": 1,
+              "descriptor": "Partly clear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear and well-focused."
+            }
+          ]
+        },
+        {
+          "criterion": "Stakeholder planning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No stakeholder plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited involvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Structured involvement and roles."
+            }
+          ]
+        },
+        {
+          "criterion": "Privacy and fairness",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No safeguards."
+            },
+            {
+              "score": 1,
+              "descriptor": "Some safeguards described."
+            },
+            {
+              "score": 2,
+              "descriptor": "Clear privacy and fairness safeguards."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "No evidence plan."
+            },
+            {
+              "score": 1,
+              "descriptor": "Limited evidence idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specific evidence of learning."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "Missing submissions are unscored. Missing criteria in a submitted artifact receive 0. Hypothetical plans and clearly labelled invented evidence can earn full design credit without live implementation.",
+      "artifactScoringRule": "Score the clarity of purpose, inclusiveness, stakeholder planning, privacy, and evidence of learning. Do not reward writing style, social prestige, personal networks, or meeting frequency alone.",
+      "rationale": "This task assesses the teacher?s planning and professional judgement in community engagement, not popularity, social status or the number of contacts a teacher has.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge community engagement decisions within the stated context, not teacher profile, school location, parent education level, family income, or social status. Resource access and available contacts must not determine competence classification."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "community_engagement"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  }
+]

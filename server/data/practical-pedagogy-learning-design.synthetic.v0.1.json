@@ -1,0 +1,3277 @@
+[
+  {
+    "item_id": "D5-PL-SJT-001",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou are planning a Primary 2 lesson on sorting objects by material. Which outcome would best guide both the activity and the end-of-lesson check?\n\nA. Pupils will sort unfamiliar objects by material and explain one choice.\nB. Pupils will handle a collection containing wood, plastic and metal objects.\nC. Pupils will copy the three material names and complete the page neatly.\nD. Pupils will listen to examples of how different materials are used.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson planning and learning objectives",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Pupils will sort unfamiliar objects by material and explain one choice."
+        },
+        {
+          "id": "B",
+          "label": "Pupils will handle a collection containing wood, plastic and metal objects."
+        },
+        {
+          "id": "C",
+          "label": "Pupils will copy the three material names and complete the page neatly."
+        },
+        {
+          "id": "D",
+          "label": "Pupils will listen to examples of how different materials are used."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Sorting new examples and explaining a choice specifies observable learning. Handling, copying and listening describe participation without establishing the intended classification skill.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_planning",
+      "observable_learning_outcomes"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-002",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nPrimary 3 pupils can recognise a complete sentence. You are planning their first lesson on joining two related ideas with because. Which sequence best builds independent use?\n\nA. Copy ten joined sentences, memorise because, then hear the rule.\nB. Write a paragraph independently, exchange books, then copy a model.\nC. Recite the rule, copy its definition, then underline because in a passage.\nD. Examine a model, complete a pair together, then join a new pair alone.",
+    "primary_domain": "D5",
+    "subcompetency": "instructional sequencing",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Copy ten joined sentences, memorise because, then hear the rule."
+        },
+        {
+          "id": "B",
+          "label": "Write a paragraph independently, exchange books, then copy a model."
+        },
+        {
+          "id": "C",
+          "label": "Recite the rule, copy its definition, then underline because in a passage."
+        },
+        {
+          "id": "D",
+          "label": "Examine a model, complete a pair together, then join a new pair alone."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "A model followed by supported and independent application makes the relation between ideas explicit before assessing independent use.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "instructional_sequencing",
+      "guided_and_independent_practice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-003",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nIn a Primary 4 lesson, the goal is to justify a way of grouping leaves by visible features. Which task gives pupils a meaningful learning decision?\n\nA. Choose a visible feature, group the leaves, and defend the grouping.\nB. Choose a paper colour, then copy the grouping drawn on the board.\nC. Vote for the neatest leaf display after following a supplied grouping.\nD. Choose a group name, then label leaves already sorted by the teacher.",
+    "primary_domain": "D5",
+    "subcompetency": "learner-centred delivery",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Choose a visible feature, group the leaves, and defend the grouping."
+        },
+        {
+          "id": "B",
+          "label": "Choose a paper colour, then copy the grouping drawn on the board."
+        },
+        {
+          "id": "C",
+          "label": "Vote for the neatest leaf display after following a supplied grouping."
+        },
+        {
+          "id": "D",
+          "label": "Choose a group name, then label leaves already sorted by the teacher."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Choosing and defending a classification involves decisions about the target concept. The other choices concern presentation or organisation rather than classification reasoning.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "learner_centred_pedagogy",
+      "reasoning_and_choice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-004",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou are designing a Primary 5 group task on interpreting rainfall charts. Each pupil should practise comparing values. Which structure best serves that goal?\n\nA. Assign one reader, one calculator and one reporter for the whole task.\nB. Let each group select its strongest chart reader to complete the comparisons.\nC. Ask groups to copy the chart together before the teacher compares values.\nD. Have everyone record a comparison before discussing and agreeing reasons.",
+    "primary_domain": "D5",
+    "subcompetency": "active learning and participation",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Assign one reader, one calculator and one reporter for the whole task."
+        },
+        {
+          "id": "B",
+          "label": "Let each group select its strongest chart reader to complete the comparisons."
+        },
+        {
+          "id": "C",
+          "label": "Ask groups to copy the chart together before the teacher compares values."
+        },
+        {
+          "id": "D",
+          "label": "Have everyone record a comparison before discussing and agreeing reasons."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Individual comparisons before group reasoning give every pupil practice of the target skill. Fixed specialist roles or observation alone can leave some pupils without that practice.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "active_learning",
+      "individual_learning_in_group_tasks"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-005",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nFor a Primary 3 lesson checkpoint, you need to distinguish pupils who understand that 402 has no tens from those who ignore the zero. Which question is most useful?\n\nA. Write 402 in your neatest figures and read it aloud to a partner.\nB. Count aloud from 398 to 405 and tell a partner the next number.\nC. Choose the hundreds-tens-ones model for 402 and justify the tens column.\nD. Find 402 on a page of numbers and underline its largest digit.",
+    "primary_domain": "D5",
+    "subcompetency": "questioning and checking for understanding",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Write 402 in your neatest figures and read it aloud to a partner."
+        },
+        {
+          "id": "B",
+          "label": "Count aloud from 398 to 405 and tell a partner the next number."
+        },
+        {
+          "id": "C",
+          "label": "Choose the hundreds-tens-ones model for 402 and justify the tens column."
+        },
+        {
+          "id": "D",
+          "label": "Find 402 on a page of numbers and underline its largest digit."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Selecting a model and explaining its tens column directly exposes the place-value interpretation being checked; reading, counting and visual search do not isolate it.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "diagnostic_question_design",
+      "checking_understanding"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-006",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou plan a checkpoint before pupils begin subtracting with regrouping. Which plan best makes the checkpoint formative?\n\nA. Record the marks in the grade book and continue the planned examples.\nB. Inspect place-value workings; use regrouping errors to select guided practice.\nC. Award a point for an attempt and finish the planned practice page.\nD. Use the question as homework and mark it after the topic test.",
+    "primary_domain": "D5",
+    "subcompetency": "formative assessment for learning",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Record the marks in the grade book and continue the planned examples."
+        },
+        {
+          "id": "B",
+          "label": "Inspect place-value workings; use regrouping errors to select guided practice."
+        },
+        {
+          "id": "C",
+          "label": "Award a point for an attempt and finish the planned practice page."
+        },
+        {
+          "id": "D",
+          "label": "Use the question as homework and mark it after the topic test."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The checkpoint becomes formative when evidence about the target step informs instruction while pupils can still improve, rather than serving only as a recorded mark.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "formative_assessment",
+      "planning_from_learning_evidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-007",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nPupils will draft instructions for planting a seed. You have time for one feedback cycle. Which lesson plan gives feedback the best chance to improve learning?\n\nA. Draft, receive a total mark, display the neatest work, then change topic.\nB. Draft, check the order against criteria, revise, then try a new instruction.\nC. Draft, hear all the correct instructions, then copy the complete model.\nD. Draft, swap books for spelling corrections, then submit without revision.",
+    "primary_domain": "D5",
+    "subcompetency": "feedback for learning",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Draft, receive a total mark, display the neatest work, then change topic."
+        },
+        {
+          "id": "B",
+          "label": "Draft, check the order against criteria, revise, then try a new instruction."
+        },
+        {
+          "id": "C",
+          "label": "Draft, hear all the correct instructions, then copy the complete model."
+        },
+        {
+          "id": "D",
+          "label": "Draft, swap books for spelling corrections, then submit without revision."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Criteria-based review with revision and a further attempt builds feedback into learning the target sequence; marks or copying alone do not show pupils can use the feedback.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback_cycles",
+      "revision_and_transfer"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-008",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYour Primary 4 objective is for pupils to use evidence from a short passage to infer why a character acted. Which final task best matches the objective?\n\nA. List the characters and copy three words describing the setting.\nB. Retell the passage in order using the opening words provided.\nC. Copy the sentence containing the action and identify its main verb.\nD. Give a reason for the action and cite a detail that supports it.",
+    "primary_domain": "D5",
+    "subcompetency": "alignment of objectives instruction and assessment",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "List the characters and copy three words describing the setting."
+        },
+        {
+          "id": "B",
+          "label": "Retell the passage in order using the opening words provided."
+        },
+        {
+          "id": "C",
+          "label": "Copy the sentence containing the action and identify its main verb."
+        },
+        {
+          "id": "D",
+          "label": "Give a reason for the action and cite a detail that supports it."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "The final task must elicit both an inference and supporting passage evidence. Retelling, locating and grammar tasks sample different outcomes.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "constructive_alignment",
+      "assessment_design"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-009",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou are planning a lesson in which all Primary 4 pupils must compare fractions with the same denominator. Recent work shows different levels of readiness. Which task design preserves this common goal?\n\nA. Offer strips or symbols for comparisons; require everyone to justify one.\nB. Give one group numerator copying while another compares symbolic fractions.\nC. Give every group the same symbolic worksheet with the same time limit.\nD. Set fraction comparisons for one group and whole-number addition for another.",
+    "primary_domain": "D5",
+    "subcompetency": "differentiation within learning design",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Offer strips or symbols for comparisons; require everyone to justify one."
+        },
+        {
+          "id": "B",
+          "label": "Give one group numerator copying while another compares symbolic fractions."
+        },
+        {
+          "id": "C",
+          "label": "Give every group the same symbolic worksheet with the same time limit."
+        },
+        {
+          "id": "D",
+          "label": "Set fraction comparisons for one group and whole-number addition for another."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Planned representation choices can support access while retaining fraction comparison and justification for everyone. The alternatives either change the goal or omit planned support.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "planned_differentiation",
+      "shared_learning_goals"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-010",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou are preparing reusable card sets for a Primary 1 lesson on matching quantities to numerals. Which design best checks quantity rather than a visual shortcut?\n\nA. Use a different card colour for each matching numeral and quantity.\nB. Keep cards alike in size and colour; vary the arrangements of dots.\nC. Put each numeral and its matching quantity on the same card face.\nD. Make all larger quantities use larger cards than the smaller quantities.",
+    "primary_domain": "D5",
+    "subcompetency": "use and design of learning resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Use a different card colour for each matching numeral and quantity."
+        },
+        {
+          "id": "B",
+          "label": "Keep cards alike in size and colour; vary the arrangements of dots."
+        },
+        {
+          "id": "C",
+          "label": "Put each numeral and its matching quantity on the same card face."
+        },
+        {
+          "id": "D",
+          "label": "Make all larger quantities use larger cards than the smaller quantities."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Removing colour and size cues and varying dot arrangements directs attention to quantity. The other designs allow matching without identifying the number of dots.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "learning_resource_design",
+      "low_resource_pedagogy"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-011",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nAcross three lessons, Primary 5 pupils will learn to collect categorical data and represent it in a bar chart. Which sequence makes the purpose of the chart clearest?\n\nA. Pose a question and tally responses; build a chart; interpret its values.\nB. Decorate a chart frame; copy a completed chart; collect unrelated totals.\nC. Memorise chart labels; draw several axes; copy definitions of data terms.\nD. Read a finished chart; copy its values; choose a question to fit the copy.",
+    "primary_domain": "D5",
+    "subcompetency": "instructional sequencing",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Pose a question and tally responses; build a chart; interpret its values."
+        },
+        {
+          "id": "B",
+          "label": "Decorate a chart frame; copy a completed chart; collect unrelated totals."
+        },
+        {
+          "id": "C",
+          "label": "Memorise chart labels; draw several axes; copy definitions of data terms."
+        },
+        {
+          "id": "D",
+          "label": "Read a finished chart; copy its values; choose a question to fit the copy."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Moving from a question through organised data to a representation and interpretation connects each stage to the information the chart is intended to communicate.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "instructional_sequencing",
+      "guided_and_independent_practice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-012",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nDuring planning for a Primary 2 lesson on equal sharing, you can include one main activity. Which gives each learner the strongest opportunity to reason about fairness of shares?\n\nA. Watch the teacher distribute counters and copy the final numbers.\nB. Make two equal shares, test a partner's shares, and explain the check.\nC. Sing a sharing song and repeat the key words after each verse.\nD. Decorate two sharing bowls and label them with the same group name.",
+    "primary_domain": "D5",
+    "subcompetency": "active learning and participation",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Watch the teacher distribute counters and copy the final numbers."
+        },
+        {
+          "id": "B",
+          "label": "Make two equal shares, test a partner's shares, and explain the check."
+        },
+        {
+          "id": "C",
+          "label": "Sing a sharing song and repeat the key words after each verse."
+        },
+        {
+          "id": "D",
+          "label": "Decorate two sharing bowls and label them with the same group name."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Making, checking and explaining shares require mathematical action from the learner. The alternatives can be completed without deciding whether quantities are equal.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "active_learning",
+      "individual_learning_in_group_tasks"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-013",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nYou are planning a hinge question: a brief question whose results decide whether the class is ready for the next learning step. Which design is strongest?\n\nA. A difficult question from next term that only a few pupils may solve.\nB. A prerequisite question with misconception-based choices and simultaneous responses.\nC. A recall question answered aloud by the first pupil to raise a hand.\nD. A long end-of-unit task that will be marked after the next lesson.",
+    "primary_domain": "D5",
+    "subcompetency": "questioning and checking for understanding",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "A difficult question from next term that only a few pupils may solve."
+        },
+        {
+          "id": "B",
+          "label": "A prerequisite question with misconception-based choices and simultaneous responses."
+        },
+        {
+          "id": "C",
+          "label": "A recall question answered aloud by the first pupil to raise a hand."
+        },
+        {
+          "id": "D",
+          "label": "A long end-of-unit task that will be marked after the next lesson."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A hinge question should expose readiness for the next step from enough pupils in time to guide that step. Difficulty, speed of volunteering and delayed marking do not serve that purpose.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "diagnostic_question_design",
+      "checking_understanding"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-014",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nAt the end of a Primary 4 paragraph lesson, you will collect two-sentence exit slips. The outcome is a main idea supported by a relevant detail. How should you organise the review for tomorrow's planning?\n\nA. Rank slips by handwriting quality and display the most readable examples.\nB. Count the words in each slip and assign longer writing to shorter responses.\nC. Give one mark for each sentence and record the two-mark totals.\nD. Sort by main-idea and support criteria, then plan practice for each pattern.",
+    "primary_domain": "D5",
+    "subcompetency": "formative assessment for learning",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Rank slips by handwriting quality and display the most readable examples."
+        },
+        {
+          "id": "B",
+          "label": "Count the words in each slip and assign longer writing to shorter responses."
+        },
+        {
+          "id": "C",
+          "label": "Give one mark for each sentence and record the two-mark totals."
+        },
+        {
+          "id": "D",
+          "label": "Sort by main-idea and support criteria, then plan practice for each pattern."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Reviewing the two target criteria produces actionable information about the next lesson. Length, handwriting and sentence counts are weak substitutes for those criteria.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "formative_assessment",
+      "planning_from_learning_evidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-015",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nA draft Primary 3 lesson objective says, \"Understand perimeter.\" Which revision provides a clear, achievable target for one introductory lesson?\n\nA. Know everything needed about perimeter and area for future topics.\nB. Complete every perimeter activity on the page before the lesson ends.\nC. Find the perimeter of a rectangle by adding its labelled side lengths.\nD. Appreciate the importance of perimeter through an attractive class display.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson planning and learning objectives",
+    "evidence_type": "situational judgement",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Know everything needed about perimeter and area for future topics."
+        },
+        {
+          "id": "B",
+          "label": "Complete every perimeter activity on the page before the lesson ends."
+        },
+        {
+          "id": "C",
+          "label": "Find the perimeter of a rectangle by adding its labelled side lengths."
+        },
+        {
+          "id": "D",
+          "label": "Appreciate the importance of perimeter through an attractive class display."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The revision specifies an observable introductory performance. Completion and appreciation are not direct evidence of perimeter understanding, and the broad alternative exceeds the lesson scope.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_planning",
+      "observable_learning_outcomes"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-016",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nFor a lesson on ordering events, you plan to draw four stages of a familiar classroom activity on scrap-card rectangles. Which resource feature best preserves the sequencing challenge?\n\nA. Number each card clearly from one to four before distributing the sets.\nB. Use progressively darker borders to show the expected order of the cards.\nC. Write first, next, then and finally on the backs for pupils to match.\nD. Show event clues without order numbers and ask pupils to explain the order.",
+    "primary_domain": "D5",
+    "subcompetency": "use and design of learning resources",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Number each card clearly from one to four before distributing the sets."
+        },
+        {
+          "id": "B",
+          "label": "Use progressively darker borders to show the expected order of the cards."
+        },
+        {
+          "id": "C",
+          "label": "Write first, next, then and finally on the backs for pupils to match."
+        },
+        {
+          "id": "D",
+          "label": "Show event clues without order numbers and ask pupils to explain the order."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Event clues support reasoning about sequence without giving away the answer through numbering, shading or supplied sequence words.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "learning_resource_design",
+      "low_resource_pedagogy"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-017",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nIn a Primary 5 lesson on comparing solution methods, pupils know two ways to calculate 24 + 19. Which task best makes their reasoning central to the lesson?\n\nA. Solve using a chosen method, compare steps, and justify its usefulness here.\nB. Copy both methods and circle the one that takes up less board space.\nC. Use the method voted most popular before attempting any calculations.\nD. Follow the teacher's preferred method on ten examples of the same calculation.",
+    "primary_domain": "D5",
+    "subcompetency": "learner-centred delivery",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Solve using a chosen method, compare steps, and justify its usefulness here."
+        },
+        {
+          "id": "B",
+          "label": "Copy both methods and circle the one that takes up less board space."
+        },
+        {
+          "id": "C",
+          "label": "Use the method voted most popular before attempting any calculations."
+        },
+        {
+          "id": "D",
+          "label": "Follow the teacher's preferred method on ten examples of the same calculation."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Method choice followed by comparison and justification makes learners evaluate mathematical approaches. Preference, copying or repeated compliance alone does not meet that purpose.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "learner_centred_pedagogy",
+      "reasoning_and_choice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-SJT-018",
+    "prompt": "Select the strongest pedagogical action in this situation.\n\nFor a Primary 4 first-draft paragraph lesson, you plan peer assessment of whether supporting sentences fit the main idea. Which preparation will make peers' judgements most useful?\n\nA. Ask pupils to award marks for the overall impression of each paragraph.\nB. Give pupils a list of praise phrases to use before exchanging books.\nC. Practise the criterion on two samples before peers suggest one revision.\nD. Ask pupils to correct every spelling error before judging the ideas.",
+    "primary_domain": "D5",
+    "subcompetency": "feedback for learning",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask pupils to award marks for the overall impression of each paragraph."
+        },
+        {
+          "id": "B",
+          "label": "Give pupils a list of praise phrases to use before exchanging books."
+        },
+        {
+          "id": "C",
+          "label": "Practise the criterion on two samples before peers suggest one revision."
+        },
+        {
+          "id": "D",
+          "label": "Ask pupils to correct every spelling error before judging the ideas."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Applying the criterion to contrasting samples prepares pupils to judge the targeted feature and propose a revision. General praise or spelling correction does not establish this judgement skill.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback_cycles",
+      "revision_and_transfer"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-019",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore choosing a lesson activity, I wrote an observable outcome that the activity was intended to develop.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "lesson planning and learning objectives",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Starting from observable learning intentions supports purposeful planning; frequency reports require corroboration from plans and tasks.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_planning",
+      "observable_learning_outcomes"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-020",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen planning a new procedure, I included a supported attempt before asking pupils to use it independently.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "instructional sequencing",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Planned supported practice provides a bridge to independence; inspect whether the support and independent task actually address the procedure.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "instructional_sequencing",
+      "guided_and_independent_practice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-021",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI included a task in which pupils chose an approach and explained how it served the learning goal.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "learner-centred delivery",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Meaningful choices concern the learning process, not only colours or group names; learner work or observation is needed to verify the demand.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "learner_centred_pedagogy",
+      "reasoning_and_choice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-022",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI counted a group product as evidence that every member had learned, without planning an individual response.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "active learning and participation",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Group products can hide differences in individual learning. More frequent reliance on them without an individual check represents weaker evidence design.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "active_learning",
+      "individual_learning_in_group_tasks"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-023",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhile preparing a lesson checkpoint, I selected a question whose wrong answers would reveal different misunderstandings.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "questioning and checking for understanding",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Deliberately designed response alternatives can make checkpoints informative; question quality and classroom use still need review.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "diagnostic_question_design",
+      "checking_understanding"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-024",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAfter reviewing an end-of-lesson check, I recorded which learning criterion the next lesson needed to address.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "formative assessment for learning",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Linking evidence to a criterion makes the planning consequence explicit; this report alone does not establish that the next lesson acted on it.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "formative_assessment",
+      "planning_from_learning_evidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-025",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI reserved lesson time for pupils to revise work using feedback against the learning criteria.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "feedback for learning",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Revision time embeds feedback in the learning design; revised work is needed to establish whether pupils used it productively.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback_cycles",
+      "revision_and_transfer"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-026",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI chose an assessment because it was quick to mark, even when it tested a different skill from the lesson objective.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "alignment of objectives instruction and assessment",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Ease of marking does not justify assessing a different construct; higher reported frequency indicates weaker alignment.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "constructive_alignment",
+      "assessment_design"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-027",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nIn plans with different support options, I specified the learning goal that all versions of the task still had to assess.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "differentiation within learning design",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Explicit common goals help distinguish support from lowering or replacing the intended demand; task versions provide corroborating evidence.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "planned_differentiation",
+      "shared_learning_goals"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-028",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nBefore using a learning aid, I checked whether pupils could get the answer from its layout or colour without using the intended skill.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "use and design of learning resources",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Reviewing unintended clues helps resources elicit the target thinking; a reported check is not proof that the resource is sound.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "learning_resource_design",
+      "low_resource_pedagogy"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-BF-029",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAfter a lesson, I compared the learning shown in pupil work with the outcome written in my plan.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D5",
+    "subcompetency": "lesson reflection and improvement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Comparing intended and demonstrated learning supports pedagogical reflection, but an observation or artifact is needed to corroborate the report.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity. Triangulate with lesson plans, pupil work or observation; never treat it alone as proof of competence. NA is missing evidence, not a zero score.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_evaluation",
+      "evidence_informed_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-030",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nA Primary 3 outcome is to estimate an object's length before measuring it. Which assessment captures the full outcome?\n\nA. Copy five object lengths from a labelled diagram.\nB. Name the parts of a ruler and draw its scale.\nC. Record an estimate, measure, and compare the two values.\nD. Measure five objects after reading their given lengths.",
+    "primary_domain": "D5",
+    "subcompetency": "alignment of objectives instruction and assessment",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Copy five object lengths from a labelled diagram."
+        },
+        {
+          "id": "B",
+          "label": "Name the parts of a ruler and draw its scale."
+        },
+        {
+          "id": "C",
+          "label": "Record an estimate, measure, and compare the two values."
+        },
+        {
+          "id": "D",
+          "label": "Measure five objects after reading their given lengths."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "An estimate made before measurement and compared with the result captures both judgement and checking; measurement alone samples only part of the outcome.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "constructive_alignment",
+      "assessment_design"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-031",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nPupils have learned to group objects in tens and ones. Which next task best bridges that experience to written two-digit numbers?\n\nA. Memorise the spellings of all two-digit number names.\nB. Copy a hundred chart and colour every tenth number.\nC. Match grouped quantities to numerals and account for each digit.\nD. Add several three-digit numbers using a supplied written rule.",
+    "primary_domain": "D5",
+    "subcompetency": "instructional sequencing",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Memorise the spellings of all two-digit number names."
+        },
+        {
+          "id": "B",
+          "label": "Copy a hundred chart and colour every tenth number."
+        },
+        {
+          "id": "C",
+          "label": "Match grouped quantities to numerals and account for each digit."
+        },
+        {
+          "id": "D",
+          "label": "Add several three-digit numbers using a supplied written rule."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Explicitly connecting groups to digit values bridges the concrete representation and written notation without introducing an unrelated or premature demand.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "instructional_sequencing",
+      "guided_and_independent_practice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-032",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nA checkpoint on rectangles uses only upright examples with a long horizontal side. Which addition best tests whether pupils recognise the defining properties?\n\nA. Rotated rectangles and slanted non-rectangles, with reasons for classification.\nB. A request to spell rectangle and copy the definition from the board.\nC. A timed count of how many upright rectangles fit on the worksheet.\nD. More upright rectangles with different fill colours and border thicknesses.",
+    "primary_domain": "D5",
+    "subcompetency": "questioning and checking for understanding",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Rotated rectangles and slanted non-rectangles, with reasons for classification."
+        },
+        {
+          "id": "B",
+          "label": "A request to spell rectangle and copy the definition from the board."
+        },
+        {
+          "id": "C",
+          "label": "A timed count of how many upright rectangles fit on the worksheet."
+        },
+        {
+          "id": "D",
+          "label": "More upright rectangles with different fill colours and border thicknesses."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Varying orientation and including near non-examples tests classification by properties rather than resemblance to a single familiar picture.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "diagnostic_question_design",
+      "checking_understanding"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-033",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nWhich use of a five-question classroom quiz makes it assessment for learning?\n\nA. Convert the total to a percentage for the term record.\nB. Award completion points before returning the answer sheet.\nC. Rank pupils by score to choose the order of presentations.\nD. Use error patterns to plan practice and check the target again.",
+    "primary_domain": "D5",
+    "subcompetency": "formative assessment for learning",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Convert the total to a percentage for the term record."
+        },
+        {
+          "id": "B",
+          "label": "Award completion points before returning the answer sheet."
+        },
+        {
+          "id": "C",
+          "label": "Rank pupils by score to choose the order of presentations."
+        },
+        {
+          "id": "D",
+          "label": "Use error patterns to plan practice and check the target again."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Assessment for learning uses evidence to influence learning while there is an opportunity to improve, including a subsequent check of the targeted understanding.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "formative_assessment",
+      "planning_from_learning_evidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-034",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nThe common objective is to explain which of two containers holds more by counting equal cupfuls. Which planned support retains that reasoning demand?\n\nA. Print the correct conclusion for pupils to trace beneath both containers.\nB. Let supported pupils decorate containers while others compare their capacities.\nC. Provide a tally frame; pupils measure and use totals to justify the comparison.\nD. Give supported pupils different-sized cups to make the filling stage faster.",
+    "primary_domain": "D5",
+    "subcompetency": "differentiation within learning design",
+    "evidence_type": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Print the correct conclusion for pupils to trace beneath both containers."
+        },
+        {
+          "id": "B",
+          "label": "Let supported pupils decorate containers while others compare their capacities."
+        },
+        {
+          "id": "C",
+          "label": "Provide a tally frame; pupils measure and use totals to justify the comparison."
+        },
+        {
+          "id": "D",
+          "label": "Give supported pupils different-sized cups to make the filling stage faster."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A tally frame supports recording while preserving measurement with equal units and justification. Tracing removes reasoning; decoration changes the goal; unequal units undermine comparison.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "planned_differentiation",
+      "shared_learning_goals"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-035",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nA fraction-strip set will be used to compare one-half and one-quarter of the same whole. What design feature is essential?\n\nA. The quarter strip uses brighter colours than the half strip.\nB. The half strip is twice as long overall as the quarter strip.\nC. Every individual piece has the same length across both strips.\nD. The whole strips have equal lengths, with equal parts within each strip.",
+    "primary_domain": "D5",
+    "subcompetency": "use and design of learning resources",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The quarter strip uses brighter colours than the half strip."
+        },
+        {
+          "id": "B",
+          "label": "The half strip is twice as long overall as the quarter strip."
+        },
+        {
+          "id": "C",
+          "label": "Every individual piece has the same length across both strips."
+        },
+        {
+          "id": "D",
+          "label": "The whole strips have equal lengths, with equal parts within each strip."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Equal whole lengths and equal partitions within each whole make the fractions comparable; differently sized wholes or misleading piece sizes change the comparison.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "learning_resource_design",
+      "low_resource_pedagogy"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-036",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nWhich success criterion best fits a Primary 5 task to summarise a short information passage?\n\nA. The response copies the first and last sentence exactly.\nB. The response states the main points briefly without adding new claims.\nC. The response repeats every example in the original order.\nD. The response contains more sentences than the original passage.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson planning and learning objectives",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The response copies the first and last sentence exactly."
+        },
+        {
+          "id": "B",
+          "label": "The response states the main points briefly without adding new claims."
+        },
+        {
+          "id": "C",
+          "label": "The response repeats every example in the original order."
+        },
+        {
+          "id": "D",
+          "label": "The response contains more sentences than the original passage."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A summary preserves the main information concisely without invention; copying selected positions or reproducing every example does not reliably achieve that.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_planning",
+      "observable_learning_outcomes"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-KA-037",
+    "prompt": "Apply the pedagogical principle. Select the strongest answer.\n\nA lesson plan includes teacher comments on pupils' explanations, time to revise, and a fresh explanation task. What is the main purpose of the fresh task?\n\nA. To check whether pupils can use the feedback beyond the corrected example.\nB. To give pupils enough work to fill the remaining lesson time.\nC. To replace the earlier draft so no error remains in the exercise book.\nD. To compare how quickly pupils write after seeing teacher comments.",
+    "primary_domain": "D5",
+    "subcompetency": "feedback for learning",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "To check whether pupils can use the feedback beyond the corrected example."
+        },
+        {
+          "id": "B",
+          "label": "To give pupils enough work to fill the remaining lesson time."
+        },
+        {
+          "id": "C",
+          "label": "To replace the earlier draft so no error remains in the exercise book."
+        },
+        {
+          "id": "D",
+          "label": "To compare how quickly pupils write after seeing teacher comments."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A fresh task checks transfer of the learning prompted by feedback; revision of the original alone may reflect copying rather than usable learning.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback_cycles",
+      "revision_and_transfer"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-038",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nYour lesson included a lively role-play about buying classroom supplies. The stated outcome was to calculate correct change, but you collected only pupils' comments about enjoying the activity. Which review is most justified?\n\nA. Enjoyment is sufficient evidence that the calculation outcome was achieved.\nB. Role-play should be removed because practical activities cannot assess calculation.\nC. The activity engaged pupils; the design also needs evidence of change calculations.\nD. The outcome was too demanding because pupils preferred discussing the activity.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson reflection and improvement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Enjoyment is sufficient evidence that the calculation outcome was achieved."
+        },
+        {
+          "id": "B",
+          "label": "Role-play should be removed because practical activities cannot assess calculation."
+        },
+        {
+          "id": "C",
+          "label": "The activity engaged pupils; the design also needs evidence of change calculations."
+        },
+        {
+          "id": "D",
+          "label": "The outcome was too demanding because pupils preferred discussing the activity."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Engagement evidence and calculation evidence answer different questions. Reflection should retain useful engagement while adding a task or record aligned to the intended mathematics.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_evaluation",
+      "evidence_informed_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-039",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nYour objective was to compare two accounts of the same event. Most pupils scored highly on a test asking only for facts from each account. What does this suggest about the lesson assessment?\n\nA. The high marks establish that pupils can compare any two accounts independently.\nB. Fact recall supports readiness, but comparison still needs to be assessed directly.\nC. The accounts should be made longer because short passages produce high scores.\nD. The same test should be timed more strictly to assess comparison at greater depth.",
+    "primary_domain": "D5",
+    "subcompetency": "alignment of objectives instruction and assessment",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The high marks establish that pupils can compare any two accounts independently."
+        },
+        {
+          "id": "B",
+          "label": "Fact recall supports readiness, but comparison still needs to be assessed directly."
+        },
+        {
+          "id": "C",
+          "label": "The accounts should be made longer because short passages produce high scores."
+        },
+        {
+          "id": "D",
+          "label": "The same test should be timed more strictly to assess comparison at greater depth."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Remembering facts may contribute to comparison but is not evidence of comparing; the missing demand must be elicited directly rather than inferred from total marks.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "constructive_alignment",
+      "assessment_design"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-040",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nYour plan was labelled learner-centred because pupils selected a poster colour and copied your complete explanation. Which reflection best examines the learning design?\n\nA. Colour choice makes the task learner-centred regardless of the thinking involved.\nB. Add decisions about the content and reasons, beyond choices about presentation.\nC. Copying is always unsuitable, so written models should be removed from lessons.\nD. Offer more poster colours so pupils have a wider range of personal preferences.",
+    "primary_domain": "D5",
+    "subcompetency": "learner-centred delivery",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Colour choice makes the task learner-centred regardless of the thinking involved."
+        },
+        {
+          "id": "B",
+          "label": "Add decisions about the content and reasons, beyond choices about presentation."
+        },
+        {
+          "id": "C",
+          "label": "Copying is always unsuitable, so written models should be removed from lessons."
+        },
+        {
+          "id": "D",
+          "label": "Offer more poster colours so pupils have a wider range of personal preferences."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The relevant issue is whether learners make and explain decisions connected to the learning goal. Presentation choice alone does not establish that, and models need not be rejected.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "learner_centred_pedagogy",
+      "reasoning_and_choice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-041",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nA group investigation produced accurate charts, but each group's recorder completed all the calculations. You intended every pupil to practise finding differences between values. What is the strongest design conclusion?\n\nA. The accurate group chart is enough to confirm each member can calculate differences.\nB. Replace all group investigation with copying the completed charts from the board.\nC. Keep group comparison, but require each pupil to calculate and explain a difference.\nD. Keep the fixed roles and judge each pupil only on how well they performed that role.",
+    "primary_domain": "D5",
+    "subcompetency": "active learning and participation",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The accurate group chart is enough to confirm each member can calculate differences."
+        },
+        {
+          "id": "B",
+          "label": "Replace all group investigation with copying the completed charts from the board."
+        },
+        {
+          "id": "C",
+          "label": "Keep group comparison, but require each pupil to calculate and explain a difference."
+        },
+        {
+          "id": "D",
+          "label": "Keep the fixed roles and judge each pupil only on how well they performed that role."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Group work can be retained while adding individual target-skill practice and evidence. Accurate products or role performance cannot establish an unobserved individual calculation skill.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "active_learning",
+      "individual_learning_in_group_tasks"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-042",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nYour plan allocated twenty minutes to naming plant parts and two minutes to explaining each part's role. Pupil work shows correct labels but weak explanations. Both were stated outcomes. Which review should guide the next version of the lesson?\n\nA. Lower the explanation criterion because the labels were taught successfully.\nB. Retain the timing and add more plant names to increase lesson coverage.\nC. Assess only labels so the test matches the part that pupils already do well.\nD. Rebalance practice and checks so explaining functions receives sufficient attention.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson reflection and improvement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Lower the explanation criterion because the labels were taught successfully."
+        },
+        {
+          "id": "B",
+          "label": "Retain the timing and add more plant names to increase lesson coverage."
+        },
+        {
+          "id": "C",
+          "label": "Assess only labels so the test matches the part that pupils already do well."
+        },
+        {
+          "id": "D",
+          "label": "Rebalance practice and checks so explaining functions receives sufficient attention."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "The allocation of practice and checks underrepresents an intended outcome. Reviewing that alignment is warranted without claiming timing is the only possible cause of the results.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_evaluation",
+      "evidence_informed_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-043",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nYour planned versions of a sorting task used picture prompts for one group and text descriptions for another. Both groups sorted and justified using the same scientific property. How should you judge the differentiation?\n\nA. Treat both groups as having mastered the outcome because they finished the task.\nB. Give the picture group lower scores because its materials look easier to read.\nC. Judge only the number of cards sorted because explanations may differ in length.\nD. Check work against the shared property-and-reason criterion, noting support used.",
+    "primary_domain": "D5",
+    "subcompetency": "differentiation within learning design",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Treat both groups as having mastered the outcome because they finished the task."
+        },
+        {
+          "id": "B",
+          "label": "Give the picture group lower scores because its materials look easier to read."
+        },
+        {
+          "id": "C",
+          "label": "Judge only the number of cards sorted because explanations may differ in length."
+        },
+        {
+          "id": "D",
+          "label": "Check work against the shared property-and-reason criterion, noting support used."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Judgement should follow the common science criterion with support documented. Reading format and completion alone do not determine demonstrated scientific understanding.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "planned_differentiation",
+      "shared_learning_goals"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-RJ-044",
+    "prompt": "Evaluate the lesson design and evidence. Select the strongest judgement.\n\nAfter a lesson on interpreting a timetable, your notes say only \"finished on time\" and \"all activities covered.\" Which addition would make the reflection useful for improving the learning design?\n\nA. Examples of successful and mistaken time comparisons linked to a planning change.\nB. A list of every resource used, ranked by how attractive pupils found it.\nC. A longer description of how the board and pupils' books were arranged.\nD. A count of the pages covered compared with another class on the same day.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson reflection and improvement",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Examples of successful and mistaken time comparisons linked to a planning change."
+        },
+        {
+          "id": "B",
+          "label": "A list of every resource used, ranked by how attractive pupils found it."
+        },
+        {
+          "id": "C",
+          "label": "A longer description of how the board and pupils' books were arranged."
+        },
+        {
+          "id": "D",
+          "label": "A count of the pages covered compared with another class on the same day."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Examples tied to the target learning and a justified planning change connect reflection to instructional improvement. Coverage, arrangement and attractiveness cannot substitute for learning evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_evaluation",
+      "evidence_informed_planning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-045",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nDesign a 25-minute Primary 3 lesson on identifying the main idea of a short paragraph. Supply an original three-sentence paragraph, one observable outcome, two success criteria, timed lesson stages and an individual final check with an expected response. Show where each criterion is practised and checked.",
+    "primary_domain": "D5",
+    "subcompetency": "lesson planning and learning objectives",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Outcome and criteria",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names main idea but gives only one usable criterion or a vague outcome."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies identifying the main idea, with criteria for covering the paragraph as a whole and distinguishing it from a supporting detail."
+            }
+          ]
+        },
+        {
+          "criterion": "Text and expected response",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides a usable paragraph or a defensible expected main idea, but not both."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides a coherent three-sentence paragraph with a defensible main idea and an expected response that reflects it."
+            }
+          ]
+        },
+        {
+          "criterion": "Lesson sequence and timing",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Lists relevant stages but leaves support, independent application or feasible timing unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Allocates 25 minutes across modelling, supported practice and an individual check, with a clear transition towards independent use."
+            }
+          ]
+        },
+        {
+          "criterion": "Alignment",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Links only one criterion to practice and assessment, or uses only a whole-class response."
+            },
+            {
+              "score": 2,
+              "descriptor": "Shows both criteria in practice and the individual final check, with guidance for judging an acceptable response."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "A coherent outcome, suitable text, supported sequence and criterion-linked individual check provide observable evidence of lesson planning. Equivalent main-idea wording is acceptable.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "lesson_planning",
+      "observable_learning_outcomes"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-046",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nProduce a three-lesson outline for Primary 4 pupils learning to construct and interpret a simple bar chart. Include a small invented categorical dataset, a worked model description, a supported task, an independent task and a readiness check between lessons. State what evidence permits progression and what practice you would schedule if the check is not met.",
+    "primary_domain": "D5",
+    "subcompetency": "instructional sequencing",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Progression",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Includes relevant chart tasks but orders them without a clear dependency."
+            },
+            {
+              "score": 2,
+              "descriptor": "Sequences organising the data, constructing a labelled chart with equal scale intervals, and interpreting values, making the dependencies explicit."
+            }
+          ]
+        },
+        {
+          "criterion": "Modelling and practice",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Mentions a model or practice without showing how learner responsibility increases."
+            },
+            {
+              "score": 2,
+              "descriptor": "Describes a model, supported chart work and a fresh independent task that preserve the targeted chart skills."
+            }
+          ]
+        },
+        {
+          "criterion": "Dataset and tasks",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides data or tasks, but they are incomplete or do not support both construction and interpretation."
+            },
+            {
+              "score": 2,
+              "descriptor": "Supplies a small valid dataset and feasible tasks requiring accurate construction and comparisons based on the chart."
+            }
+          ]
+        },
+        {
+          "criterion": "Readiness decisions",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes a check but leaves the criterion or instructional consequence vague."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines observable readiness at each transition and links unmet criteria to relevant practice before progression."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "The artifact assesses planned instructional dependencies, practice and progression criteria, rather than speed of syllabus coverage or response to an unexpected disruption.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "instructional_sequencing",
+      "guided_and_independent_practice"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-047",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nCreate a Primary 3 formative checkpoint for comparing three-digit numbers. Write three short questions with expected answers, including one that can reveal comparing digits without attending to place value. Invent two contrasting response patterns. For each pattern, specify the next learning task and a fresh question that will check the intended improvement.",
+    "primary_domain": "D5",
+    "subcompetency": "formative assessment for learning",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Questions and keys",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides relevant questions but fewer than three sound questions and accurate keys."
+            },
+            {
+              "score": 2,
+              "descriptor": "Supplies three clear comparison questions with correct answers and coverage of hundreds, tens or ones decisions."
+            }
+          ]
+        },
+        {
+          "criterion": "Diagnostic design",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names a place-value misconception without showing how a response would reveal it."
+            },
+            {
+              "score": 2,
+              "descriptor": "Includes a question and response rationale that distinguish place-value comparison from comparing salient digits out of position."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence-to-teaching link",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Invents responses or proposes next tasks, but the link to each pattern is unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Gives two contrasting plausible response patterns and a justified next task addressing the learning shown by each."
+            }
+          ]
+        },
+        {
+          "criterion": "Fresh checks",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Repeats original questions or gives a new check without a success criterion."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides a fresh aligned check for each pattern, expected answers and an observable criterion for improvement."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "Questions, interpreted responses, teaching consequences and new checks make the assessment-for-learning cycle observable within a planned lesson design.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "formative_assessment",
+      "planning_from_learning_evidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-048",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nDesign a feedback-and-revision activity for a Primary 4 explanation of why a wet cloth dries. Supply a short invented pupil draft containing a gap about where the water goes, a scientifically sound expected explanation, a learning criterion, focused feedback, revision instructions and a fresh follow-up task. Explain what in the revised and follow-up responses you would inspect.",
+    "primary_domain": "D5",
+    "subcompetency": "feedback for learning",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Criterion and examples",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides a relevant draft and criterion but leaves the expected science explanation incomplete."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides a plausible incomplete draft, a clear criterion and an accurate explanation that water evaporates into the air as water vapour."
+            }
+          ]
+        },
+        {
+          "criterion": "Focused feedback",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Points out the gap but gives an unclear action or simply replaces the entire answer."
+            },
+            {
+              "score": 2,
+              "descriptor": "Directs attention to where the water goes and asks for a specific improvement against the criterion without supplying a complete replacement to copy."
+            }
+          ]
+        },
+        {
+          "criterion": "Revision activity",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Asks pupils to improve the draft without usable steps or time for doing so."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies feasible revision steps and lesson time, with the pupil required to explain the change made."
+            }
+          ]
+        },
+        {
+          "criterion": "Evidence of use and transfer",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Checks a revision or a new task, but not both against the intended science idea."
+            },
+            {
+              "score": 2,
+              "descriptor": "States what to inspect in the revision and gives a fresh drying example with expected evidence of evaporation understanding."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "The task assesses the design of a feedback cycle and its learning evidence, not the warmth or polish of a feedback message. Accept scientifically sound age-appropriate wording.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback_cycles",
+      "revision_and_transfer"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-049",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nDesign a reusable set of six drawn cards for a Primary 2 lesson on classifying two-dimensional shapes. Describe or sketch each card, including varied orientations and at least one non-example for a named category. Give a pupil sorting-and-reasoning task, an answer guide and an individual check using a new example. Paper and pencil are sufficient.",
+    "primary_domain": "D5",
+    "subcompetency": "use and design of learning resources",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Card accuracy and variation",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Describes some usable shapes but fewer than six cards or limited meaningful variation."
+            },
+            {
+              "score": 2,
+              "descriptor": "Describes six geometrically accurate cards with varied orientations and a valid non-example for the chosen category."
+            }
+          ]
+        },
+        {
+          "criterion": "Resource validity",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Uses relevant shapes but includes unintended clues or does not address them."
+            },
+            {
+              "score": 2,
+              "descriptor": "Avoids colour, numbering or layout clues that reveal category membership and makes defining properties visible."
+            }
+          ]
+        },
+        {
+          "criterion": "Learning task and guide",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Gives a sorting task without reasons or a complete defensible answer guide."
+            },
+            {
+              "score": 2,
+              "descriptor": "Requires classification and reasons based on defining properties, with an accurate guide that allows equivalent explanations."
+            }
+          ]
+        },
+        {
+          "criterion": "Individual learning check",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Checks the group product or repeats the same examples without a criterion."
+            },
+            {
+              "score": 2,
+              "descriptor": "Gives a new individual classification example, expected answer and property-based criterion for judging understanding."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "Resource value is judged by the thinking it elicits and the evidence it enables. Artistic quality, printing, purchased materials and digital production earn no additional credit.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "learning_resource_design",
+      "low_resource_pedagogy"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D5-PL-PE-050",
+    "prompt": "Complete the design task in text. No upload is required. Use invented or anonymised examples without pupil names. A written design demonstrates planning only; implementation claims need separately observed evidence.\n\nDraft two supported versions of a Primary 5 task with the shared objective of comparing two short information texts about the same topic. Supply brief original texts, common success criteria, the two task versions and one individual assessment prompt. Explain how the supports preserve comparison rather than giving pupils the comparisons to copy.",
+    "primary_domain": "D5",
+    "subcompetency": "alignment of objectives instruction and assessment",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Texts and shared criteria",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Supplies texts or criteria, but comparable information or the expected comparison is unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Supplies two accessible texts with meaningful similarities and differences and criteria requiring both comparison and supporting text details."
+            }
+          ]
+        },
+        {
+          "criterion": "Support design",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Offers two versions but changes the objective or supplies much of the comparison."
+            },
+            {
+              "score": 2,
+              "descriptor": "Offers two usable supports, such as a comparison grid and guiding prompts, while retaining pupil selection of similarities, differences and evidence."
+            }
+          ]
+        },
+        {
+          "criterion": "Objective-task-assessment alignment",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Links some stages to comparison but the final assessment mainly checks recall or completion."
+            },
+            {
+              "score": 2,
+              "descriptor": "Both tasks and the individual prompt require comparison supported by details, with an expected-response guide grounded in the supplied texts."
+            }
+          ]
+        },
+        {
+          "criterion": "Fair review of learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, or pedagogically incorrect."
+            },
+            {
+              "score": 1,
+              "descriptor": "Mentions a common standard but does not show how support use or response evidence will be recorded."
+            },
+            {
+              "score": 2,
+              "descriptor": "Uses the same comparison criteria for both versions, records support used and separates supported performance from evidence of independent comparison."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Award scores only for content actually present; do not infer unreported actions.",
+      "missingEvidencePolicy": "An unsubmitted task or unavailable evidence is unscored, not zero competence. For a submitted task, absent criteria receive 0. A planning-only response must not be described as verified classroom implementation.",
+      "fairnessRule": "Score the pedagogical design and evidence, not prose polish, artifact length, technology, purchased materials, school context or teacher profile. Accept equivalent sound designs.",
+      "rationale": "The design must retain the intended comparison demand across supports and assessment. Equivalent well-justified supports are acceptable; pupil or teacher demographics never determine rubric scores.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "constructive_alignment",
+      "assessment_design"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  }
+]

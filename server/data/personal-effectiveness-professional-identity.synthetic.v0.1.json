@@ -1,0 +1,3380 @@
+[
+  {
+    "item_id": "D8-PE-SJT-001",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou have a protected thirty-minute marking period. You usually switch between marking and non-urgent administrative requests, and then repeat work because you lose your place. What is the most useful change to try?\n\nA. Answer every request immediately so no colleague needs to wait for your attention.\nB. Set a marking block and a later request-check point, while keeping an urgent route open.\nC. Continue switching tasks but plan to finish any repeated work after school each day.\nD. Use the whole period to organise requests and leave marking until another gap appears.",
+    "primary_domain": "D8",
+    "subcompetency": "self-management",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Answer every request immediately so no colleague needs to wait for your attention."
+        },
+        {
+          "id": "B",
+          "label": "Set a marking block and a later request-check point, while keeping an urgent route open."
+        },
+        {
+          "id": "C",
+          "label": "Continue switching tasks but plan to finish any repeated work after school each day."
+        },
+        {
+          "id": "D",
+          "label": "Use the whole period to organise requests and leave marking until another gap appears."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A bounded focus period with an urgent exception addresses the observed work habit without abandoning responsiveness or assuming recurring extra hours are the solution.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "self_management",
+      "professional_work_habits"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-002",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou promised a checked reading record to a colleague this morning. It is still incomplete and they need it to finish a summary today. What is the strongest recovery action?\n\nA. Send the unfinished record as final so the colleague can meet their own deadline.\nB. Ask the colleague to use last term's record and return to the current one next week.\nC. Finish quietly before mentioning the delay so the colleague receives only one update.\nD. State what is checked, agree a workable completion point and track delivery of the remainder.",
+    "primary_domain": "D8",
+    "subcompetency": "reliability and follow-through",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Send the unfinished record as final so the colleague can meet their own deadline."
+        },
+        {
+          "id": "B",
+          "label": "Ask the colleague to use last term's record and return to the current one next week."
+        },
+        {
+          "id": "C",
+          "label": "Finish quietly before mentioning the delay so the colleague receives only one update."
+        },
+        {
+          "id": "D",
+          "label": "State what is checked, agree a workable completion point and track delivery of the remainder."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Recovery needs an accurate status, an achievable renewed commitment and follow-through. A concealed delay, misleading completion label or stale substitute does not repair the dependency.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "reliability",
+      "commitment_tracking"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-003",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou will hand over a class responsibility for two days. One assessment check remains unfinished, and the covering teacher needs to know what can be relied on. Which action best fulfils your responsibility?\n\nA. Record the pending check and its owner, and confirm that the handover is usable.\nB. Assume the covering teacher will identify the unfinished check while working.\nC. Leave only completed documents so the handover folder looks ready to use.\nD. Complete a new decorative summary before listing the outstanding assessment work.",
+    "primary_domain": "D8",
+    "subcompetency": "professional responsibility",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Record the pending check and its owner, and confirm that the handover is usable."
+        },
+        {
+          "id": "B",
+          "label": "Assume the covering teacher will identify the unfinished check while working."
+        },
+        {
+          "id": "C",
+          "label": "Leave only completed documents so the handover folder looks ready to use."
+        },
+        {
+          "id": "D",
+          "label": "Complete a new decorative summary before listing the outstanding assessment work."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Professional responsibility includes making incomplete work visible and arranging ownership. The issue is a reliable handover, not the polish or wording of a message.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_responsibility",
+      "responsible_handover"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-004",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYour timetable already includes marking and preparation. You are asked to produce a non-essential display by Friday, but fitting it in would repeatedly remove your normal recovery time. The deadline can be discussed. What is the strongest response?\n\nA. Accept this request and defer the capacity review until the end of term.\nB. Reduce essential marking checks so the display fits into the existing timetable.\nC. Show the capacity conflict and agree reduced scope, reassignment or a later deadline.\nD. Decline the display outright before exploring a smaller scope or different deadline.",
+    "primary_domain": "D8",
+    "subcompetency": "time and workload management",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept this request and defer the capacity review until the end of term."
+        },
+        {
+          "id": "B",
+          "label": "Reduce essential marking checks so the display fits into the existing timetable."
+        },
+        {
+          "id": "C",
+          "label": "Show the capacity conflict and agree reduced scope, reassignment or a later deadline."
+        },
+        {
+          "id": "D",
+          "label": "Decline the display outright before exploring a smaller scope or different deadline."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Negotiating scope, ownership or timing uses realistic capacity while retaining responsibility. Delaying a known capacity conflict, compromising essential checking or refusing before considering workable options is less well justified.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "workload_management",
+      "teacher_wellbeing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-005",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nAfter submitting a class assessment summary, you find that you transcribed one total incorrectly. The original pupil work is available and the summary has not yet been finalised. What should you do?\n\nA. Wait for the reviewer to notice so you can explain the error with the full context.\nB. Change your own copy and assume the submitted copy will be corrected when compared.\nC. Verify the error, arrange a traceable correction and check related totals before finalisation.\nD. Leave the total because correcting a submitted record may make the work look unreliable.",
+    "primary_domain": "D8",
+    "subcompetency": "accountability",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Wait for the reviewer to notice so you can explain the error with the full context."
+        },
+        {
+          "id": "B",
+          "label": "Change your own copy and assume the submitted copy will be corrected when compared."
+        },
+        {
+          "id": "C",
+          "label": "Verify the error, arrange a traceable correction and check related totals before finalisation."
+        },
+        {
+          "id": "D",
+          "label": "Leave the total because correcting a submitted record may make the work look unreliable."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A checked, traceable correction protects record accuracy and addresses possible related errors. Accountability concerns repair and verification rather than concealing imperfection or waiting to be challenged.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "accountability",
+      "error_correction"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-006",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nA meeting task you coordinated was completed, but preparation was rushed and two people duplicated work. Which reflection would best improve your professional process?\n\nA. Record only that the task finished because the final result met the deadline.\nB. Describe the event as a failure because any duplication means coordination was ineffective.\nC. Compare the agreed roles with what happened and identify one process change to test.\nD. List how many hours you contributed as the main evidence of your professional learning.",
+    "primary_domain": "D8",
+    "subcompetency": "reflective practice",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Record only that the task finished because the final result met the deadline."
+        },
+        {
+          "id": "B",
+          "label": "Describe the event as a failure because any duplication means coordination was ineffective."
+        },
+        {
+          "id": "C",
+          "label": "Compare the agreed roles with what happened and identify one process change to test."
+        },
+        {
+          "id": "D",
+          "label": "List how many hours you contributed as the main evidence of your professional learning."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Comparing intention, action and evidence supports a specific improvement without either positive self-description or a global negative judgement. Hours alone do not establish effective coordination.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "reflective_practice",
+      "evidence_based_self_review"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-007",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou notice that you estimate familiar tasks accurately but repeatedly underestimate unfamiliar reporting work. What is the most useful response to this pattern?\n\nA. Use your familiar-task estimates for all reports so planning remains consistent.\nB. Stop accepting unfamiliar responsibilities until you feel fully confident about them.\nC. Assume the pattern reflects a permanent weakness that cannot be changed by planning.\nD. Record actual time on the next report and build in a check before committing a deadline.",
+    "primary_domain": "D8",
+    "subcompetency": "self-awareness",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Use your familiar-task estimates for all reports so planning remains consistent."
+        },
+        {
+          "id": "B",
+          "label": "Stop accepting unfamiliar responsibilities until you feel fully confident about them."
+        },
+        {
+          "id": "C",
+          "label": "Assume the pattern reflects a permanent weakness that cannot be changed by planning."
+        },
+        {
+          "id": "D",
+          "label": "Record actual time on the next report and build in a check before committing a deadline."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Using observed estimates and actual time tests a specific limitation and improves future commitments. Confidence, consistency or a fixed self-label cannot replace that evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "self_awareness",
+      "professional_growth"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-008",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou are asked to chair a short planning meeting. You have prepared the agenda but have not chaired one before. An experienced colleague can help you rehearse during an agreed planning period. What is the strongest choice?\n\nA. Accept without rehearsal so colleagues can see that you are confident in a new role.\nB. Rehearse the difficult steps, agree limited backup and take responsibility for chairing.\nC. Ask the colleague to lead every part while you retain the title of chair.\nD. Decline the role because lack of previous chairing experience means you cannot do it.",
+    "primary_domain": "D8",
+    "subcompetency": "professional confidence and self-efficacy",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept without rehearsal so colleagues can see that you are confident in a new role."
+        },
+        {
+          "id": "B",
+          "label": "Rehearse the difficult steps, agree limited backup and take responsibility for chairing."
+        },
+        {
+          "id": "C",
+          "label": "Ask the colleague to lead every part while you retain the title of chair."
+        },
+        {
+          "id": "D",
+          "label": "Decline the role because lack of previous chairing experience means you cannot do it."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Realistic self-efficacy combines willingness to act with preparation and bounded support. Neither absolute confidence nor avoidance follows from the evidence of readiness.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "self_efficacy",
+      "calibrated_professional_confidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-009",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nA practice presentation to colleagues went poorly. You missed two points and lost your place, although your preparation notes were accurate. You have another opportunity next week. What is the strongest next step?\n\nA. Treat the event as successful because colleagues did not formally complain about it.\nB. Repeat the same preparation for longer each night until you no longer feel disappointed.\nC. Withdraw from all future presentations because the first attempt exposed a limitation.\nD. Use specific feedback to rehearse one weak point, allow recovery and try again.",
+    "primary_domain": "D8",
+    "subcompetency": "resilience and recovery from setbacks",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Treat the event as successful because colleagues did not formally complain about it."
+        },
+        {
+          "id": "B",
+          "label": "Repeat the same preparation for longer each night until you no longer feel disappointed."
+        },
+        {
+          "id": "C",
+          "label": "Withdraw from all future presentations because the first attempt exposed a limitation."
+        },
+        {
+          "id": "D",
+          "label": "Use specific feedback to rehearse one weak point, allow recovery and try again."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "A limited evidence-based adjustment with recovery supports another attempt. Resilience is not denial, avoidance or indefinite extra work; feeling disappointed does not itself indicate low competence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resilience",
+      "recovery_and_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-010",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou can attend one school-supported learning session. One offers a certificate in a topic you already use confidently; another addresses a documented gap and includes practice with feedback. Which choice has the stronger developmental basis?\n\nA. Choose the familiar session because completing it should be easier to demonstrate.\nB. Choose the gap-focused session and plan how to apply and review the learning.\nC. Choose whichever session awards the more impressive certificate title.\nD. Choose neither until a course guarantees improvement without any classroom follow-up.",
+    "primary_domain": "D8",
+    "subcompetency": "continuous professional development",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Choose the familiar session because completing it should be easier to demonstrate."
+        },
+        {
+          "id": "B",
+          "label": "Choose the gap-focused session and plan how to apply and review the learning."
+        },
+        {
+          "id": "C",
+          "label": "Choose whichever session awards the more impressive certificate title."
+        },
+        {
+          "id": "D",
+          "label": "Choose neither until a course guarantees improvement without any classroom follow-up."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A relevant gap, supported practice and planned application connect development to professional improvement. Certificates, ease and guarantees are not sufficient reasons.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_development",
+      "applying_professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-011",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nA supervisor says your weekly records are often incomplete. You disagree because you remember submitting them, but the comment includes two dates. What should you do first?\n\nA. Accept the judgement completely and rewrite every record without checking the examples.\nB. Reject the feedback because your intention was to submit complete records each week.\nC. Collect praise from colleagues to balance the supervisor's negative opinion.\nD. Compare the dated examples with the agreed requirements before deciding what needs changing.",
+    "primary_domain": "D8",
+    "subcompetency": "openness to feedback",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept the judgement completely and rewrite every record without checking the examples."
+        },
+        {
+          "id": "B",
+          "label": "Reject the feedback because your intention was to submit complete records each week."
+        },
+        {
+          "id": "C",
+          "label": "Collect praise from colleagues to balance the supervisor's negative opinion."
+        },
+        {
+          "id": "D",
+          "label": "Compare the dated examples with the agreed requirements before deciding what needs changing."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Submission and completeness may differ. Checking specific examples against a standard allows justified agreement, clarification or disagreement rather than compliance, defensiveness or reputation management.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback",
+      "professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-012",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou can contribute either a polished account of your successes or a short review of one responsibility you improved and one still needing work at a professional review meeting. Which preparation best demonstrates professional identity?\n\nA. Summarise praise and certificates, leaving specific practice examples for any questions.\nB. Describe assigned duties completed, without examining what their outcomes suggest for development.\nC. Use concrete evidence of responsibility, improvement and a next development priority.\nD. Present the volume of work and hours contributed as the main evidence of professional growth.",
+    "primary_domain": "D8",
+    "subcompetency": "professional identity",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Summarise praise and certificates, leaving specific practice examples for any questions."
+        },
+        {
+          "id": "B",
+          "label": "Describe assigned duties completed, without examining what their outcomes suggest for development."
+        },
+        {
+          "id": "C",
+          "label": "Use concrete evidence of responsibility, improvement and a next development priority."
+        },
+        {
+          "id": "D",
+          "label": "Present the volume of work and hours contributed as the main evidence of professional growth."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Professional identity is expressed through responsibility and ongoing development grounded in evidence. Praise, activity counts and completed duties can contribute information, but without review of outcomes they do not demonstrate applied growth as clearly.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_identity",
+      "teacher_professionalism"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-013",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou are part of a panel choosing a service for the school. One proposal is from a close relative, and the school has a procedure for declaring interests before assessment. What should you do?\n\nA. Declare the relationship and follow the agreed arrangement for independent consideration.\nB. Assess the relative's proposal privately and mention the relationship only if it wins.\nC. Give the relative's proposal a lower mark so nobody can accuse you of favouritism.\nD. Ask another panel member to submit your preferred scores without naming your involvement.",
+    "primary_domain": "D8",
+    "subcompetency": "ethical judgement",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Declare the relationship and follow the agreed arrangement for independent consideration."
+        },
+        {
+          "id": "B",
+          "label": "Assess the relative's proposal privately and mention the relationship only if it wins."
+        },
+        {
+          "id": "C",
+          "label": "Give the relative's proposal a lower mark so nobody can accuse you of favouritism."
+        },
+        {
+          "id": "D",
+          "label": "Ask another panel member to submit your preferred scores without naming your involvement."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Declaration and the school's conflict-management arrangement protect impartial judgement. Hidden involvement or deliberately altered scores do not remove the conflict.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing.",
+      "criticalFlagReason": "The scenario concerns an undisclosed conflict of interest in a professional decision. This is an editorial concern flag only; it does not trigger automatic failure, classification or a scoring override."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": true,
+    "course_tags": [
+      "ethical_practice",
+      "professional_integrity"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-014",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou have an agreed time for routine parent appointments and a school route for urgent matters. Repeated non-urgent requests outside that time are now displacing preparation and rest. What is the strongest boundary decision?\n\nA. Remain available whenever requested so families never need to wait for routine help.\nB. Use the agreed appointments for routine matters and keep the urgent school route clear.\nC. Stop all parent appointments until the extra requests have ceased for several weeks.\nD. Answer only requests from families whose children currently need the most marking.",
+    "primary_domain": "D8",
+    "subcompetency": "professional boundaries",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Remain available whenever requested so families never need to wait for routine help."
+        },
+        {
+          "id": "B",
+          "label": "Use the agreed appointments for routine matters and keep the urgent school route clear."
+        },
+        {
+          "id": "C",
+          "label": "Stop all parent appointments until the extra requests have ceased for several weeks."
+        },
+        {
+          "id": "D",
+          "label": "Answer only requests from families whose children currently need the most marking."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A consistent routine boundary with a functioning urgent route supports professional availability without unlimited personal access or arbitrary allocation. This is a sustainable responsibility decision, not a test of persuasive wording.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_boundaries",
+      "sustainable_work_practices"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-015",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYour weekly check shows that small promised tasks are often forgotten when you rely on memory. You want one manageable improvement for the next fortnight. What should you try?\n\nA. Set a broad goal to become more organised and review how confident you feel.\nB. Agree to fewer tasks without recording which existing commitments remain open.\nC. Use one commitment list with due dates and review completed and overdue entries.\nD. Create several separate lists for each place where a task is mentioned.",
+    "primary_domain": "D8",
+    "subcompetency": "commitment to improvement",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Set a broad goal to become more organised and review how confident you feel."
+        },
+        {
+          "id": "B",
+          "label": "Agree to fewer tasks without recording which existing commitments remain open."
+        },
+        {
+          "id": "C",
+          "label": "Use one commitment list with due dates and review completed and overdue entries."
+        },
+        {
+          "id": "D",
+          "label": "Create several separate lists for each place where a task is mentioned."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A single reviewable system targets the observed follow-through gap and supplies evidence of change. A general aspiration, unrecorded reduction or fragmented lists may leave the problem intact.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "continuous_improvement",
+      "professional_habit_change"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-016",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nDuring one available planning period, you must finish a checked record needed for a colleague's report tomorrow. A non-urgent display revision is requested for the same period, and its timing is flexible. What should you prioritise?\n\nA. Begin the display because the newest request should take precedence over older work.\nB. Split the period equally even if neither task reaches a usable completion point.\nC. Choose whichever task is more visible to visitors to demonstrate commitment.\nD. Complete the dependent record and agree a later slot or reassignment for the display.",
+    "primary_domain": "D8",
+    "subcompetency": "managing competing professional responsibilities",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Begin the display because the newest request should take precedence over older work."
+        },
+        {
+          "id": "B",
+          "label": "Split the period equally even if neither task reaches a usable completion point."
+        },
+        {
+          "id": "C",
+          "label": "Choose whichever task is more visible to visitors to demonstrate commitment."
+        },
+        {
+          "id": "D",
+          "label": "Complete the dependent record and agree a later slot or reassignment for the display."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Deadline, consequence and dependency favour the checked record in the stated circumstances. Visibility, recency and equal time allocation are not substitutes for prioritisation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "prioritisation",
+      "competing_responsibilities"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-017",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nA deadline is approaching and you are asked to sign that a record has been checked, although you have not completed the required checks. There is a route to report incomplete work. What is the strongest decision?\n\nA. Report the actual status and arrange checking or an extension without signing a false confirmation.\nB. Sign now and complete the checks later so the submission appears on time.\nC. Ask a colleague to sign for you without telling them which checks are outstanding.\nD. Change the date after checking so the record appears to have been ready at the deadline.",
+    "primary_domain": "D8",
+    "subcompetency": "maintaining professional standards under pressure",
+    "evidence_type": "situational judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Report the actual status and arrange checking or an extension without signing a false confirmation."
+        },
+        {
+          "id": "B",
+          "label": "Sign now and complete the checks later so the submission appears on time."
+        },
+        {
+          "id": "C",
+          "label": "Ask a colleague to sign for you without telling them which checks are outstanding."
+        },
+        {
+          "id": "D",
+          "label": "Change the date after checking so the record appears to have been ready at the deadline."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Maintaining the truth of a professional confirmation is essential under pressure. Reporting a capacity or deadline problem permits repair; retrospective checking does not make a false confirmation accurate.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing.",
+      "criticalFlagReason": "The scenario concerns pressure to falsely certify completion of a professional check. This is an editorial concern flag only; it does not trigger automatic failure, classification or a scoring override."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": true,
+    "course_tags": [
+      "professional_standards",
+      "quality_under_pressure"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-SJT-018",
+    "prompt": "Select the strongest professional decision under the stated conditions.\n\nYou have been assigned an unfamiliar reporting responsibility. The written guidance leaves one important judgement unclear, and an authorised colleague is available for consultation. What should you do?\n\nA. Complete the whole report using an assumption so you do not reveal uncertainty.\nB. Ask several people informally and choose the answer that requires the least work.\nC. Return the full responsibility because needing clarification shows you are not suited to it.\nD. Prepare what you understand and seek targeted clarification before deciding the uncertain part.",
+    "primary_domain": "D8",
+    "subcompetency": "recognising personal limitations and seeking appropriate support",
+    "evidence_type": "situational judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Complete the whole report using an assumption so you do not reveal uncertainty."
+        },
+        {
+          "id": "B",
+          "label": "Ask several people informally and choose the answer that requires the least work."
+        },
+        {
+          "id": "C",
+          "label": "Return the full responsibility because needing clarification shows you are not suited to it."
+        },
+        {
+          "id": "D",
+          "label": "Prepare what you understand and seek targeted clarification before deciding the uncertain part."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Targeted support preserves ownership while recognising a consequential limitation. Guessing, abandoning the task or selecting advice for convenience does not resolve the uncertainty responsibly.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "recognising_limitations",
+      "appropriate_professional_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-019",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAt the start of an available preparation period, I identified a realistic task to finish before taking on optional work.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "self-management",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Defining feasible work in available time supports self-management; the amount of preparation time available is not itself scored.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "self_management",
+      "professional_work_habits"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-020",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAfter agreeing to complete a professional task, I recorded its due point and checked whether I had delivered it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "reliability and follow-through",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "An explicit commitment and completion check support follow-through. A list alone does not prove delivery and should be corroborated with appropriate records.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "reliability",
+      "commitment_tracking"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-021",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen my planned duties exceeded the time available, I reviewed priorities or sought an agreed adjustment before the conflict became urgent.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "time and workload management",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Early capacity review supports sustainable work. Judgement concerns the response to the conflict, not personal circumstances or hours available.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "workload_management",
+      "teacher_wellbeing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-022",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen I noticed an error in work I had passed on, I checked that the relevant corrected version reached the person using it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "accountability",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Accountability includes completing the correction process beyond changing a private copy. Check records or examples rather than treating self-report as proof.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "accountability",
+      "error_correction"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-023",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAfter completing a shared responsibility, I compared what I had committed to with what actually happened before choosing a change.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "reflective practice",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Comparing commitments and outcomes supports evidence-based professional reflection. Positive or negative general self-descriptions cannot replace the comparison.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "reflective_practice",
+      "evidence_based_self_review"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-024",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI committed to an unfamiliar task using my first time estimate even when previous similar estimates had proved unrealistic.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "self-awareness",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Ignoring relevant evidence about one's estimates weakens self-awareness in planning; higher frequency is reverse-scored.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "self_awareness",
+      "professional_growth"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-025",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nAfter a professional setback, I identified a manageable next action and the support or recovery time needed to attempt it.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "resilience and recovery from setbacks",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Constructive recovery may include support and rest. The item does not score feeling stressed, disclosure of distress, or willingness to endure harmful conditions.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "resilience",
+      "recovery_and_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-026",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen feedback challenged my view of my work, I examined a specific example against the relevant standard before deciding how to respond.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "openness to feedback",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Evidence-led review permits both justified acceptance and justified disagreement. Agreeing with every critic is not the expected behaviour.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback",
+      "professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-027",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen routine requests repeatedly exceeded my agreed availability, I reviewed the arrangement through an appropriate professional route.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "professional boundaries",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Reviewing a recurring mismatch supports boundaries without abandoning responsibilities. The item does not require unlimited availability or assume control over every work condition.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_boundaries",
+      "sustainable_work_practices"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-028",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nI counted attending a learning session as sufficient evidence of improvement without checking any change in my professional practice.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "commitment to improvement",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": true,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 0,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Attendance provides an opportunity for development, not evidence of applied improvement. Higher frequency of treating it as sufficient is reverse-scored.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "continuous_improvement",
+      "professional_habit_change"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-BF-029",
+    "prompt": "Think about the last four teaching weeks. For relevant opportunities, how often did you do the following? Select NA if there was no opportunity or you cannot judge. Self-report alone does not establish competence.\n\nWhen a professional decision exceeded my current understanding, I identified the specific uncertainty and sought relevant authorised guidance.\n\n1. Never\n2. Rarely\n3. Sometimes\n4. Often\n5. Almost always\nNA. No relevant opportunity / insufficient observation",
+    "primary_domain": "D8",
+    "subcompetency": "recognising personal limitations and seeking appropriate support",
+    "evidence_type": "behaviour frequency",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "frequency_scale",
+      "options": [
+        {
+          "id": "1",
+          "label": "Never"
+        },
+        {
+          "id": "2",
+          "label": "Rarely"
+        },
+        {
+          "id": "3",
+          "label": "Sometimes"
+        },
+        {
+          "id": "4",
+          "label": "Often"
+        },
+        {
+          "id": "5",
+          "label": "Almost always"
+        },
+        {
+          "id": "NA",
+          "label": "No relevant opportunity / insufficient observation"
+        }
+      ],
+      "orderedOptionIds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unscoredOptionIds": [
+        "NA"
+      ],
+      "orderMeaning": "weaker_to_stronger_practice",
+      "optionScores": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "NA": null
+      },
+      "maxScore": 4,
+      "rationale": "Targeted consultation demonstrates recognition of limits while retaining appropriate responsibility. Lack of an applicable opportunity is NA, not low competence.",
+      "evidenceLimitation": "Frequency is self-reported and affected by recall and opportunity; never treat it alone as proof of competence. Triangulate with anonymised plans, records, work samples or observation. NA is missing evidence, not a zero score. Judge the behaviour within available professional opportunities, not personal circumstances.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "recognising_limitations",
+      "appropriate_professional_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-030",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nA teacher has forty minutes for two tasks estimated at twenty minutes each, but one task is unfamiliar and both require a final check. What is the most realistic planning decision?\n\nA. Assume both estimates are exact and use every minute for production.\nB. Complete the unfamiliar task without checking so the familiar one stays on schedule.\nC. Reserve checking time and revise scope or timing if both tasks cannot fit.\nD. Count the final check as complete once both tasks have been started.",
+    "primary_domain": "D8",
+    "subcompetency": "self-management",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Assume both estimates are exact and use every minute for production."
+        },
+        {
+          "id": "B",
+          "label": "Complete the unfamiliar task without checking so the familiar one stays on schedule."
+        },
+        {
+          "id": "C",
+          "label": "Reserve checking time and revise scope or timing if both tasks cannot fit."
+        },
+        {
+          "id": "D",
+          "label": "Count the final check as complete once both tasks have been started."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "A realistic plan includes checking and uncertainty in estimates. Filling the entire period with production creates an unsupported commitment, especially for an unfamiliar task.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "self_management",
+      "professional_work_habits"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-031",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nA teacher passes a task to a colleague through an agreed delegation arrangement. Which action best preserves professional responsibility?\n\nA. Treat the handover as completion regardless of whether the output is later delivered.\nB. Redo the whole task secretly so the colleague's responsibility makes no difference.\nC. Confirm the required output, authority and review point, then check the agreed result.\nD. Give the colleague responsibility without clarifying access to the information needed.",
+    "primary_domain": "D8",
+    "subcompetency": "professional responsibility",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Treat the handover as completion regardless of whether the output is later delivered."
+        },
+        {
+          "id": "B",
+          "label": "Redo the whole task secretly so the colleague's responsibility makes no difference."
+        },
+        {
+          "id": "C",
+          "label": "Confirm the required output, authority and review point, then check the agreed result."
+        },
+        {
+          "id": "D",
+          "label": "Give the colleague responsibility without clarifying access to the information needed."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Delegation can be appropriate when expectations, authority and review are clear. Transferring work does not automatically establish that the required result has been delivered.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_responsibility",
+      "responsible_handover"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-032",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nWhich statement gives the strongest evidence of realistic confidence before taking an unfamiliar school responsibility?\n\nA. I have handled other school duties successfully, so this one should need little preparation.\nB. I can handle the parts I practised and know which judgement I need help to confirm.\nC. I feel ready and will work out the unclear decisions only as they arise.\nD. I should wait until I can complete every part without support before considering the role.",
+    "primary_domain": "D8",
+    "subcompetency": "professional confidence and self-efficacy",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I have handled other school duties successfully, so this one should need little preparation."
+        },
+        {
+          "id": "B",
+          "label": "I can handle the parts I practised and know which judgement I need help to confirm."
+        },
+        {
+          "id": "C",
+          "label": "I feel ready and will work out the unclear decisions only as they arise."
+        },
+        {
+          "id": "D",
+          "label": "I should wait until I can complete every part without support before considering the role."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Confidence grounded in demonstrated readiness and identified limits supports responsible action. Certainty, avoidance and self-rated confidence alone do not establish capability.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "self_efficacy",
+      "calibrated_professional_confidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-033",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nA teacher attends a session on maintaining reliable assessment records. Which follow-up best establishes professional learning from it?\n\nA. Attend another unrelated session before trying the first session's suggested routine.\nB. File the attendance certificate and count the session as a completed improvement.\nC. Repeat the session title at a staff meeting without changing any record-keeping practice.\nD. Apply a relevant checking routine and review whether errors or missed steps decrease.",
+    "primary_domain": "D8",
+    "subcompetency": "continuous professional development",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Attend another unrelated session before trying the first session's suggested routine."
+        },
+        {
+          "id": "B",
+          "label": "File the attendance certificate and count the session as a completed improvement."
+        },
+        {
+          "id": "C",
+          "label": "Repeat the session title at a staff meeting without changing any record-keeping practice."
+        },
+        {
+          "id": "D",
+          "label": "Apply a relevant checking routine and review whether errors or missed steps decrease."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Application with evidence of its effects supports a judgement of learning transferred to practice. Attendance and participation are useful opportunities but insufficient evidence of improvement.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_development",
+      "applying_professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-034",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nA school adopts a revised professional reporting requirement. A teacher identifies a practical difficulty with one section. Which response best expresses responsible professional identity?\n\nA. Follow the old requirement indefinitely because previous practice defines professionalism.\nB. Treat any question about the requirement as disloyalty to the employer.\nC. State full agreement at meetings but leave the difficult section unchecked in private.\nD. Clarify the difficulty through the proper route while meeting the clear responsibilities.",
+    "primary_domain": "D8",
+    "subcompetency": "professional identity",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Follow the old requirement indefinitely because previous practice defines professionalism."
+        },
+        {
+          "id": "B",
+          "label": "Treat any question about the requirement as disloyalty to the employer."
+        },
+        {
+          "id": "C",
+          "label": "State full agreement at meetings but leave the difficult section unchecked in private."
+        },
+        {
+          "id": "D",
+          "label": "Clarify the difficulty through the proper route while meeting the clear responsibilities."
+        }
+      ],
+      "bestOptionId": "D",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      },
+      "maxScore": 1,
+      "rationale": "Professional responsibility can include reasoned clarification while fulfilling what is clear. It is neither automatic opposition nor loyalty expressed through uncritical agreement.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_identity",
+      "teacher_professionalism"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-035",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nYou want advice in a professional-learning meeting about a difficult case from your work. Participants are not authorised to receive the people's confidential details. What is the strongest way to proceed?\n\nA. Use the real names because professional colleagues can usually be trusted.\nB. Describe the case fully and ask everyone to keep the information to themselves.\nC. Use a generalised case without identifying details, or seek advice in an authorised setting.\nD. Change only the names while retaining the distinctive details that identify those involved.",
+    "primary_domain": "D8",
+    "subcompetency": "ethical judgement",
+    "evidence_type": "knowledge/application",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Use the real names because professional colleagues can usually be trusted."
+        },
+        {
+          "id": "B",
+          "label": "Describe the case fully and ask everyone to keep the information to themselves."
+        },
+        {
+          "id": "C",
+          "label": "Use a generalised case without identifying details, or seek advice in an authorised setting."
+        },
+        {
+          "id": "D",
+          "label": "Change only the names while retaining the distinctive details that identify those involved."
+        }
+      ],
+      "bestOptionId": "C",
+      "optionScores": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Learning from practice does not justify disclosure beyond the authorised purpose. A genuinely non-identifying case or an authorised advice setting supports reflection while respecting confidentiality.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing.",
+      "criticalFlagReason": "The scenario concerns professional disclosure of confidential information to an unauthorised audience. This is an editorial concern flag only; it does not trigger automatic failure, classification or a scoring override."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": true,
+    "course_tags": [
+      "ethical_practice",
+      "professional_integrity"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-036",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nTwo tasks are important: one is due today and blocks another teacher's scheduled work; the other can be completed tomorrow without affecting anyone's next step. Both need similar effort. Which priority is best supported?\n\nA. Do the task that feels easier to start, regardless of either dependency.\nB. Complete today's dependent task and reserve a realistic slot for the other.\nC. Choose the task mentioned by the more senior person even if its timing is flexible.\nD. Work on the less visible task first so both responsibilities receive equal attention.",
+    "primary_domain": "D8",
+    "subcompetency": "managing competing professional responsibilities",
+    "evidence_type": "knowledge/application",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Do the task that feels easier to start, regardless of either dependency."
+        },
+        {
+          "id": "B",
+          "label": "Complete today's dependent task and reserve a realistic slot for the other."
+        },
+        {
+          "id": "C",
+          "label": "Choose the task mentioned by the more senior person even if its timing is flexible."
+        },
+        {
+          "id": "D",
+          "label": "Work on the less visible task first so both responsibilities receive equal attention."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "With similar effort, a current deadline and a blocked dependency support prioritising the first task. Status, ease and visibility do not override the stated consequences.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "prioritisation",
+      "competing_responsibilities"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-KA-037",
+    "prompt": "Apply professional judgement to the stated responsibilities. Select the strongest answer.\n\nA teacher seeks help with an unfamiliar responsibility. Which preparation makes the consultation most useful while retaining ownership?\n\nA. Bring the requirement, what has been tried and the precise decision still uncertain.\nB. Ask the colleague to take over everything before identifying the difficult part.\nC. Wait until after submission so the colleague can judge a fully completed attempt.\nD. Collect several opinions without explaining the requirement or comparing their relevance.",
+    "primary_domain": "D8",
+    "subcompetency": "recognising personal limitations and seeking appropriate support",
+    "evidence_type": "knowledge/application",
+    "difficulty": 1,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Bring the requirement, what has been tried and the precise decision still uncertain."
+        },
+        {
+          "id": "B",
+          "label": "Ask the colleague to take over everything before identifying the difficult part."
+        },
+        {
+          "id": "C",
+          "label": "Wait until after submission so the colleague can judge a fully completed attempt."
+        },
+        {
+          "id": "D",
+          "label": "Collect several opinions without explaining the requirement or comparing their relevance."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Specific uncertainty and relevant background enable focused support. Seeking help is compatible with ownership and does not require either surrendering the task or waiting until an avoidable error occurs.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "easy",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "recognising_limitations",
+      "appropriate_professional_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-038",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nYou corrected an error in your own record after reporting it, but did not check whether the colleague using the earlier version received the correction. How complete was your accountability?\n\nA. Partly complete; the correction still needs to reach and replace the version being used.\nB. Complete, because acknowledging the error fulfils the whole professional responsibility.\nC. Unnecessary, because reporting the error transferred all responsibility to the colleague.\nD. A failure overall, because one mistaken record means none of your work can be relied on.",
+    "primary_domain": "D8",
+    "subcompetency": "accountability",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Partly complete; the correction still needs to reach and replace the version being used."
+        },
+        {
+          "id": "B",
+          "label": "Complete, because acknowledging the error fulfils the whole professional responsibility."
+        },
+        {
+          "id": "C",
+          "label": "Unnecessary, because reporting the error transferred all responsibility to the colleague."
+        },
+        {
+          "id": "D",
+          "label": "A failure overall, because one mistaken record means none of your work can be relied on."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Acknowledgement and correction are meaningful steps, but repair remains incomplete while the affected user may rely on the wrong version. The conclusion should target the missing step rather than label the teacher globally.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "accountability",
+      "error_correction"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-039",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nYour task log shows that you accept extra work quickly and only later notice that existing commitments cannot fit. Which reflection best identifies an actionable personal pattern?\n\nA. I must become a person who never feels pressure when someone asks for help.\nB. I need a capacity check before agreeing, rather than judging reliability by willingness alone.\nC. The log proves I should refuse all shared responsibilities from now on.\nD. My good intentions are enough evidence that the commitments were professionally sound.",
+    "primary_domain": "D8",
+    "subcompetency": "self-awareness",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "I must become a person who never feels pressure when someone asks for help."
+        },
+        {
+          "id": "B",
+          "label": "I need a capacity check before agreeing, rather than judging reliability by willingness alone."
+        },
+        {
+          "id": "C",
+          "label": "The log proves I should refuse all shared responsibilities from now on."
+        },
+        {
+          "id": "D",
+          "label": "My good intentions are enough evidence that the commitments were professionally sound."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "The log points to the timing of capacity review, a changeable habit. Willingness, fixed personality expectations or total withdrawal do not address the specific pattern.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "self_awareness",
+      "professional_growth"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-040",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nYou completed a new administrative task accurately with a colleague checking each stage. You are now considering doing it alone. Which judgement of readiness is strongest?\n\nA. Recognise the supported success and try a bounded independent attempt with a review point.\nB. Needing help once means you should not take this responsibility independently.\nC. Feeling confident after completion is enough to remove every further check.\nD. Accuracy proves independent mastery because support does not affect the evidence.",
+    "primary_domain": "D8",
+    "subcompetency": "professional confidence and self-efficacy",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Recognise the supported success and try a bounded independent attempt with a review point."
+        },
+        {
+          "id": "B",
+          "label": "Needing help once means you should not take this responsibility independently."
+        },
+        {
+          "id": "C",
+          "label": "Feeling confident after completion is enough to remove every further check."
+        },
+        {
+          "id": "D",
+          "label": "Accuracy proves independent mastery because support does not affect the evidence."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Supported success is useful evidence but does not yet establish independent performance. A limited next attempt with review builds realistic confidence without either overclaiming or permanent dependence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "self_efficacy",
+      "calibrated_professional_confidence"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-041",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nAfter several demanding weeks, you renegotiated an optional responsibility and used agreed support. Essential work became more reliable. A colleague says resilience means managing without either change. Which judgement is best supported?\n\nA. The improved reliability supports recovery through appropriate limits and support.\nB. The colleague is right because effective teachers should never need workload adjustments.\nC. The change shows low commitment because optional work should always take priority over rest.\nD. Reliability is irrelevant because the number of hours worked is the main evidence of resilience.",
+    "primary_domain": "D8",
+    "subcompetency": "resilience and recovery from setbacks",
+    "evidence_type": "reflective judgement",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The improved reliability supports recovery through appropriate limits and support."
+        },
+        {
+          "id": "B",
+          "label": "The colleague is right because effective teachers should never need workload adjustments."
+        },
+        {
+          "id": "C",
+          "label": "The change shows low commitment because optional work should always take priority over rest."
+        },
+        {
+          "id": "D",
+          "label": "Reliability is irrelevant because the number of hours worked is the main evidence of resilience."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Appropriate limits and support can strengthen sustained professional performance. Resilience is not defined by isolation, excessive hours or refusing adjustments that protect essential work.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "resilience",
+      "recovery_and_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-042",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nAt a review, a teacher lists certificates and praise but provides no example of a changed decision, fulfilled responsibility or learning applied. What can reasonably be concluded?\n\nA. There is evidence of participation and recognition, but applied professional growth needs examples.\nB. The certificates establish effective practice across all professional responsibilities.\nC. The absence of examples proves the teacher has made no improvement during the year.\nD. Praise is more reliable than work evidence because it comes from other people.",
+    "primary_domain": "D8",
+    "subcompetency": "professional identity",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "There is evidence of participation and recognition, but applied professional growth needs examples."
+        },
+        {
+          "id": "B",
+          "label": "The certificates establish effective practice across all professional responsibilities."
+        },
+        {
+          "id": "C",
+          "label": "The absence of examples proves the teacher has made no improvement during the year."
+        },
+        {
+          "id": "D",
+          "label": "Praise is more reliable than work evidence because it comes from other people."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Participation and recognition have value but do not establish the missing evidence of applied growth. Lack of evidence in this account is not proof that improvement never occurred.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "high",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_identity",
+      "teacher_professionalism"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-043",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nUnder deadline pressure, you removed an optional decorative section and completed the required accuracy checks. The submission was less polished but correct and on time. Which reflection is strongest?\n\nA. The lower visual polish shows that professional standards were necessarily reduced.\nB. The decision protected required quality by reducing optional scope; review whether it remains sustainable.\nC. The same choice means accuracy checks can also be dropped when future deadlines are tighter.\nD. Working longer would always have been more professional than reducing any optional content.",
+    "primary_domain": "D8",
+    "subcompetency": "maintaining professional standards under pressure",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "The lower visual polish shows that professional standards were necessarily reduced."
+        },
+        {
+          "id": "B",
+          "label": "The decision protected required quality by reducing optional scope; review whether it remains sustainable."
+        },
+        {
+          "id": "C",
+          "label": "The same choice means accuracy checks can also be dropped when future deadlines are tighter."
+        },
+        {
+          "id": "D",
+          "label": "Working longer would always have been more professional than reducing any optional content."
+        }
+      ],
+      "bestOptionId": "B",
+      "optionScores": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Professional standards require distinguishing essential accuracy from optional presentation. Appropriate scope reduction can preserve quality without making unlimited working time the expectation.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_standards",
+      "quality_under_pressure"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-RJ-044",
+    "prompt": "Evaluate the professional decision and evidence. Select the strongest judgement.\n\nA colleague described your work as \"careless\" but gave no example. A separate review identifies two missing required fields in a record. How should you use the information?\n\nA. Address the specific omissions and seek actionable examples rather than adopt the personal label.\nB. Reject both comments because the first one was not constructive.\nC. Seek reassurance only from colleagues who have previously praised your work.\nD. Accept the personal label because the separate review contains some negative evidence.",
+    "primary_domain": "D8",
+    "subcompetency": "recognising personal limitations and seeking appropriate support",
+    "evidence_type": "reflective judgement",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "single_choice",
+      "options": [
+        {
+          "id": "A",
+          "label": "Address the specific omissions and seek actionable examples rather than adopt the personal label."
+        },
+        {
+          "id": "B",
+          "label": "Reject both comments because the first one was not constructive."
+        },
+        {
+          "id": "C",
+          "label": "Seek reassurance only from colleagues who have previously praised your work."
+        },
+        {
+          "id": "D",
+          "label": "Accept the personal label because the separate review contains some negative evidence."
+        }
+      ],
+      "bestOptionId": "A",
+      "optionScores": {
+        "A": 1,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "maxScore": 1,
+      "rationale": "Specific omissions support a targeted improvement or request for help. A broad personal label adds little usable evidence and need not be accepted for valid feedback to be acted on.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "medium",
+    "critical_flag": false,
+    "course_tags": [
+      "recognising_limitations",
+      "appropriate_professional_support"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-045",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nCreate a follow-through record for three invented school responsibilities: one completed, one at risk of delay and one passed to a colleague through an agreed arrangement. Include the promised output, due point, owner, status, next action and evidence needed to close each task. Show how you would handle a revised commitment without presenting incomplete work as finished. Use a plain text table or list.",
+    "primary_domain": "D8",
+    "subcompetency": "reliability and follow-through",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Clear commitments",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Lists three duties but leaves outputs, due points or ownership unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines an observable promised output, due point and responsible owner for all three distinct responsibilities."
+            }
+          ]
+        },
+        {
+          "criterion": "Accurate status",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Labels progress generally without distinguishing done, at risk and handed over."
+            },
+            {
+              "score": 2,
+              "descriptor": "Represents each status accurately, with completed work supported by evidence and delegation distinguished from confirmed completion."
+            }
+          ]
+        },
+        {
+          "criterion": "Recovery and coordination",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Mentions a delay or handover but leaves the affected person, revised agreement or next action unclear."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies a realistic recovery action and revised commitment for the at-risk task, plus confirmation of the agreed handover and its review point."
+            }
+          ]
+        },
+        {
+          "criterion": "Closure checks",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Treats sending a message or intending to finish as sufficient closure."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines verifiable completion evidence for each task and a review step that ensures the required recipient can use the correct output."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "The artifact assesses commitment management and completion checks. A hypothetical record demonstrates the process, not verified reliability in actual work.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "reliability",
+      "commitment_tracking"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-046",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nPlan a protected school preparation period from 10:00 to 11:30. A checked record takes 35 minutes and a colleague needs it by 11:00. Essential preparation for the next lesson takes 30 minutes and is due by 11:30. Meeting notes take 15 minutes and are due tomorrow. An optional display revision takes 25 minutes and is due next week. No other duties interrupt this period. Produce a timed plan with a buffer, identify what remains for another agreed slot, and explain how you would respond if the record took 15 minutes longer. Do not assume extra personal working hours.",
+    "primary_domain": "D8",
+    "subcompetency": "time and workload management",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Priority reasoning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names important work but does not use the stated deadline or dependency to order it."
+            },
+            {
+              "score": 2,
+              "descriptor": "Prioritises the record in time for the colleague and the essential lesson preparation, distinguishing tomorrow's notes and next week's optional work."
+            }
+          ]
+        },
+        {
+          "criterion": "Feasible schedule",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Provides partly realistic timings but exceeds ninety minutes or leaves no clear buffer."
+            },
+            {
+              "score": 2,
+              "descriptor": "Gives a ninety-minute plan with feasible task durations, on-time essential outputs and explicit buffer, without scheduling all 105 minutes of work."
+            }
+          ]
+        },
+        {
+          "criterion": "Remaining commitments",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Defers work without identifying how it will remain owned and scheduled."
+            },
+            {
+              "score": 2,
+              "descriptor": "Names uncompleted work and a realistic process for agreeing or recording its later slot, rather than silently abandoning it."
+            }
+          ]
+        },
+        {
+          "criterion": "Overrun response",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes extra personal hours, skips essential checks or gives no consequence-based adjustment."
+            },
+            {
+              "score": 2,
+              "descriptor": "Revises the remaining plan after the fifteen-minute overrun, preserving essential preparation and accuracy and moving lower-priority work through an explicit agreement if needed."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "The supplied tasks total 105 minutes. A sound plan respects the ninety-minute capacity, dependencies and checking; alternative feasible schedules are acceptable. The overrun requires a revised plan, not a claim to work faster without evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "workload_management",
+      "teacher_wellbeing"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-047",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nProduce a reflective record from this invented experience: you agreed to coordinate a short staff activity; the output was delivered, but unclear task ownership caused duplication and your check of progress came too late. Separate observations from interpretations, identify your own contribution without assuming you caused everything, choose one change and define evidence and a date for reviewing it. Do not evaluate the teaching method used in the activity.",
+    "primary_domain": "D8",
+    "subcompetency": "reflective practice",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Evidence and interpretation",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Retells the event or gives a personal label without separating fact from inference."
+            },
+            {
+              "score": 2,
+              "descriptor": "Distinguishes the delivered output, duplication and late check from possible explanations, acknowledging what is not yet known."
+            }
+          ]
+        },
+        {
+          "criterion": "Proportionate ownership",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Assigns all blame to self or others, or avoids identifying any own responsibility."
+            },
+            {
+              "score": 2,
+              "descriptor": "Identifies controllable decisions about ownership or checking without claiming complete control of the event or making global judgements about colleagues."
+            }
+          ]
+        },
+        {
+          "criterion": "Specific professional change",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes being more careful without an observable action."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines one feasible change to the coordination process, such as confirming owners or an earlier checkpoint, tied to the identified contribution."
+            }
+          ]
+        },
+        {
+          "criterion": "Review of effect",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Uses feeling more positive or task completion alone as the improvement measure."
+            },
+            {
+              "score": 2,
+              "descriptor": "Sets a review date and observable evidence of the targeted process change, such as unambiguous ownership and less duplicated work, with a decision if the issue remains."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "Reflection is scored for specificity, ownership and evidence of a next step, not self-praise, self-criticism or writing style. The provided experience is fictional.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "reflective_practice",
+      "evidence_based_self_review"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-048",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nCreate a four-week professional development plan for an invented gap in managing your own school responsibilities, such as accurate record checking or preparing an unfamiliar report. Include baseline evidence, a specific goal, a feasible learning activity, practice during available professional time, appropriate support and a review of application. A colleague discussion or existing guidance can be used; no paid course or certificate is required.",
+    "primary_domain": "D8",
+    "subcompetency": "continuous professional development",
+    "evidence_type": "performance evidence",
+    "difficulty": 2,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Evidence-based need",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Names a broad interest but provides little evidence of a particular development gap."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines a professional-process gap with concrete invented baseline evidence and an achievable four-week outcome."
+            }
+          ]
+        },
+        {
+          "criterion": "Relevant learning",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Selects a course or resource by prestige or attendance alone."
+            },
+            {
+              "score": 2,
+              "descriptor": "Chooses guidance, peer learning or another feasible activity that directly addresses the gap, with a clear reason for its relevance."
+            }
+          ]
+        },
+        {
+          "criterion": "Application and support",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Plans attendance or reading without an opportunity to practise, or relies on indefinite extra hours."
+            },
+            {
+              "score": 2,
+              "descriptor": "Schedules manageable application within available professional time and identifies relevant support or clarification where competence is still developing."
+            }
+          ]
+        },
+        {
+          "criterion": "Review and next decision",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Uses completion or a certificate as the main evidence of improved practice."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies work evidence to compare with baseline at a four-week review and a justified continue, revise or seek-support decision."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "The plan assesses targeted development and transfer into professional practice. Certificates, cost and prior qualifications do not determine quality.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "moderate",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "professional_development",
+      "applying_professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-049",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nCreate a feedback-to-action record for this invented situation: a reviewer says your records are unreliable. Two dated samples contain all required fields; a third is missing a required total. You initially disagree with the general comment. Show what you would accept, what needs clarification, one action addressing the supported gap, and a follow-up check on comparable work. Distinguish the feedback evidence from the reviewer's broad judgement.",
+    "primary_domain": "D8",
+    "subcompetency": "openness to feedback",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Evidence appraisal",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Accepts or rejects the entire comment without comparing the three samples."
+            },
+            {
+              "score": 2,
+              "descriptor": "Identifies the supported omission in one sample and the limits of using three samples to label all records unreliable."
+            }
+          ]
+        },
+        {
+          "criterion": "Constructive response",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Seeks reassurance or agrees in general without a useful clarification."
+            },
+            {
+              "score": 2,
+              "descriptor": "Specifies an evidence-based clarification of the broad judgement while acknowledging the verified missing total without defensiveness or unquestioning agreement."
+            }
+          ]
+        },
+        {
+          "criterion": "Targeted action",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Proposes a large unrelated change or only promises to be more careful."
+            },
+            {
+              "score": 2,
+              "descriptor": "Chooses a feasible check or work habit directly addressing omitted totals, with ownership and timing."
+            }
+          ]
+        },
+        {
+          "criterion": "Follow-up evidence",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Treats accepting the criticism as sufficient proof of improvement."
+            },
+            {
+              "score": 2,
+              "descriptor": "Plans a comparable sample review with a clear completeness criterion and records what would indicate improvement or the need for further action."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "The task assesses openness combined with reasoned judgement. Strong responses may disagree with the general label while acting on the specific evidence.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "feedback",
+      "professional_learning"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  },
+  {
+    "item_id": "D8-PE-PE-050",
+    "prompt": "Respond in text using invented or anonymised professional examples, without names or confidential learner, family or colleague details. No upload is required. A hypothetical plan or record can earn full design credit. No paid resources, software or extra working hours are required. Label simulated evidence clearly; a plan does not verify implementation.\n\nDesign a two-week improvement trial for an invented personal work habit: estimates for unfamiliar reports are repeatedly too short. Supply two illustrative estimate-versus-actual records, a specific planning change, a way to record the next attempts and a review rule. Explain how you will avoid promising time you do not have and when you would seek advice or renegotiate scope. Keep the focus on your professional planning habit, not pupil learning difficulties.",
+    "primary_domain": "D8",
+    "subcompetency": "commitment to improvement",
+    "evidence_type": "performance evidence",
+    "difficulty": 3,
+    "discrimination": 0,
+    "profile_tags": [],
+    "reverse_keyed": false,
+    "response_key": {
+      "format": "constructed_response",
+      "options": [],
+      "rubric": [
+        {
+          "criterion": "Defined pattern",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "States that planning is poor without usable examples or a specific habit."
+            },
+            {
+              "score": 2,
+              "descriptor": "Provides two clearly invented estimate/actual comparisons and identifies underestimation for unfamiliar reports as the target pattern."
+            }
+          ]
+        },
+        {
+          "criterion": "Feasible change",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Suggests trying harder or taking indefinitely longer without changing the planning process."
+            },
+            {
+              "score": 2,
+              "descriptor": "Introduces a concrete change such as breaking down steps, including checking time or consulting about unfamiliar requirements, within realistic capacity."
+            }
+          ]
+        },
+        {
+          "criterion": "Trial record and review",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Records only completion or feelings about progress."
+            },
+            {
+              "score": 2,
+              "descriptor": "Defines fields for planned and actual time, relevant task differences and outcome, with a two-week review comparing estimation and delivery against the baseline."
+            }
+          ]
+        },
+        {
+          "criterion": "Limits and next action",
+          "levels": [
+            {
+              "score": 0,
+              "descriptor": "Absent, irrelevant, unsupported, or professionally inappropriate."
+            },
+            {
+              "score": 1,
+              "descriptor": "Treats support as failure or relies on unbounded personal time to meet estimates."
+            },
+            {
+              "score": 2,
+              "descriptor": "States when uncertainty or capacity calls for advice or agreed scope/timing changes and specifies how evidence will guide retaining or revising the habit."
+            }
+          ]
+        }
+      ],
+      "maxScore": 8,
+      "aggregation": "An assessor sums four criterion scores (0-2 each). Score only demonstrated content; do not infer missing actions.",
+      "missingEvidencePolicy": "An unsubmitted task is unscored, not zero competence. Missing criteria in a submitted artifact receive 0. A hypothetical plan or record can earn full design credit. Label simulated observations; a plan does not establish actual follow-through or improvement.",
+      "artifactScoringRule": "Score specificity, feasible priorities, professional integrity, evidence and review, not writing style, positive self-description, certificates, software, appearance or hours worked. Accept equivalent sound approaches. Do not require disclosure of personal distress or confidential incidents.",
+      "rationale": "The artifact demonstrates a testable self-management improvement process. Hypothetical data support evaluation of the plan, not an empirical claim that the teacher has improved.",
+      "contentStatus": "synthetic_provisional_not_official_PPOAF",
+      "validationStatus": "Provisional development/testing item; not psychometrically validated. Requires expert review, cognitive testing, psychometric validation and possible replacement.",
+      "difficultyLabel": "hard",
+      "difficultyStatus": "Provisional author judgement only; not a calibrated estimate.",
+      "discriminationStatus": "Uncalibrated development placeholder; not an empirical estimate.",
+      "scoringStatus": "Provisional item-level rubric for development review only; not an operational scoring rule.",
+      "fairnessRule": "Judge professional decisions and observable evidence, not teacher profile, age, gender, marital status, income, qualification, years of experience, personality, school location or wealth. Profile variables must not determine competence classification.",
+      "developmentalRule": "Responses identify development needs, not whether someone is a good or bad teacher. Do not reward certificates, employer loyalty, extreme confidence or excessive hours by themselves. Resilience includes support and recovery, not tolerating unsafe, abusive or exploitative conditions or indefinitely sacrificing wellbeing."
+    },
+    "social_desirability_risk": "low",
+    "critical_flag": false,
+    "course_tags": [
+      "continuous_improvement",
+      "professional_habit_change"
+    ],
+    "version": "synthetic.v0.1",
+    "is_active": false
+  }
+]

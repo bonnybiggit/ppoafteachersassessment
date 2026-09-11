@@ -2,6 +2,36 @@ import { Schema, model, type HydratedDocument, type Types } from 'mongoose'
 
 export const ASSESSMENT_STATUSES = ['in_progress', 'completed', 'abandoned'] as const
 
+export type AssessmentMode = 'default' | 'pilot-synthetic'
+
+export type AssessmentScoringConfidence = 'High' | 'Medium' | 'Low'
+export type AssessmentScoringStatus = 'scored' | 'insufficient_data'
+
+export interface IAssessmentDomainScoringResult {
+  domain: string
+  domainWeight: number
+  score: number | null
+  classification: string
+  validItemCount: number
+  expectedItemCount: number
+  completionRate: number
+  evidenceTypeScores: Record<string, number | null>
+  confidenceLevel: AssessmentScoringConfidence
+  qualityFlags: string[]
+  nearCutScore: boolean
+  criticalItemFlagged: boolean
+  criticalItemIds: string[]
+}
+
+export interface IAssessmentScoringResult {
+  status: AssessmentScoringStatus
+  scoredAt: Date
+  scoringVersion: string
+  overallCompetencyScore: number | null
+  overallClassification: string
+  domains: IAssessmentDomainScoringResult[]
+}
+
 export interface IAssessmentAttempt {
   teacherId: Types.ObjectId
   status: typeof ASSESSMENT_STATUSES[number]
@@ -9,9 +39,11 @@ export interface IAssessmentAttempt {
   completedAt?: Date
   currentItemIndex: number
   totalItems: number
+  mode: AssessmentMode
   assessmentVersion: string
   selectedItemIds: Types.ObjectId[]
   consentConfirmed: boolean
+  scoring?: IAssessmentScoringResult
   createdAt: Date
   updatedAt: Date
 }
@@ -26,10 +58,36 @@ const assessmentAttemptSchema = new Schema<IAssessmentAttempt>(
     completedAt: { type: Date },
     currentItemIndex: { type: Number, min: 0, validate: Number.isSafeInteger, default: 0, required: true },
     totalItems: { type: Number, min: 0, validate: Number.isSafeInteger, default: 0, required: true },
+    mode: { type: String, enum: ['default', 'pilot-synthetic'], default: 'default', required: true },
     assessmentVersion: { type: String, required: true, trim: true },
     // Ordered references preserve each attempt's own subset without assembling it.
     selectedItemIds: { type: [{ type: Schema.Types.ObjectId, ref: 'AssessmentItem', required: true }], default: [] },
     consentConfirmed: { type: Boolean, default: false, required: true },
+    scoring: {
+      type: {
+        status: { type: String, enum: ['scored', 'insufficient_data'], default: 'insufficient_data', required: true },
+        scoredAt: { type: Date, default: Date.now },
+        scoringVersion: { type: String, trim: true, required: true },
+        overallCompetencyScore: { type: Number, min: 0, max: 100 },
+        overallClassification: { type: String, trim: true },
+        domains: [{
+          domain: { type: String, required: true },
+          domainWeight: { type: Number, min: 0, max: 1, required: true },
+          score: { type: Number, min: 0, max: 100 },
+          classification: { type: String, trim: true },
+          validItemCount: { type: Number, min: 0, required: true },
+          expectedItemCount: { type: Number, min: 0, required: true },
+          completionRate: { type: Number, min: 0, max: 1, required: true },
+          evidenceTypeScores: { type: Schema.Types.Mixed, default: {} },
+          confidenceLevel: { type: String, enum: ['High', 'Medium', 'Low'], required: true },
+          qualityFlags: { type: [{ type: String, trim: true }], default: [] },
+          nearCutScore: { type: Boolean, default: false },
+          criticalItemFlagged: { type: Boolean, default: false },
+          criticalItemIds: { type: [{ type: String, trim: true }], default: [] },
+        }],
+      },
+      default: undefined,
+    },
   },
   {
     timestamps: true,
