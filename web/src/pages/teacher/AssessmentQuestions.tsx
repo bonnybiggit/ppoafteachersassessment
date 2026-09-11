@@ -1,98 +1,119 @@
-﻿import { useEffect, useMemo, useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ArrowLeft, ArrowRight, Info } from "lucide-react";
 import ppoafLogo from "../../assets/ppoaf-logo.jpeg";
 import { AuthApiError } from "../../services/authService";
 import {
-  getAssessmentScore,
-  saveAssessmentResponse,
-  submitAssessmentAttempt,
-  type AssessmentAttempt,
+  getAssessmentScore, getCurrentAttempt, getAssessmentResponses,
+  saveAssessmentResponse, submitAssessmentAttempt,
+  type AssessmentAttempt, type AssessmentResponseRecord,
 } from "../../services/assessmentService";
+import { draftKey, restoreAssessment } from "../../services/assessmentResume";
 
 export default function AssessmentQuestions() {
   const navigate = useNavigate();
-  const location = useLocation();
-  const [attempt, setAttempt] = useState<AssessmentAttempt | null>(
-    location.state?.attempt ?? null,
-  );
+  const [attempt, setAttempt] = useState<AssessmentAttempt | null>(null);
+  const [answers, setAnswers] = useState<Record<string, AssessmentResponseRecord>>({});
+  const [drafts, setDrafts] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
-
+  const saveLock = useRef(false);
   const [error, setError] = useState("");
-
   const questions = attempt?.questions ?? [];
   const currentQuestion = questions[currentIndex] ?? null;
-  const progressPercent =
-    questions.length > 0 ? ((currentIndex + 1) / questions.length) * 100 : 0;
+  const savedAnswer = currentQuestion ? answers[currentQuestion.itemId] : undefined;
+  const selectedOption = savedAnswer?.selectedResponse ?? (currentQuestion ? drafts[currentQuestion.itemId] : null);
+  const progressPercent = questions.length > 0 ? ((currentIndex + 1) / questions.length) * 100 : 0;
 
   useEffect(() => {
-    if (!attempt) {
-      const loadCurrent = async () => {
+    let cancelled = false;
+    const loadCurrent = async () => {
+      try {
+        const current = await getCurrentAttempt();
+        const responses = await getAssessmentResponses(current.id);
+        if (cancelled) return;
+        const restored = restoreAssessment(current, responses);
+        const restoredDrafts: Record<string, string> = {};
         try {
-          const current = await import("../../services/assessmentService").then(
-            (mod) => mod.getCurrentAttempt(),
-          );
-          setAttempt(current);
-        } catch (reason) {
-          const message =
-            reason instanceof AuthApiError
-              ? reason.message
-              : "Unable to resume your assessment. Please try again.";
-          setError(message);
-        }
-      };
-      void loadCurrent();
+          const stored = JSON.parse(sessionStorage.getItem(draftKey(current)) ?? "{}");
+          for (const question of current.questions) {
+            if (!restored.answers[question.itemId] && typeof stored?.[question.itemId] === "string" &&
+              question.options.some(option => option.id === stored[question.itemId])) {
+              restoredDrafts[question.itemId] = stored[question.itemId];
+            }
+          }
+        } catch { /* Backend answers remain available if tab storage is unavailable. */ }
+        setAnswers(restored.answers);
+        setDrafts(restoredDrafts);
+        setCurrentIndex(restored.currentIndex);
+        setAttempt(current);
+      } catch (reason) {
+        if (!cancelled) setError(reason instanceof AuthApiError ? reason.message : "Unable to resume your assessment. Please try again.");
+      }
+    };
+    void loadCurrent();
+    return () => { cancelled = true; };
+  }, []);
+
+  const selectOption = (option: string) => {
+    if (!attempt || !currentQuestion || savedAnswer || saveLock.current) return;
+    const next = { ...drafts, [currentQuestion.itemId]: option };
+    setDrafts(next);
+    try { sessionStorage.setItem(draftKey(attempt), JSON.stringify(next)); }
+    catch { setError("This browser cannot retain an unsaved selection. Save before refreshing."); }
+  };
+
+  const questionLabel = useMemo(() => currentQuestion
+    ? "Question " + currentQuestion.questionOrder + " of " + questions.length : "Question", [currentQuestion, questions.length]);
+
+  const handleSaveAndContinue = async (exit = false) => {
+    if (!attempt || !currentQuestion || saveLock.current) return;
+    if (!savedAnswer && !selectedOption) {
+      if (exit) navigate("/teacher");
+      return;
     }
-  }, [attempt]);
-
-  useEffect(() => {
-    if (currentQuestion) {
-      setSelectedOption(null);
-    }
-  }, [currentQuestion]);
-
-  const questionLabel = useMemo(() => {
-    if (!currentQuestion) return "Question";
-    return `Question ${currentQuestion.questionOrder} of ${questions.length}`;
-  }, [currentQuestion, questions.length]);
-
-  const handleSaveAndContinue = async () => {
-    if (!attempt || !currentQuestion || !selectedOption || saving) return;
-
+    saveLock.current = true;
     setSaving(true);
     setError("");
-
     try {
-      await saveAssessmentResponse(
-        attempt.id,
-        currentQuestion.itemId,
-        selectedOption,
-        selectedOption,
-      );
-
-      if (currentIndex < questions.length - 1) {
-        setCurrentIndex((value) => value + 1);
+      if (!savedAnswer) {
+        let saved: AssessmentResponseRecord;
+        try {
+          saved = await saveAssessmentResponse(attempt.id, currentQuestion.itemId, selectedOption, selectedOption);
+        } catch (reason) {
+          // Reconcile a request that committed before its response was lost.
+          // Never overwrite an immutable answer or blindly repost on navigation.
+          const responses = await getAssessmentResponses(attempt.id);
+          const existing = responses.find(response => response.attemptId === attempt.id && response.itemId === currentQuestion.itemId);
+          if (!existing) throw reason;
+          saved = existing;
+        }
+        setAnswers(value => ({ ...value, [currentQuestion.itemId]: saved }));
+        const next = { ...drafts };
+        delete next[currentQuestion.itemId];
+        setDrafts(next);
+        try { sessionStorage.setItem(draftKey(attempt), JSON.stringify(next)); }
+        catch { /* Server response is authoritative. */ }
+      }
+      if (exit) {
+        navigate("/teacher");
+      } else if (currentIndex < questions.length - 1) {
+        setCurrentIndex(value => value + 1);
       } else {
         const submittedAttempt = await submitAssessmentAttempt(attempt.id);
         const scoring = await getAssessmentScore(submittedAttempt.id);
-        navigate("/teacher/results", {
-          state: { attempt: submittedAttempt, scoring },
-        });
+        navigate("/teacher/results", { state: { attempt: submittedAttempt, scoring } });
       }
     } catch (reason) {
-      const message =
-        reason instanceof AuthApiError
-          ? reason.message
-          : "Unable to save your response. Please try again.";
-      setError(message);
+      setError(reason instanceof AuthApiError ? reason.message : "Unable to save your response. Please try again.");
     } finally {
+      saveLock.current = false;
       setSaving(false);
     }
   };
 
   const handlePrevious = () => {
+    if (saveLock.current) return;
     if (currentIndex > 0) {
       setCurrentIndex((value) => value - 1);
     } else {
@@ -139,12 +160,14 @@ export default function AssessmentQuestions() {
             </p>
           </div>
         </div>
-        <Link
-          to="/teacher"
+        <button
+          type="button"
+          disabled={saving}
+          onClick={() => void handleSaveAndContinue(true)}
           className="text-xs font-medium text-gray-500 hover:text-[#0c3b6e]"
         >
           Save & Exit
-        </Link>
+        </button>
       </div>
 
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center gap-3 text-xs text-[#0c3b6e]">
@@ -183,10 +206,13 @@ export default function AssessmentQuestions() {
 
         <div className="space-y-3 pt-2">
           {currentQuestion.options.map((opt) => (
-            <label
+            <button
+              type="button"
+              disabled={saving || Boolean(savedAnswer)}
+              aria-pressed={selectedOption === opt.id}
               key={opt.id}
-              onClick={() => setSelectedOption(opt.id)}
-              className={`flex items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${
+              onClick={() => selectOption(opt.id)}
+              className={`flex w-full text-left items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${
                 selectedOption === opt.id
                   ? "border-[#0c3b6e] bg-blue-50/60 shadow-xs"
                   : "border-[#ede8e1] bg-white hover:border-gray-300 hover:bg-[#faf8f5]"
@@ -200,9 +226,15 @@ export default function AssessmentQuestions() {
               <p className="text-xs sm:text-sm text-gray-800 leading-relaxed">
                 {opt.label}
               </p>
-            </label>
+            </button>
           ))}
         </div>
+
+        <p className="text-xs text-gray-500" role="status">
+          {savedAnswer ? "Answer saved. Saved answers cannot be changed." : selectedOption
+            ? `Selection retained in this tab. Choose ${isLastQuestion ? "Finish Assessment" : "Next Question"} or Save & Exit to save it.`
+            : ""}
+        </p>
 
         {error ? (
           <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-xs text-red-700">
@@ -214,6 +246,7 @@ export default function AssessmentQuestions() {
           <button
             type="button"
             onClick={handlePrevious}
+            disabled={saving}
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-semibold text-gray-600 hover:bg-gray-100 transition-colors"
           >
             <ArrowLeft className="h-4 w-4" />
@@ -222,8 +255,8 @@ export default function AssessmentQuestions() {
 
           <button
             type="button"
-            onClick={handleSaveAndContinue}
-            disabled={!selectedOption || saving}
+            onClick={() => void handleSaveAndContinue()}
+            disabled={(!savedAnswer && !selectedOption) || saving}
             className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold bg-[#0c3b6e] text-white hover:bg-[#082a50] transition-colors shadow-xs disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed"
           >
             <span>

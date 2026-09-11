@@ -1,4 +1,5 @@
 import { Schema, model, type HydratedDocument, type Types } from 'mongoose'
+import { storedGapDiagnosisSchema, type StoredGapDiagnosis } from './GapDiagnosis'
 
 export const ASSESSMENT_STATUSES = ['in_progress', 'completed', 'abandoned'] as const
 
@@ -44,6 +45,7 @@ export interface IAssessmentAttempt {
   selectedItemIds: Types.ObjectId[]
   consentConfirmed: boolean
   scoring?: IAssessmentScoringResult
+  gapDiagnosis?: StoredGapDiagnosis
   createdAt: Date
   updatedAt: Date
 }
@@ -63,6 +65,7 @@ const assessmentAttemptSchema = new Schema<IAssessmentAttempt>(
     // Ordered references preserve each attempt's own subset without assembling it.
     selectedItemIds: { type: [{ type: Schema.Types.ObjectId, ref: 'AssessmentItem', required: true }], default: [] },
     consentConfirmed: { type: Boolean, default: false, required: true },
+    gapDiagnosis: { type: storedGapDiagnosisSchema, default: undefined },
     scoring: {
       type: {
         status: { type: String, enum: ['scored', 'insufficient_data'], default: 'insufficient_data', required: true },

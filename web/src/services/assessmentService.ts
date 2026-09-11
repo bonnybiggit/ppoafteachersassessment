@@ -107,6 +107,11 @@ export async function getCurrentAttempt(): Promise<AssessmentAttempt> {
   return data.attempt
 }
 
+export async function getAssessmentResponses(attemptId: string): Promise<AssessmentResponseRecord[]> {
+  const data = await request<{ success: true; responses: AssessmentResponseRecord[] }>(`/attempts/${attemptId}/responses`)
+  return data.responses
+}
+
 export async function saveAssessmentResponse(
   attemptId: string,
   itemId: string,

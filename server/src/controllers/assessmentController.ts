@@ -2,6 +2,7 @@ import type { Request, Response } from 'express'
 import { AuthError, getAuthenticatedTeacher } from '../services/authService'
 import { AssessmentError, getAttempt, getCurrentAttempt, getQuestions, getResponses, saveResponse, startAttempt, submitAttempt } from '../services/assessmentService'
 import { ScoringError, getAttemptScoring, scoreAttemptForTeacher } from '../services/assessmentScoring'
+import { getGapDiagnosisForTeacher } from '../services/gapDiagnosisService'
 
 async function handle(
   req: Request,
@@ -57,4 +58,8 @@ export async function scoreAttempt(req: Request, res: Response): Promise<void> {
 
 export async function scoringForAttempt(req: Request, res: Response): Promise<void> {
   await handle(req, res, async id => ({ scoring: await getAttemptScoring(id, req.params.attemptId) }))
+}
+
+export async function gapsForAttempt(req: Request, res: Response): Promise<void> {
+  await handle(req, res, async id => ({ diagnosis: await getGapDiagnosisForTeacher(id, req.params.attemptId) }))
 }

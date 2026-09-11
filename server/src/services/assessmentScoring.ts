@@ -126,7 +126,8 @@ function deriveOrderedOptions(item: IAssessmentItem): string[] {
 
 type ResponseLike = { itemId: { toString(): string }; selectedResponse: unknown }
 
-function itemScoreFromResponse(item: IAssessmentItem, response: ResponseLike | null): number | null {
+// Shared with diagnosis for item-level support; the scoring mathematics is unchanged.
+export function itemScoreFromResponse(item: IAssessmentItem, response: ResponseLike | null): number | null {
   if (!response) return null
   const key = item.responseKey as Record<string, unknown> | undefined
   if (!key) return null
