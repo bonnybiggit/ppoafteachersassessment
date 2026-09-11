@@ -1,5 +1,5 @@
-﻿import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+﻿import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import {
   FileCheck,
   ShieldCheck,
@@ -14,29 +14,50 @@ import {
   Cpu,
   Star,
   Building2,
-} from 'lucide-react'
+} from "lucide-react";
+import { startAssessmentAttempt } from "../../services/assessmentService";
+import { AuthApiError } from "../../services/authService";
 
 const domains = [
-  { name: 'Human-Centred Teaching & Empathy', icon: Heart },
-  { name: 'Communication & Influence', icon: MessageCircle },
-  { name: 'Classroom Leadership & Behaviour Design', icon: Layout },
-  { name: 'Adaptive Teaching & Problem Solving', icon: Lightbulb },
-  { name: 'Practical Pedagogy & Learning Design', icon: BookOpen },
-  { name: 'Resourcefulness & Entrepreneurial Thinking', icon: Wrench },
-  { name: 'Digital & Future Skills', icon: Cpu },
-  { name: 'Personal Effectiveness & Professional Identity', icon: Star },
-  { name: 'Community Engagement', icon: Building2 },
-]
+  { name: "Human-Centred Teaching & Empathy", icon: Heart },
+  { name: "Communication & Influence", icon: MessageCircle },
+  { name: "Classroom Leadership & Behaviour Design", icon: Layout },
+  { name: "Adaptive Teaching & Problem Solving", icon: Lightbulb },
+  { name: "Practical Pedagogy & Learning Design", icon: BookOpen },
+  { name: "Resourcefulness & Entrepreneurial Thinking", icon: Wrench },
+  { name: "Digital & Future Skills", icon: Cpu },
+  { name: "Personal Effectiveness & Professional Identity", icon: Star },
+  { name: "Community Engagement", icon: Building2 },
+];
 
 export default function AssessmentIntro() {
-  const [consented, setConsented] = useState(false)
-  const navigate = useNavigate()
+  const [consented, setConsented] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
-  const handleStart = () => {
-    if (consented) {
-      navigate('/teacher/assessment/questions')
+  const handleStart = async () => {
+    if (!consented || loading) return;
+
+    setLoading(true);
+    setError("");
+
+    try {
+      const attempt = await startAssessmentAttempt({
+        consentConfirmed: true,
+        mode: "pilot-synthetic",
+      });
+      navigate("/teacher/assessment/questions", { state: { attempt } });
+    } catch (reason) {
+      const message =
+        reason instanceof AuthApiError
+          ? reason.message
+          : "Unable to start your assessment. Please try again.";
+      setError(message);
+    } finally {
+      setLoading(false);
     }
-  }
+  };
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 pb-12">
@@ -50,7 +71,9 @@ export default function AssessmentIntro() {
           Your Teacher Competency Assessment
         </h1>
         <p className="text-base text-gray-700 leading-relaxed">
-          This assessment is designed to help you understand your professional strengths, identify areas for development, and guide personalised learning opportunities.
+          This assessment is designed to help you understand your professional
+          strengths, identify areas for development, and guide personalised
+          learning opportunities.
         </p>
       </div>
 
@@ -61,7 +84,10 @@ export default function AssessmentIntro() {
           <h2 className="text-lg font-bold">Development, Not Judgement</h2>
         </div>
         <p className="text-sm text-gray-700 leading-relaxed">
-          The PPOAF assessment is developmental rather than punitive. It is not an employment ranking or dismissal tool. Its sole objective is to illuminate what you do well and illuminate targeted, practical pathways for your ongoing professional growth.
+          The PPOAF assessment is developmental rather than punitive. It is not
+          an employment ranking or dismissal tool. Its sole objective is to
+          illuminate what you do well and illuminate targeted, practical
+          pathways for your ongoing professional growth.
         </p>
       </div>
 
@@ -71,12 +97,13 @@ export default function AssessmentIntro() {
           What the Assessment Explores
         </h2>
         <p className="text-xs text-gray-600">
-          The evaluation evaluates teaching scenarios and reflective decisions mapped across 9 competency domains:
+          The evaluation evaluates teaching scenarios and reflective decisions
+          mapped across 9 competency domains:
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {domains.map((d, i) => {
-            const Icon = d.icon
+            const Icon = d.icon;
             return (
               <div
                 key={d.name}
@@ -94,7 +121,7 @@ export default function AssessmentIntro() {
                   </span>
                 </div>
               </div>
-            )
+            );
           })}
         </div>
       </div>
@@ -109,42 +136,65 @@ export default function AssessmentIntro() {
               <span className="w-5 h-5 rounded-full bg-blue-50 text-[#0c3b6e] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">
                 1
               </span>
-              <span>Answer questions based on authentic classroom scenarios and pedagogical situations.</span>
+              <span>
+                Answer questions based on authentic classroom scenarios and
+                pedagogical situations.
+              </span>
             </li>
             <li className="flex items-start gap-2.5">
               <span className="w-5 h-5 rounded-full bg-blue-50 text-[#0c3b6e] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">
                 2
               </span>
-              <span>Your responses are analyzed across all nine competency domains with multi-dimensional scoring.</span>
+              <span>
+                Your responses are analyzed across all nine competency domains
+                with multi-dimensional scoring.
+              </span>
             </li>
             <li className="flex items-start gap-2.5">
               <span className="w-5 h-5 rounded-full bg-blue-50 text-[#0c3b6e] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">
                 3
               </span>
-              <span>Receive a personalised competency profile alongside actionable upskilling recommendations.</span>
+              <span>
+                Receive a personalised competency profile alongside actionable
+                upskilling recommendations.
+              </span>
             </li>
           </ul>
         </div>
 
         {/* Before You Begin */}
         <div className="bg-white rounded-2xl p-6 border border-[#ede8e1] space-y-4">
-          <h3 className="text-base font-bold text-[#0c3b6e]">Before You Begin</h3>
+          <h3 className="text-base font-bold text-[#0c3b6e]">
+            Before You Begin
+          </h3>
           <ul className="space-y-2.5 text-xs text-gray-700">
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[#b81c1c] shrink-0" />
-              <span><strong>Answer honestly:</strong> Reflect what you actually do in your classroom.</span>
+              <span>
+                <strong>Answer honestly:</strong> Reflect what you actually do
+                in your classroom.
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[#b81c1c] shrink-0" />
-              <span><strong>Take your time:</strong> Think carefully through each realistic teaching scenario.</span>
+              <span>
+                <strong>Take your time:</strong> Think carefully through each
+                realistic teaching scenario.
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[#b81c1c] shrink-0" />
-              <span><strong>No trick questions:</strong> Designed to capture nuanced pedagogical instincts.</span>
+              <span>
+                <strong>No trick questions:</strong> Designed to capture nuanced
+                pedagogical instincts.
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-[#b81c1c] shrink-0" />
-              <span><strong>Save & resume:</strong> Your progress is saved as you complete questions.</span>
+              <span>
+                <strong>Save & resume:</strong> Your progress is saved as you
+                complete questions.
+              </span>
             </li>
           </ul>
         </div>
@@ -156,7 +206,10 @@ export default function AssessmentIntro() {
           Consent & Developmental Participation
         </h3>
         <p className="text-xs text-gray-600 leading-relaxed">
-          By participating, you acknowledge that your responses and profile context will be analyzed strictly for generating your competency profile and recommending upskilling content aligned with the PPOAF Teacher Development Framework.
+          By participating, you acknowledge that your responses and profile
+          context will be analyzed strictly for generating your competency
+          profile and recommending upskilling content aligned with the PPOAF
+          Teacher Development Framework.
         </p>
 
         <label className="flex items-start gap-3 p-4 bg-[#faf8f5] rounded-xl border border-[#ede8e1] cursor-pointer">
@@ -167,9 +220,16 @@ export default function AssessmentIntro() {
             className="mt-0.5 h-4 w-4 rounded border-gray-300 text-[#0c3b6e] focus:ring-[#0c3b6e]"
           />
           <span className="text-xs font-semibold text-gray-800">
-            I understand the purpose of this assessment and consent to participate in this developmental evaluation.
+            I understand the purpose of this assessment and consent to
+            participate in this developmental evaluation.
           </span>
         </label>
+
+        {error ? (
+          <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-xs text-red-700">
+            {error}
+          </div>
+        ) : null}
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
           <Link
@@ -182,18 +242,18 @@ export default function AssessmentIntro() {
           <button
             type="button"
             onClick={handleStart}
-            disabled={!consented}
+            disabled={!consented || loading}
             className={`inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-lg text-sm font-semibold transition-colors shadow-xs ${
-              consented
-                ? 'bg-[#0c3b6e] text-white hover:bg-[#082a50] cursor-pointer'
-                : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+              consented && !loading
+                ? "bg-[#0c3b6e] text-white hover:bg-[#082a50] cursor-pointer"
+                : "bg-gray-200 text-gray-400 cursor-not-allowed"
             }`}
           >
-            <span>Start Assessment</span>
+            <span>{loading ? "Starting…" : "Start Assessment"}</span>
             <ArrowRight className="h-4 w-4" />
           </button>
         </div>
       </div>
     </div>
-  )
+  );
 }
