@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { authMiddleware } from '../middleware/authMiddleware'
-import { attemptById, createAttempt, createResponse, currentAttempt, gapsForAttempt, questionsForAttempt, responsesForAttempt, scoreAttempt, scoringForAttempt, submit } from '../controllers/assessmentController'
+import { attemptById, createAttempt, createResponse, currentAttempt, gapsForAttempt, questionsForAttempt, recommendationsForAttempt, responsesForAttempt, scoreAttempt, scoringForAttempt, submit } from '../controllers/assessmentController'
 
 const router = Router()
 
@@ -13,6 +13,7 @@ router.post('/attempts/:attemptId/submit', submit)
 router.post('/attempts/:attemptId/score', scoreAttempt)
 router.get('/attempts/:attemptId/score', scoringForAttempt)
 router.get('/attempts/:attemptId/gaps', gapsForAttempt)
+router.get('/attempts/:attemptId/recommendations', recommendationsForAttempt)
 router.get('/attempts/:attemptId', attemptById)
 router.post('/attempts/:attemptId/responses', createResponse)
 router.get('/attempts/:attemptId/responses', responsesForAttempt)

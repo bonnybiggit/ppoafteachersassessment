@@ -1,0 +1,1403 @@
+{
+  "version": "course-catalog.synthetic.v0.1",
+  "status": "synthetic_provisional",
+  "disclaimer": "PROVISIONAL / MVP / SYNTHETIC. Not an official PPOAF or partner course catalog. No real enrollment or validated learning outcomes are implied.",
+  "courses": [
+    {
+      "courseId": "PPOAF-D1-001",
+      "title": "Learner Support and Empathy: Foundations",
+      "description": "Synthetic MVP learning opportunity for Human-Centred Teaching & Empathy. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D1"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D1": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D1-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D1-002",
+      "title": "Learner Support and Empathy: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Human-Centred Teaching & Empathy. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D1"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D1": [
+          "emotional support",
+          "empathy in classroom interactions",
+          "inclusive practice",
+          "learner dignity"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D1-003",
+      "title": "Learner Support and Empathy: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Human-Centred Teaching & Empathy. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D1"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D1": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration",
+        "confidence"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "intermediate",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "blended",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": false,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D2-001",
+      "title": "Clear Teaching Communication: Foundations",
+      "description": "Synthetic MVP learning opportunity for Communication & Influence. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D2"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D2": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D2-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D2-002",
+      "title": "Clear Teaching Communication: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Communication & Influence. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D2"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D2": [
+          "active listening",
+          "checking understanding",
+          "clear explanation",
+          "colleague communication"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D2-003",
+      "title": "Clear Teaching Communication: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Communication & Influence. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D2"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D2": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "advanced",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "standard_online",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": false,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": false,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D3-001",
+      "title": "Classroom Routines and Behaviour: Foundations",
+      "description": "Synthetic MVP learning opportunity for Classroom Leadership & Behaviour Design. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D3"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D3": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D3-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D3-002",
+      "title": "Classroom Routines and Behaviour: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Classroom Leadership & Behaviour Design. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D3"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D3": [
+          "behaviour reinforcement",
+          "classroom climate",
+          "classroom expectations",
+          "classroom leadership"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "primary",
+        "secondary"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": true,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D3-003",
+      "title": "Classroom Routines and Behaviour: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Classroom Leadership & Behaviour Design. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D3"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D3": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration",
+        "context_complexity"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "intermediate",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "blended",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": true,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D4-001",
+      "title": "Responsive Teaching Decisions: Foundations",
+      "description": "Synthetic MVP learning opportunity for Adaptive Teaching & Problem Solving. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D4"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D4": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D4-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D4-002",
+      "title": "Responsive Teaching Decisions: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Adaptive Teaching & Problem Solving. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D4"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D4": [
+          "adaptive instruction",
+          "continuous adjustment",
+          "decision-making under uncertainty",
+          "escalation/referral awareness"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": true,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D4-003",
+      "title": "Responsive Teaching Decisions: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Adaptive Teaching & Problem Solving. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D4"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D4": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration",
+        "context_complexity"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "advanced",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "standard_online",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": false,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": true,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D5-001",
+      "title": "Formative Assessment and Lesson Design: Foundations",
+      "description": "Synthetic MVP learning opportunity for Practical Pedagogy & Learning Design. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D5"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D5": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D5-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D5-002",
+      "title": "Formative Assessment and Lesson Design: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Practical Pedagogy & Learning Design. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D5"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D5": [
+          "active learning and participation",
+          "alignment of objectives instruction and assessment",
+          "differentiation within learning design",
+          "feedback for learning"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": true,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D5-003",
+      "title": "Formative Assessment and Lesson Design: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Practical Pedagogy & Learning Design. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D5"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D5": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration",
+        "context_complexity"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "intermediate",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "blended",
+      "prerequisites": [
+        {
+          "kind": "course",
+          "value": "PPOAF-D5-001",
+          "mandatory": false
+        }
+      ],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": true,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D6-001",
+      "title": "Resourceful Classroom Practice: Foundations",
+      "description": "Synthetic MVP learning opportunity for Resourcefulness & Entrepreneurial Thinking. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D6"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D6": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D6-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D6-002",
+      "title": "Resourceful Classroom Practice: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Resourcefulness & Entrepreneurial Thinking. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D6"
+      ],
+      "secondaryDomains": [
+        "D7"
+      ],
+      "subcompetencies": {
+        "D6": [
+          "creative problem solving",
+          "design thinking",
+          "improvisation with available resources",
+          "initiative and proactive action"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure",
+        "resource_access"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": true,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D6-003",
+      "title": "Resourceful Classroom Practice: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Resourcefulness & Entrepreneurial Thinking. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D6"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D6": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "advanced",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "standard_online",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": false,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": true,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D7-001",
+      "title": "Accessible Digital Teaching: Foundations",
+      "description": "Synthetic MVP learning opportunity for Digital & Future Skills. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D7"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D7": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D7-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D7-002",
+      "title": "Accessible Digital Teaching: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Digital & Future Skills. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D7"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D7": [
+          "adapting when technology fails",
+          "appropriate use of AI and emerging technologies",
+          "basic digital teaching competence",
+          "blended and technology-supported learning"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure",
+        "resource_access"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D7-003",
+      "title": "Accessible Digital Teaching: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Digital & Future Skills. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D7"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D7": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "intermediate",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "blended",
+      "prerequisites": [
+        {
+          "kind": "digital_experience",
+          "value": "intermediate",
+          "mandatory": true
+        }
+      ],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": false,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D8-001",
+      "title": "Professional Reflection and Self-Management: Foundations",
+      "description": "Synthetic MVP learning opportunity for Personal Effectiveness & Professional Identity. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D8"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D8": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D8-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D8-002",
+      "title": "Professional Reflection and Self-Management: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Personal Effectiveness & Professional Identity. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D8"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D8": [
+          "accountability",
+          "commitment to improvement",
+          "continuous professional development",
+          "ethical judgement"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D8-003",
+      "title": "Professional Reflection and Self-Management: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Personal Effectiveness & Professional Identity. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D8"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D8": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration",
+        "confidence"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "advanced",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "standard_online",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": false,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": false,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D9-001",
+      "title": "School?Community Communication: Foundations",
+      "description": "Synthetic MVP learning opportunity for Community Engagement. Build knowledge and examine classroom scenarios. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D9"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D9": []
+      },
+      "gapTypes": [
+        "knowledge",
+        "judgement"
+      ],
+      "evidenceFocus": [
+        "knowledge/application",
+        "situational judgement"
+      ],
+      "level": "foundation",
+      "durationMinutes": 90,
+      "modality": "self_paced",
+      "bandwidth": "offline",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [
+        "PPOAF-D9-001"
+      ],
+      "practicalApplicability": 60,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "introductory",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D9-002",
+      "title": "School?Community Communication: Guided Classroom Practice",
+      "description": "Synthetic MVP learning opportunity for Community Engagement. Rehearse a classroom application with a guided practice checklist. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D9"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D9": [
+          "community engagement"
+        ]
+      },
+      "gapTypes": [
+        "practice",
+        "readiness",
+        "exposure"
+      ],
+      "evidenceFocus": [
+        "performance evidence",
+        "behaviour frequency"
+      ],
+      "level": "developing",
+      "durationMinutes": 180,
+      "modality": "guided_practice",
+      "bandwidth": "low_bandwidth",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": false,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 100,
+      "largeClassSupport": false,
+      "lowResourceSupport": true,
+      "beginnerFriendly": true,
+      "readinessSupport": "guided",
+      "active": true,
+      "version": "course-catalog.synthetic.v0.1"
+    },
+    {
+      "courseId": "PPOAF-D9-003",
+      "title": "School?Community Communication: Reflective Refinement",
+      "description": "Synthetic MVP learning opportunity for Community Engagement. Compare reported practice with scenario evidence and reflect on next development needs. Provisional catalog entry; not a real partner course.",
+      "domains": [
+        "D9"
+      ],
+      "secondaryDomains": [],
+      "subcompetencies": {
+        "D9": []
+      },
+      "gapTypes": [
+        "reflection",
+        "calibration"
+      ],
+      "evidenceFocus": [
+        "reflective judgement",
+        "situational judgement",
+        "behaviour frequency"
+      ],
+      "level": "intermediate",
+      "durationMinutes": 120,
+      "modality": "peer_reflection",
+      "bandwidth": "blended",
+      "prerequisites": [],
+      "language": [
+        "en"
+      ],
+      "gradeRelevance": [
+        "all"
+      ],
+      "subjectRelevance": [
+        "all"
+      ],
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "downloadable_materials": true,
+        "mobile_friendly": true
+      },
+      "priorLearningEquivalence": [],
+      "practicalApplicability": 75,
+      "largeClassSupport": false,
+      "lowResourceSupport": false,
+      "beginnerFriendly": false,
+      "readinessSupport": "independent",
+      "active": false,
+      "version": "course-catalog.synthetic.v0.1"
+    }
+  ]
+}

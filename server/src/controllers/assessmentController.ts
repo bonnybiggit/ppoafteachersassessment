@@ -3,6 +3,7 @@ import { AuthError, getAuthenticatedTeacher } from '../services/authService'
 import { AssessmentError, getAttempt, getCurrentAttempt, getQuestions, getResponses, saveResponse, startAttempt, submitAttempt } from '../services/assessmentService'
 import { ScoringError, getAttemptScoring, scoreAttemptForTeacher } from '../services/assessmentScoring'
 import { getGapDiagnosisForTeacher } from '../services/gapDiagnosisService'
+import { getRecommendationsForTeacher } from '../services/recommendationService'
 
 async function handle(
   req: Request,
@@ -62,4 +63,8 @@ export async function scoringForAttempt(req: Request, res: Response): Promise<vo
 
 export async function gapsForAttempt(req: Request, res: Response): Promise<void> {
   await handle(req, res, async id => ({ diagnosis: await getGapDiagnosisForTeacher(id, req.params.attemptId) }))
+}
+
+export async function recommendationsForAttempt(req: Request, res: Response): Promise<void> {
+  await handle(req, res, async id => ({ recommendations: await getRecommendationsForTeacher(id, req.params.attemptId) }))
 }

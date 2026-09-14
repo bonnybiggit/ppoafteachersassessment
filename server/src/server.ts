@@ -3,6 +3,7 @@ import app from './app'
 import { connectDatabase, disconnectDatabase } from './config/database'
 import { getJwtConfig, initializeAuth } from './services/authService'
 import { initializeAssessment } from './services/assessmentService'
+import { initializeAdminAuth } from './services/adminAuthService'
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000
 
@@ -12,6 +13,7 @@ async function startServer(): Promise<void> {
     // 1. Load environment variables and connect to MongoDB Atlas
     await connectDatabase()
     await initializeAuth()
+    await initializeAdminAuth()
     await initializeAssessment()
 
     // 2. Start HTTP Express Server only after successful database connection

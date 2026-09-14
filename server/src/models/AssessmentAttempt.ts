@@ -1,5 +1,6 @@
 import { Schema, model, type HydratedDocument, type Types } from 'mongoose'
 import { storedGapDiagnosisSchema, type StoredGapDiagnosis } from './GapDiagnosis'
+import { storedRecommendationsSchema, type StoredRecommendations } from './Recommendation'
 
 export const ASSESSMENT_STATUSES = ['in_progress', 'completed', 'abandoned'] as const
 
@@ -46,6 +47,7 @@ export interface IAssessmentAttempt {
   consentConfirmed: boolean
   scoring?: IAssessmentScoringResult
   gapDiagnosis?: StoredGapDiagnosis
+  recommendations?: StoredRecommendations
   createdAt: Date
   updatedAt: Date
 }
@@ -66,6 +68,7 @@ const assessmentAttemptSchema = new Schema<IAssessmentAttempt>(
     selectedItemIds: { type: [{ type: Schema.Types.ObjectId, ref: 'AssessmentItem', required: true }], default: [] },
     consentConfirmed: { type: Boolean, default: false, required: true },
     gapDiagnosis: { type: storedGapDiagnosisSchema, default: undefined },
+    recommendations: { type: storedRecommendationsSchema, default: undefined },
     scoring: {
       type: {
         status: { type: String, enum: ['scored', 'insufficient_data'], default: 'insufficient_data', required: true },

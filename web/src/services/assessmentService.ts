@@ -71,6 +71,82 @@ export interface AttemptScoringResult {
   domains: DomainScoringResult[]
 }
 
+export interface GapCandidate {
+  type: string
+  label: string
+  priority: 'high' | 'medium' | 'low'
+  confidence: 'High' | 'Medium' | 'Low'
+  subcompetency: string | null
+  developmentAreas: string[]
+  rationale: string
+  supportingEvidence: string[]
+  contextualFactors: string[]
+  limitations: string[]
+}
+
+export interface DomainGapDiagnosis {
+  domain: string
+  domainId: string
+  score: number | null
+  classification: string
+  confidence: 'High' | 'Medium' | 'Low'
+  nearCutScore: boolean
+  gapStatus: 'insufficient_evidence' | 'targeted_development' | 'no_specific_gap'
+  priority: 'high' | 'medium' | 'low' | null
+  primaryGapType: string | null
+  gaps: GapCandidate[]
+  reviewRequired: boolean
+  reviewReason: string | null
+  limitations: string[]
+}
+
+export interface PriorityGap extends GapCandidate {
+  domain: string
+  domainId: string
+}
+
+export interface GapDiagnosisResult {
+  version: string
+  status: 'available' | 'insufficient_evidence'
+  domains: DomainGapDiagnosis[]
+  priorityGaps: PriorityGap[]
+  reviewRequired: boolean
+  limitations: string[]
+}
+
+export interface LearningSuggestion {
+  courseId: string
+  title: string
+  description: string
+  score: number
+  confidence: 'High' | 'Medium' | 'Low'
+  reason: string
+  matchFactors: string[]
+  limitations: string[]
+  estimatedDuration: string
+  modality: string
+  bandwidth: string
+  level: string
+  prerequisites: string[]
+  domainId: string
+  gapType: string
+  subcompetency: string | null
+}
+
+export interface ImmediateRecommendation extends LearningSuggestion {
+  alternatives: LearningSuggestion[]
+}
+
+export interface RecommendationResult {
+  version: string
+  catalogVersion: string
+  status: 'available' | 'no_matches' | 'insufficient_evidence' | 'no_diagnosed_gaps'
+  recommendations: ImmediateRecommendation[]
+  reviewRequired: boolean
+  reviewReason: string | null
+  limitations: string[]
+}
+
 async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
   const token = tokenStorage.read()
   const response = await fetch(`${apiUrl}${path}`, {
@@ -144,4 +220,14 @@ export async function submitAssessmentAttempt(attemptId: string): Promise<Assess
 export async function getAssessmentScore(attemptId: string): Promise<AttemptScoringResult> {
   const data = await request<{ success: true; scoring: AttemptScoringResult }>(`/attempts/${attemptId}/score`)
   return data.scoring
+}
+
+export async function getAssessmentGaps(attemptId: string): Promise<GapDiagnosisResult> {
+  const data = await request<{ success: true; diagnosis: GapDiagnosisResult }>(`/attempts/${attemptId}/gaps`)
+  return data.diagnosis
+}
+
+export async function getAssessmentRecommendations(attemptId: string): Promise<RecommendationResult> {
+  const data = await request<{ success: true; recommendations: RecommendationResult }>(`/attempts/${attemptId}/recommendations`)
+  return data.recommendations
 }

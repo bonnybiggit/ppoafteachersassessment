@@ -3,6 +3,10 @@ import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import AdminDashboard from './pages/AdminDashboard'
+import AdminLogin from './pages/AdminLogin'
+import AdminLayout from './layouts/AdminLayout'
+import ProtectedAdminRoute from './components/ProtectedAdminRoute'
+import { AdminArea } from './context/AdminAuthContext'
 import { AuthProvider } from './context/AuthContext'
 import ProtectedTeacherRoute from './components/ProtectedTeacherRoute'
 
@@ -26,7 +30,12 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/admin" element={<AdminArea />}>
+          <Route path="login" element={<AdminLogin />} />
+          <Route element={<ProtectedAdminRoute />}>
+            <Route element={<AdminLayout />}><Route index element={<AdminDashboard />} /></Route>
+          </Route>
+        </Route>
 
         {/* Teacher Portal Experience (Nested in TeacherLayout) */}
         <Route element={<ProtectedTeacherRoute />}>

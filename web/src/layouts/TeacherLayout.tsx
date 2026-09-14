@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
 import {
   LayoutDashboard,
@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import ppoafLogo from '../assets/ppoaf-logo.jpeg'
 import { useAuth } from '../context/AuthContext'
+import { getCurrentAttempt, type AssessmentAttempt } from '../services/assessmentService'
 
 const mainNavItems = [
   { label: 'Overview', to: '/teacher', icon: LayoutDashboard, end: true },
@@ -38,6 +39,21 @@ export default function TeacherLayout() {
   const navigate = useNavigate()
   const { teacher, logout } = useAuth()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [attempt, setAttempt] = useState<AssessmentAttempt | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    const checkAttempt = async () => {
+      try {
+        const current = await getCurrentAttempt()
+        if (!cancelled) setAttempt(current)
+      } catch {
+        /* Unauthenticated or no attempt */
+      }
+    }
+    void checkAttempt()
+    return () => { cancelled = true }
+  }, [])
 
   const closeMobileMenu = () => setMobileMenuOpen(false)
 
@@ -56,6 +72,27 @@ export default function TeacherLayout() {
   const displayName = teacher
     ? `${teacher.firstName || ''} ${teacher.lastName || ''}`.trim() || teacher.email
     : 'Teacher'
+
+  const statusLabel =
+    attempt?.status === 'completed' || attempt?.status === 'submitted'
+      ? 'Completed'
+      : attempt?.status === 'in_progress'
+        ? 'In Progress'
+        : 'Not Started'
+
+  const statusColor =
+    attempt?.status === 'completed' || attempt?.status === 'submitted'
+      ? 'text-emerald-700'
+      : attempt?.status === 'in_progress'
+        ? 'text-amber-700'
+        : 'text-[#b81c1c]'
+
+  const statusPercent =
+    attempt?.status === 'completed' || attempt?.status === 'submitted'
+      ? '100%'
+      : attempt && attempt.totalItems > 0
+        ? `${Math.round((attempt.currentItemIndex / attempt.totalItems) * 100)}%`
+        : '0%'
 
   return (
     <div className="min-h-screen bg-[#faf8f5] flex flex-col">
@@ -128,8 +165,8 @@ export default function TeacherLayout() {
                 Assessment Status
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-[#b81c1c]">Not Started</span>
-                <span className="text-[10px] text-gray-500">0%</span>
+                <span className={`text-xs font-bold ${statusColor}`}>{statusLabel}</span>
+                <span className="text-[10px] text-gray-500 font-mono">{statusPercent}</span>
               </div>
             </div>
 
@@ -218,8 +255,8 @@ export default function TeacherLayout() {
                     Assessment Status
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-[#b81c1c]">Not Started</span>
-                    <span className="text-[10px] text-gray-500">0%</span>
+                    <span className={`text-xs font-bold ${statusColor}`}>{statusLabel}</span>
+                    <span className="text-[10px] text-gray-500 font-mono">{statusPercent}</span>
                   </div>
                 </div>
 
