@@ -16,6 +16,7 @@ export interface AssessmentQuestion {
   domain: string
   subcompetency: string
   evidenceType: string
+  responseFormat: 'single_choice' | 'frequency_scale' | 'evidence_level' | 'constructed_response' | 'unsupported'
   options: AssessmentQuestionOption[]
   questionOrder: number
 }

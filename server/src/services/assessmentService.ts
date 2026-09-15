@@ -78,12 +78,15 @@ async function ownedAttempt(teacherId: string, attemptId: unknown) {
 // Fetch only delivery fields and explicitly copy public option properties.
 async function questionsForAttempt(attempt: AssessmentAttemptDocument) {
   const items = await AssessmentItem.find({ _id: { $in: attempt.selectedItemIds } })
-    .select('_id itemId prompt primaryDomain subcompetency evidenceType responseKey.options').lean()
+    .select('_id itemId prompt primaryDomain subcompetency evidenceType responseKey.options responseKey.format').lean()
   const byId = new Map(items.map(item => [item._id.toString(), item]))
   return attempt.selectedItemIds.map((id, index) => {
     const item = byId.get(id.toString())
     if (!item) throw new AssessmentError(409, 'An assigned question is unavailable. Please contact assessment support.')
-    const key = item.responseKey as { options?: unknown } | undefined
+    const key = item.responseKey as { options?: unknown; format?: unknown } | undefined
+    const responseFormat = typeof key?.format === 'string' &&
+      ['single_choice', 'frequency_scale', 'evidence_level', 'constructed_response'].includes(key.format)
+      ? key.format : 'unsupported'
     const options = Array.isArray(key?.options) ? key.options.flatMap((option: unknown) => {
       if (!option || typeof option !== 'object') return []
       const value = option as Record<string, unknown>
@@ -98,6 +101,7 @@ async function questionsForAttempt(attempt: AssessmentAttemptDocument) {
       domain: item.primaryDomain,
       subcompetency: item.subcompetency,
       evidenceType: item.evidenceType,
+      responseFormat,
       options,
       questionOrder: index + 1,
     }

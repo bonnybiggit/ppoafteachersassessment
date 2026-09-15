@@ -2,6 +2,7 @@ import { Router, type RequestHandler } from 'express'
 import { AuthError } from '../services/authService'
 import { loginAdmin, logoutAdmin, verifyAdminSession, type AdminSession } from '../services/adminAuthService'
 import { getAdminOverview } from '../services/adminOverviewService'
+import { listAdminTeachers, getAdminTeacher } from '../services/adminTeacherService'
 
 const router = Router()
 router.use((_req, res, next) => { res.setHeader('Cache-Control', 'no-store'); next() })
@@ -39,4 +40,6 @@ router.post('/logout', safe(async (_req, res) => {
   res.status(204).end()
 }))
 router.get('/overview', safe(async (_req, res) => { res.json(await getAdminOverview()) }))
+router.get('/teachers', safe(async (req, res) => { res.json(await listAdminTeachers(req.query)) }))
+router.get('/teachers/:teacherId', safe(async (req, res) => { res.json(await getAdminTeacher(req.params.teacherId as string)) }))
 export default router

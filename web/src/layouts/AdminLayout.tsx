@@ -14,7 +14,7 @@ export default function AdminLayout() {
     <a href="#admin-content" className="sr-only focus:not-sr-only focus:p-4">Skip to dashboard</a>
     <aside className="bg-[#0c3b6e] text-white lg:w-64 lg:shrink-0 p-5"><div className="flex items-center justify-between gap-4"><div><img src={logo} alt="PPOAF" className="w-20 rounded bg-white" /><p className="mt-3 font-semibold">Administration</p></div>
       <button aria-expanded={open} aria-controls="admin-navigation" onClick={() => setOpen(!open)} className="lg:hidden rounded border border-white/60 px-3 py-2 focus-visible:outline-2 focus-visible:outline-offset-4">{open ? 'Close menu' : 'Menu'}</button></div>
-      <nav id="admin-navigation" aria-label="Administration" className={`${open ? 'block' : 'hidden'} lg:block mt-7`}><NavLink to="/admin" end onClick={() => setOpen(false)} className="block rounded-lg bg-white/15 px-4 py-3 font-medium focus-visible:outline-2">Dashboard</NavLink></nav>
+      <nav id="admin-navigation" aria-label="Administration" className={`${open ? 'block' : 'hidden'} lg:block mt-7`}><NavLink to="/admin" end onClick={() => setOpen(false)} className="block rounded-lg bg-white/15 px-4 py-3 font-medium focus-visible:outline-2">Dashboard</NavLink><NavLink to="/admin/teachers" onClick={() => setOpen(false)} className="mt-2 block rounded-lg px-4 py-3 font-medium hover:bg-white/15 focus-visible:outline-2">Teachers</NavLink></nav>
     </aside>
     <div className="min-w-0 flex-1"><header className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 bg-white px-5 py-4 sm:px-8">
       <div className="min-w-0"><p className="text-sm text-slate-600">Administrator</p><p className="break-all font-medium">{admin?.email}</p></div>

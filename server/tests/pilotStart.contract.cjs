@@ -32,6 +32,12 @@ const items = ASSESSMENT_DOMAINS.flatMap((primaryDomain, d) => evidence.map((evi
   socialDesirabilityRisk: 'low', discrimination: 999, criticalFlag: false,
   responseKey: { correctAnswer: 'PRIVATE', options: [{ id: 'A', label: 'Choice A', score: 999 }] },
 })))
+items.forEach((item, index) => {
+  item.responseKey.format = item.evidenceType === 'behaviour frequency' ? 'frequency_scale'
+    : item.evidenceType === 'performance evidence' ? (Math.floor(index / evidence.length) >= 4 ? 'constructed_response' : 'evidence_level')
+    : 'single_choice'
+  if (item.responseKey.format === 'constructed_response') item.responseKey.options = []
+})
 const original = [Teacher.findById, AssessmentAttempt.findOne, AssessmentAttempt.create, AssessmentItem.find]
 const originalResponseIO = [AssessmentItem.exists, AssessmentAttempt.findOneAndUpdate,
   AssessmentResponse.create, AssessmentResponse.find, mongoose.connection.transaction]
@@ -108,8 +114,11 @@ async function run() {
   for (const domain of ASSESSMENT_DOMAINS) assert.equal(delivered.questions.filter(q => q.domain === domain).length, 12)
   delivered.questions.forEach((q, i) => {
     assert.equal(q.questionOrder, i + 1)
-    assert.deepEqual(q.options, [{ id: 'A', label: 'Choice A' }])
+    assert.deepEqual(q.options, q.responseFormat === 'constructed_response' ? [] : [{ id: 'A', label: 'Choice A' }])
+    assert.equal(q.responseFormat, items.find(item => String(item._id) === q.itemId).responseKey.format)
+    assert.deepEqual(Object.keys(q).sort(), ['itemId', 'bankItemId', 'prompt', 'domain', 'subcompetency', 'evidenceType', 'responseFormat', 'options', 'questionOrder'].sort())
   })
+  assert.equal(delivered.questions.filter(q => q.responseFormat === 'constructed_response').length, 5)
   for (const field of ['responseKey', 'correctAnswer', 'difficulty', 'discrimination', 'socialDesirabilityRisk', 'PRIVATE', secret]) {
     assert(!JSON.stringify(result.body).includes(field), 'Delivery must exclude private metadata')
   }
@@ -137,10 +146,29 @@ async function run() {
   assert.equal((await post(input)).body.attempt.id, delivered.id)
   assert.equal(creates, 1)
   assert.equal(responses.length, 1)
+  // Raw written answers use the same endpoint and immutable save contract.
+  const writtenQuestion = delivered.questions.find(q => q.responseFormat === 'constructed_response')
+  const written = '  A written plan.\nFollow-up evidence and reflection.  '
+  const writeResponse = await fetch(responseUrl, { method: 'POST', headers: {
+    'Content-Type': 'application/json', Authorization: `Bearer ${token}`,
+  }, body: JSON.stringify({ itemId: writtenQuestion.itemId, selectedResponse: written, responseValue: written }) })
+  assert.equal(writeResponse.status, 201)
+  const writtenList = await (await fetch(responseUrl, { headers: { Authorization: `Bearer ${token}` } })).json()
+  const persisted = writtenList.responses.find(response => response.itemId === writtenQuestion.itemId)
+  assert.equal(persisted.selectedResponse, written)
+  assert.equal(persisted.responseValue, written)
+  assert.equal(responses.length, 2)
+  // Unrecognized key metadata must never be copied into the public format.
+  const unknownItem = items.find(item => String(item._id) === delivered.questions[0].itemId)
+  unknownItem.responseKey.format = 'PRIVATE_UNSUPPORTED_FORMAT'
+  const unknownDelivery = await (await fetch(`${url}/current`, { headers: { Authorization: `Bearer ${token}` } })).json()
+  assert.equal(unknownDelivery.attempt.questions[0].responseFormat, 'unsupported')
+  assert(!JSON.stringify(unknownDelivery).includes('PRIVATE_UNSUPPORTED_FORMAT'))
   assert(items.every(item => item.isActive === false))
   assert.equal(mongoose.connection.readyState, 0)
   console.log('PASS: exact pilot start HTTP contract, JWT ownership, consent, 108 unique items, nine domains, ordered safe delivery, and attempt reuse; no database connection or writes.')
   console.log('PASS: save/list/refresh preserves response association and question order; duplicate save rejected. Persistence is in memory.')
+  console.log('PASS: allowlisted public response formats and written response save/list round-trip; no private key metadata exposed.')
 }
 run().catch(() => { console.error('FAIL: pilot start contract regression'); process.exitCode = 1 }).finally(async () => {
   ;[Teacher.findById, AssessmentAttempt.findOne, AssessmentAttempt.create, AssessmentItem.find] = original

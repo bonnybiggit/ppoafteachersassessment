@@ -36,12 +36,13 @@ test('admin API enforces identity isolation, revocation and aggregate-only respo
     return { status: res.status, body: res.status === 204 ? null : await res.json(), cache: res.headers.get('cache-control') }
   }
   try {
-    assert.equal((await call('/admin/overview')).status, 401)
+    const protectedPaths = ['/admin/overview', '/admin/teachers', '/admin/teachers/' + teacher._id]
+    for (const path of protectedPaths) assert.equal((await call(path)).status, 401)
     const teacherLogin = await call('/auth/login', null, { email: teacher.email, password })
     assert.equal(teacherLogin.status, 200)
     const teacherToken = teacherLogin.body.token
     assert.equal((await call('/auth/me', teacherToken)).status, 200)
-    for (const path of ['/admin/me', '/admin/overview']) assert.equal((await call(path, teacherToken)).status, 401)
+    for (const path of ['/admin/me', ...protectedPaths]) assert.equal((await call(path, teacherToken)).status, 401)
     assert.equal((await call('/admin/logout', teacherToken, {})).status, 401)
     assert.equal(reads, 0)
     assert.equal((await call('/admin/login', null, { email: teacher.email, password })).status, 401)
@@ -60,9 +61,21 @@ test('admin API enforces identity isolation, revocation and aggregate-only respo
     assert.equal(overview.status, 200)
     assert.deepEqual(overview.body, { totalTeachers: 4, totalAttempts: 4, completedAttempts: 2, inProgressAttempts: 1, completionRate: 50, syntheticBankItems: 450, activeLearningOpportunities: 26 })
     assert.equal(writes, 0)
+    Teacher.aggregate = () => ({ option: async () => [{ teachers: [{ ...teacher, assessmentStatus: 'not_started', responseCounts: [] }], total: [{ count: 1 }] }] })
+    const teacherList = await call('/admin/teachers', token)
+    assert.equal(teacherList.status, 200)
+    assert.equal(teacherList.body.teachers[0].assessmentStatus, 'not_started')
+    assert.equal(teacherList.cache, 'no-store')
+    assert(!JSON.stringify(teacherList.body).includes('passwordHash'))
+    Teacher.aggregate = () => ({ option: async () => [{ ...teacher, assessmentStatus: 'not_started', responseCounts: [] }] })
+    assert.equal((await call('/admin/teachers/' + teacher._id, token)).body.teacher.email, teacher.email)
+    Teacher.aggregate = () => ({ option: async () => [] })
+    assert.equal((await call('/admin/teachers/' + 'c'.repeat(24), token)).status, 404)
+    assert.equal((await call('/admin/teachers/bad', token)).status, 400)
     activity = []
     assert.equal((await call('/admin/overview', token)).body.completionRate, null)
     admin.isActive = false
+    for (const path of protectedPaths) assert.equal((await call(path, token)).status, 401)
     assert.equal((await call('/admin/me', token)).status, 401)
     admin.isActive = true; admin.role = 'teacher'
     assert.equal((await call('/admin/overview', token)).status, 401)
@@ -70,12 +83,14 @@ test('admin API enforces identity isolation, revocation and aggregate-only respo
     for (const options of [{ expiresIn: -1 }, { audience: 'teacher' }, { issuer: 'other' }]) {
       const invalid = jwt.sign({ role: 'admin', version: 0 }, process.env.ADMIN_JWT_SECRET, { subject: admin._id, audience: 'ppoaf-admin', issuer: 'ppoaf-admin-auth', expiresIn: '1h', ...options })
       assert.equal((await call('/admin/me', invalid)).status, 401)
+      for (const path of protectedPaths) assert.equal((await call(path, invalid)).status, 401)
     }
     const forged = jwt.sign({ role: 'admin', version: 0 }, process.env.JWT_SECRET, { subject: admin._id, audience: 'ppoaf-admin', issuer: 'ppoaf-admin-auth', expiresIn: '1h' })
     assert.equal((await call('/admin/me', forged)).status, 401)
     assert.equal((await call('/admin/logout', token, {})).status, 204)
     assert.equal(writes, 1)
     assert.equal((await call('/admin/me', token)).status, 401)
+    for (const path of protectedPaths) assert.equal((await call(path, token)).status, 401)
     assert.equal((await call('/auth/me', teacherToken)).status, 200)
     const secret = process.env.ADMIN_JWT_SECRET
     process.env.ADMIN_JWT_SECRET = process.env.JWT_SECRET

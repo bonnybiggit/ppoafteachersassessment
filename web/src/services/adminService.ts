@@ -35,7 +35,8 @@ async function request(path: string, method = 'GET', body?: unknown, authenticat
       const message = response.status === 401 ? (authenticated ? 'Your administrator session has expired. Sign in again.' : 'Invalid administrator credentials.')
         : response.status === 403 ? 'This account is not authorized for administration.'
         : response.status === 429 ? 'Too many sign-in attempts. Please try again later.'
-        : response.status === 400 ? 'Check your email and password.' : 'Administration is temporarily unavailable. Please try again.'
+        : response.status === 404 ? 'Teacher not found.'
+        : response.status === 400 ? (path.startsWith('/teachers') ? 'Check your teacher search parameters.' : 'Check your email and password.') : 'Administration is temporarily unavailable. Please try again.'
       throw new AdminApiError(response.status, message)
     }
     return response.status === 204 ? undefined : await response.json()
@@ -63,3 +64,20 @@ export async function signOutAdmin(): Promise<void> {
   }
 }
 export async function getAdminOverview(): Promise<AdminOverview> { return request('/overview') }
+
+export type AdminTeacher = {
+  id: string; email: string; firstName: string | null; lastName: string | null; isActive: boolean; profileCompleted: boolean;
+  currentRole: string | null; subject: string | null; gradeOrClass: string | null; schoolType: string | null; schoolLocation: string | null;
+  yearsOfTeachingExperience: number | null; highestEducation: string | null; classSize: number | null; createdAt: string | null; updatedAt: string | null;
+  assessmentStatus: 'not_started' | 'in_progress' | 'completed' | 'abandoned';
+  assessment: { id: string; status: string; startedAt: string | null; completedAt: string | null; assignedItemCount: number; responseCount: number } | null;
+}
+export type AdminTeacherList = { teachers: AdminTeacher[]; page: number; pageSize: number; total: number; totalPages: number }
+export async function getAdminTeachers(query: { page: number; search: string; status: string }): Promise<AdminTeacherList> {
+  const params = new URLSearchParams({ page: String(query.page), pageSize: '20', search: query.search, status: query.status })
+  return request(`/teachers?${params}`)
+}
+export async function getAdminTeacher(id: string): Promise<AdminTeacher> {
+  const data = await request(`/teachers/${encodeURIComponent(id)}`)
+  return data.teacher
+}

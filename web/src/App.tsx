@@ -3,6 +3,7 @@ import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import AdminDashboard from './pages/AdminDashboard'
+import AdminTeachers from './pages/AdminTeachers'
 import AdminLogin from './pages/AdminLogin'
 import AdminLayout from './layouts/AdminLayout'
 import ProtectedAdminRoute from './components/ProtectedAdminRoute'
@@ -33,7 +34,7 @@ function App() {
         <Route path="/admin" element={<AdminArea />}>
           <Route path="login" element={<AdminLogin />} />
           <Route element={<ProtectedAdminRoute />}>
-            <Route element={<AdminLayout />}><Route index element={<AdminDashboard />} /></Route>
+            <Route element={<AdminLayout />}><Route index element={<AdminDashboard />} /><Route path="teachers" element={<AdminTeachers />} /></Route>
           </Route>
         </Route>
 

@@ -8,6 +8,55 @@ const React = require('react')
 const { create, act } = require('react-test-renderer')
 const router = require('react-router-dom')
 global.IS_REACT_ACT_ENVIRONMENT = true
+
+test('Teachers page searches, filters, paginates, loads details and handles empty/error states', async () => {
+  const calls = []
+  let listFailure = false, detailFailure = false, renderer
+  const teacher = { id: 'teacher-one', firstName: 'Ada', lastName: 'Teacher', email: 'ada@example.test', isActive: true, profileCompleted: true,
+    assessmentStatus: 'in_progress', currentRole: 'Teacher', yearsOfTeachingExperience: 0, assessment: { status: 'in_progress', responseCount: 60, assignedItemCount: 108, startedAt: null, completedAt: null } }
+  const Page = compile('src/pages/AdminTeachers.tsx', { '../services/adminService': {
+    getAdminTeachers: async query => {
+      calls.push({ ...query })
+      if (listFailure) throw new Error('Unavailable')
+      return { teachers: query.search === 'missing' ? [] : [teacher], total: query.search === 'missing' ? 0 : 21, totalPages: query.search === 'missing' ? 0 : 2, page: query.page }
+    },
+    getAdminTeacher: async id => { assert.equal(id, teacher.id); if (detailFailure) throw new Error('Teacher not found.'); return teacher },
+  } }, { Error }).default
+  const text = child => Array.isArray(child) ? child.map(text).join(' ') : typeof child === 'object' && child !== null ? text(child.props?.children) : String(child ?? '')
+  const button = label => renderer.root.findAllByType('button').find(node => text(node.props.children).includes(label))
+  const click = async label => { const node = button(label); assert(node && !node.props.disabled); await act(async () => node.props.onClick()) }
+  const content = () => JSON.stringify(renderer.toJSON())
+  try {
+    await act(async () => { renderer = create(React.createElement(Page)) })
+    assert(content().includes('ada@example.test'))
+    assert.equal(button('Previous page').props.disabled, true)
+    await click('Next page')
+    assert.equal(calls.at(-1).page, 2)
+    assert.equal(button('Next page').props.disabled, true)
+    await act(async () => renderer.root.findByType('select').props.onChange({ target: { value: 'completed' } }))
+    assert.equal(calls.at(-1).page, 1); assert.equal(calls.at(-1).status, 'completed')
+    await act(async () => renderer.root.findByType('input').props.onChange({ target: { value: 'Ada' } }))
+    await act(async () => renderer.root.findByType('form').props.onSubmit({ preventDefault() {} }))
+    assert.equal(calls.at(-1).search, 'Ada')
+    await click('View details')
+    assert(content().includes('Latest assessment')); assert(content().includes('Teaching experience (years)'))
+    assert.equal(renderer.root.findAllByType('input').length, 1, 'No profile editing inputs')
+    await click('Close details')
+    detailFailure = true
+    await click('View details'); assert(content().includes('Teacher not found.'))
+    detailFailure = false
+    await click('Retry details'); assert(content().includes('Latest assessment'))
+    await act(async () => renderer.root.findByType('input').props.onChange({ target: { value: 'missing' } }))
+    await act(async () => renderer.root.findByType('form').props.onSubmit({ preventDefault() {} }))
+    assert(content().includes('No teachers match'))
+    assert(!content().includes('Latest assessment'))
+    listFailure = true
+    await act(async () => renderer.root.findByType('select').props.onChange({ target: { value: 'all' } }))
+    assert(content().includes('Teachers could not be loaded'))
+    listFailure = false
+    await click('Retry'); assert(content().includes('No teachers match'))
+  } finally { if (renderer) await act(async () => renderer.unmount()) }
+})
 function compile(file, overrides = {}, globals = {}) {
   const source = fs.readFileSync(path.join(__dirname, '..', file), 'utf8').replaceAll('import.meta.env.VITE_API_BASE_URL', "'http://local.test/api'")
   const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2022 } }).outputText

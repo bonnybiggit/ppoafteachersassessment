@@ -9,6 +9,7 @@ import {
   type AssessmentAttempt, type AssessmentResponseRecord,
 } from "../../services/assessmentService";
 import { draftKey, restoreAssessment } from "../../services/assessmentResume";
+import { normalizeAssessmentPrompt } from "../../utils/normalizeAssessmentPrompt";
 
 export default function AssessmentQuestions() {
   const navigate = useNavigate();
@@ -22,7 +23,12 @@ export default function AssessmentQuestions() {
   const questions = attempt?.questions ?? [];
   const currentQuestion = questions[currentIndex] ?? null;
   const savedAnswer = currentQuestion ? answers[currentQuestion.itemId] : undefined;
-  const selectedOption = savedAnswer?.selectedResponse ?? (currentQuestion ? drafts[currentQuestion.itemId] : null);
+  const response = savedAnswer?.selectedResponse ?? (currentQuestion ? drafts[currentQuestion.itemId] : null);
+  const isConstructed = currentQuestion?.responseFormat === 'constructed_response';
+  const isSelectable = currentQuestion && ['single_choice', 'frequency_scale', 'evidence_level'].includes(currentQuestion.responseFormat);
+  const responseValid = typeof response === 'string' && (isConstructed
+    ? response.trim().length > 0
+    : Boolean(isSelectable && currentQuestion?.options.some(option => option.id === response)));
   const progressPercent = questions.length > 0 ? ((currentIndex + 1) / questions.length) * 100 : 0;
 
   useEffect(() => {
@@ -38,7 +44,7 @@ export default function AssessmentQuestions() {
           const stored = JSON.parse(sessionStorage.getItem(draftKey(current)) ?? "{}");
           for (const question of current.questions) {
             if (!restored.answers[question.itemId] && typeof stored?.[question.itemId] === "string" &&
-              question.options.some(option => option.id === stored[question.itemId])) {
+              (question.responseFormat === 'constructed_response' || question.options.some(option => option.id === stored[question.itemId]))) {
               restoredDrafts[question.itemId] = stored[question.itemId];
             }
           }
@@ -55,12 +61,12 @@ export default function AssessmentQuestions() {
     return () => { cancelled = true; };
   }, []);
 
-  const selectOption = (option: string) => {
+  const updateResponse = (value: string) => {
     if (!attempt || !currentQuestion || savedAnswer || saveLock.current) return;
-    const next = { ...drafts, [currentQuestion.itemId]: option };
+    const next = { ...drafts, [currentQuestion.itemId]: value };
     setDrafts(next);
     try { sessionStorage.setItem(draftKey(attempt), JSON.stringify(next)); }
-    catch { setError("This browser cannot retain an unsaved selection. Save before refreshing."); }
+    catch { setError("This browser cannot retain an unsaved response. Save before refreshing."); }
   };
 
   const questionLabel = useMemo(() => currentQuestion
@@ -68,7 +74,7 @@ export default function AssessmentQuestions() {
 
   const handleSaveAndContinue = async (exit = false) => {
     if (!attempt || !currentQuestion || saveLock.current) return;
-    if (!savedAnswer && !selectedOption) {
+    if (!savedAnswer && !responseValid) {
       if (exit) navigate("/teacher");
       return;
     }
@@ -79,7 +85,7 @@ export default function AssessmentQuestions() {
       if (!savedAnswer) {
         let saved: AssessmentResponseRecord;
         try {
-          saved = await saveAssessmentResponse(attempt.id, currentQuestion.itemId, selectedOption, selectedOption);
+          saved = await saveAssessmentResponse(attempt.id, currentQuestion.itemId, response, response);
         } catch (reason) {
           // Reconcile a request that committed before its response was lost.
           // Never overwrite an immutable answer or blindly repost on navigation.
@@ -200,26 +206,42 @@ export default function AssessmentQuestions() {
             {currentQuestion.evidenceType}
           </span>
           <h2 className="text-base sm:text-lg font-bold text-gray-900 leading-relaxed">
-            {currentQuestion.prompt}
+            {normalizeAssessmentPrompt(currentQuestion.prompt, currentQuestion.options)}
           </h2>
         </div>
 
         <div className="space-y-3 pt-2">
-          {currentQuestion.options.map((opt) => (
+          {isConstructed ? (
+            <div className="space-y-2">
+              <label htmlFor="written-response" className="block text-sm font-semibold text-gray-900">Your written response</label>
+              <p id="written-response-help" className="text-xs text-gray-500">Write your response to the task below. No upload is required.</p>
+              <textarea
+                id="written-response"
+                aria-describedby="written-response-help"
+                rows={12}
+                value={typeof response === 'string' ? response : ''}
+                onChange={event => updateResponse(event.target.value)}
+                readOnly={Boolean(savedAnswer)}
+                disabled={saving}
+                placeholder="Write your response here…"
+                className="w-full min-w-0 resize-y rounded-xl border border-[#ede8e1] p-4 text-sm leading-relaxed text-gray-800 focus:border-[#0c3b6e] focus:outline-none focus:ring-2 focus:ring-blue-100 read-only:bg-gray-50"
+              />
+            </div>
+          ) : isSelectable ? currentQuestion.options.map((opt) => (
             <button
               type="button"
               disabled={saving || Boolean(savedAnswer)}
-              aria-pressed={selectedOption === opt.id}
+              aria-pressed={response === opt.id}
               key={opt.id}
-              onClick={() => selectOption(opt.id)}
+              onClick={() => updateResponse(opt.id)}
               className={`flex w-full text-left items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${
-                selectedOption === opt.id
+                response === opt.id
                   ? "border-[#0c3b6e] bg-blue-50/60 shadow-xs"
                   : "border-[#ede8e1] bg-white hover:border-gray-300 hover:bg-[#faf8f5]"
               }`}
             >
               <div
-                className={`w-6 h-6 rounded-full font-bold text-xs flex items-center justify-center shrink-0 mt-0.5 ${selectedOption === opt.id ? "bg-[#0c3b6e] text-white" : "border border-gray-300 text-gray-600 bg-white"}`}
+                className={`w-6 h-6 rounded-full font-bold text-xs flex items-center justify-center shrink-0 mt-0.5 ${response === opt.id ? "bg-[#0c3b6e] text-white" : "border border-gray-300 text-gray-600 bg-white"}`}
               >
                 {opt.id}
               </div>
@@ -227,12 +249,12 @@ export default function AssessmentQuestions() {
                 {opt.label}
               </p>
             </button>
-          ))}
+          )) : <p role="alert" className="text-sm text-red-700">This question's response format is unavailable. Please contact assessment support.</p>}
         </div>
 
         <p className="text-xs text-gray-500" role="status">
-          {savedAnswer ? "Answer saved. Saved answers cannot be changed." : selectedOption
-            ? `Selection retained in this tab. Choose ${isLastQuestion ? "Finish Assessment" : "Next Question"} or Save & Exit to save it.`
+          {savedAnswer ? "Answer saved. Saved answers cannot be changed." : response
+            ? `${isConstructed ? 'Draft' : 'Selection'} retained in this tab. Choose ${isLastQuestion ? "Finish Assessment" : "Next Question"} or Save & Exit to save it.`
             : ""}
         </p>
 
@@ -256,7 +278,7 @@ export default function AssessmentQuestions() {
           <button
             type="button"
             onClick={() => void handleSaveAndContinue()}
-            disabled={(!savedAnswer && !selectedOption) || saving}
+            disabled={(!savedAnswer && !responseValid) || saving}
             className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold bg-[#0c3b6e] text-white hover:bg-[#082a50] transition-colors shadow-xs disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed"
           >
             <span>
