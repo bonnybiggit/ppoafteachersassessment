@@ -36,9 +36,9 @@
 
 11. **Separation verified:** Real local HTTP tests confirm teacher login and `/api/auth/me` still work, teacher JWTs cannot access admin APIs, admin JWTs cannot access teacher `/me`, and admin logout leaves teacher auth valid. Frontend tests confirm independent storage and admin/teacher guards. Refresh is simulated by remounting the provider and rechecking `/admin/me`; this is not a real-browser refresh test.
 
-12. **Metrics:** Registered teachers, total attempts, completed attempts, in-progress attempts, completion percentage, synthetic bank item count, active provisional learning opportunity count. No-attempt completion percentage and unavailable catalog count display “Data not available.”
+12. **Metrics:** Registered teachers, total attempts, completed attempts, in-progress attempts, completion percentage, and active provisional learning opportunity count. No-attempt completion percentage and unavailable catalog count display “Data not available.”
 
-13. **Sources:** Read-only Teacher/AssessmentAttempt/AssessmentItem database counts and aggregation; existing validated local synthetic course catalog. Completed counts are attempts rather than unique teachers; completion denominator includes abandoned attempts. Synthetic bank items include inactive items and are explicitly distinguished from the assembled 108-item assessment. Counts shown in tests are fixtures, not claimed production statistics.
+13. **Sources:** Read-only Teacher/AssessmentAttempt database counts and aggregation plus the existing validated local synthetic course catalog. Completed counts are attempts rather than unique teachers; completion denominator includes abandoned attempts. Counts shown in tests are fixtures, not claimed production statistics.
 
 14. **Privacy/security:** Explicit safe response projections; no answers, keys, scores, demographics, internal metadata, recommendation weights or rankings. No credentials/tokens logged. Admin responses disable caching. No teacher, attempt, response, score, gap, recommendation or bank records were changed. Development provisioning is insert-only and refuses non-loopback databases and databases other than `ppoaf_admin_dev`.
 
@@ -51,10 +51,11 @@
 18. **Bugs fixed:** Replaced the public placeholder with guarded admin routes and backend-enforced authorization. Session handling prevents teacher-token reuse, preserves a newer session when an older logout finishes, and keeps failed server logout retryable. The test-runner restriction was resolved by authorized execution outside the process sandbox; existing assertions were not weakened.
 
 19. **Tests run:**
-   - Web: `npm run test`.
-   - Server: `node --test tests/scoring.test.cjs tests/assessmentAssembly.test.cjs tests/gapDiagnosis.test.cjs tests/recommendationEngine.test.cjs tests/assessmentItems.validate.cjs tests/pilotStart.contract.cjs tests/admin.contract.cjs`.
-   - Focused server admin contract rerun after final auth adjustment.
-   - `git diff --check`.
+
+- Web: `npm run test`.
+- Server: `node --test tests/scoring.test.cjs tests/assessmentAssembly.test.cjs tests/gapDiagnosis.test.cjs tests/recommendationEngine.test.cjs tests/assessmentItems.validate.cjs tests/pilotStart.contract.cjs tests/admin.contract.cjs`.
+- Focused server admin contract rerun after final auth adjustment.
+- `git diff --check`.
 
 20. **Results:** Web: 7 tests passed (2 existing resume tests, 5 admin/separation tests). Server combined run: 34 checks passed, zero failed. Final focused admin rerun passed. Whitespace check passed. Existing React test renderer deprecation warnings remain.
 

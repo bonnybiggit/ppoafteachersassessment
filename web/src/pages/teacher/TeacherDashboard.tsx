@@ -58,7 +58,8 @@ export default function TeacherDashboard() {
   const [attempt, setAttempt] = useState<AssessmentAttempt | null>(null);
   const [scoring, setScoring] = useState<AttemptScoringResult | null>(null);
   const [diagnosis, setDiagnosis] = useState<GapDiagnosisResult | null>(null);
-  const [recommendations, setRecommendations] = useState<RecommendationResult | null>(null);
+  const [recommendations, setRecommendations] =
+    useState<RecommendationResult | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -113,7 +114,8 @@ export default function TeacherDashboard() {
             Welcome back, {teacherFirstName}
           </h1>
           <p className="text-sm text-gray-600 max-w-xl leading-relaxed">
-            Your professional growth journey starts with understanding where you are today.
+            Your professional growth journey starts with understanding where you
+            are today.
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-3">
@@ -125,7 +127,8 @@ export default function TeacherDashboard() {
             <span>
               {attempt?.status === "in_progress"
                 ? "Continue Assessment"
-                : attempt?.status === "completed" || attempt?.status === "submitted"
+                : attempt?.status === "completed" ||
+                    attempt?.status === "submitted"
                   ? "View Assessment"
                   : "Start Assessment"}
             </span>
@@ -147,31 +150,36 @@ export default function TeacherDashboard() {
             <div className="flex items-center gap-2">
               <span className="bg-white/10 text-blue-200 text-xs px-2.5 py-0.5 rounded-full font-semibold">
                 Status:{" "}
-                {attempt?.status === "completed" || attempt?.status === "submitted"
+                {attempt?.status === "completed" ||
+                attempt?.status === "submitted"
                   ? "Assessment Completed"
                   : attempt?.status === "in_progress"
                     ? "In Progress"
                     : "Not Started"}
               </span>
               <span className="text-blue-200 text-xs font-mono">
-                {attempt?.status === "completed" || attempt?.status === "submitted"
+                {attempt?.status === "completed" ||
+                attempt?.status === "submitted"
                   ? "100% Evaluated"
                   : `${progressPercent}% Complete`}
               </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-white">
-              {attempt?.status === "completed" || attempt?.status === "submitted"
+              {attempt?.status === "completed" ||
+              attempt?.status === "submitted"
                 ? "Your Competency Evaluation Results Are Ready"
                 : "Your Teacher Competency Assessment"}
             </h2>
             <p className="text-sm text-blue-100 leading-relaxed">
-              {attempt?.status === "completed" || attempt?.status === "submitted"
+              {attempt?.status === "completed" ||
+              attempt?.status === "submitted"
                 ? "Review your multidimensional competency scores, diagnostic gap insights, and personalized upskilling opportunities."
                 : "Complete your assessment to understand your competency strengths and identify practical areas for professional growth across all 9 PPOAF domains."}
             </p>
           </div>
           <div className="shrink-0">
-            {attempt?.status === "completed" || attempt?.status === "submitted" ? (
+            {attempt?.status === "completed" ||
+            attempt?.status === "submitted" ? (
               <Link
                 to="/teacher/results"
                 className="inline-flex items-center justify-center gap-2 bg-[#b81c1c] text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-[#8f1515] transition-colors shadow-sm"
@@ -189,7 +197,9 @@ export default function TeacherDashboard() {
                 className="inline-flex items-center justify-center gap-2 bg-[#b81c1c] text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-[#8f1515] transition-colors shadow-sm"
               >
                 <span>
-                  {attempt?.status === "in_progress" ? "Resume Assessment" : "Begin Assessment"}
+                  {attempt?.status === "in_progress"
+                    ? "Resume Assessment"
+                    : "Begin Assessment"}
                 </span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
@@ -202,9 +212,10 @@ export default function TeacherDashboard() {
           <div className="flex items-center justify-between text-xs text-blue-200 mb-2">
             <span>Assessment Progress</span>
             <span className="font-mono">
-              {attempt?.status === "completed" || attempt?.status === "submitted"
+              {attempt?.status === "completed" ||
+              attempt?.status === "submitted"
                 ? "9 of 9 Domains Complete"
-                : `${attempt?.currentItemIndex ?? 0} of ${attempt?.totalItems ?? 108} Items Answered`}
+                : `${attempt?.currentItemIndex ?? 0} of ${attempt?.totalItems ?? 450} Items Answered`}
             </span>
           </div>
           <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
@@ -212,7 +223,8 @@ export default function TeacherDashboard() {
               className="h-full bg-[#b81c1c] rounded-full transition-all"
               style={{
                 width:
-                  attempt?.status === "completed" || attempt?.status === "submitted"
+                  attempt?.status === "completed" ||
+                  attempt?.status === "submitted"
                     ? "100%"
                     : `${progressPercent}%`,
               }}
@@ -225,14 +237,18 @@ export default function TeacherDashboard() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-lg font-bold text-[#0c3b6e]">Your Competency Areas</h2>
+            <h2 className="text-lg font-bold text-[#0c3b6e]">
+              Your Competency Areas
+            </h2>
             <p className="text-xs text-gray-500">
-              The 9 PPOAF developmental domains. Scores are generated upon assessment completion.
+              The 9 PPOAF developmental domains. Scores are generated upon
+              assessment completion.
             </p>
           </div>
           {scoring ? (
             <span className="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded">
-              Overall: {scoring.overallCompetencyScore ?? "--"}/100 ({scoring.overallClassification})
+              Overall: {scoring.overallCompetencyScore ?? "--"}/100 (
+              {scoring.overallClassification})
             </span>
           ) : null}
         </div>
@@ -240,7 +256,9 @@ export default function TeacherDashboard() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {competencies.map((comp, idx) => {
             const Icon = comp.icon;
-            const domainScore = scoring?.domains?.find((d) => d.domain === comp.name);
+            const domainScore = scoring?.domains?.find(
+              (d) => d.domain === comp.name,
+            );
 
             return (
               <div
@@ -285,9 +303,12 @@ export default function TeacherDashboard() {
         {/* Your Growth Journey */}
         <div className="lg:col-span-7 bg-white rounded-2xl p-6 border border-[#ede8e1] space-y-6 shadow-xs">
           <div>
-            <h2 className="text-base font-bold text-[#0c3b6e]">Your Growth Journey</h2>
+            <h2 className="text-base font-bold text-[#0c3b6e]">
+              Your Growth Journey
+            </h2>
             <p className="text-xs text-gray-500">
-              Structured developmental pathway from baseline assessment to continuous reassessment.
+              Structured developmental pathway from baseline assessment to
+              continuous reassessment.
             </p>
           </div>
 
@@ -295,7 +316,9 @@ export default function TeacherDashboard() {
             {growthStages.map((stage, i) => {
               const isCurrent =
                 (i === 0 && (!attempt || attempt.status === "in_progress")) ||
-                (i === 1 && (attempt?.status === "completed" || attempt?.status === "submitted"));
+                (i === 1 &&
+                  (attempt?.status === "completed" ||
+                    attempt?.status === "submitted"));
 
               return (
                 <div key={stage.stage} className="relative">
@@ -308,7 +331,9 @@ export default function TeacherDashboard() {
                   />
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold text-[#0c3b6e]">{stage.title}</span>
+                      <span className="text-xs font-bold text-[#0c3b6e]">
+                        {stage.title}
+                      </span>
                       <span
                         className={`text-[10px] px-1.5 py-0.2 rounded font-medium ${
                           isCurrent
@@ -348,8 +373,12 @@ export default function TeacherDashboard() {
                 </span>
               </div>
               <div className="space-y-1">
-                <h3 className="text-xs font-bold text-gray-900">{topPriorityGap.label}</h3>
-                <p className="text-[11px] text-gray-600 font-medium">{topPriorityGap.domain}</p>
+                <h3 className="text-xs font-bold text-gray-900">
+                  {topPriorityGap.label}
+                </h3>
+                <p className="text-[11px] text-gray-600 font-medium">
+                  {topPriorityGap.domain}
+                </p>
               </div>
               <p className="text-[11px] text-gray-600 line-clamp-2 leading-relaxed bg-[#faf8f5] p-2.5 rounded border border-[#ede8e1]">
                 {topPriorityGap.rationale}
@@ -367,7 +396,9 @@ export default function TeacherDashboard() {
           {/* Recommended Learning */}
           <div className="bg-white rounded-2xl p-6 border border-[#ede8e1] space-y-4 shadow-xs">
             <div className="flex items-center justify-between">
-              <h2 className="text-base font-bold text-[#0c3b6e]">Recommended Learning</h2>
+              <h2 className="text-base font-bold text-[#0c3b6e]">
+                Recommended Learning
+              </h2>
               <Sparkles className="h-4 w-4 text-[#b81c1c]" />
             </div>
 
@@ -381,8 +412,12 @@ export default function TeacherDashboard() {
                     {topRec.level}
                   </span>
                 </div>
-                <h3 className="font-bold text-gray-900 leading-snug">{topRec.title}</h3>
-                <p className="text-[11px] text-gray-600 line-clamp-2">{topRec.reason}</p>
+                <h3 className="font-bold text-gray-900 leading-snug">
+                  {topRec.title}
+                </h3>
+                <p className="text-[11px] text-gray-600 line-clamp-2">
+                  {topRec.reason}
+                </p>
                 <div className="pt-2">
                   <Link
                     to="/teacher/learning"
@@ -397,7 +432,8 @@ export default function TeacherDashboard() {
               <div className="bg-[#faf8f5] p-5 rounded-xl border border-[#ede8e1] text-center space-y-3">
                 <BookOpen className="h-8 w-8 text-gray-400 mx-auto" />
                 <p className="text-xs text-gray-600 leading-relaxed max-w-xs mx-auto">
-                  Your personalised learning recommendations will appear after your assessment.
+                  Your personalised learning recommendations will appear after
+                  your assessment.
                 </p>
                 <Link
                   to="/teacher/learning"
@@ -418,7 +454,9 @@ export default function TeacherDashboard() {
                 className="p-3 bg-[#faf8f5] hover:bg-gray-100 rounded-xl border border-[#ede8e1] flex flex-col gap-1 text-left transition-colors"
               >
                 <Compass className="h-4 w-4 text-[#0c3b6e]" />
-                <span className="text-xs font-bold text-gray-800">Growth Plan</span>
+                <span className="text-xs font-bold text-gray-800">
+                  Growth Plan
+                </span>
                 <span className="text-[10px] text-gray-500">Track actions</span>
               </Link>
               <Link
@@ -426,7 +464,9 @@ export default function TeacherDashboard() {
                 className="p-3 bg-[#faf8f5] hover:bg-gray-100 rounded-xl border border-[#ede8e1] flex flex-col gap-1 text-left transition-colors"
               >
                 <RotateCcw className="h-4 w-4 text-[#b81c1c]" />
-                <span className="text-xs font-bold text-gray-800">Reassessment</span>
+                <span className="text-xs font-bold text-gray-800">
+                  Reassessment
+                </span>
                 <span className="text-[10px] text-gray-500">Cycle info</span>
               </Link>
             </div>

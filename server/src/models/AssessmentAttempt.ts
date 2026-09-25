@@ -4,7 +4,7 @@ import { storedRecommendationsSchema, type StoredRecommendations } from './Recom
 
 export const ASSESSMENT_STATUSES = ['in_progress', 'completed', 'abandoned'] as const
 
-export type AssessmentMode = 'default' | 'pilot-synthetic'
+export type AssessmentMode = 'official'
 
 export type AssessmentScoringConfidence = 'High' | 'Medium' | 'Low'
 export type AssessmentScoringStatus = 'scored' | 'insufficient_data'
@@ -62,7 +62,7 @@ const assessmentAttemptSchema = new Schema<IAssessmentAttempt>(
     completedAt: { type: Date },
     currentItemIndex: { type: Number, min: 0, validate: Number.isSafeInteger, default: 0, required: true },
     totalItems: { type: Number, min: 0, validate: Number.isSafeInteger, default: 0, required: true },
-    mode: { type: String, enum: ['default', 'pilot-synthetic'], default: 'default', required: true },
+    mode: { type: String, enum: ['official'], default: 'official', required: true },
     assessmentVersion: { type: String, required: true, trim: true },
     // Ordered references preserve each attempt's own subset without assembling it.
     selectedItemIds: { type: [{ type: Schema.Types.ObjectId, ref: 'AssessmentItem', required: true }], default: [] },

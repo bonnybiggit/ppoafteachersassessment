@@ -4,32 +4,92 @@ import { ArrowLeft, ArrowRight, Info } from "lucide-react";
 import ppoafLogo from "../../assets/ppoaf-logo.jpeg";
 import { AuthApiError } from "../../services/authService";
 import {
-  getAssessmentScore, getCurrentAttempt, getAssessmentResponses,
-  saveAssessmentResponse, submitAssessmentAttempt,
-  type AssessmentAttempt, type AssessmentResponseRecord,
+  getAssessmentScore,
+  getCurrentAttempt,
+  getAssessmentResponses,
+  saveAssessmentResponse,
+  submitAssessmentAttempt,
+  type AssessmentAttempt,
+  type AssessmentResponseRecord,
 } from "../../services/assessmentService";
 import { draftKey, restoreAssessment } from "../../services/assessmentResume";
 import { normalizeAssessmentPrompt } from "../../utils/normalizeAssessmentPrompt";
 
+// Match the backend's official response extraction without importing server code.
+function officialChoice(value: unknown): string | null {
+  if (typeof value === "string") return value.trim() || null;
+  if (typeof value === "number")
+    return Number.isFinite(value) ? String(value) : null;
+  if (Array.isArray(value)) {
+    for (const candidate of value) {
+      const choice = officialChoice(candidate);
+      if (choice) return choice;
+    }
+  } else if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    for (const key of [
+      "selectedOptionId",
+      "optionId",
+      "choiceId",
+      "choice",
+      "value",
+      "selectedResponse",
+      "answer",
+      "id",
+    ]) {
+      const choice = officialChoice(record[key]);
+      if (choice) return choice;
+    }
+    if (Array.isArray(record.choices)) return officialChoice(record.choices);
+  }
+  return null;
+}
+
+function validOfficialResponse(response: AssessmentResponseRecord): boolean {
+  const choice = officialChoice(response.selectedResponse);
+  const value = choice === null ? NaN : Number(choice);
+  return Number.isInteger(value) && value >= 1 && value <= 5;
+}
+
 export default function AssessmentQuestions() {
   const navigate = useNavigate();
   const [attempt, setAttempt] = useState<AssessmentAttempt | null>(null);
-  const [answers, setAnswers] = useState<Record<string, AssessmentResponseRecord>>({});
+  const [answers, setAnswers] = useState<
+    Record<string, AssessmentResponseRecord>
+  >({});
   const [drafts, setDrafts] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [saving, setSaving] = useState(false);
   const saveLock = useRef(false);
   const [error, setError] = useState("");
   const questions = attempt?.questions ?? [];
+  const officialSavedCount = questions.filter((question) => {
+    const answer = answers[question.itemId];
+    return answer?.attemptId === attempt?.id && validOfficialResponse(answer);
+  }).length;
   const currentQuestion = questions[currentIndex] ?? null;
-  const savedAnswer = currentQuestion ? answers[currentQuestion.itemId] : undefined;
-  const response = savedAnswer?.selectedResponse ?? (currentQuestion ? drafts[currentQuestion.itemId] : null);
-  const isConstructed = currentQuestion?.responseFormat === 'constructed_response';
-  const isSelectable = currentQuestion && ['single_choice', 'frequency_scale', 'evidence_level'].includes(currentQuestion.responseFormat);
-  const responseValid = typeof response === 'string' && (isConstructed
-    ? response.trim().length > 0
-    : Boolean(isSelectable && currentQuestion?.options.some(option => option.id === response)));
-  const progressPercent = questions.length > 0 ? ((currentIndex + 1) / questions.length) * 100 : 0;
+  const savedAnswer = currentQuestion
+    ? answers[currentQuestion.itemId]
+    : undefined;
+  const response =
+    savedAnswer?.selectedResponse ??
+    (currentQuestion ? drafts[currentQuestion.itemId] : null);
+  const isConstructed =
+    currentQuestion?.responseFormat === "constructed_response";
+  const isSelectable =
+    currentQuestion &&
+    ["single_choice", "frequency_scale", "evidence_level"].includes(
+      currentQuestion.responseFormat,
+    );
+  const responseValid =
+    typeof response === "string" &&
+    (isConstructed
+      ? response.trim().length > 0
+      : Boolean(
+          isSelectable &&
+          currentQuestion?.options.some((option) => option.id === response),
+        ));
+  const progressPercent = (officialSavedCount / 450) * 100;
 
   useEffect(() => {
     let cancelled = false;
@@ -41,36 +101,120 @@ export default function AssessmentQuestions() {
         const restored = restoreAssessment(current, responses);
         const restoredDrafts: Record<string, string> = {};
         try {
-          const stored = JSON.parse(sessionStorage.getItem(draftKey(current)) ?? "{}");
+          const stored = JSON.parse(
+            sessionStorage.getItem(draftKey(current)) ?? "{}",
+          );
           for (const question of current.questions) {
-            if (!restored.answers[question.itemId] && typeof stored?.[question.itemId] === "string" &&
-              (question.responseFormat === 'constructed_response' || question.options.some(option => option.id === stored[question.itemId]))) {
+            if (
+              !restored.answers[question.itemId] &&
+              typeof stored?.[question.itemId] === "string" &&
+              (question.responseFormat === "constructed_response" ||
+                question.options.some(
+                  (option) => option.id === stored[question.itemId],
+                ))
+            ) {
               restoredDrafts[question.itemId] = stored[question.itemId];
             }
           }
-        } catch { /* Backend answers remain available if tab storage is unavailable. */ }
+        } catch {
+          /* Backend answers remain available if tab storage is unavailable. */
+        }
         setAnswers(restored.answers);
         setDrafts(restoredDrafts);
         setCurrentIndex(restored.currentIndex);
         setAttempt(current);
       } catch (reason) {
-        if (!cancelled) setError(reason instanceof AuthApiError ? reason.message : "Unable to resume your assessment. Please try again.");
+        if (!cancelled)
+          setError(
+            reason instanceof AuthApiError
+              ? reason.message
+              : "Unable to resume your assessment. Please try again.",
+          );
       }
     };
     void loadCurrent();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const updateResponse = (value: string) => {
     if (!attempt || !currentQuestion || savedAnswer || saveLock.current) return;
     const next = { ...drafts, [currentQuestion.itemId]: value };
     setDrafts(next);
-    try { sessionStorage.setItem(draftKey(attempt), JSON.stringify(next)); }
-    catch { setError("This browser cannot retain an unsaved response. Save before refreshing."); }
+    try {
+      sessionStorage.setItem(draftKey(attempt), JSON.stringify(next));
+    } catch {
+      setError(
+        "This browser cannot retain an unsaved response. Save before refreshing.",
+      );
+    }
   };
 
-  const questionLabel = useMemo(() => currentQuestion
-    ? "Question " + currentQuestion.questionOrder + " of " + questions.length : "Question", [currentQuestion, questions.length]);
+  const questionLabel = useMemo(
+    () =>
+      currentQuestion
+        ? "Question " +
+          currentQuestion.questionOrder +
+          " of " +
+          questions.length
+        : "Question",
+    [currentQuestion, questions.length],
+  );
+
+  const refreshOfficialCompletion = async () => {
+    if (!attempt) return false;
+    const persisted = await getAssessmentResponses(attempt.id);
+    const restored = restoreAssessment(attempt, persisted);
+    setAnswers(restored.answers);
+    const missing = questions.filter(
+      (question) => !restored.answers[question.itemId],
+    );
+    const invalid = questions.filter((question) => {
+      const answer = restored.answers[question.itemId];
+      return answer && !validOfficialResponse(answer);
+    });
+    if (missing.length || invalid.length) {
+      const messages: string[] = [];
+      if (missing.length) {
+        messages.push(
+          `Missing answers for questions: ${missing.map((question) => question.questionOrder).join(", ")}. Complete these answers before submitting.`,
+        );
+        setCurrentIndex(
+          questions.findIndex(
+            (question) => question.itemId === missing[0].itemId,
+          ),
+        );
+      }
+      if (invalid.length) {
+        messages.push(
+          `Invalid saved answers for questions: ${invalid.map((question) => question.questionOrder).join(", ")}. Saved answers cannot be changed. Please contact assessment support.`,
+        );
+      }
+      setError(messages.join(" "));
+      return false;
+    }
+    const assigned = new Set(attempt.selectedItemIds);
+    if (
+      attempt.totalItems !== 450 ||
+      questions.length !== 450 ||
+      assigned.size !== 450 ||
+      attempt.selectedItemIds.length !== 450 ||
+      new Set(questions.map((question) => question.itemId)).size !== 450 ||
+      questions.some((question) => !assigned.has(question.itemId)) ||
+      persisted.length !== 450 ||
+      persisted.some(
+        (answer) =>
+          answer.attemptId !== attempt.id || !assigned.has(answer.itemId),
+      )
+    ) {
+      setError(
+        "This official assessment requires 450 assigned questions and 450 valid saved answers. Please contact assessment support.",
+      );
+      return false;
+    }
+    return true;
+  };
 
   const handleSaveAndContinue = async (exit = false) => {
     if (!attempt || !currentQuestion || saveLock.current) return;
@@ -85,33 +229,62 @@ export default function AssessmentQuestions() {
       if (!savedAnswer) {
         let saved: AssessmentResponseRecord;
         try {
-          saved = await saveAssessmentResponse(attempt.id, currentQuestion.itemId, response, response);
+          saved = await saveAssessmentResponse(
+            attempt.id,
+            currentQuestion.itemId,
+            response,
+            response,
+          );
         } catch (reason) {
           // Reconcile a request that committed before its response was lost.
           // Never overwrite an immutable answer or blindly repost on navigation.
           const responses = await getAssessmentResponses(attempt.id);
-          const existing = responses.find(response => response.attemptId === attempt.id && response.itemId === currentQuestion.itemId);
+          const existing = responses.find(
+            (response) =>
+              response.attemptId === attempt.id &&
+              response.itemId === currentQuestion.itemId,
+          );
           if (!existing) throw reason;
           saved = existing;
         }
-        setAnswers(value => ({ ...value, [currentQuestion.itemId]: saved }));
+        setAnswers((value) => ({ ...value, [currentQuestion.itemId]: saved }));
         const next = { ...drafts };
         delete next[currentQuestion.itemId];
         setDrafts(next);
-        try { sessionStorage.setItem(draftKey(attempt), JSON.stringify(next)); }
-        catch { /* Server response is authoritative. */ }
+        try {
+          sessionStorage.setItem(draftKey(attempt), JSON.stringify(next));
+        } catch {
+          /* Server response is authoritative. */
+        }
       }
       if (exit) {
         navigate("/teacher");
       } else if (currentIndex < questions.length - 1) {
-        setCurrentIndex(value => value + 1);
+        setCurrentIndex((value) => value + 1);
       } else {
-        const submittedAttempt = await submitAssessmentAttempt(attempt.id);
+        if (!(await refreshOfficialCompletion())) return;
+        let submittedAttempt: AssessmentAttempt;
+        try {
+          submittedAttempt = await submitAssessmentAttempt(attempt.id);
+        } catch (reason) {
+          try {
+            if (!(await refreshOfficialCompletion())) return;
+          } catch {
+            /* Keep the submission error if refreshing also fails. */
+          }
+          throw reason;
+        }
         const scoring = await getAssessmentScore(submittedAttempt.id);
-        navigate("/teacher/results", { state: { attempt: submittedAttempt, scoring } });
+        navigate("/teacher/results", {
+          state: { attempt: submittedAttempt, scoring },
+        });
       }
     } catch (reason) {
-      setError(reason instanceof AuthApiError ? reason.message : "Unable to save your response. Please try again.");
+      setError(
+        reason instanceof AuthApiError
+          ? reason.message
+          : "Unable to save your response. Please try again.",
+      );
     } finally {
       saveLock.current = false;
       setSaving(false);
@@ -179,14 +352,17 @@ export default function AssessmentQuestions() {
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center gap-3 text-xs text-[#0c3b6e]">
         <Info className="h-4 w-4 shrink-0" />
         <p>
-          <strong>Live pilot assessment:</strong> This assessment is driven by
-          the backend item bank and will score against the teacher competency
-          model after submission.
+          <strong>Official assessment:</strong> This assessment is driven by the
+          backend item bank and will score against the teacher competency model
+          after submission.
         </p>
       </div>
 
       <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#ede8e1] shadow-xs space-y-6">
         <div className="space-y-2">
+          <p className="text-xs text-gray-500" role="status">
+            {`${officialSavedCount} of 450 answers saved — ${450 - officialSavedCount} remaining.`}
+          </p>
           <div className="flex items-center justify-between text-xs">
             <span className="font-bold text-[#0c3b6e]">{questionLabel}</span>
             <span className="text-gray-500 font-mono">
@@ -206,56 +382,75 @@ export default function AssessmentQuestions() {
             {currentQuestion.evidenceType}
           </span>
           <h2 className="text-base sm:text-lg font-bold text-gray-900 leading-relaxed">
-            {normalizeAssessmentPrompt(currentQuestion.prompt, currentQuestion.options)}
+            {normalizeAssessmentPrompt(
+              currentQuestion.prompt,
+              currentQuestion.options,
+            )}
           </h2>
         </div>
 
         <div className="space-y-3 pt-2">
           {isConstructed ? (
             <div className="space-y-2">
-              <label htmlFor="written-response" className="block text-sm font-semibold text-gray-900">Your written response</label>
-              <p id="written-response-help" className="text-xs text-gray-500">Write your response to the task below. No upload is required.</p>
+              <label
+                htmlFor="written-response"
+                className="block text-sm font-semibold text-gray-900"
+              >
+                Your written response
+              </label>
+              <p id="written-response-help" className="text-xs text-gray-500">
+                Write your response to the task below. No upload is required.
+              </p>
               <textarea
                 id="written-response"
                 aria-describedby="written-response-help"
                 rows={12}
-                value={typeof response === 'string' ? response : ''}
-                onChange={event => updateResponse(event.target.value)}
+                value={typeof response === "string" ? response : ""}
+                onChange={(event) => updateResponse(event.target.value)}
                 readOnly={Boolean(savedAnswer)}
                 disabled={saving}
                 placeholder="Write your response here…"
                 className="w-full min-w-0 resize-y rounded-xl border border-[#ede8e1] p-4 text-sm leading-relaxed text-gray-800 focus:border-[#0c3b6e] focus:outline-none focus:ring-2 focus:ring-blue-100 read-only:bg-gray-50"
               />
             </div>
-          ) : isSelectable ? currentQuestion.options.map((opt) => (
-            <button
-              type="button"
-              disabled={saving || Boolean(savedAnswer)}
-              aria-pressed={response === opt.id}
-              key={opt.id}
-              onClick={() => updateResponse(opt.id)}
-              className={`flex w-full text-left items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${
-                response === opt.id
-                  ? "border-[#0c3b6e] bg-blue-50/60 shadow-xs"
-                  : "border-[#ede8e1] bg-white hover:border-gray-300 hover:bg-[#faf8f5]"
-              }`}
-            >
-              <div
-                className={`w-6 h-6 rounded-full font-bold text-xs flex items-center justify-center shrink-0 mt-0.5 ${response === opt.id ? "bg-[#0c3b6e] text-white" : "border border-gray-300 text-gray-600 bg-white"}`}
+          ) : isSelectable ? (
+            currentQuestion.options.map((opt) => (
+              <button
+                type="button"
+                disabled={saving || Boolean(savedAnswer)}
+                aria-pressed={response === opt.id}
+                key={opt.id}
+                onClick={() => updateResponse(opt.id)}
+                className={`flex w-full text-left items-start gap-4 p-4 rounded-xl border transition-all cursor-pointer ${
+                  response === opt.id
+                    ? "border-[#0c3b6e] bg-blue-50/60 shadow-xs"
+                    : "border-[#ede8e1] bg-white hover:border-gray-300 hover:bg-[#faf8f5]"
+                }`}
               >
-                {opt.id}
-              </div>
-              <p className="text-xs sm:text-sm text-gray-800 leading-relaxed">
-                {opt.label}
-              </p>
-            </button>
-          )) : <p role="alert" className="text-sm text-red-700">This question's response format is unavailable. Please contact assessment support.</p>}
+                <div
+                  className={`w-6 h-6 rounded-full font-bold text-xs flex items-center justify-center shrink-0 mt-0.5 ${response === opt.id ? "bg-[#0c3b6e] text-white" : "border border-gray-300 text-gray-600 bg-white"}`}
+                >
+                  {opt.id}
+                </div>
+                <p className="text-xs sm:text-sm text-gray-800 leading-relaxed">
+                  {opt.label}
+                </p>
+              </button>
+            ))
+          ) : (
+            <p role="alert" className="text-sm text-red-700">
+              This question's response format is unavailable. Please contact
+              assessment support.
+            </p>
+          )}
         </div>
 
         <p className="text-xs text-gray-500" role="status">
-          {savedAnswer ? "Answer saved. Saved answers cannot be changed." : response
-            ? `${isConstructed ? 'Draft' : 'Selection'} retained in this tab. Choose ${isLastQuestion ? "Finish Assessment" : "Next Question"} or Save & Exit to save it.`
-            : ""}
+          {savedAnswer
+            ? "Answer saved. Saved answers cannot be changed."
+            : response
+              ? `${isConstructed ? "Draft" : "Selection"} retained in this tab. Choose ${isLastQuestion ? "Finish Assessment" : "Next Question"} or Save & Exit to save it.`
+              : ""}
         </p>
 
         {error ? (

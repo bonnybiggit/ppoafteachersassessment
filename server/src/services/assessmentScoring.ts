@@ -1,8 +1,16 @@
+import { connection, type ClientSession } from 'mongoose'
 import { AssessmentAttempt, type AssessmentAttemptDocument } from '../models/AssessmentAttempt'
 import { ASSESSMENT_DOMAINS, AssessmentItem, type IAssessmentItem } from '../models/AssessmentItem'
 import { AssessmentResponse } from '../models/AssessmentResponse'
+import { OFFICIAL_VERSION, REVERSE_NUMBERS } from './officialAssessmentImport'
 
 export const SCORING_VERSION = 'scoring-v0.1'
+export const OFFICIAL_SCORING_VERSION = 'ppoaf-original-scoring.v1'
+export const OFFICIAL_ASSESSMENT_VERSION = OFFICIAL_VERSION
+export const OFFICIAL_ITEM_COUNT = 450
+export const OFFICIAL_ITEMS_PER_DOMAIN = 50
+export const OFFICIAL_SECTION_A_COUNT = 30
+export const OFFICIAL_SECTION_B_COUNT = 20
 export const EXPECTED_ITEMS_PER_DOMAIN = 12
 export const MINIMUM_VALID_ITEMS_PER_DOMAIN = Math.ceil(EXPECTED_ITEMS_PER_DOMAIN * 0.70)
 export const EVIDENCE_TYPES = [
@@ -39,6 +47,25 @@ if (Math.abs(DOMAIN_WEIGHT_TOTAL - 1) > 1e-9) {
 }
 
 export const BAND_BOUNDARIES = [20, 40, 60, 80] as const
+
+export function officialResponseScore(value: unknown, reverseKeyed: boolean): number | null {
+  const extracted = extractChoiceId(value)
+  const response = extracted === null ? NaN : Number(extracted)
+  if (!Number.isInteger(response) || response < 1 || response > 5) return null
+  return reverseKeyed ? (5 - response) * 25 : (response - 1) * 25
+}
+
+export function classifyOfficialScore(score: number): 'Emerging' | 'Developing' | 'Consolidating' | 'Advanced' | 'Highly Developed' {
+  if (score <= 20) return 'Emerging'
+  if (score <= 40) return 'Developing'
+  if (score <= 60) return 'Consolidating'
+  if (score <= 80) return 'Advanced'
+  return 'Highly Developed'
+}
+
+export function displayOfficialScore(score: number | null): number | null {
+  return score === null ? null : Number(score.toFixed(2))
+}
 
 export class ScoringError extends Error {
   constructor(public readonly statusCode: number, message: string) {
@@ -174,21 +201,6 @@ export function calculateEvidenceWeightedScore(
   return clampScore(weightedSum / totalWeight)
 }
 
-function determineConfidence(
-  validItemCount: number,
-  expectedItemCount: number,
-  evidenceTypesPresent: string[],
-  qualityFlags: string[],
-  belowMinimumThreshold: boolean,
-): 'High' | 'Medium' | 'Low' {
-  if (belowMinimumThreshold) return 'Low'
-  const completionRate = expectedItemCount > 0 ? validItemCount / expectedItemCount : 0
-  const majorIssues = qualityFlags.some(flag => ['insufficient_responses', 'missing_evidence_type', 'incomplete_attempt', 'critical_item_flagged'].includes(flag))
-  if (completionRate >= 0.90 && evidenceTypesPresent.length >= 3 && !majorIssues) return 'High'
-  if (completionRate >= 0.80 && evidenceTypesPresent.length >= 2 && !majorIssues) return 'Medium'
-  return 'Low'
-}
-
 type DomainScoringResult = {
   domain: string
   domainWeight: number
@@ -207,112 +219,16 @@ type DomainScoringResult = {
   criticalItemIds: string[]
 }
 
-function buildDomainResult(
-  domain: string,
-  expectedItemCount: number,
-  itemsInDomain: Array<IAssessmentItem & { _id: { toString(): string } }>,
-  responsesByItemId: Map<string, { itemId: { toString(): string }; selectedResponse: unknown }>,
-): DomainScoringResult {
-  const evidenceTypeScores: Record<typeof EVIDENCE_TYPES[number], number | null> = {
-    'situational judgement': null,
-    'behaviour frequency': null,
-    'knowledge/application': null,
-    'reflective judgement': null,
-    'performance evidence': null,
-  }
-
-  const evidenceValues: Partial<Record<typeof EVIDENCE_TYPES[number], number[]>> = {}
-  const criticalItemIds: string[] = []
-  let validItemCount = 0
-
-  for (const item of itemsInDomain) {
-    const response = responsesByItemId.get(item._id.toString()) ?? null
-    const score = itemScoreFromResponse(item, response)
-    if (score !== null) {
-      validItemCount += 1
-      const list = evidenceValues[item.evidenceType] ?? []
-      list.push(score)
-      evidenceValues[item.evidenceType] = list
-    }
-    if (item.criticalFlag) {
-      criticalItemIds.push(item.itemId)
-    }
-  }
-
-  for (const evidenceType of EVIDENCE_TYPES) {
-    const values = evidenceValues[evidenceType]
-    evidenceTypeScores[evidenceType] = values && values.length > 0 ? averageScores(values) : null
-  }
-
-  const evidenceTypesPresent = EVIDENCE_TYPES.filter(type => evidenceTypeScores[type] !== null)
-  const evidenceTypesMissing = EVIDENCE_TYPES.filter(type => evidenceTypeScores[type] === null)
-  const completionRate = expectedItemCount > 0 ? validItemCount / expectedItemCount : 0
-  const belowMinimumThreshold = validItemCount < MINIMUM_VALID_ITEMS_PER_DOMAIN
-
-  const qualityFlags: string[] = []
-  if (belowMinimumThreshold) qualityFlags.push('insufficient_responses')
-  if (evidenceTypesMissing.length > 0) qualityFlags.push('missing_evidence_type')
-  if (completionRate < 1) qualityFlags.push('incomplete_attempt')
-
-  let domainScore: number | null = null
-  let classification = 'Insufficient Data'
-  let nearCutValue = false
-  let criticalItemFlagged = criticalItemIds.length > 0
-  let confidenceLevel: 'High' | 'Medium' | 'Low' = 'Low'
-
-  if (!belowMinimumThreshold && evidenceTypesPresent.length > 0) {
-    const weightedDomainScore = calculateEvidenceWeightedScore(evidenceTypeScores, evidenceTypesPresent)
-    if (weightedDomainScore !== null) {
-      domainScore = weightedDomainScore
-      classification = classifyCompetencyScore(domainScore)
-      nearCutValue = nearCutScore(domainScore)
-      if (nearCutValue) qualityFlags.push('near_cut_score')
-      if (criticalItemFlagged) qualityFlags.push('critical_item_flagged')
-      confidenceLevel = determineConfidence(validItemCount, expectedItemCount, evidenceTypesPresent, qualityFlags, false)
-    }
-  }
-
-  if (belowMinimumThreshold) {
-    classification = 'Insufficient Data'
-    nearCutValue = false
-    if (criticalItemFlagged) qualityFlags.push('critical_item_flagged')
-    confidenceLevel = 'Low'
-  }
-
-  const uniqueFlags = Array.from(new Set(qualityFlags))
-  if (confidenceLevel === 'Low' && !belowMinimumThreshold) {
-    confidenceLevel = determineConfidence(validItemCount, expectedItemCount, evidenceTypesPresent, uniqueFlags, belowMinimumThreshold)
-  }
-
-  return {
-    domain,
-    domainWeight: DOMAIN_WEIGHTS[domain as keyof typeof DOMAIN_WEIGHTS] ?? 0,
-    score: domainScore,
-    classification,
-    validItemCount,
-    expectedItemCount,
-    completionRate,
-    evidenceTypeScores,
-    evidenceTypesPresent,
-    evidenceTypesMissing,
-    confidenceLevel,
-    qualityFlags: uniqueFlags,
-    nearCutScore: nearCutValue,
-    criticalItemFlagged,
-    criticalItemIds,
-  }
-}
-
-function teacherSafeScoringResult(result: { attemptId: string; scoringVersion: string; overallCompetencyScore: number | null; overallClassification: string; domains: DomainScoringResult[] }) {
+function teacherSafeScoringResult(result: { attemptId: string; scoringVersion: string; overallCompetencyScore: number | null; overallClassification: string; domains: DomainScoringResult[] }, official = false) {
   return {
     attemptId: result.attemptId,
     scoringVersion: result.scoringVersion,
-    overallCompetencyScore: result.overallCompetencyScore,
+    overallCompetencyScore: official ? displayOfficialScore(result.overallCompetencyScore) : result.overallCompetencyScore,
     overallClassification: result.overallClassification,
     domains: result.domains.map(domain => ({
       domain: domain.domain,
       domainWeight: domain.domainWeight,
-      score: domain.score,
+      score: official ? displayOfficialScore(domain.score) : domain.score,
       classification: domain.classification,
       validItemCount: domain.validItemCount,
       expectedItemCount: domain.expectedItemCount,
@@ -335,93 +251,144 @@ async function attemptForScoring(teacherId: string, attemptId: unknown) {
   return attempt
 }
 
-export async function getAttemptScoring(teacherId: string, attemptId: unknown) {
-  const attempt = await attemptForScoring(teacherId, attemptId)
-  if (attempt.status !== 'completed') {
-    throw new ScoringError(409, 'Assessment attempt must be submitted before scoring.')
+type OfficialItemForScoring = IAssessmentItem & {
+  _id: { toString(): string }
+  assessmentVersion?: string
+  mode?: string
+  domainNumber?: number
+  section?: 'A' | 'B'
+  sourceQuestionNumber?: number
+  documentOrder?: number
+}
+
+function officialScoringDomainResult(
+  domain: typeof ASSESSMENT_DOMAINS[number],
+  items: OfficialItemForScoring[],
+  responsesByItemId: Map<string, { selectedResponse: unknown }>,
+): DomainScoringResult {
+  const sectionScores: Record<'A' | 'B', number[]> = { A: [], B: [] }
+  for (const item of items) {
+    const score = officialResponseScore(responsesByItemId.get(item._id.toString())?.selectedResponse, item.reverseKeyed)
+    if (score === null) throw new ScoringError(409, 'Official assessment contains an invalid or incomplete response.')
+    if (item.section !== 'A' && item.section !== 'B') throw new ScoringError(409, 'Official assessment item metadata is incompatible with official scoring.')
+    sectionScores[item.section].push(score)
   }
-  if (!attempt.scoring) {
-    const scored = await scoreAttemptInternal(attempt)
-    return teacherSafeScoringResult({
-      attemptId: attempt._id.toString(),
-      scoringVersion: scored.scoringVersion,
-      overallCompetencyScore: scored.overallCompetencyScore,
-      overallClassification: scored.overallClassification,
-      domains: scored.domains,
-    })
+  if (sectionScores.A.length !== OFFICIAL_SECTION_A_COUNT || sectionScores.B.length !== OFFICIAL_SECTION_B_COUNT) {
+    throw new ScoringError(409, 'Official assessment does not contain the required section counts.')
   }
-  return teacherSafeScoringResult({
-    attemptId: attempt._id.toString(),
-    scoringVersion: attempt.scoring.scoringVersion,
-    overallCompetencyScore: attempt.scoring.overallCompetencyScore,
-    overallClassification: attempt.scoring.overallClassification,
-    domains: attempt.scoring.domains as DomainScoringResult[],
+  const sectionA = averageScores(sectionScores.A)
+  const sectionB = averageScores(sectionScores.B)
+  const score = sectionA * 0.60 + sectionB * 0.40
+  return {
+    domain, domainWeight: DOMAIN_WEIGHTS[domain], score, classification: classifyOfficialScore(score),
+    validItemCount: items.length, expectedItemCount: OFFICIAL_ITEMS_PER_DOMAIN, completionRate: 1,
+    evidenceTypeScores: { 'situational judgement': null, 'behaviour frequency': null, 'knowledge/application': null, 'reflective judgement': null, 'performance evidence': null },
+    evidenceTypesPresent: [], evidenceTypesMissing: [], confidenceLevel: 'Low', qualityFlags: [], nearCutScore: false,
+    criticalItemFlagged: false, criticalItemIds: [],
+  }
+}
+
+async function scoreOfficialAttemptInternal(attempt: AssessmentAttemptDocument) {
+  if (attempt.mode !== 'official' || attempt.assessmentVersion !== OFFICIAL_ASSESSMENT_VERSION) {
+    throw new ScoringError(409, 'Assessment version is incompatible with official scoring.')
+  }
+  const savedResult = (saved: NonNullable<AssessmentAttemptDocument['scoring']>) => {
+    if (saved.scoringVersion !== OFFICIAL_SCORING_VERSION) {
+      throw new ScoringError(409, 'Official assessment has an incompatible scoring version.')
+    }
+    return {
+      scoringVersion: saved.scoringVersion,
+      overallCompetencyScore: saved.overallCompetencyScore,
+      overallClassification: saved.overallClassification,
+      domains: saved.domains as DomainScoringResult[],
+    }
+  }
+  if (attempt.scoring) return savedResult(attempt.scoring)
+  return connection.transaction(async session => {
+    const locked = await AssessmentAttempt.findOneAndUpdate(
+      { _id: attempt._id, teacherId: attempt.teacherId, status: 'completed',
+        mode: 'official', assessmentVersion: OFFICIAL_ASSESSMENT_VERSION },
+      { $inc: { __v: 1 } }, { session, new: true },
+    )
+    if (!locked) throw new ScoringError(409, 'Official assessment is unavailable for scoring.')
+    if (locked.scoring) return savedResult(locked.scoring)
+    return savedResult(await calculateOfficialAttempt(locked, session))
   })
 }
 
-async function scoreAttemptInternal(attempt: AssessmentAttemptDocument) {
-  const responses = await AssessmentResponse.find({ teacherId: attempt.teacherId, attemptId: attempt._id }).lean()
-  const items = await AssessmentItem.find({ _id: { $in: attempt.selectedItemIds } }).lean() as Array<IAssessmentItem & { _id: { toString(): string } }>
-  const itemMap = new Map(items.map(item => [item._id.toString(), item]))
-  const responsesByItemId = new Map<string, { itemId: { toString(): string }; selectedResponse: unknown }>(
+async function calculateOfficialAttempt(attempt: AssessmentAttemptDocument, session: ClientSession) {
+  if (attempt.selectedItemIds.length !== OFFICIAL_ITEM_COUNT || attempt.totalItems !== OFFICIAL_ITEM_COUNT) {
+    throw new ScoringError(409, 'Official assessment must contain exactly 450 assigned items.')
+  }
+  const responses = await AssessmentResponse.find({ teacherId: attempt.teacherId, attemptId: attempt._id }).session(session).lean()
+  const items = await AssessmentItem.find({ _id: { $in: attempt.selectedItemIds } }).session(session).lean() as OfficialItemForScoring[]
+  if (items.length !== OFFICIAL_ITEM_COUNT || new Set(items.map(item => item._id.toString())).size !== OFFICIAL_ITEM_COUNT) {
+    throw new ScoringError(409, 'Official assessment items are unavailable or duplicated.')
+  }
+  const reverseKeys = new Set(items.filter(item => item.reverseKeyed).map(item => `${item.domainNumber}:${item.sourceQuestionNumber}`))
+  const expectedReverseKeys = new Set(REVERSE_NUMBERS.flatMap((numbers, domainIndex) => numbers.map(number => `${domainIndex + 1}:${number}`)))
+  if (reverseKeys.size !== expectedReverseKeys.size || [...expectedReverseKeys].some(key => !reverseKeys.has(key)) ||
+    items.some(item => item.assessmentVersion !== OFFICIAL_ASSESSMENT_VERSION || item.mode !== 'official')) {
+    throw new ScoringError(409, 'Official assessment item metadata is incompatible with official scoring.')
+  }
+  const responsesByItemId = new Map<string, { selectedResponse: unknown }>(
     (responses as Array<{ itemId: { toString(): string }; selectedResponse: unknown }>).map(response => [response.itemId.toString(), response]),
   )
-
-  if (attempt.selectedItemIds.some(id => !itemMap.has(id.toString()))) {
-    throw new ScoringError(409, 'An assigned question is unavailable. Please contact assessment support.')
+  if (responsesByItemId.size !== OFFICIAL_ITEM_COUNT || attempt.selectedItemIds.some(id => !responsesByItemId.has(id.toString()))) {
+    throw new ScoringError(409, 'Official assessment must have 450 complete responses before scoring.')
   }
-
-  const domainItems = new Map<string, Array<IAssessmentItem & { _id: { toString(): string } }>>()
-  for (const item of items) {
-    const list = domainItems.get(item.primaryDomain) ?? []
-    list.push(item)
-    domainItems.set(item.primaryDomain, list)
-  }
-
-  const domainResults: DomainScoringResult[] = ASSESSMENT_DOMAINS.map(domain => buildDomainResult(
-    domain,
-    domainItems.get(domain)?.length ?? 0,
-    domainItems.get(domain) ?? [],
-    responsesByItemId,
-  ))
-
-  const allDomainsScored = domainResults.every(domain => domain.score !== null)
-  let overallCompetencyScore: number | null = null
-  let overallClassification = 'Insufficient Data'
-  if (allDomainsScored) {
-    overallCompetencyScore = domainResults.reduce((total, domain) => total + (domain.score ?? 0) * domain.domainWeight, 0)
-    overallClassification = classifyCompetencyScore(overallCompetencyScore)
-  }
-
+  const domainResults = ASSESSMENT_DOMAINS.map(domain => {
+    const domainItems = items.filter(item => item.primaryDomain === domain)
+    if (domainItems.length !== OFFICIAL_ITEMS_PER_DOMAIN ||
+      domainItems.filter(item => item.section === 'A').length !== OFFICIAL_SECTION_A_COUNT ||
+      domainItems.filter(item => item.section === 'B').length !== OFFICIAL_SECTION_B_COUNT) {
+      throw new ScoringError(409, 'Official assessment domain metadata is incompatible with official scoring.')
+    }
+    return officialScoringDomainResult(domain, domainItems, responsesByItemId)
+  })
+  const overallCompetencyScore = domainResults.reduce((total, domain) => total + (domain.score ?? 0) * domain.domainWeight, 0)
   const result = {
-    status: allDomainsScored ? 'scored' : 'insufficient_data',
-    scoredAt: new Date(),
-    scoringVersion: SCORING_VERSION,
-    overallCompetencyScore,
-    overallClassification,
-    domains: domainResults,
+    status: 'scored', scoredAt: new Date(), scoringVersion: OFFICIAL_SCORING_VERSION,
+    overallCompetencyScore, overallClassification: classifyOfficialScore(overallCompetencyScore), domains: domainResults,
   }
-
-  await AssessmentAttempt.findOneAndUpdate(
-    { _id: attempt._id, teacherId: attempt.teacherId },
-    { $set: { scoring: result } },
-    { new: true, runValidators: true },
+  const persisted = await AssessmentAttempt.findOneAndUpdate(
+    { _id: attempt._id, teacherId: attempt.teacherId }, { $set: { scoring: result } }, { session, new: true, runValidators: true },
   )
-
-  return result
+  if (!persisted?.scoring) throw new ScoringError(409, 'Official scoring could not be saved.')
+  return persisted.scoring
 }
 
-export async function scoreAttemptForTeacher(teacherId: string, attemptId: unknown) {
+export async function scoreOfficialAttemptForTeacher(teacherId: string, attemptId: unknown) {
+  const attempt = await attemptForScoring(teacherId, attemptId)
+  if (attempt.status !== 'completed') throw new ScoringError(409, 'Assessment attempt must be submitted before scoring.')
+  if (attempt.mode !== 'official' || attempt.assessmentVersion !== OFFICIAL_ASSESSMENT_VERSION) {
+    throw new ScoringError(409, 'Assessment version is incompatible with official scoring.')
+  }
+  const scoring = await scoreOfficialAttemptInternal(attempt)
+  return teacherSafeScoringResult({
+    attemptId: attempt._id.toString(), scoringVersion: scoring.scoringVersion,
+    overallCompetencyScore: scoring.overallCompetencyScore, overallClassification: scoring.overallClassification,
+    domains: scoring.domains,
+  }, true)
+}
+
+async function scoreSubmittedOfficialAttempt(teacherId: string, attemptId: unknown) {
   const attempt = await attemptForScoring(teacherId, attemptId)
   if (attempt.status !== 'completed') {
     throw new ScoringError(409, 'Assessment attempt must be submitted before scoring.')
   }
-  const scoring = await scoreAttemptInternal(attempt)
+  if (attempt.mode !== 'official' || attempt.assessmentVersion !== OFFICIAL_ASSESSMENT_VERSION) {
+    throw new ScoringError(409, 'Assessment version is incompatible with official scoring.')
+  }
+  const scoring = await scoreOfficialAttemptInternal(attempt)
   return teacherSafeScoringResult({
     attemptId: attempt._id.toString(),
     scoringVersion: scoring.scoringVersion,
     overallCompetencyScore: scoring.overallCompetencyScore,
     overallClassification: scoring.overallClassification,
     domains: scoring.domains,
-  })
+  }, true)
 }
+
+export const getAttemptScoring = scoreSubmittedOfficialAttempt
+export const scoreAttemptForTeacher = scoreSubmittedOfficialAttempt

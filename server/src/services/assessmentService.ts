@@ -1,6 +1,7 @@
 import { connection } from 'mongoose'
-import { assembleAssessment, DEFAULT_ASSESSMENT_LENGTH, MVP_ASSESSMENT_VERSION } from './assessmentAssembly'
-import { PILOT_ASSESSMENT_BLUEPRINT, PILOT_ASSESSMENT_MODE, PILOT_ASSESSMENT_VERSION } from './pilotAssessmentBlueprint'
+import { assembleAssessment, OFFICIAL_ASSESSMENT_MODE } from './assessmentAssembly'
+import { OFFICIAL_VERSION } from './officialAssessmentImport'
+import { officialResponseScore, OFFICIAL_ITEM_COUNT } from './assessmentScoring'
 import { AssessmentAttempt, type AssessmentAttemptDocument } from '../models/AssessmentAttempt'
 import { AssessmentItem } from '../models/AssessmentItem'
 import { AssessmentResponse, type AssessmentResponseDocument } from '../models/AssessmentResponse'
@@ -78,21 +79,34 @@ async function ownedAttempt(teacherId: string, attemptId: unknown) {
 // Fetch only delivery fields and explicitly copy public option properties.
 async function questionsForAttempt(attempt: AssessmentAttemptDocument) {
   const items = await AssessmentItem.find({ _id: { $in: attempt.selectedItemIds } })
-    .select('_id itemId prompt primaryDomain subcompetency evidenceType responseKey.options responseKey.format').lean()
+    .select('_id itemId prompt primaryDomain subcompetency evidenceType section responseKey.options responseKey.format').lean()
   const byId = new Map(items.map(item => [item._id.toString(), item]))
   return attempt.selectedItemIds.map((id, index) => {
     const item = byId.get(id.toString())
     if (!item) throw new AssessmentError(409, 'An assigned question is unavailable. Please contact assessment support.')
     const key = item.responseKey as { options?: unknown; format?: unknown } | undefined
-    const responseFormat = typeof key?.format === 'string' &&
+    let responseFormat = typeof key?.format === 'string' &&
       ['single_choice', 'frequency_scale', 'evidence_level', 'constructed_response'].includes(key.format)
       ? key.format : 'unsupported'
-    const options = Array.isArray(key?.options) ? key.options.flatMap((option: unknown) => {
+    let options = Array.isArray(key?.options) ? key.options.flatMap((option: unknown) => {
       if (!option || typeof option !== 'object') return []
       const value = option as Record<string, unknown>
       return typeof value.id === 'string' && typeof value.label === 'string'
         ? [{ id: value.id, label: value.label }] : []
     }) : []
+    if (isOfficialAttempt(attempt)) {
+      assertOfficialVersion(attempt)
+      const section = (item as { section?: unknown }).section
+      if (section !== 'A' && section !== 'B') {
+        throw new AssessmentError(409, 'Official question response scale is unavailable. Please contact assessment support.')
+      }
+      // Source-defined scales are delivery metadata, not stored answer keys.
+      const labels = section === 'A'
+        ? ['Never', 'Rarely', 'Sometimes', 'Often', 'Consistently']
+        : ['Very Unlikely', 'Unlikely', 'Unsure', 'Likely', 'Very Likely']
+      responseFormat = section === 'A' ? 'frequency_scale' : 'single_choice'
+      options = labels.map((label, optionIndex) => ({ id: String(optionIndex + 1), label }))
+    }
     return {
       // ObjectId matches the existing save-response contract; bank ID is separate.
       itemId: id.toString(),
@@ -112,35 +126,33 @@ async function deliveredAttempt(attempt: AssessmentAttemptDocument) {
   return { ...safeAttempt(attempt), questions: await questionsForAttempt(attempt) }
 }
 
-export async function startAttempt(teacherId: string, body: unknown, questionCount = DEFAULT_ASSESSMENT_LENGTH) {
+export async function startAttempt(teacherId: string, body: unknown) {
   const input = inputObject(body, ['consentConfirmed', 'mode'])
   if (input.consentConfirmed !== true) {
     throw new AssessmentError(400, 'Consent must be confirmed before starting an assessment.')
   }
-  const assessmentMode = input.mode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_MODE : 'default'
-  const targetQuestionCount = assessmentMode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_BLUEPRINT.totalItems : questionCount
+  if (input.mode !== OFFICIAL_ASSESSMENT_MODE) {
+    throw new AssessmentError(400, 'Only the official assessment is available.')
+  }
+  const assessmentMode = OFFICIAL_ASSESSMENT_MODE
+  const targetQuestionCount = 450
 
   const existing = await AssessmentAttempt.findOne({ teacherId, status: 'in_progress' })
   if (existing) return deliveredAttempt(existing)
 
-  const candidates = assessmentMode === PILOT_ASSESSMENT_MODE
-    ? await AssessmentItem.find({ version: { $regex: /^synthetic/i } })
-      .select('_id itemId prompt primaryDomain subcompetency evidenceType difficulty socialDesirabilityRisk criticalFlag isActive version')
-      .lean()
-    : await AssessmentItem.find({ isActive: true })
-      .select('_id itemId primaryDomain isActive').lean()
+  const candidates = await AssessmentItem.find({ version: OFFICIAL_VERSION, assessmentVersion: OFFICIAL_VERSION, mode: OFFICIAL_ASSESSMENT_MODE })
+    .select('_id itemId prompt primaryDomain isActive version assessmentVersion mode domainNumber section sourceQuestionNumber documentOrder')
+    .lean()
 
   const selected = assembleAssessment(candidates, targetQuestionCount, { assessmentMode })
   if (selected.length !== targetQuestionCount) {
-    throw new AssessmentError(409, assessmentMode === PILOT_ASSESSMENT_MODE
-      ? 'Insufficient eligible synthetic pilot questions for the configured pilot blueprint.'
-      : 'Insufficient active assessment questions for the configured assessment length.')
+    throw new AssessmentError(409, 'Insufficient official questions for the configured assessment length.')
   }
   try {
     const attempt = await AssessmentAttempt.create({
       teacherId,
       mode: assessmentMode,
-      assessmentVersion: assessmentMode === PILOT_ASSESSMENT_MODE ? PILOT_ASSESSMENT_VERSION : MVP_ASSESSMENT_VERSION,
+      assessmentVersion: OFFICIAL_VERSION,
       totalItems: selected.length,
       selectedItemIds: selected.map(item => item._id),
       consentConfirmed: true,
@@ -169,6 +181,35 @@ export async function getQuestions(teacherId: string, attemptId?: unknown) {
 
 export async function submitAttempt(teacherId: string, attemptId: unknown) {
   const owned = await ownedAttempt(teacherId, attemptId)
+  if (isOfficialAttempt(owned)) {
+    const submitted = await connection.transaction(async session => {
+      // Serialize validation and completion with response saves on the same parent.
+      const locked = await AssessmentAttempt.findOneAndUpdate(
+        { _id: owned._id, teacherId, status: 'in_progress' },
+        { $inc: { __v: 1 } },
+        { session, new: true },
+      )
+      if (!locked) throw new AssessmentError(409, 'Assessment attempt is not in progress.')
+      assertOfficialVersion(locked)
+      const assignedIds = new Set(locked.selectedItemIds.map(id => id.toString()))
+      if (locked.totalItems !== OFFICIAL_ITEM_COUNT || locked.selectedItemIds.length !== OFFICIAL_ITEM_COUNT ||
+        assignedIds.size !== OFFICIAL_ITEM_COUNT) {
+        throw new AssessmentError(409, 'Official assessment must contain exactly 450 assigned items.')
+      }
+      const responses = await AssessmentResponse.find({ teacherId, attemptId: locked._id }).session(session).lean()
+      const answeredIds = new Set(responses.map(response => response.itemId.toString()))
+      if (responses.length !== OFFICIAL_ITEM_COUNT || answeredIds.size !== OFFICIAL_ITEM_COUNT ||
+        responses.some(response => !assignedIds.has(response.itemId.toString()) ||
+          officialResponseScore(response.selectedResponse, false) === null)) {
+        throw new AssessmentError(409, 'Official assessment requires 450 valid responses before submission.')
+      }
+      locked.status = 'completed'
+      locked.completedAt = new Date()
+      await locked.save({ session })
+      return safeAttempt(locked)
+    })
+    return submitted
+  }
   const attempt = await AssessmentAttempt.findOneAndUpdate(
     { _id: owned._id, teacherId, status: 'in_progress' },
     { $set: { status: 'completed', completedAt: new Date() }, $inc: { __v: 1 } },
@@ -188,6 +229,16 @@ export async function getAttempt(teacherId: string, attemptId: unknown) {
   return deliveredAttempt(await ownedAttempt(teacherId, attemptId))
 }
 
+function isOfficialAttempt(attempt: AssessmentAttemptDocument): boolean {
+  return attempt.mode === OFFICIAL_ASSESSMENT_MODE || attempt.assessmentVersion === OFFICIAL_VERSION
+}
+
+function assertOfficialVersion(attempt: AssessmentAttemptDocument): void {
+  if (attempt.mode !== OFFICIAL_ASSESSMENT_MODE || attempt.assessmentVersion !== OFFICIAL_VERSION) {
+    throw new AssessmentError(409, 'Assessment version is incompatible with official assessment.')
+  }
+}
+
 export async function saveResponse(teacherId: string, attemptId: unknown, body: unknown) {
   const attempt = await ownedAttempt(teacherId, attemptId)
   if (attempt.status !== 'in_progress') {
@@ -200,6 +251,12 @@ export async function saveResponse(teacherId: string, attemptId: unknown, body: 
   }
   if (input.selectedResponse === undefined || input.selectedResponse === null) {
     throw new AssessmentError(400, 'selectedResponse is required.')
+  }
+  if (isOfficialAttempt(attempt)) {
+    assertOfficialVersion(attempt)
+    if (officialResponseScore(input.selectedResponse, false) === null) {
+      throw new AssessmentError(400, 'Official assessment responses must be values from 1 to 5.')
+    }
   }
   if (input.responseDuration !== undefined &&
     (typeof input.responseDuration !== 'number' || !Number.isFinite(input.responseDuration) || input.responseDuration < 0)) {

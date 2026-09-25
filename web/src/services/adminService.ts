@@ -1,5 +1,5 @@
 export type AdminIdentity = { id: string; email: string; role: 'admin' }
-export type AdminOverview = { totalTeachers: number; totalAttempts: number; completedAttempts: number; inProgressAttempts: number; completionRate: number | null; syntheticBankItems: number; activeLearningOpportunities: number | null }
+export type AdminOverview = { totalTeachers: number; totalAttempts: number; completedAttempts: number; inProgressAttempts: number; completionRate: number | null; activeLearningOpportunities: number | null }
 export const ADMIN_TOKEN_KEY = 'ppoaf.admin.token'
 export const ADMIN_SESSION_EVENT = 'ppoaf:admin-session-ended'
 export const adminTokenStorage = {

@@ -6,12 +6,12 @@ The existing Teacher model has no administrator role. Administrator is a separat
 
 The administrator API uses HS256 JWTs with a separate signing secret, an explicit admin role, issuer `ppoaf-admin-auth`, audience `ppoaf-admin`, subject, expiry, and session version. Every protected request also reads the administrator account and verifies active status, role and session version. Teacher tokens fail signature verification. Admin tokens also fail existing teacher verification.
 
-| Endpoint | Access | Result |
-| --- | --- | --- |
-| POST /api/admin/login | Public credential exchange, rate limited | Token and safe administrator identity |
-| GET /api/admin/me | Active administrator | ID, email, role only |
-| POST /api/admin/logout | Active administrator | 204; increments administrator session version |
-| GET /api/admin/overview | Active administrator | Aggregate counts only |
+| Endpoint                | Access                                   | Result                                        |
+| ----------------------- | ---------------------------------------- | --------------------------------------------- |
+| POST /api/admin/login   | Public credential exchange, rate limited | Token and safe administrator identity         |
+| GET /api/admin/me       | Active administrator                     | ID, email, role only                          |
+| POST /api/admin/logout  | Active administrator                     | 204; increments administrator session version |
+| GET /api/admin/overview | Active administrator                     | Aggregate counts only                         |
 
 Login accepts only email and password. Unknown, inactive and unauthorized identities use the same invalid-credentials response. Protected requests without a valid admin session return 401. Unavailable infrastructure returns a safe 503 response. Admin responses use `Cache-Control: no-store`.
 
@@ -21,14 +21,13 @@ The frontend exposes `/admin/login` and guarded `/admin` with its own context, l
 
 ## Overview definitions
 
-| Metric | Source and meaning |
-| --- | --- |
-| Registered teachers | Teacher collection count, including inactive accounts |
-| Assessment attempts | AssessmentAttempt aggregate by status; all attempts including abandoned |
-| Completed assessments | Attempts with status completed; not unique teachers |
-| In-progress assessments | Attempts with status in_progress |
-| Assessment completion | Completed / all attempts × 100, rounded to one decimal; unavailable when denominator is zero |
-| Synthetic pilot bank items | AssessmentItem count with a synthetic version prefix, including inactive items; not an eligibility check or the assembled 108-item assessment |
+| Metric                        | Source and meaning                                                                                        |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Registered teachers           | Teacher collection count, including inactive accounts                                                     |
+| Assessment attempts           | AssessmentAttempt aggregate by status; all attempts including abandoned                                   |
+| Completed assessments         | Attempts with status completed; not unique teachers                                                       |
+| In-progress assessments       | Attempts with status in_progress                                                                          |
+| Assessment completion         | Completed / all attempts × 100, rounded to one decimal; unavailable when denominator is zero              |
 | Active learning opportunities | Active entries in the validated local provisional synthetic catalog; not verified enrollment/availability |
 
 No teacher answers, scores, demographic fields, answer keys, item metadata, recommendation internals or rankings are queried into the overview response. Database metrics are read-only. Counts are operational snapshots from separate reads, not a transactionally synchronized analytics report. Catalog read/validation failure is represented as unavailable, not zero. A database failure displays a retryable overview error.

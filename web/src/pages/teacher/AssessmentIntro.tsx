@@ -45,7 +45,7 @@ export default function AssessmentIntro() {
     try {
       const attempt = await startAssessmentAttempt({
         consentConfirmed: true,
-        mode: "pilot-synthetic",
+        mode: "official",
       });
       navigate("/teacher/assessment/questions", { state: { attempt } });
     } catch (reason) {

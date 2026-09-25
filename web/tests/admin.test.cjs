@@ -13,7 +13,7 @@ test('Teachers page searches, filters, paginates, loads details and handles empt
   const calls = []
   let listFailure = false, detailFailure = false, renderer
   const teacher = { id: 'teacher-one', firstName: 'Ada', lastName: 'Teacher', email: 'ada@example.test', isActive: true, profileCompleted: true,
-    assessmentStatus: 'in_progress', currentRole: 'Teacher', yearsOfTeachingExperience: 0, assessment: { status: 'in_progress', responseCount: 60, assignedItemCount: 108, startedAt: null, completedAt: null } }
+    assessmentStatus: 'in_progress', currentRole: 'Teacher', yearsOfTeachingExperience: 0, assessment: { status: 'in_progress', responseCount: 60, assignedItemCount: 450, startedAt: null, completedAt: null } }
   const Page = compile('src/pages/AdminTeachers.tsx', { '../services/adminService': {
     getAdminTeachers: async query => {
       calls.push({ ...query })
@@ -161,7 +161,7 @@ test('mobile navigation has a working labeled disclosure and dashboard labels un
   assert.equal(menu.props['aria-expanded'], true)
   assert.equal(root.root.findByType('nav').props['aria-label'], 'Administration')
   await act(async () => root.unmount())
-  const Dashboard = compile('src/pages/AdminDashboard.tsx', { '../services/adminService': { getAdminOverview: async () => ({ totalTeachers: 0, totalAttempts: 0, completedAttempts: 0, inProgressAttempts: 0, completionRate: null, syntheticBankItems: 450, activeLearningOpportunities: null }) } }).default
+  const Dashboard = compile('src/pages/AdminDashboard.tsx', { '../services/adminService': { getAdminOverview: async () => ({ totalTeachers: 0, totalAttempts: 0, completedAttempts: 0, inProgressAttempts: 0, completionRate: null, activeLearningOpportunities: null }) } }).default
   await act(async () => { root = create(React.createElement(Dashboard)) })
   const text = JSON.stringify(root.toJSON())
   assert.match(text, /Data not available/); assert.match(text, /provisional synthetic catalog/); assert.match(text, /not unique teachers/)

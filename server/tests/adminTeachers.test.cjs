@@ -5,7 +5,7 @@ const { listAdminTeachers, getAdminTeacher } = require('../dist/services/adminTe
 const rows = ['not_started', 'in_progress', 'completed', 'abandoned'].map((status, i) => ({
   _id: String(i + 1).repeat(24), firstName: ['Ada', 'Bola', 'Chidi', 'Dayo'][i], lastName: 'Teacher', email: `teacher${i}@example.test`,
   profileCompleted: i > 0, isActive: true, assessmentCompleted: true, passwordHash: 'PRIVATE', incomeRange: 'PRIVATE',
-  assessmentStatus: status, attempt: i ? { _id: 'a'.repeat(24), status, startedAt: '2026-01-01', totalItems: 108, scoring: 'PRIVATE' } : null,
+  assessmentStatus: status, attempt: i ? { _id: 'a'.repeat(24), status, startedAt: '2026-01-01', totalItems: 450, scoring: 'PRIVATE' } : null,
   responseCounts: i ? [{ count: i * 5 }] : [], rawResponses: 'PRIVATE',
 }))
 let lastPipeline

@@ -9,7 +9,6 @@ process.env.ADMIN_JWT_SECRET = randomBytes(48).toString('hex')
 const Administrator = require('../dist/models/Administrator').default
 const { Teacher } = require('../dist/models/Teacher')
 const Attempt = require('../dist/models/AssessmentAttempt').default
-const Item = require('../dist/models/AssessmentItem').default
 const { verifyTeacherToken } = require('../dist/services/authService')
 const { adminSecret } = require('../dist/services/adminAuthService')
 const app = require('../dist/app').default
@@ -27,7 +26,6 @@ test('admin API enforces identity isolation, revocation and aggregate-only respo
   Teacher.countDocuments = async query => { assert.deepEqual(query, {}); reads++; return 4 }
   let activity = [{ _id: 'completed', count: 2 }, { _id: 'in_progress', count: 1 }, { _id: 'abandoned', count: 1 }]
   Attempt.aggregate = async pipeline => { assert.deepEqual(pipeline, [{ $group: { _id: '$status', count: { $sum: 1 } } }]); return activity }
-  Item.countDocuments = async query => { assert.deepEqual(query, { version: { $regex: '^\\s*synthetic', $options: 'i' } }); return 450 }
   const server = app.listen(0, '127.0.0.1')
   await new Promise(resolve => server.once('listening', resolve))
   const base = `http://127.0.0.1:${server.address().port}/api`
@@ -59,7 +57,7 @@ test('admin API enforces identity isolation, revocation and aggregate-only respo
     assert.equal((await call('/admin/me', token)).status, 200)
     const overview = await call('/admin/overview', token)
     assert.equal(overview.status, 200)
-    assert.deepEqual(overview.body, { totalTeachers: 4, totalAttempts: 4, completedAttempts: 2, inProgressAttempts: 1, completionRate: 50, syntheticBankItems: 450, activeLearningOpportunities: 26 })
+    assert.deepEqual(overview.body, { totalTeachers: 4, totalAttempts: 4, completedAttempts: 2, inProgressAttempts: 1, completionRate: 50, activeLearningOpportunities: 26 })
     assert.equal(writes, 0)
     Teacher.aggregate = () => ({ option: async () => [{ teachers: [{ ...teacher, assessmentStatus: 'not_started', responseCounts: [] }], total: [{ count: 1 }] }] })
     const teacherList = await call('/admin/teachers', token)

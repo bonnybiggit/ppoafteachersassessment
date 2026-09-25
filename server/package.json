@@ -8,7 +8,8 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "provision:admin:dev": "tsx src/scripts/provisionDevelopmentAdmin.ts",
-    "import:assessment-items": "tsx src/scripts/importSyntheticAssessmentItems.ts"
+    "import:official-items": "tsx src/scripts/importOfficialAssessmentItems.ts",
+    "test:official-import": "node --test tests/officialAssessmentImport.test.cjs"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
